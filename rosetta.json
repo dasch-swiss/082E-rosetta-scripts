@@ -338,17 +338,13 @@
                   "super": [
                      "hasValue"
                   ],
-                  "object": "Date",
+                  "object": "DateValue",
                   "labels": {
                      "de": "Datierung",
                      "en": "Dating",
                      "fr": "Datation"
                    },
-                   "gui_element": "SimpleText",
-                   "gui_attributes": {
-                     "maxlength": "128",
-                     "size": 32
-                   }
+                   "gui_element": "Date"
                },              
                {
                   "name": "hasFindspot",
