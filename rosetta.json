@@ -217,6 +217,22 @@
                    }
                },
                {
+                  "name": "hasImage",
+                  "super": [
+                     "hasLinkTo"
+                  ],
+                  "object": ":Image2D",
+                  "labels": {
+                     "de": "Bild",
+                     "en": "Image",
+                     "fr": "Image"
+                   },
+                   "gui_element": "Searchbox",
+                   "gui_attributes": {
+                       "numprops": 1
+                   }
+               },              
+               {
                   "name": "hasOriginalText",
                   "super": [
                      "hasValue"
@@ -349,34 +365,28 @@
                {
                   "name": "hasFindspot",
                   "super": [
-                     "hasLinkTo"
+                     "hasValue"
                   ],
-                  "object": ":Location",
+                  "object": "GeonameValue",
                   "labels": {
                      "de": "Fundort",
                      "en": "Find spot",
                      "fr": "Gisement"
                    },
-                   "gui_element": "Searchbox",
-                   "gui_attributes": {
-                      "numprops": 1
-                   }
+                   "gui_element": "Geonames"
                },   
                {
                   "name": "hasLocation",
                   "super": [
-                     "hasLinkTo"
+                     "hasValue"
                   ],
-                  "object": ":Location",
+                  "object": "GeonameValue",
                   "labels": {
                      "de": "Ort",
                      "en": "Location",
                      "fr": "Lieu"
                    },
-                   "gui_element": "Searchbox",
-                   "gui_attributes": {
-                      "numprops": 1
-                   }
+                   "gui_element": "Geonames"
                },     
                {
                   "name": "hasGeoname",
@@ -424,6 +434,22 @@
                    }
                },
                {
+                  "name": "hasIdentifier",
+                  "super": [
+                     "hasLinkTo"
+                  ],
+                  "object": "URIValue",
+                  "labels": {
+                     "de": "GND",
+                     "en": "GND",
+                     "fr": "GND"
+                   },
+                  "gui_attributes": {
+                     "maxlength": "128",
+                     "size": 128
+                   }
+               },               
+               {
                   "name": "hasRelatedArtwork",
                   "super": [
                      "hasLinkTo"
@@ -438,9 +464,9 @@
                      "en": "Related Artwork",
                      "fr": "Oeuvre reliée"
                    },
-                  "gui_attributes": {
-                     "maxlength": "128",
-                     "size": 128
+                   "gui_element": "Searchbox",
+                   "gui_attributes": {
+                      "numprops": 1
                    }
                },              
                {
@@ -551,33 +577,7 @@
                   "fr": "Annotation"
                   },
                   "gui_element": "Richtext"
-               },  
-               {
-                  "name": "hasLat",
-                  "super": [
-                     "hasValue"
-                  ],
-                  "object": "DecimalValue",
-                  "labels": {
-                  "de": "geographische Breite",
-                  "en": "Latitude",
-                  "fr": "Latitude"
-                },
-                  "gui_element": "SimpleText"
-               },  
-               {
-                  "name": "hasLon",
-                  "super": [
-                     "hasValue"
-                  ],
-                  "object": "DecimalValue",
-                  "labels": {
-                  "de": "geographische Länge",
-                  "en": "Longitude",
-                  "fr": "Longitude"
-                },
-                  "gui_element": "SimpleText"
-               },                                          
+               },                    
                {
                   "name": "hasColor",
                   "super": [
@@ -984,9 +984,14 @@
                         "gui_order": 5
                      },
                      {
+                        "propname": ":hasCopyright",
+                        "cardinality": "0-1",
+                        "gui_order": 6
+                     },  
+                     {
                         "propname": ":hasExternalLink",
                         "cardinality": "0-1",
-                        "gui_order": 8
+                        "gui_order": 7
                      }         
                   ]
                },
@@ -1002,6 +1007,10 @@
                      "A page is a part of a book or manuscript"
                   ],
                   "cardinalities": [
+                     {
+                        "propname": ":hasTextMedium",
+                        "cardinality": "0-1"
+                     },                     
                      {
                         "propname": ":hasPagenum",
                         "cardinality": "1",
@@ -1023,10 +1032,25 @@
                         "gui_order": 3
                      },
                      {
-                        "propname": ":hasBibliographicReference",
+                        "propname": ":hasTransliteration",
                         "cardinality": "0-1",
                         "gui_order": 4
-                     }
+                     }, 
+                     {
+                        "propname": ":hasTranslation",
+                        "cardinality": "0-1",
+                        "gui_order": 5
+                     },                   
+                     {
+                        "propname": ":hasBibliographicReference",
+                        "cardinality": "0-1",
+                        "gui_order": 6
+                     },
+                     {
+                        "propname": ":hasAnnotation",
+                        "cardinality": "0-1",
+                        "gui_order": 7
+                     }                     
                   ]
                },
                {
@@ -1043,8 +1067,19 @@
                   "cardinalities": [
                      {
                         "propname": ":hasName",
-                        "cardinality": "1"
-                     }
+                        "cardinality": "1",
+                        "gui_order": 1
+                     },
+                     {
+                        "propname": ":hasIdentifier",
+                        "cardinality": "0-1",
+                        "gui_order": 2
+                     },
+                     {
+                        "propname": ":hasExternalLink",
+                        "cardinality": "0-1",
+                        "gui_order": 3
+                     }                                             
                   ]
                },  
                {
@@ -1061,42 +1096,26 @@
                   "cardinalities": [
                      {
                         "propname": ":hasName",
-                        "cardinality": "1"
-                     },
-                     {
-                        "propname": ":hasLocation",
-                        "cardinality": "1"
-                     }                     
-                  ]
-               },                           
-               {
-                  "name": "Location",
-                  "labels": {
-                     "de": "Ort",
-                     "en": "Location",
-                     "fr": "Lieu"
-                 },
-                  "comments": [
-                     "none"
-                  ],
-                  "super": "Resource",
-                  "cardinalities": [
-                     {
-                        "propname": ":hasGeoname",
-                        "cardinality": "1"
-                     },
-                     {
-                        "propname": ":hasLat",
                         "cardinality": "1",
                         "gui_order": 1
                      },
                      {
-                        "propname": ":hasLon",
+                        "propname": ":hasLocation",
                         "cardinality": "1",
                         "gui_order": 2
-                     }
+                     },
+                     {
+                        "propname": ":hasIdentifier",
+                        "cardinality": "0-1",
+                        "gui_order": 3
+                     },
+                     {
+                        "propname": ":hasExternalLink",
+                        "cardinality": "0-1",
+                        "gui_order": 4
+                     }                                                            
                   ]
-               },
+               },                           
                {
                   "name": "Object",
                   "labels": {
@@ -1110,48 +1129,54 @@
                   "super": "Resource",
                   "cardinalities": [
                      {
-                        "propname": ":hasCategory",
-                        "cardinality": "1"
-                     },
-                     {
-                        "propname": ":hasName",
+                        "propname": ":hasImage",
                         "cardinality": "1",
                         "gui_order": 1
-                     },
+                     },                     
                      {
-                        "propname": ":hasDescription",
+                        "propname": ":hasCategory",
                         "cardinality": "1",
                         "gui_order": 2
                      },
                      {
+                        "propname": ":hasName",
+                        "cardinality": "1",
+                        "gui_order": 3
+                     },
+                     {
+                        "propname": ":hasDescription",
+                        "cardinality": "1",
+                        "gui_order": 4
+                     },
+                     {
                         "propname": ":hasCreator",
                         "cardinality": "0-1",
-                        "gui_order": 3
+                        "gui_order": 5
                      },  
                      {
                         "propname": ":hasFindspot",
                         "cardinality": "0-1",
-                        "gui_order": 4
+                        "gui_order": 6
                      },  
                      {
                         "propname": ":hasDate",
                         "cardinality": "0-1",
-                        "gui_order": 5
+                        "gui_order": 7
                      },
                      {
                         "propname": ":inInstitution",
                         "cardinality": "0-1",
-                        "gui_order": 6
+                        "gui_order": 8
                      }, 
                      {
                         "propname": ":hasLocation",
                         "cardinality": "0-1",
-                        "gui_order": 7
+                        "gui_order": 9
                      },
                      {
                         "propname": ":hasInventoryNumber",
                         "cardinality": "0-1",
-                        "gui_order": 8
+                        "gui_order": 10
                      }                                                                               
                   ]
                }               
