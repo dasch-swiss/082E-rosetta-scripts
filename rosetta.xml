@@ -1354,6 +1354,358 @@
       </resptr-prop>
    </resource>
 
+<!-- Text zum Audio -->
+
+  <resource label="EderleziText" restype=":Text" id="text_obj_7"
+      permissions="res-default">
+      <text-prop name=":hasTextMedium">
+         <image> </image>
+      </text-prop>
+      <resptr-prop name=":hasAuthor">
+         <resptr permissions="prop-default" encoding="utf8">
+            person_7
+         </resptr>
+      </resptr-prop>
+      <text-prop name=":hasTitle">
+         <text permissions="prop-default" encoding="utf8"> 
+            Ederlezi 
+         </text>
+      </text-prop>
+      <text-prop name=":hasOriginalText">
+         <text permissions="prop-default" encoding="xml">
+         Erdelezi - Romani
+
+         Sa O Roma, Babo
+         E bakren činen,
+         a me čoro, dural bešava.
+         
+         Alo tano, daje
+         Amaro dive, Amaro dive
+         Erdelezi.
+         
+         Sa O Roma, babo babo
+         Amen čen Bakro
+         Sa O Romano
+         E Bakren činen
+         
+         ~~Eee~
+         Sa O Roma, Babo Babo
+         Sa O Roma, Oh Daje
+         Sa O Roma, Babo Babo
+         Eeee Erdelezi, Erdelezi
+         Sa O Roma, Daje (2x)
+         
+         Alo Tano, daje
+         Amaro dive, Amaro dive
+         Erdelezi
+         
+         Sa O Roma, babo babo 
+         Amen čen Bakro
+         Sa O Romano
+         E Bakren Cinen
+         
+         ~~Eee~
+         Sa O Roma, Babo Babo
+         Sa O Roma, Oh Daje
+         Sa O Roma, Babo Babo
+         Eeee Erdelezi, Erdelezi
+         Sa O Roma, Daje (2x)
+         </text>
+      </text-prop>
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8"> 
+         Ederlezi - Griechisch
+
+         Όλοι οι Ρομά, μπαμπάκα
+         Θυσιάζουν το Πρόβατο
+         κι εγώ το φτωχό, κάθομαι στην άκρη.
+         
+         ήρθε, μαμάκα
+         η μέρα μας, η μέρα μας
+         Ederlezi.
+         
+         Όλοι οι Ρομά, μπαμπάκα, μπαμπάκα
+         Θυσιάζουν το πρόβατο
+         Όλοι οι Ρομάνοι
+         θυσιάζουν το πρόβατο
+         
+         ~~Εεε~
+         Όλοι οι Ρομά, μπαμπάκα, μπαμπάκα
+         Όλοι οι Ρομά, ω μαμάκα
+         Όλοι οι Ρομά, μπαμπάκα, μπαμπάκα
+         Εεεε, Ederlezi, Ederlezi
+         Όλοι οι Ρομά, μαμάκα (2x)
+         
+         Ήρθε, μαμάκα
+         η μέρα μας, η μέρα μας
+         Ederlezi
+         
+         Όλοι οι Ρομά, μπαμπάκα, μπαμπάκα
+         Θυσιάζουν το πρόβατο
+         Όλοι οι Ρομάνοι
+         θυσιάζουν το πρόβατο
+         
+         ~~Εεε~
+         Όλοι οι Ρομά, μπαμπάκα, μπαμπάκα
+         Όλοι οι Ρομά, ω μαμάκα
+         Όλοι οι Ρομά, μπαμπάκα, μπαμπάκα
+         Εεεε, Ederlezi, Ederlezi
+         Όλοι οι Ρομά, μαμάκα (2x)
+         </text>
+      </text-prop>
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8">
+         Ederlezi - Serbokroatisch/Ungarisch
+
+         Gyere, gyere velem tavasz jár már,
+         gyöngyvirág lesz majd a párnád,
+         gyöngyvirág lesz majd a párnád,
+         örök hűség vár rád!
+         
+         Gyere, gyere velem hív a hajnal,
+         nincsen felhő nincsen csillag,
+         nincsen felhő nincsen csillag,
+         pihenj karjaimban!
+         
+         Proljeće na moje rame slijeće
+         Đurđevak zeleni
+         Đurđevak zeleni
+         svima osim meni.
+         
+         Drumovi odoše a ja osta
+         nema zvijezde danice
+         nema zvijezde danice
+         moje saputnice.
+         
+         Hej, evo zore, evo zore
+         Bogu da se pomolim
+         evo zore, evo zore
+         hej, Đurđevdan je
+         a ja nisam s onom koju volim.
+         
+         Hej, evo zore, evo zore
+         Bogu da se pomolim
+         evo zore, evo zore
+         hej, Đurđevdan je
+         a ja nisam s onom koju volim.             
+         </text>
+      </text-prop> 
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8">
+         Эдерлези - Russisch
+
+         Пойдем, пойдем со мной, пришла весна,
+         Пусть ландыш будет подушкой
+         Пусть ландыш будет подушкой
+         Вечная верность ждет тебя!
+         
+         Пойдем, пойдем со мной, заря зовет
+         Не облака, и не звезды в небе,
+         Не облака, и не звезды в небе,
+         Приди отдохнуть в мои руки!
+         
+         Весна садится на мое плечо
+         Ландыш цветет
+         Ландыш цветет
+         Для всех, кроме меня
+         
+         Дороги продолжались, но я остался
+         Нет утренней звезды
+         Нет утренней звезды
+         Моей спутницы
+         
+         Вот рассвет, вот рассвет
+         Я буду молиться Богу
+         Вот рассвет, вот рассвет
+         Это День Святого Георгия
+         И я не с той, которую люблю
+         
+         Вот рассвет, вот рассвет
+         Я буду молиться Богу
+         Вот рассвет, вот рассвет
+         Это День Святого Георгия
+         И я не с той, которую люблю
+         </text>
+      </text-prop> 
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8">
+         Ederlezi - English
+
+         Come, come with me, spring has come,
+         Let the lily of the valley be your pillow
+         Let the lily of the valley be your pillow
+         Eternal faithfulness awaits you!
+         
+         Come, come with me, the dawn is calling
+         Not a cloud, not a star in the sky,
+         Not a cloud, not a star in the sky,
+         Come rest in my arms!
+         
+         Spring alights on my shoulder
+         Lily of the valley is flowering
+         Lily of the valley is flowering
+         For everyone but me
+         
+         The roads continued on but I stayed
+         The morning star is gone
+         The morning star is gone
+         My companion
+         
+         Behold the dawn, behold the dawn
+         I'll pray to God
+         Behold the dawn, behold the dawn
+         It's St George's Day
+         And I'm not with the one I love
+         
+         Behold the dawn, behold the dawn
+         I'll pray to God
+         Behold the dawn, behold the dawn
+         It's St George's Day
+         And I'm not with the one I love
+         </text>
+      </text-prop> 
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8">
+         Ederlezi - French
+
+         Viens, viens avec moi, le printemps est arrivé,
+         Le muguet sera notre oreiller
+         Le muguet sera notre oreiller
+         La fidelité éternelle t'attend
+         
+         Viens, viens avec moi, l'aurore nous appelle
+         Un ciel sans nuage, sans étoile
+         Un ciel sans nuage, sans étoile
+         Viens te reposer dans mes bras!
+         
+         Le printemps se pose sur mon épaule
+         Le muguet éclot
+         Le muguet éclot
+         Pour tout le monde, sauf moi
+         
+         Les chemins se sont parties, et moi je suis restée
+         L'étoile du matin est disparue
+         L'étoile du matin est disparue
+         Mon compagnon
+         
+         Regarde, l'aube se lève, l'aube se lève
+         Je vais prier à Dieu
+         L'aube se lève, l'aube se lève
+         Ô, c'est le jour de Saint Georges
+         Et je ne suis pas avec celui que j'aime
+         
+         Regarde, l'aube se lève, l'aube se lève
+         Je vais prier à Dieu
+         L'aube se lève, l'aube se lève
+         Ô, c'est le jour de Saint Georges
+         Et je ne suis pas avec celui que j'aime
+         </text>
+      </text-prop> 
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8">
+         Đurđevdan - srpski, latinica
+
+         Proljeće na moje rame slijeće
+         Đurđevak zeleni
+         Đurđevak zeleni
+         Svima osim meni
+         
+         Drumovi odoše a ja osta
+         Nema zvijezde Danice
+         Nema zvijezde Danice
+         Moje saputnice
+         
+         Ej kome sada moja draga
+         Na đurđevak miriše
+         Na đurđevak miriše
+         Meni nikad više
+         
+         Evo zore evo zore
+         Bogu da se pomolim
+         Evo zore evo zore
+         Ej Đurđevdan je
+         A ja nisam s onom koju volim
+         
+         Njeno ime neka se spominje
+         Svakog drugog dana
+         Svakog drugog dana
+         Osim Đurđevdana
+         </text>
+      </text-prop> 
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8">
+         Ђурђевдан - српски, ћирилица
+
+         Пролеће на моjе раме слиjеће.
+         Ђурђевак зелени,
+         Ђурђевак зелени
+         Свима осим мени.
+
+         Друмови одоше а jа остах,
+         Нема звиjезде данице,
+         Нема звиjезде данице,
+         Моjе сапутнице.
+
+         Еj, коме сада моjа драга
+         На ђурђевак мирише,
+         На ђурђевак мирише,
+         Мени никад више.
+
+         Еj, ево зоре, ево зоре,
+         Богу да се помолим.
+         Ево зоре, ево зоре,
+         Ђурђевдан jе,
+         А jа нисам с оном коjу волим.
+
+         Њено име нека се спомиње
+         Сваког другог дана,
+         Сваког другог дана,
+         Осим ђурђевдана.
+
+         Еj, ево зоре, ево зоре,
+         Богу да се помолим.
+         Ево зоре, ево зоре,
+         Ђурђевдан jе,
+         А jа нисам с оном коjу волим.
+         </text>
+      </text-prop> 
+      <text-prop name=":hasAnnotation">
+         <text permissions="prop-default" encoding="utf8"> </text>
+      </text-prop>
+      <text-prop name=":hasFindspot">
+         <text permissions="prop-default" encoding="utf8">  </text>
+      </text-prop>
+      <text-prop name=":hasBibliographicReference">
+         <text permissions="prop-default" encoding="utf8">  
+         </text>
+      </text-prop>
+      <resptr-prop name=":inInstitution">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop>
+      <geoname-prop name=":hasLocation">
+         <geoname permissions="prop-default" comment="xxx">
+         </geoname>
+      </geoname-prop>
+      <text-prop name=":hasCopyright">
+         <text permissions="prop-default" encoding="utf8">
+            © Goran Bregović
+            © https://lyricstranslate.com
+            © https://www.antiwarsongs.org/
+         </text>
+      </text-prop>
+      <uri-prop name=":hasExternalLink">
+         <uri permissions="prop-default">  
+         https://lyricstranslate.com
+         https://www.antiwarsongs.org/   
+         </uri>
+      </uri-prop>
+      <resptr-prop name=":hasRelatedArtwork">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop>
+   </resource>
+
    <!-- Book: -->
    <resource label="Iliad" restype=":Book" id="book_obj_0"
       permissions="res-default">
@@ -1495,10 +1847,10 @@
          <text permissions="prop-default" encoding="utf8"> 
             © Goran Bregović
          </text>
-      </text-prop>   
+      </text-prop>  
       <text-prop name=":hasAnnotation">
          <text permissions="prop-default" encoding="utf8"> </text>
-      </text-prop>      
+      </text-prop>         
       <resptr-prop name=":inInstitution">
          <resptr permissions="prop-default" encoding="utf8">
          </resptr>
