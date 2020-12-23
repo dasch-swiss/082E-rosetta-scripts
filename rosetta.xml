@@ -516,6 +516,7 @@
          </uri>
       </uri-prop>
    </resource>
+   
 
    <!-- Text: -->
    <resource label="Epic of Gilgameš, tablet 11: BM K.3375" restype=":Text" id="text_obj_0"
@@ -1909,7 +1910,113 @@
       </geoname-prop>    
       <text-prop name=":hasInventoryNumber">
          <text permissions="prop-default" encoding="utf8"></text>
-      </text-prop>       
+      </text-prop>
+      <uri-prop name=":hasExternalLink">
+         <uri permissions="prop-default">
+         </uri>
+      </uri-prop>
    </resource>
-   
+
+<resource label="meteorite" restype=":Object" id="obj_1"
+      permissions="res-default">    
+      <text-prop name=":hasImage">
+         <image> GibeonMeteorite.jpg </image>
+      </text-prop>     
+      <list-prop list="category" name=":hasCategory">
+         <list permissions="prop-default">Nature:Physics</list>
+      </list-prop>
+      <text-prop name=":hasName">
+         <text permissions="prop-default" encoding="utf8">meteorite</text>
+      </text-prop>  
+      <text-prop name=":hasDescription">
+         <text permissions="prop-default" encoding="utf8">
+             This is a piece of the so-called Gibeon Meteroite that fell in Namibia
+             in prehistoric times (28000-11000 BCE). It is composed of an
+             iron-nickel alloy. Ground and etched, beautiful Widmanstätten
+             patterns become visible. Widmanstätten patterns are characteristic for
+             meteorite material - they cannot be formed under conditions prevailing
+             on Earth.
+          </text>
+      </text-prop>  
+      <resptr-prop name=":hasCreator">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop>
+      <geoname-prop name=":hasFindspot">
+         <geoname permissions="prop-default" comment="Gibeon, Namibia">
+            11821111
+         </geoname>
+      </geoname-prop>
+      <date-prop name=":hasDate">
+         <date permissions="prop-default"></date>
+         JULIAN:BC:28000:BC:11000
+      </date-prop>   
+      <resptr-prop name=":inInstitution">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop> 
+      <geoname-prop name=":hasLocation">
+         <geoname permissions="prop-default" comment="">
+         </geoname>
+      </geoname-prop>    
+      <text-prop name=":hasInventoryNumber">
+         <text permissions="prop-default" encoding="utf8"></text>
+      </text-prop>
+      <uri-prop name=":hasExternalLink">
+         <uri permissions="prop-default">
+         </uri>
+      </uri-prop>
+   </resource>
+
+<resource label="lekythos" restype=":Object" id="obj_2"
+      permissions="res-default">
+      <text-prop name=":hasImage">
+         <image> </image>
+      </text-prop>
+      <list-prop list="category" name=":hasCategory">
+         <list permissions="prop-default">Artwork</list>
+      </list-prop>
+      <text-prop name=":hasName">
+         <text permissions="prop-default" encoding="utf8">lekythos</text>
+      </text-prop>
+      <text-prop name=":hasDescription">
+         <text permissions="prop-default" encoding="utf8">
+             Attic red-figured lekythos which depicts a Festival of Adonis. Winged Eros with an incense burner stands on a ladder between women. This vessel was found in a cemetery in Naucratis, Egypt.
+          </text>
+      </text-prop>
+      <resptr-prop name=":hasCreator">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop>
+      <geoname-prop name=":hasFindspot">
+         <geoname permissions="prop-default" comment="Naukratis, Egypt">
+            351274
+         </geoname>
+      </geoname-prop>
+      <date-prop name=":hasDate">
+         <date permissions="prop-default"></date>
+         JULIAN:BC:0400:BC:0380
+      </date-prop>
+      <resptr-prop name=":inInstitution">
+         <resptr permissions="prop-default" encoding="utf8">
+             inst_0
+         </resptr>
+      </resptr-prop>
+      <geoname-prop name=":hasLocation">
+         <geoname permissions="prop-default" comment="London">
+             6697862
+         </geoname>
+      </geoname-prop>
+      <text-prop name=":hasInventoryNumber">
+         <text permissions="prop-default" encoding="utf8">
+             1888,0601.716
+         </text>
+      </text-prop>
+      <uri-prop name=":hasExternalLink">
+         <uri permissions="prop-default">
+             https://www.britishmuseum.org/collection/object/G_1888-0601-716
+         </uri>
+      </uri-prop>
+   </resource>
+
 </knora>

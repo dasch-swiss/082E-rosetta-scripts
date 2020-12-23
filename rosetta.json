@@ -97,11 +97,11 @@
                         }
                      }, 
                      {
-                     "name": "Animals",
-                     "labels": { 
-                        "de": "Tiere",
-                        "en": "Animals",
-                        "fr": "Animaux"  
+                        "name": "Animals",
+                        "labels": { 
+                           "de": "Tiere",
+                           "en": "Animals",
+                           "fr": "Animaux"  
                      },
                      "nodes": [
                         {
@@ -1177,7 +1177,12 @@
                         "propname": ":hasInventoryNumber",
                         "cardinality": "0-1",
                         "gui_order": 10
-                     }                                                                               
+                     },
+                     {
+                        "propname": ":hasExternalLink",
+                        "cardinality": "0-1",
+                        "gui_order": 11
+                     }                                                                                                       
                   ]
                }               
             ]
