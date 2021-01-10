@@ -1,0 +1,11 @@
+Ungelöst / offene Fragen:
+
+- wie definiere ich in der json-Datei eine property, die den upload einer Bilddatei erlaubt, die dann in der Webapplikation angezeigt werden soll
+    - diese property müsste dann auch die erste für die class :Image2D (ebenso :Image3D, :Audio, :Film) sein, denke ich - denn zur Datei gehören ja auch alle weiteren Angaben
+    - wie binde ich das Bild dann korrekt ein? Ohne der Angabe eines property-Namens
+        über <image> Bildname.jpg </image>?
+        über <image> img_obj_0 </image>?
+    - so wie es jetzt gelöst ist, ist es sicher falsch
+- muss ich in der json-Datei groups und users angeben so wie es jetzt gemacht ist (von einer Datei von Lukas abgekupfert)? In der xml-Datei kommen dazu ja noch Angaben.
+- sind Datumsangaben möglich, bei denen das Jahr mehr als 4 Stellen hat (z.B. 28000 - jetzt beim Meteoriten so angegeben)?
+- geonames-Angaben: Wie werden die in Webapplikation angezeigt? Sind die nur zum Zeichnen einer Karte? Braucht es eine zusätzliche Eigenschaft damit der betreffende Ortsname angezeigt werden kann? Der Ortsname steht aktuell im comment der geonames-property.
