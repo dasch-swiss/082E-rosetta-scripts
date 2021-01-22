@@ -3,7 +3,7 @@
 <knora xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" shortcode="082E"
    default-ontology="rosetta">
 
-   <!-- permissions: see https://docs.knora.org/03-apis/api-v2/reading-user-permissions/ -->
+   <!-- :permissions see https://docs.knora.org/03-apis/api-v2/reading-user-permissions/ -->
    <permissions id="res-default">
       <allow group="UnknownUser">RV</allow>
       <allow group="KnownUser">V</allow>
@@ -27,7 +27,7 @@
       <allow group="ProjectAdmin">CR</allow>
    </permissions>
    
-   <!-- Persons: -->     
+   <!-- :Persons -->     
    <resource label="Homer" restype=":Person" id="person_0" permissions="res-default">
       <text-prop name=":hasName">
          <text> Homer </text>
@@ -146,9 +146,37 @@
             https://en.wikipedia.org/wiki/Goran_Bregovi%C4%87
          </uri>
       </uri-prop>
-   </resource>    
+   </resource>  
+   <resource label="Beachfront" restype=":Person" id="person_8" permissions="res-default">
+      <text-prop name=":hasName">
+         <text> Beachfront </text>
+      </text-prop>
+      <uri-prop name=":hasIdentifier">
+         <uri> 
+         </uri>
+      </uri-prop>
+      <uri-prop name=":hasExternalLink">
+         <uri permissions="prop-default">   
+            http://www.beachfrontbroll.com
+         </uri>
+      </uri-prop>
+   </resource>
+   <resource label="D.art" restype=":Person" id="person_9" permissions="res-default">
+      <text-prop name=":hasName">
+         <text> D.art </text>
+      </text-prop>
+      <uri-prop name=":hasIdentifier">
+         <uri> 
+         </uri>
+      </uri-prop>
+      <uri-prop name=":hasExternalLink">
+         <uri permissions="prop-default">   
+            https://sketchfab.com/D.art
+         </uri>
+      </uri-prop>
+   </resource>  
   
-   <!-- Institutions: -->
+   <!-- :Institutions -->
    <resource label="British Museum" restype=":Institution" id="inst_0" permissions="res-default">
       <text-prop name=":hasName">
          <text> British Museum </text>
@@ -296,8 +324,9 @@
       </uri-prop>
    </resource>
     
-   <!-- Image2D: -->
+   <!-- :Image2D -->
    <resource label="BM K.3375" restype=":Image2D" id="img_obj_0" permissions="res-default">
+      <image>K3375Gilgamesh.png</image>
       <text-prop name=":hasTitle">
          <text> BM K.3375 </text>
       </text-prop>
@@ -334,6 +363,7 @@
    </resource>
 
    <resource label="Deluge" restype=":Image2D" id="img_obj_1" permissions="res-default">
+      <image>Danby-deluge.jpg</image>
       <text-prop name=":hasTitle">
          <text> The Deluge </text>
       </text-prop>
@@ -371,6 +401,7 @@
 
    <resource label="Liberté, j'écris ton nom" restype=":Image2D" id="img_obj_2"
       permissions="res-default">
+      <image>Leger-Eluard.jpg</image>
       <text-prop name=":hasTitle">
          <text> Liberté </text>
       </text-prop>
@@ -408,6 +439,7 @@
    </resource>
 
    <resource label="Bashō, Horohoroto" restype=":Image2D" id="img_obj_3" permissions="res-default">
+      <image>Basho_Horohoroto.jpg</image>
       <text-prop name=":hasTitle">
          <text> Horohoroto </text>
       </text-prop>
@@ -442,6 +474,7 @@
    </resource>
 
    <resource label="Western aisle mosaic of the synagogue in En-Gedi" restype=":Image2D" id="img_obj_4" permissions="res-default">
+      <image>EnGediMosaik.jpg</image>
       <text-prop name=":hasTitle">
          <text> Western aisle mosaic of the synagogue in En-Gedi </text>
       </text-prop>
@@ -484,6 +517,7 @@
    </resource>
 
    <resource label="Bengal cat" restype=":Image2D" id="img_obj_5" permissions="res-default">
+      <image>Anubis.jpg</image>
       <text-prop name=":hasTitle">
          <text> Bengal cat </text>
       </text-prop>
@@ -517,12 +551,117 @@
       </uri-prop>
    </resource>
 
-   <!-- Text: -->
-   <resource label="Epic of Gilgameš, tablet 11: BM K.3375" restype=":Text" id="text_obj_0"
-      permissions="res-default">
-      <text-prop name=":hasTextMedium">
-         <image> K3375Gilgamesh.png </image>
+   <resource label="Iliad Prooem" restype=":Image2D" id="img_obj_6" permissions="res-default">
+      <image>IliadProoem.jp2</image>
+      <text-prop name=":hasTitle">
+         <text> Iliad Prooem </text>
       </text-prop>
+      <resptr-prop name=":hasCreator">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop>
+      <date-prop name=":hasDate">
+         <date permissions="prop-default"></date>
+      </date-prop>
+      <text-prop name=":hasDescription" encoding="xml">
+         <text> This is Iliad Prooem.
+         </text>
+      </text-prop>
+      <text-prop name=":hasCopyright">
+         <text> © Unknown </text>
+      </text-prop>
+      <text-prop name=":hasAnnotation">
+         <text> </text>
+      </text-prop>
+      <resptr-prop name=":inInstitution">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop>
+      <geoname-prop name=":hasLocation">
+         <geoname permissions="prop-default" comment=""> </geoname>
+      </geoname-prop>
+      <uri-prop name=":hasExternalLink">
+         <uri permissions="prop-default"> 
+         </uri>
+      </uri-prop>
+   </resource>
+
+   <resource label="Gibbeon Meteorite" restype=":Image2D" id="img_obj_7" permissions="res-default">
+      <image>GibbeonMeteorite.jpg</image>
+      <text-prop name=":hasTitle">
+         <text> Gibbeon Meteorite </text>
+      </text-prop>
+      <resptr-prop name=":hasCreator">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop>
+      <date-prop name=":hasDate">
+         <date permissions="prop-default"></date>
+      </date-prop>
+      <text-prop name=":hasDescription" encoding="xml">
+         <text> This is Gibbeon Meteorite.
+         </text>
+      </text-prop>
+      <text-prop name=":hasCopyright">
+         <text> © Unknown </text>
+      </text-prop>
+      <text-prop name=":hasAnnotation">
+         <text> </text>
+      </text-prop>
+      <resptr-prop name=":inInstitution">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop>
+      <geoname-prop name=":hasLocation">
+         <geoname permissions="prop-default" comment=""> </geoname>
+      </geoname-prop>
+      <uri-prop name=":hasExternalLink">
+         <uri permissions="prop-default"> 
+         </uri>
+      </uri-prop>
+   </resource>
+
+   <resource label="Dendera Neujahr" restype=":Image2D" id="img_obj_8" permissions="res-default">
+      <image>DenderaNeujahr.png</image>
+      <text-prop name=":hasTitle">
+         <text> Dendera Neujahr </text>
+      </text-prop>
+      <resptr-prop name=":hasCreator">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop>
+      <date-prop name=":hasDate">
+         <date permissions="prop-default"></date>
+      </date-prop>
+      <text-prop name=":hasDescription" encoding="xml">
+         <text> This is Dendera Neujahr.
+         </text>
+      </text-prop>
+      <text-prop name=":hasCopyright">
+         <text> © Unknown </text>
+      </text-prop>
+      <text-prop name=":hasAnnotation">
+         <text> </text>
+      </text-prop>
+      <resptr-prop name=":inInstitution">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop>
+      <geoname-prop name=":hasLocation">
+         <geoname permissions="prop-default" comment=""> </geoname>
+      </geoname-prop>
+      <uri-prop name=":hasExternalLink">
+         <uri permissions="prop-default"> 
+         </uri>
+      </uri-prop>
+   </resource>
+   
+
+   <!-- :Text -->
+   <resource label="Epic of Gilgameš, tablet 11: BM K.3375" restype=":Text" id="text_obj_0" permissions="res-default">
+      <resptr-prop name=":hasTextMedium">
+         <resptr permissions="prop-default"> img_obj_0 </resptr>
+      </resptr-prop>
       <resptr-prop name=":hasAuthor">
          <resptr permissions="prop-default" encoding="utf8">
          </resptr>
@@ -605,11 +744,10 @@
       </resptr-prop>
    </resource>
 
-   <resource label="Western Aisle Mosaic in the synagogue of En Gedi" restype=":Text" id="text_obj_1"
-      permissions="res-default">
-      <text-prop name=":hasTextMedium">
-         <image> EnGediMosaik.jpg </image>
-      </text-prop>
+   <resource label="Western Aisle Mosaic in the synagogue of En Gedi" restype=":Text" id="text_obj_1" permissions="res-default">
+      <resptr-prop name=":hasTextMedium">
+         <resptr permissions="prop-default"> img_obj_4 </resptr>
+      </resptr-prop>
       <resptr-prop name=":hasAuthor">
          <resptr permissions="prop-default" encoding="utf8">
          </resptr>
@@ -689,11 +827,10 @@
       </resptr-prop>
    </resource>
 
-   <resource label="New Year's procession in the Temple of Hathor in Dendera" restype=":Text" id="text_obj_2"
-      permissions="res-default">
-      <text-prop name=":hasTextMedium">
-         <image> DenderaNeujahr.png </image>
-      </text-prop>
+   <resource label="New Year's procession in the Temple of Hathor in Dendera" restype=":Text" id="text_obj_2" permissions="res-default">
+      <resptr-prop name=":hasTextMedium">
+         <resptr permissions="prop-default"> img_obj_8 </resptr>
+      </resptr-prop>
       <resptr-prop name=":hasAuthor">
          <resptr permissions="prop-default" encoding="utf8">
          </resptr>
@@ -762,12 +899,10 @@
       </resptr-prop>
    </resource>
 
-   <resource label="Liberté" restype=":Text" id="text_obj_3"
-      permissions="res-default">
-      <text-prop name=":hasTextMedium">
-         <image> 
-         </image>
-      </text-prop>
+   <resource label="Liberté" restype=":Text" id="text_obj_3" permissions="res-default">
+      <resptr-prop name=":hasTextMedium">
+         <resptr permissions="prop-default"> img_obj_XY </resptr>
+      </resptr-prop>
       <resptr-prop name=":hasAuthor">
          <resptr permissions="prop-default" encoding="utf8">
             person_5
@@ -1037,12 +1172,10 @@
       </resptr-prop>
    </resource>
 
-   <resource label="Dragonfly and Ant" restype=":Text" id="text_obj_4"
-      permissions="res-default">
-      <text-prop name=":hasTextMedium">
-         <image> 
-         </image>
-      </text-prop>
+   <resource label="Dragonfly and Ant" restype=":Text" id="text_obj_4" permissions="res-default">
+      <resptr-prop name=":hasTextMedium">
+         <resptr permissions="prop-default"> img_obj_XY </resptr>
+      </resptr-prop>
       <resptr-prop name=":hasAuthor">
          <resptr permissions="prop-default" encoding="utf8">
             person_4
@@ -1199,11 +1332,10 @@
       </resptr-prop>
    </resource>
    
-   <resource label="horohoroto" restype=":Text" id="text_obj_5"
-      permissions="res-default">
-      <text-prop name=":hasTextMedium">
-         <image> Basho_Horohoroto.jpg </image>
-      </text-prop>
+   <resource label="horohoroto" restype=":Text" id="text_obj_5" permissions="res-default">
+      <resptr-prop name=":hasTextMedium">
+         <resptr permissions="prop-default"> img_obj_3 </resptr>
+      </resptr-prop>
       <resptr-prop name=":hasAuthor">
          <resptr permissions="prop-default" encoding="utf8">
             person_4
@@ -1269,11 +1401,10 @@
       </resptr-prop>
    </resource>
    
-   <resource label="Hasad" restype=":Text" id="text_obj_6"
-      permissions="res-default">
-      <text-prop name=":hasTextMedium">
-         <image> </image>
-      </text-prop>
+   <resource label="Hasad" restype=":Text" id="text_obj_6" permissions="res-default">
+      <resptr-prop name=":hasTextMedium">
+         <resptr permissions="prop-default"> img_obj_XY </resptr>
+      </resptr-prop>
       <resptr-prop name=":hasAuthor">
          <resptr permissions="prop-default" encoding="utf8">
             person_6
@@ -1354,9 +1485,364 @@
       </resptr-prop>
    </resource>
 
+<<<<<<< Updated upstream
    <!-- Book: -->
    <resource label="Iliad" restype=":Book" id="book_obj_0"
       permissions="res-default">
+=======
+<!-- :Text for Audio -->
+  <resource label="EderleziText" restype=":Text" id="text_obj_7" permissions="res-default">
+      <resptr-prop name=":hasTextMedium">
+         <resptr permissions="prop-default"> audio_XY </resptr>
+      </resptr-prop>
+      <resptr-prop name=":hasAuthor">
+         <resptr permissions="prop-default" encoding="utf8">
+            person_7
+         </resptr>
+      </resptr-prop>
+      <text-prop name=":hasTitle">
+         <text permissions="prop-default" encoding="utf8"> 
+            Ederlezi 
+         </text>
+      </text-prop>
+      <text-prop name=":hasOriginalText">
+         <text permissions="prop-default" encoding="xml">
+         Erdelezi - Romani
+
+         Sa O Roma, Babo
+         E bakren činen,
+         a me čoro, dural bešava.
+         
+         Alo tano, daje
+         Amaro dive, Amaro dive
+         Erdelezi.
+         
+         Sa O Roma, babo babo
+         Amen čen Bakro
+         Sa O Romano
+         E Bakren činen
+         
+         ~~Eee~
+         Sa O Roma, Babo Babo
+         Sa O Roma, Oh Daje
+         Sa O Roma, Babo Babo
+         Eeee Erdelezi, Erdelezi
+         Sa O Roma, Daje (2x)
+         
+         Alo Tano, daje
+         Amaro dive, Amaro dive
+         Erdelezi
+         
+         Sa O Roma, babo babo 
+         Amen čen Bakro
+         Sa O Romano
+         E Bakren Cinen
+         
+         ~~Eee~
+         Sa O Roma, Babo Babo
+         Sa O Roma, Oh Daje
+         Sa O Roma, Babo Babo
+         Eeee Erdelezi, Erdelezi
+         Sa O Roma, Daje (2x)
+         </text>
+      </text-prop>
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8"> 
+         Ederlezi - Griechisch
+
+         Όλοι οι Ρομά, μπαμπάκα
+         Θυσιάζουν το Πρόβατο
+         κι εγώ το φτωχό, κάθομαι στην άκρη.
+         
+         ήρθε, μαμάκα
+         η μέρα μας, η μέρα μας
+         Ederlezi.
+         
+         Όλοι οι Ρομά, μπαμπάκα, μπαμπάκα
+         Θυσιάζουν το πρόβατο
+         Όλοι οι Ρομάνοι
+         θυσιάζουν το πρόβατο
+         
+         ~~Εεε~
+         Όλοι οι Ρομά, μπαμπάκα, μπαμπάκα
+         Όλοι οι Ρομά, ω μαμάκα
+         Όλοι οι Ρομά, μπαμπάκα, μπαμπάκα
+         Εεεε, Ederlezi, Ederlezi
+         Όλοι οι Ρομά, μαμάκα (2x)
+         
+         Ήρθε, μαμάκα
+         η μέρα μας, η μέρα μας
+         Ederlezi
+         
+         Όλοι οι Ρομά, μπαμπάκα, μπαμπάκα
+         Θυσιάζουν το πρόβατο
+         Όλοι οι Ρομάνοι
+         θυσιάζουν το πρόβατο
+         
+         ~~Εεε~
+         Όλοι οι Ρομά, μπαμπάκα, μπαμπάκα
+         Όλοι οι Ρομά, ω μαμάκα
+         Όλοι οι Ρομά, μπαμπάκα, μπαμπάκα
+         Εεεε, Ederlezi, Ederlezi
+         Όλοι οι Ρομά, μαμάκα (2x)
+         </text>
+      </text-prop>
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8">
+         Ederlezi - Serbokroatisch/Ungarisch
+
+         Gyere, gyere velem tavasz jár már,
+         gyöngyvirág lesz majd a párnád,
+         gyöngyvirág lesz majd a párnád,
+         örök hűség vár rád!
+         
+         Gyere, gyere velem hív a hajnal,
+         nincsen felhő nincsen csillag,
+         nincsen felhő nincsen csillag,
+         pihenj karjaimban!
+         
+         Proljeće na moje rame slijeće
+         Đurđevak zeleni
+         Đurđevak zeleni
+         svima osim meni.
+         
+         Drumovi odoše a ja osta
+         nema zvijezde danice
+         nema zvijezde danice
+         moje saputnice.
+         
+         Hej, evo zore, evo zore
+         Bogu da se pomolim
+         evo zore, evo zore
+         hej, Đurđevdan je
+         a ja nisam s onom koju volim.
+         
+         Hej, evo zore, evo zore
+         Bogu da se pomolim
+         evo zore, evo zore
+         hej, Đurđevdan je
+         a ja nisam s onom koju volim.             
+         </text>
+      </text-prop> 
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8">
+         Эдерлези - Russisch
+
+         Пойдем, пойдем со мной, пришла весна,
+         Пусть ландыш будет подушкой
+         Пусть ландыш будет подушкой
+         Вечная верность ждет тебя!
+         
+         Пойдем, пойдем со мной, заря зовет
+         Не облака, и не звезды в небе,
+         Не облака, и не звезды в небе,
+         Приди отдохнуть в мои руки!
+         
+         Весна садится на мое плечо
+         Ландыш цветет
+         Ландыш цветет
+         Для всех, кроме меня
+         
+         Дороги продолжались, но я остался
+         Нет утренней звезды
+         Нет утренней звезды
+         Моей спутницы
+         
+         Вот рассвет, вот рассвет
+         Я буду молиться Богу
+         Вот рассвет, вот рассвет
+         Это День Святого Георгия
+         И я не с той, которую люблю
+         
+         Вот рассвет, вот рассвет
+         Я буду молиться Богу
+         Вот рассвет, вот рассвет
+         Это День Святого Георгия
+         И я не с той, которую люблю
+         </text>
+      </text-prop> 
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8">
+         Ederlezi - English
+
+         Come, come with me, spring has come,
+         Let the lily of the valley be your pillow
+         Let the lily of the valley be your pillow
+         Eternal faithfulness awaits you!
+         
+         Come, come with me, the dawn is calling
+         Not a cloud, not a star in the sky,
+         Not a cloud, not a star in the sky,
+         Come rest in my arms!
+         
+         Spring alights on my shoulder
+         Lily of the valley is flowering
+         Lily of the valley is flowering
+         For everyone but me
+         
+         The roads continued on but I stayed
+         The morning star is gone
+         The morning star is gone
+         My companion
+         
+         Behold the dawn, behold the dawn
+         I'll pray to God
+         Behold the dawn, behold the dawn
+         It's St George's Day
+         And I'm not with the one I love
+         
+         Behold the dawn, behold the dawn
+         I'll pray to God
+         Behold the dawn, behold the dawn
+         It's St George's Day
+         And I'm not with the one I love
+         </text>
+      </text-prop> 
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8">
+         Ederlezi - French
+
+         Viens, viens avec moi, le printemps est arrivé,
+         Le muguet sera notre oreiller
+         Le muguet sera notre oreiller
+         La fidelité éternelle t'attend
+         
+         Viens, viens avec moi, l'aurore nous appelle
+         Un ciel sans nuage, sans étoile
+         Un ciel sans nuage, sans étoile
+         Viens te reposer dans mes bras!
+         
+         Le printemps se pose sur mon épaule
+         Le muguet éclot
+         Le muguet éclot
+         Pour tout le monde, sauf moi
+         
+         Les chemins se sont parties, et moi je suis restée
+         L'étoile du matin est disparue
+         L'étoile du matin est disparue
+         Mon compagnon
+         
+         Regarde, l'aube se lève, l'aube se lève
+         Je vais prier à Dieu
+         L'aube se lève, l'aube se lève
+         Ô, c'est le jour de Saint Georges
+         Et je ne suis pas avec celui que j'aime
+         
+         Regarde, l'aube se lève, l'aube se lève
+         Je vais prier à Dieu
+         L'aube se lève, l'aube se lève
+         Ô, c'est le jour de Saint Georges
+         Et je ne suis pas avec celui que j'aime
+         </text>
+      </text-prop> 
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8">
+         Đurđevdan - srpski, latinica
+
+         Proljeće na moje rame slijeće
+         Đurđevak zeleni
+         Đurđevak zeleni
+         Svima osim meni
+         
+         Drumovi odoše a ja osta
+         Nema zvijezde Danice
+         Nema zvijezde Danice
+         Moje saputnice
+         
+         Ej kome sada moja draga
+         Na đurđevak miriše
+         Na đurđevak miriše
+         Meni nikad više
+         
+         Evo zore evo zore
+         Bogu da se pomolim
+         Evo zore evo zore
+         Ej Đurđevdan je
+         A ja nisam s onom koju volim
+         
+         Njeno ime neka se spominje
+         Svakog drugog dana
+         Svakog drugog dana
+         Osim Đurđevdana
+         </text>
+      </text-prop> 
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8">
+         Ђурђевдан - српски, ћирилица
+
+         Пролеће на моjе раме слиjеће.
+         Ђурђевак зелени,
+         Ђурђевак зелени
+         Свима осим мени.
+
+         Друмови одоше а jа остах,
+         Нема звиjезде данице,
+         Нема звиjезде данице,
+         Моjе сапутнице.
+
+         Еj, коме сада моjа драга
+         На ђурђевак мирише,
+         На ђурђевак мирише,
+         Мени никад више.
+
+         Еj, ево зоре, ево зоре,
+         Богу да се помолим.
+         Ево зоре, ево зоре,
+         Ђурђевдан jе,
+         А jа нисам с оном коjу волим.
+
+         Њено име нека се спомиње
+         Сваког другог дана,
+         Сваког другог дана,
+         Осим ђурђевдана.
+
+         Еj, ево зоре, ево зоре,
+         Богу да се помолим.
+         Ево зоре, ево зоре,
+         Ђурђевдан jе,
+         А jа нисам с оном коjу волим.
+         </text>
+      </text-prop> 
+      <text-prop name=":hasAnnotation">
+         <text permissions="prop-default" encoding="utf8"> </text>
+      </text-prop>
+      <text-prop name=":hasFindspot">
+         <text permissions="prop-default" encoding="utf8">  </text>
+      </text-prop>
+      <text-prop name=":hasBibliographicReference">
+         <text permissions="prop-default" encoding="utf8">  
+         </text>
+      </text-prop>
+      <resptr-prop name=":inInstitution">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop>
+      <geoname-prop name=":hasLocation">
+         <geoname permissions="prop-default" comment="xxx">
+         </geoname>
+      </geoname-prop>
+      <text-prop name=":hasCopyright">
+         <text permissions="prop-default" encoding="utf8">
+            © Goran Bregović
+            © https://lyricstranslate.com
+            © https://www.antiwarsongs.org/
+         </text>
+      </text-prop>
+      <uri-prop name=":hasExternalLink">
+         <uri permissions="prop-default">  
+         https://lyricstranslate.com
+         https://www.antiwarsongs.org/   
+         </uri>
+      </uri-prop>
+      <resptr-prop name=":hasRelatedArtwork">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop>
+   </resource>
+
+   <!-- :Book -->
+   <resource label="Iliad" restype=":Book" id="book_obj_0" permissions="res-default">
+>>>>>>> Stashed changes
       <text-prop name=":hasTitle">
          <text permissions="prop-default" encoding="utf8"> 
             Greek Manuscripts from 1397. Iliad (I-V).
@@ -1397,12 +1883,11 @@
       </uri-prop>
    </resource>
 
-   <!-- Page: -->
-   <resource label="Iliad, Prooem" restype=":Page" id="page_obj_0"
-      permissions="res-default"> 
-      <text-prop name=":hasTextMedium">
-         <image> IliadProoem.jp2 </image>
-      </text-prop>
+   <!-- :Page -->
+   <resource label="Iliad, Prooem" restype=":Page" id="page_obj_0" permissions="res-default">  
+      <resptr-prop name=":hasTextMedium">
+         <resptr permissions="prop-default"> img_obj_6 </resptr>
+      </resptr-prop>
       <text-prop name=":hasPagenum">
          <text permissions="prop-default" encoding="utf8">
             3
@@ -1469,9 +1954,8 @@
       </text-prop>
    </resource>
    
-   <!-- Audio: -->
-   <resource label="Ederlezi" restype=":Audio" id="audio_obj_0"
-      permissions="res-default"> 
+   <!-- :Audio -->
+   <resource label="Ederlezi" restype=":Audio" id="audio_obj_0" permissions="res-default"> 
       <text-prop name=":hasTitle">
          <text permissions="prop-default" encoding="utf8"> 
             Ederlezi
@@ -1515,15 +1999,107 @@
       </uri-prop>       
     </resource>
    
-   <!-- Film: -->
-   
-   
-   <!-- Object: -->
-   <resource label="cat" restype=":Object" id="obj_0"
-      permissions="res-default">    
-      <text-prop name=":hasImage">
-         <image> Anubis.jpg </image>
+   <!-- :Film -->
+   <resource label="Sunset Waves" restype=":Film" id="film_obj_0" permissions="res-default"> 
+         SunsetWavesCloseUp.mp4 
+         <text-prop name=":hasTitle">
+            <text permissions="prop-default" encoding="utf8"> 
+               Sunset Waves Close Up
+            </text>
+         </text-prop>     
+         <resptr-prop name=":hasCreator">
+            <resptr permissions="prop-default" encoding="utf8">
+               person_8
+            </resptr>
+         </resptr-prop>
+         <date-prop name=":hasDate">
+            <date permissions="prop-default"></date>
+         </date-prop>
+         <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="utf8">   
+               Close-view up of waves, captured during a beautiful sunset.
+               This footage was shot at 240 frames per second. Courtesy of www.beachfrontbroll.com.
+            </text>
+         </text-prop>   
+         <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8"> 
+               © beachfront
+            </text>
+         </text-prop>  
+         <text-prop name=":hasAnnotation">
+            <text permissions="prop-default" encoding="utf8"> </text>
+         </text-prop>         
+         <resptr-prop name=":inInstitution">
+            <resptr permissions="prop-default" encoding="utf8">
+            </resptr>
+         </resptr-prop> 
+         <geoname-prop name=":hasLocation">
+            <geoname permissions="prop-default" comment="">
+            </geoname>
+         </geoname-prop>
+         <uri-prop name=":hasExternalLink">
+            <uri permissions="prop-default"> 
+               http://www.beachfrontbroll.com
+            </uri>
+         </uri-prop>       
+      </resource>
+
+   <!-- :Image3D -->   
+   <resource label="Stygimoloch" restype=":Film" id="3d_obj_0" permissions="res-default"> 
+         Stygimoloch
+         <text-prop name=":hasTitle">
+         <text permissions="prop-default" encoding="utf8"> 
+            Stygimoloch
+         </text>
       </text-prop>     
+      <resptr-prop name=":hasCreator">
+         <resptr permissions="prop-default" encoding="utf8">
+            person_9
+         </resptr>
+      </resptr-prop>
+      <date-prop name=":hasDate">
+         <date permissions="prop-default"></date>
+      </date-prop>
+      <text-prop name=":hasDescription">
+         <text permissions="prop-default" encoding="utf8">   
+           Stylosaurus lived in the late Cretaceous. It is a kind of dinosaur of chordate, vertebrate, 
+           Sauropoda, amphoraceae, ornithoraceae, stylosaurus. It is about 2.4 meters long
+           and 1 meter high. It is similar to wild goat in shape and habits. It is a mysterious dinosaur 
+           decorated with highly developed bone plates and spines on the top, back and mouth and nose 
+           of the dinosaur. It is named after hell Creek in Montana, USA.
+         </text>
+      </text-prop>   
+      <text-prop name=":hasCopyright">
+         <text permissions="prop-default" encoding="utf8"> 
+            © D.art
+            "Stygimoloch" (https://skfb.ly/6X8B6) by D.art 
+            is licensed under Creative Commons Attribution-NonCommercial
+            (http://creativecommons.org/licenses/by-nc/4.0/).
+         </text>
+      </text-prop>  
+      <text-prop name=":hasAnnotation">
+         <text permissions="prop-default" encoding="utf8"> </text>
+      </text-prop>         
+      <resptr-prop name=":inInstitution">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop> 
+      <geoname-prop name=":hasLocation">
+         <geoname permissions="prop-default" comment="">
+         </geoname>
+      </geoname-prop>
+      <uri-prop name=":hasExternalLink">
+         <uri permissions="prop-default"> 
+            https://sketchfab.com/D.art
+         </uri>
+      </uri-prop>       
+   </resource>
+
+   <!-- :Object -->
+   <resource label="cat" restype=":Object" id="obj_0" permissions="res-default">    
+      <resptr-prop name=":hasImage">
+         <resptr permissions="prop-default"> img_obj_5 </resptr>
+      </resptr-prop>
       <list-prop list="category" name=":hasCategory">
          <list permissions="prop-default">Animals:Mammals</list>
       </list-prop>
@@ -1559,5 +2135,109 @@
          <text permissions="prop-default" encoding="utf8"></text>
       </text-prop>       
    </resource>
+<<<<<<< Updated upstream
    
+=======
+
+<resource label="meteorite" restype=":Object" id="obj_1" permissions="res-default">        
+      <resptr-prop name=":hasImage">
+         <resptr permissions="prop-default"> img_obj_7 </resptr>
+      </resptr-prop>
+      <list-prop list="category" name=":hasCategory">
+         <list permissions="prop-default">Nature:Physics</list>
+      </list-prop>
+      <text-prop name=":hasName">
+         <text permissions="prop-default" encoding="utf8">meteorite</text>
+      </text-prop>  
+      <text-prop name=":hasDescription">
+         <text permissions="prop-default" encoding="utf8">
+             This is a piece of the so-called Gibeon Meteroite that fell in Namibia
+             in prehistoric times (28000-11000 BCE). It is composed of an
+             iron-nickel alloy. Ground and etched, beautiful Widmanstätten
+             patterns become visible. Widmanstätten patterns are characteristic for
+             meteorite material - they cannot be formed under conditions prevailing
+             on Earth.
+          </text>
+      </text-prop>  
+      <resptr-prop name=":hasCreator">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop>
+      <geoname-prop name=":hasFindspot">
+         <geoname permissions="prop-default" comment="Gibeon, Namibia">
+            11821111
+         </geoname>
+      </geoname-prop>
+      <date-prop name=":hasDate">
+         <date permissions="prop-default"></date>
+         JULIAN:BC:28000:BC:11000
+      </date-prop>   
+      <resptr-prop name=":inInstitution">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop> 
+      <geoname-prop name=":hasLocation">
+         <geoname permissions="prop-default" comment="">
+         </geoname>
+      </geoname-prop>    
+      <text-prop name=":hasInventoryNumber">
+         <text permissions="prop-default" encoding="utf8"></text>
+      </text-prop>
+      <uri-prop name=":hasExternalLink">
+         <uri permissions="prop-default">
+         </uri>
+      </uri-prop>
+   </resource>
+
+<resource label="lekythos" restype=":Object" id="obj_2" permissions="res-default">
+      <resptr-prop name=":hasImage">
+         <resptr permissions="prop-default"> img_obj_XY </resptr>
+      </resptr-prop>
+      <list-prop list="category" name=":hasCategory">
+         <list permissions="prop-default">Artwork</list>
+      </list-prop>
+      <text-prop name=":hasName">
+         <text permissions="prop-default" encoding="utf8">lekythos</text>
+      </text-prop>
+      <text-prop name=":hasDescription">
+         <text permissions="prop-default" encoding="utf8">
+             Attic red-figured lekythos which depicts a Festival of Adonis. Winged Eros with an incense burner stands on a ladder between women. This vessel was found in a cemetery in Naucratis, Egypt.
+          </text>
+      </text-prop>
+      <resptr-prop name=":hasCreator">
+         <resptr permissions="prop-default" encoding="utf8">
+         </resptr>
+      </resptr-prop>
+      <geoname-prop name=":hasFindspot">
+         <geoname permissions="prop-default" comment="Naukratis, Egypt">
+            351274
+         </geoname>
+      </geoname-prop>
+      <date-prop name=":hasDate">
+         <date permissions="prop-default"></date>
+         JULIAN:BC:0400:BC:0380
+      </date-prop>
+      <resptr-prop name=":inInstitution">
+         <resptr permissions="prop-default" encoding="utf8">
+             inst_0
+         </resptr>
+      </resptr-prop>
+      <geoname-prop name=":hasLocation">
+         <geoname permissions="prop-default" comment="London">
+             6697862
+         </geoname>
+      </geoname-prop>
+      <text-prop name=":hasInventoryNumber">
+         <text permissions="prop-default" encoding="utf8">
+             1888,0601.716
+         </text>
+      </text-prop>
+      <uri-prop name=":hasExternalLink">
+         <uri permissions="prop-default">
+             https://www.britishmuseum.org/collection/object/G_1888-0601-716
+         </uri>
+      </uri-prop>
+   </resource>
+
+>>>>>>> Stashed changes
 </knora>

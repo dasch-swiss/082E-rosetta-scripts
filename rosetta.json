@@ -65,7 +65,7 @@
             },
             "nodes": [
               {
-               "name": "Artwork",
+               "name": "artwork",
                "labels": { 
                   "de": "Kustwerk",
                   "en": "Artwork",
@@ -73,7 +73,7 @@
                }
               },
               {
-               "name": "Vehicles",
+               "name": "vehicles",
                "labels": { 
                   "de": "Fahrzeuge",
                   "en": "Vehicles",
@@ -81,7 +81,7 @@
                }
              },
              {
-               "name": "Nature",
+               "name": "nature",
                "labels": { 
                   "de": "Natur",
                   "en": "Nature",
@@ -89,7 +89,7 @@
                },
                   "nodes": [
                      {
-                        "name": "Humans",
+                        "name": "humans",
                         "labels": { 
                            "de": "Menschen",
                            "en": "Humans",
@@ -97,15 +97,23 @@
                         }
                      }, 
                      {
+<<<<<<< Updated upstream
                      "name": "Animals",
                      "labels": { 
                         "de": "Tiere",
                         "en": "Animals",
                         "fr": "Animaux"  
+=======
+                        "name": "animals",
+                        "labels": { 
+                           "de": "Tiere",
+                           "en": "Animals",
+                           "fr": "Animaux"  
+>>>>>>> Stashed changes
                      },
                      "nodes": [
                         {
-                           "name": "Mammals",
+                           "name": "mammals",
                            "labels":{
                               "de": "Säugetiere",
                               "en": "Mammals",
@@ -113,7 +121,7 @@
                            }
                         },
                         {
-                           "name": "Insects",
+                           "name": "insects",
                            "labels":{
                               "de": "Insekten",
                               "en": "Insects",
@@ -121,7 +129,7 @@
                            }
                         },
                         {
-                           "name": "Birds",
+                           "name": "birds",
                            "labels":{
                               "de": "Vögel",
                               "en": "Birds",
@@ -129,7 +137,7 @@
                            }
                         },
                         {
-                           "name": "Amphibians",
+                           "name": "amphibians",
                            "labels":{
                               "de": "Amphibien",
                               "en": "Amphibians",
@@ -137,7 +145,7 @@
                            }
                         },
                         {
-                           "name": "Reptiles",
+                           "name": "reptiles",
                            "labels":{
                               "de": "Reptilien",
                               "en": "Reptiles",
@@ -147,7 +155,7 @@
                      ]
                   },
                   {
-                     "name": "Plants",
+                     "name": "plants",
                      "labels": { 
                         "de": "Pflanzen",
                         "en": "Plants",
@@ -155,7 +163,7 @@
                      }
                   },
                   {
-                     "name": "Weather",
+                     "name": "weather",
                      "labels": { 
                         "de": "Wetter",
                         "en": "Weather",
@@ -163,7 +171,7 @@
                      }
                   },
                   {
-                     "name": "Physics",
+                     "name": "physics",
                      "labels": { 
                         "de": "Physik",
                         "en": "Physics",
@@ -624,7 +632,7 @@
             ],
             "resources": [
                {
-                  "name": "Text",
+                  "name": "text",
                   "labels": {
                      "de": "Text",
                      "en": "Text",
@@ -712,7 +720,7 @@
                   ]
                },               
                {
-                  "name": "Image2D",
+                  "name": "image2D",
                   "labels": {
                      "de": "2D-Bild",
                      "en": "2D image",
@@ -770,7 +778,7 @@
                   ]
                },
                {
-                  "name": "Image3D",
+                  "name": "image3D",
                   "labels": {
                      "de": "3D-Bild",
                      "en": "3D image",
@@ -828,7 +836,7 @@
                   ]
                },  
                {
-                  "name": "Audio",
+                  "name": "audio",
                   "labels": {
                      "de": "Audio",
                      "en": "Audio",
@@ -886,7 +894,7 @@
                   ]
                }, 
                {
-                  "name": "Film",
+                  "name": "film",
                   "labels": {
                      "de": "Film",
                      "en": "Film",
@@ -944,7 +952,7 @@
                   ]
                },                                               
                {
-                  "name": "Book",
+                  "name": "book",
                   "labels": {
                      "de": "Buch / Manuskript",
                      "en": "book / manuscript",
@@ -1000,8 +1008,8 @@
                   "super": "Resource",
                   "labels": {
                      "de": "Buchseite / Manuskriptseite",
-                     "en": "book page / manuscript page",
-                     "fr": "page du livre / page du manuscrit"
+                     "en": "Book page / Manuscript page",
+                     "fr": "Page du livre / Page du manuscrit"
                  },
                   "comments": [
                      "A page is a part of a book or manuscript"
@@ -1054,7 +1062,7 @@
                   ]
                },
                {
-                  "name": "Person",
+                  "name": "person",
                   "labels": {
                      "de": "Person",
                      "en": "Person",
@@ -1083,7 +1091,7 @@
                   ]
                },  
                {
-                  "name": "Institution",
+                  "name": "institution",
                   "labels": {
                      "de": "Institution",
                      "en": "Institution",
@@ -1117,7 +1125,7 @@
                   ]
                },                           
                {
-                  "name": "Object",
+                  "name": "object",
                   "labels": {
                      "de": "Objekt",
                      "en": "Object",
