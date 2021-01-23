@@ -67,7 +67,7 @@
               {
                "name": "artwork",
                "labels": { 
-                  "de": "Kustwerk",
+                  "de": "Kunstwerk",
                   "en": "Artwork",
                   "fr": "Oeuvre d'art"
                }
@@ -97,19 +97,11 @@
                         }
                      }, 
                      {
-<<<<<<< Updated upstream
-                     "name": "Animals",
-                     "labels": { 
-                        "de": "Tiere",
-                        "en": "Animals",
-                        "fr": "Animaux"  
-=======
-                        "name": "animals",
+                        "name": "Animals",
                         "labels": { 
                            "de": "Tiere",
                            "en": "Animals",
                            "fr": "Animaux"  
->>>>>>> Stashed changes
                      },
                      "nodes": [
                         {
@@ -1185,7 +1177,12 @@
                         "propname": ":hasInventoryNumber",
                         "cardinality": "0-1",
                         "gui_order": 10
-                     }                                                                               
+                     },
+                     {
+                        "propname": ":hasExternalLink",
+                        "cardinality": "0-1",
+                        "gui_order": 11
+                     }                                                                                                       
                   ]
                }               
             ]

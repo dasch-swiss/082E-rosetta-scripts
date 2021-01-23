@@ -550,6 +550,7 @@
          </uri>
       </uri-prop>
    </resource>
+   
 
    <resource label="Iliad Prooem" restype=":Image2D" id="img_obj_6" permissions="res-default">
       <image>IliadProoem.jp2</image>
@@ -1979,10 +1980,10 @@
          <text permissions="prop-default" encoding="utf8"> 
             © Goran Bregović
          </text>
-      </text-prop>   
+      </text-prop>  
       <text-prop name=":hasAnnotation">
          <text permissions="prop-default" encoding="utf8"> </text>
-      </text-prop>      
+      </text-prop>         
       <resptr-prop name=":inInstitution">
          <resptr permissions="prop-default" encoding="utf8">
          </resptr>
@@ -2051,7 +2052,7 @@
          <text permissions="prop-default" encoding="utf8"> 
             Stygimoloch
          </text>
-      </text-prop>     
+         </text-prop>
       <resptr-prop name=":hasCreator">
          <resptr permissions="prop-default" encoding="utf8">
             person_9
@@ -2133,7 +2134,11 @@
       </geoname-prop>    
       <text-prop name=":hasInventoryNumber">
          <text permissions="prop-default" encoding="utf8"></text>
-      </text-prop>       
+      </text-prop>
+      <uri-prop name=":hasExternalLink">
+          <uri permissions="prop-default">
+          </uri>
+      </uri-prop>
    </resource>
 <<<<<<< Updated upstream
    
