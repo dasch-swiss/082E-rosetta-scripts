@@ -201,6 +201,23 @@
             "label": "The rosetta ontology",
             "properties": [
                {
+                  "name": "hasText",
+                  "super": [
+                     "hasValue"
+                  ],
+                  "object": "TextValue",
+                  "labels": {
+                     "de": "hat einen Text",
+                     "en": "Has a text",
+                     "fr": "un texte"
+                  },
+                  "gui_element": "SimpleText",
+                  "gui_attributes": {
+                     "maxlength": "128",
+                     "size": 32
+                  }
+               },
+               {
                   "name": "hasTextMedium",
                   "super": [
                      "hasLinkTo"
@@ -302,7 +319,7 @@
                {
                   "name": "hasAuthor",
                   "super": [
-                     "hasValue",
+                     "hasLinkTo",
                      "dcterms:creator"
                   ],
                   "object": ":Person",
@@ -311,10 +328,9 @@
                      "en": "Author",
                      "fr": "Auteur"
                    },
-                  "gui_element": "SimpleText",
+                  "gui_element": "Searchbox",
                   "gui_attributes": {
-                     "maxlength": "255",
-                     "size": 80
+                     "numprops": 1
                   }
                },
                {
@@ -412,6 +428,7 @@
                      "en": "Literature",
                      "fr": "Littérature"
                    },
+                  "gui_element": "SimpleText",
                   "gui_attributes": {
                      "maxlength": "128",
                      "size": 128
@@ -420,14 +437,15 @@
                {
                   "name": "hasExternalLink",
                   "super": [
-                     "hasLinkTo"
+                     "hasValue"
                   ],
-                  "object": "URIValue",
+                  "object": "UriValue",
                   "labels": {
                      "de": "Externer Link",
                      "en": "External link",
                      "fr": "Lien hypertexte externe"
                    },
+                  "gui_element": "SimpleText",
                   "gui_attributes": {
                      "maxlength": "128",
                      "size": 128
@@ -436,14 +454,15 @@
                {
                   "name": "hasIdentifier",
                   "super": [
-                     "hasLinkTo"
+                     "hasValue"
                   ],
-                  "object": "URIValue",
+                  "object": "UriValue",
                   "labels": {
                      "de": "GND",
                      "en": "GND",
                      "fr": "GND"
-                   },
+                  },
+                  "gui_element": "SimpleText",
                   "gui_attributes": {
                      "maxlength": "128",
                      "size": 128
@@ -454,11 +473,7 @@
                   "super": [
                      "hasLinkTo"
                   ],
-                  "object": [
-                     ":Book",
-                     ":Images",
-                     ":Audios"
-                  ],                  
+                  "object": "Resource",
                   "labels": {
                      "de": "Verwandtes Werk",
                      "en": "Related Artwork",
@@ -472,7 +487,7 @@
                {
                   "name": "hasCreator",
                   "super": [
-                     "hasValue",
+                     "hasLinkTo",
                      "dcterms:creator"
                   ],
                   "object": ":Person",
@@ -481,11 +496,7 @@
                      "en": "Artist",
                      "fr": "Artiste"
                    },
-                  "gui_element": "SimpleText",
-                  "gui_attributes": {
-                     "maxlength": "255",
-                     "size": 80
-                  }
+                  "gui_element": "Searchbox"
                },
                {
                   "name": "inInstitution",
@@ -548,7 +559,10 @@
                      "en": "is part of",
                      "fr": "fait partie de"
                    },
-                  "gui_element": "Searchbox"
+                  "gui_element": "Searchbox",
+                  "gui_attributes": {
+                     "numprops": 1
+                  }
                },
                {
                   "name": "hasCategory",
@@ -561,22 +575,23 @@
                   "en": "Category",
                   "fr": "Catégorie"
                   },
-                  "gui_element": {
-                  "hlist": "category"
+                  "gui_element": "Pulldown",
+                  "gui_attributes": {
+                     "hlist": "category"
                   }
                },                
                {
                   "name": "hasAnnotation",
                   "super": [
-                     "hasValue"
+                     "hasLinkTo"
                   ],
                   "object": "Annotation",
                   "labels": {
-                  "de": "Annotation",
-                  "en": "Annotation",
-                  "fr": "Annotation"
+                     "de": "Annotation",
+                     "en": "Annotation",
+                     "fr": "Annotation"
                   },
-                  "gui_element": "Richtext"
+                  "gui_element": "Searchbox"
                },                    
                {
                   "name": "hasColor",
@@ -630,9 +645,7 @@
                      "en": "Text",
                      "fr": "Texte"
                    },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "no comment",
                   "super": "Resource",
                   "cardinalities": [
                      {
@@ -712,15 +725,13 @@
                   ]
                },               
                {
-                  "name": "image2D",
+                  "name": "Image2D",
                   "labels": {
                      "de": "2D-Bild",
                      "en": "2D image",
                      "fr": "image 2D"
                    },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "StillImageRepresentation",
                   "cardinalities": [
                      {
@@ -770,15 +781,13 @@
                   ]
                },
                {
-                  "name": "image3D",
+                  "name": "Image3D",
                   "labels": {
                      "de": "3D-Bild",
                      "en": "3D image",
                      "fr": "image 3D"
                    },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "DDDRepresentation",
                   "cardinalities": [
                      {
@@ -828,15 +837,13 @@
                   ]
                },  
                {
-                  "name": "audio",
+                  "name": "Audio",
                   "labels": {
                      "de": "Audio",
                      "en": "Audio",
                      "fr": "Audio"
                    },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "AudioRepresentation",
                   "cardinalities": [
                      {
@@ -886,15 +893,13 @@
                   ]
                }, 
                {
-                  "name": "film",
+                  "name": "Film",
                   "labels": {
                      "de": "Film",
                      "en": "Film",
                      "fr": "Film"
                    },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "MovingImageRepresentation",
                   "cardinalities": [
                      {
@@ -944,7 +949,7 @@
                   ]
                },                                               
                {
-                  "name": "book",
+                  "name": "Book",
                   "labels": {
                      "de": "Buch / Manuskript",
                      "en": "book / manuscript",
@@ -996,16 +1001,14 @@
                   ]
                },
                {
-                  "name": "page",
+                  "name": "Page",
                   "super": "Resource",
                   "labels": {
                      "de": "Buchseite / Manuskriptseite",
                      "en": "Book page / Manuscript page",
                      "fr": "Page du livre / Page du manuscrit"
                  },
-                  "comments": [
-                     "A page is a part of a book or manuscript"
-                  ],
+                  "comments": "A page is a part of a book or manuscript",
                   "cardinalities": [
                      {
                         "propname": ":hasTextMedium",
@@ -1054,15 +1057,13 @@
                   ]
                },
                {
-                  "name": "person",
+                  "name": "Person",
                   "labels": {
                      "de": "Person",
                      "en": "Person",
                      "fr": "Personne"
                  },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "Resource",
                   "cardinalities": [
                      {
@@ -1083,15 +1084,13 @@
                   ]
                },  
                {
-                  "name": "institution",
+                  "name": "Institution",
                   "labels": {
                      "de": "Institution",
                      "en": "Institution",
                      "fr": "Institution"
                  },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "Resource",
                   "cardinalities": [
                      {
@@ -1123,9 +1122,7 @@
                      "en": "Object",
                      "fr": "Objet"
                  },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "Resource",
                   "cardinalities": [
                      {
