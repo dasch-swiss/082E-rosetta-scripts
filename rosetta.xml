@@ -37,6 +37,9 @@
             http://d-nb.info/gnd/11855333X
          </uri>
       </uri-prop>
+      <integer-prop name=":hasChildren">
+         <integer> </integer>
+      </integer-prop>     
       <uri-prop name=":hasExternalLink">
          <uri permissions="prop-default">
             https://en.wikipedia.org/wiki/Homer
@@ -52,6 +55,9 @@
             http://d-nb.info/gnd/118570994
          </uri>
       </uri-prop>
+      <integer-prop name=":hasChildren">
+         <integer> </integer>
+      </integer-prop>        
       <uri-prop name=":hasExternalLink">
          <uri permissions="prop-default">
             http://fr.wikipedia.org/wiki/Fernand_Léger
@@ -67,6 +73,9 @@
             http://d-nb.info/gnd/119116294
          </uri>
       </uri-prop>
+      <integer-prop name=":hasChildren">
+         <integer> </integer>
+      </integer-prop>   
       <uri-prop name=":hasExternalLink">
          <uri permissions="prop-default">
             https://en.wikipedia.org/wiki/Francis_Danby
@@ -82,6 +91,9 @@
             http://d-nb.info/gnd/118530062
          </uri>
       </uri-prop>
+      <integer-prop name=":hasChildren">
+         <integer> 1 </integer>
+      </integer-prop>   
       <uri-prop name=":hasExternalLink">
          <uri permissions="prop-default">
             https://fr.wikipedia.org/wiki/Paul_%C3%89luard
@@ -96,7 +108,10 @@
          <uri> 
             http://d-nb.info/gnd/118653369
          </uri>
-      </uri-prop>
+      </uri-prop>        
+      <integer-prop name=":hasChildren">
+         <integer> </integer>
+      </integer-prop>          
       <uri-prop name=":hasExternalLink">
          <uri permissions="prop-default">
             https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D
@@ -110,8 +125,11 @@
       <uri-prop name=":hasIdentifier">
          <uri> 
             http://d-nb.info/gnd/118724886
-         </uri>
+         </uri>        
       </uri-prop>
+      <integer-prop name=":hasChildren">
+         <integer> </integer>
+      </integer-prop>       
       <uri-prop name=":hasExternalLink">
          <uri permissions="prop-default">
             https://en.wikipedia.org/wiki/Ivan_Krylov
@@ -127,6 +145,9 @@
             http://d-nb.info/gnd/1148770291
          </uri>
       </uri-prop>
+      <integer-prop name=":hasChildren">
+         <integer> </integer>
+      </integer-prop>          
       <uri-prop name=":hasExternalLink">
          <uri permissions="prop-default">          
          </uri>
@@ -141,6 +162,9 @@
             http://d-nb.info/gnd/123552095
          </uri>
       </uri-prop>
+      <integer-prop name=":hasChildren">
+         <integer> 4 </integer>
+      </integer-prop>         
       <uri-prop name=":hasExternalLink">
          <uri permissions="prop-default">   
             https://en.wikipedia.org/wiki/Goran_Bregovi%C4%87
@@ -155,6 +179,9 @@
          <uri> 
          </uri>
       </uri-prop>
+      <integer-prop name=":hasChildren">
+         <integer> </integer>
+      </integer-prop>              
       <uri-prop name=":hasExternalLink">
          <uri permissions="prop-default">   
             http://www.beachfrontbroll.com
@@ -169,6 +196,9 @@
          <uri> 
          </uri>
       </uri-prop>
+      <integer-prop name=":hasChildren">
+         <integer> </integer>
+      </integer-prop>         
       <uri-prop name=":hasExternalLink">
          <uri permissions="prop-default">   
             https://sketchfab.com/D.art
@@ -565,21 +595,21 @@
          <date permissions="prop-default"></date>
       </date-prop>
       <text-prop name=":hasDescription" encoding="xml">
-         <text> This is Iliad Prooem.
+         <text> This page shows the prooem of the Iliad in Greek manuscript 1397 in St. Catherine's Monastery on Mount Sinai.
          </text>
       </text-prop>
       <text-prop name=":hasCopyright">
-         <text> © Unknown </text>
+         <text> © Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai. </text>
       </text-prop>
       <text-prop name=":hasAnnotation">
          <text> </text>
       </text-prop>
       <resptr-prop name=":inInstitution">
-         <resptr permissions="prop-default" encoding="utf8">
+         <resptr permissions="prop-default" encoding="utf8"> inst_3
          </resptr>
       </resptr-prop>
       <geoname-prop name=":hasLocation">
-         <geoname permissions="prop-default" comment=""> </geoname>
+         <geoname permissions="prop-default" comment="Mount Sinai"> 350564 </geoname>
       </geoname-prop>
       <uri-prop name=":hasExternalLink">
          <uri permissions="prop-default"> 
@@ -587,10 +617,10 @@
       </uri-prop>
    </resource>
 
-   <resource label="Gibbeon Meteorite" restype=":Image2D" id="img_obj_7" permissions="res-default">
+   <resource label="Gibeon Meteorite" restype=":Image2D" id="img_obj_7" permissions="res-default">
       <image>GibbeonMeteorite.jpg</image>
       <text-prop name=":hasTitle">
-         <text> Gibbeon Meteorite </text>
+         <text> Gibeon Meteorite </text>
       </text-prop>
       <resptr-prop name=":hasCreator">
          <resptr permissions="prop-default" encoding="utf8">
@@ -600,11 +630,11 @@
          <date permissions="prop-default"></date>
       </date-prop>
       <text-prop name=":hasDescription" encoding="xml">
-         <text> This is Gibbeon Meteorite.
+         <text> This is a polished piece of the Gibeon Meteorite which shows nice Widmanstätten patterns.
          </text>
       </text-prop>
       <text-prop name=":hasCopyright">
-         <text> © Unknown </text>
+         <text> © Rita Gautschy </text>
       </text-prop>
       <text-prop name=":hasAnnotation">
          <text> </text>
@@ -614,45 +644,45 @@
          </resptr>
       </resptr-prop>
       <geoname-prop name=":hasLocation">
-         <geoname permissions="prop-default" comment=""> </geoname>
+         <geoname permissions="prop-default" comment="Gibeon, Namibia"> 3357293 </geoname>
       </geoname-prop>
       <uri-prop name=":hasExternalLink">
-         <uri permissions="prop-default"> 
+         <uri permissions="prop-default"> https://en.wikipedia.org/wiki/Gibeon_(meteorite)
          </uri>
       </uri-prop>
    </resource>
 
-   <resource label="Dendera Neujahr" restype=":Image2D" id="img_obj_8" permissions="res-default">
+   <resource label="Dendera New Year" restype=":Image2D" id="img_obj_8" permissions="res-default">
       <image>DenderaNeujahr.png</image>
       <text-prop name=":hasTitle">
-         <text> Dendera Neujahr </text>
+         <text> New Year's inscription from Dendera </text>
       </text-prop>
       <resptr-prop name=":hasCreator">
          <resptr permissions="prop-default" encoding="utf8">
          </resptr>
       </resptr-prop>
       <date-prop name=":hasDate">
-         <date permissions="prop-default"></date>
+         <date permissions="prop-default">JULIAN:CE:0054:BC:0042</date>
       </date-prop>
       <text-prop name=":hasDescription" encoding="xml">
-         <text> This is Dendera Neujahr.
+         <text> This is a copy of the so-called New Year's inscription in the Temple of Dendera in Egypt.
          </text>
       </text-prop>
       <text-prop name=":hasCopyright">
-         <text> © Unknown </text>
+         <text> © Alexa Rickert. </text>
       </text-prop>
       <text-prop name=":hasAnnotation">
          <text> </text>
       </text-prop>
       <resptr-prop name=":inInstitution">
-         <resptr permissions="prop-default" encoding="utf8">
+         <resptr permissions="prop-default" encoding="utf8">inst_6 
          </resptr>
       </resptr-prop>
       <geoname-prop name=":hasLocation">
-         <geoname permissions="prop-default" comment=""> </geoname>
+         <geoname permissions="prop-default" comment="Dendera, Egypt"> 358422</geoname>
       </geoname-prop>
       <uri-prop name=":hasExternalLink">
-         <uri permissions="prop-default"> 
+         <uri permissions="prop-default"> https://sailingstonetravel.com/dendera-temple-of-hathor/
          </uri>
       </uri-prop>
    </resource>
@@ -687,7 +717,7 @@
             qer-bu-uš [a-n]a ša₂-kan a-bu-bi ub-⸢la⸣ lib₃-ba-šu₂-nu DINGIR.MEŠ GAL.MEŠ [it]-ma-ma
             AD-šu₂-nu <sup>d</sup>a-num 〈:〉 ma-lik-šu₂-nu qu-ra-du <sup>d</sup>en-lil₂
             [g]u-za-la₂-šu₂-nu <sup>d</sup>nin-urta 〈:〉 gu₂-⸢gal-la⸣-šu₂-nu <sup>d</sup>en-nu-gi
-            dnin-ši-ku₃ <sup>d</sup>e₂-a it-ti-šu₂-nu ta-mi₃-ma a-mat-su-nu u₂-ša₂-an-na-a a-na
+            <sup>d</sup>nin-ši-ku₃ <sup>d</sup>e₂-a it-ti-šu₂-nu ta-mi₃-ma a-mat-su-nu u₂-ša₂-an-na-a a-na
             ki-ik-ki-šu₂ </text>
       </text-prop>
       <text-prop name=":hasTransliteration">
@@ -696,9 +726,9 @@
             kî iatima atta ⸢gummurka⸣ libbi ana epeš tuqunti [x]x aḫi ⸢nada⸣t elu ṣerika [att]a
             ⸢kikî⸣ tazzizma ina puḫur ilī balaṭa tēšu Utnapištim ana šašuma izzakkara ana Gišgimmaš
             lupteka Gišgimmaš amat niṣirti u pirišti ša ilī kāša luqbika Šurippak ālu ša tidušu atta
-            ā[lu? ša ina kišā]d puratti šaknu āl[u] šû labirma ilū qerbu⸢šu⸣ [an]a šakan abubi ubl
+            ā[lu? ša ina kišā]d puratti šaknu āl[u] šû labirma ilū qerbu⸢šu⸣ [an]a šakan abubi ubla
             libbašunu ilī rabûti [it]mama abušunu Anum malikšunu quradu Enlil [g]uzalašunu Ninurta
-            guu⸢galla⸣šunu Ennugi Ninšiku Ea ittišunu tamima amatsunu ušannâ ana kikkišu </text>
+            gu⸢galla⸣šunu Ennugi Ninšiku Ea ittišunu tamima amatsunu ušannâ ana kikkišu </text>
       </text-prop>
       <text-prop name=":hasTranslation">
          <text permissions="prop-default" encoding="utf8"> Gilgamesch sprach zu ihm, zum fernen
@@ -852,7 +882,7 @@
       <text-prop name=":hasTransliteration">
          <text permissions="prop-default" encoding="utf8">
             p.t m ḥb ndb{w} m rš.wt ḏr ẖnm nbw.t stw.t i͗t=s i͗j=s m ḥtp r pr=s m ḥʿʿ(.wt) m ḥb=s nfr wp rnp.t mi͗t.t 
-            i͗sk m ḥb.w tp tr.w r-sꜣ ẖnm mꜢ.wt n(.t) I͗Ꜣḫw nswt ḏs=f ḥr kꜢp n=s Ꜥntw ḥr snṯr pr=s m sṯi͗-nṯr ḥr ḏsr 
+            i͗sk m ḥb.w tp tr.w r-sꜣ ẖnm mꜢ.wt n(.t) I͗Ꜣḫw nswt ḏs=f ḥr kꜢp n=s ʿntw ḥr snṯr pr=s m sṯi͗-nṯr ḥr ḏsr 
             ḥw.t-nṯr=s m ʿšꜢw wr ḥr ms n=s ʿꜢb.t ʿꜢ.t tꜢ ḥnq.t wr.tw ḫr-m-m=sn
          </text>
       </text-prop>
@@ -902,7 +932,7 @@
 
    <resource label="Liberté" restype=":Text" id="text_obj_3" permissions="res-default">
       <resptr-prop name=":hasTextMedium">
-         <resptr permissions="prop-default"> img_obj_XY </resptr>
+         <resptr permissions="prop-default"> </resptr>
       </resptr-prop>
       <resptr-prop name=":hasAuthor">
          <resptr permissions="prop-default" encoding="utf8">
@@ -1175,7 +1205,7 @@
 
    <resource label="Dragonfly and Ant" restype=":Text" id="text_obj_4" permissions="res-default">
       <resptr-prop name=":hasTextMedium">
-         <resptr permissions="prop-default"> img_obj_XY </resptr>
+         <resptr permissions="prop-default"> </resptr>
       </resptr-prop>
       <resptr-prop name=":hasAuthor">
          <resptr permissions="prop-default" encoding="utf8">
@@ -1404,7 +1434,7 @@
    
    <resource label="Hasad" restype=":Text" id="text_obj_6" permissions="res-default">
       <resptr-prop name=":hasTextMedium">
-         <resptr permissions="prop-default"> img_obj_XY </resptr>
+         <resptr permissions="prop-default"> </resptr>
       </resptr-prop>
       <resptr-prop name=":hasAuthor">
          <resptr permissions="prop-default" encoding="utf8">
@@ -1486,15 +1516,125 @@
       </resptr-prop>
    </resource>
 
-<<<<<<< Updated upstream
    <!-- Book: -->
    <resource label="Iliad" restype=":Book" id="book_obj_0"
       permissions="res-default">
-=======
-<!-- :Text for Audio -->
-  <resource label="EderleziText" restype=":Text" id="text_obj_7" permissions="res-default">
+      <text-prop name=":hasTitle">
+         <text permissions="prop-default" encoding="utf8"> 
+            Greek Manuscripts from 1397. Iliad (I-V).
+         </text>
+      </text-prop>   
+      <text-prop name=":hasDescription">
+         <text permissions="prop-default" encoding="utf8">   
+            Manuscript containing the Iliad of Homer kept in St. Catherine's Monastery in Mt. Sinai. 
+         </text>
+      </text-prop>  
+      <resptr-prop name=":hasAuthor">
+         <resptr permissions="prop-default" encoding="utf8">
+            person_0
+         </resptr>
+      </resptr-prop>
+      <date-prop name=":hasDate">
+         <date permissions="prop-default">GREGORIAN:CE:1700:CE:1799</date>
+      </date-prop>     
+      <resptr-prop name=":inInstitution">
+         <resptr permissions="prop-default" encoding="utf8">
+            inst_0
+         </resptr>
+      </resptr-prop> 
+      <geoname-prop name=":hasLocation">
+         <geoname permissions="prop-default" comment="Mt. Sinai">
+            350564
+         </geoname>
+      </geoname-prop>
+      <text-prop name=":hasCopyright">
+         <text permissions="prop-default" encoding="utf8"> 
+            Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai.
+         </text>
+      </text-prop>
+      <uri-prop name=":hasExternalLink">
+         <uri permissions="prop-default"> 
+            www.loc.gov/item/00279382687-ms/
+         </uri>
+      </uri-prop>
+   </resource>
+   
+   <!-- Page: -->
+   <resource label="Iliad, Prooem" restype=":Page" id="page_obj_0"
+      permissions="res-default"> 
+      <text-prop name=":hasTextMedium">
+         <image> IliadProoem.jp2 </image>
+      </text-prop>
+      <text-prop name=":hasPagenum">
+         <text permissions="prop-default" encoding="utf8">
+            3
+         </text>
+      </text-prop>
+      <text-prop name=":hasDescription">
+         <text permissions="prop-default" encoding="utf8">   
+            Page which contains the prooem of the Iliad of Homer. 
+         </text>
+      </text-prop>   
+      <resptr-prop name=":partOf">
+         <resptr permissions="prop-default">
+            book_obj_0
+         </resptr>
+      </resptr-prop>
+      <text-prop name=":hasTranscription">
+         <text permissions="prop-default" encoding="utf8">
+            μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος
+            οὐλομένην, ἥ μυρί’ Ἀχαιοῖς ἄλγε’ ἔθηκε,
+            πολλὰς δ’ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν
+            ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν
+            οἰωνοῖσί τε πᾶσι, Διὸς δ’ ἐτελείετο βουλή,
+            ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε
+            Ἂτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεὺς.
+         </text>
+      </text-prop>
+      <text-prop name=":hasTransliteration">
+         <text permissions="prop-default" encoding="utf8">
+            Mẹ̄nin aeịde, theạ, Pēlẹ̄iadeọ̄ Achilẹ̄os
+            Oụlomenẹ̄n, hē mỵri' Achaịois ạlge' ethẹ̄ke,
+            pọllas d' ịphthimoụs psychạs Hadị proiạpsen
+            hẹ̄rōọ̄n, autoụs de helọ̄ria teụche kynẹssin
+            oịōnoịsi te pạsi, Diọs, d' eteleịeto boụlē,
+            ẹx hou dẹ̄ ta prọ̄ta diạstētẹ̄n erisạnte
+            Ạtreidẹ̄s te anạx andrọ̄n kai dịos Achịlleus
+         </text>
+      </text-prop>
+      <text-prop name=":hasTranslation">
+         <text permissions="prop-default" encoding="utf8"> 
+            Singe den Zorn, o Göttin, des Peleiaden Achilleus,
+            Ihn, der entbrannt den Achaiern unnennbaren Jammer erregte,
+            Und viel tapfere Seelen der Heldensöhne zum Aïs
+            Sendete, aber sie selbst zum Raub darstellte den Hunden,
+            Und dem Gevögel umher. So ward Zeus Wille vollendet:
+            Seit dem Tag, als erst durch bitteren Zank sich entzweiten
+            Atreus Sohn, der Herrscher des Volks, und der edle Achilleus.
+         </text>
+         <text permissions="prop-default" encoding="utf8">
+            Sing, O goddess, the anger of Achilles son of Peleus, that brought 
+            countless ills upon the Achaeans. Many a brave soul did it send 
+            hurrying down to Hades, and many a hero did it yield a prey to dogs 
+            and vultures, for so were the counsels of Jove fulfilled from the day 
+            on which the son of Atreus, king of men, and great Achilles, first 
+            fell out with one another.
+         </text>
+      </text-prop>
+      <text-prop name=":hasBibliographicReference">
+         <text permissions="prop-default" encoding="utf8">
+            Homer, Greek Manuscripts, Iliad I-V, 1700. Manuscript/Mixed Material. Retrieved from the Library of Congress (www.loc.gov/item/00279382687-ms/).
+         </text>
+      </text-prop>         
+      <text-prop name=":hasAnnotation">
+         <text permissions="prop-default" encoding="utf8"> </text>
+      </text-prop>
+   </resource>      
+
+   <!-- :Text for Audio -->
+   <resource label="EderleziText" restype=":Text" id="text_obj_7" permissions="res-default">
       <resptr-prop name=":hasTextMedium">
-         <resptr permissions="prop-default"> audio_XY </resptr>
+         <resptr permissions="prop-default"> </resptr>
       </resptr-prop>
       <resptr-prop name=":hasAuthor">
          <resptr permissions="prop-default" encoding="utf8">
@@ -1840,120 +1980,6 @@
          </resptr>
       </resptr-prop>
    </resource>
-
-   <!-- :Book -->
-   <resource label="Iliad" restype=":Book" id="book_obj_0" permissions="res-default">
->>>>>>> Stashed changes
-      <text-prop name=":hasTitle">
-         <text permissions="prop-default" encoding="utf8"> 
-            Greek Manuscripts from 1397. Iliad (I-V).
-         </text>
-      </text-prop>   
-      <text-prop name=":hasDescription">
-         <text permissions="prop-default" encoding="utf8">   
-            Manuscript containing the Iliad of Homer kept in St. Catherine's Monastery in Mt. Sinai. 
-         </text>
-      </text-prop>  
-      <resptr-prop name=":hasAuthor">
-         <resptr permissions="prop-default" encoding="utf8">
-            person_0
-         </resptr>
-      </resptr-prop>
-      <date-prop name=":hasDate">
-         <date permissions="prop-default">GREGORIAN:CE:1700:CE:1799</date>
-      </date-prop>     
-      <resptr-prop name=":inInstitution">
-         <resptr permissions="prop-default" encoding="utf8">
-            inst_0
-         </resptr>
-      </resptr-prop> 
-      <geoname-prop name=":hasLocation">
-         <geoname permissions="prop-default" comment="Mt. Sinai">
-            350564
-         </geoname>
-      </geoname-prop>
-      <text-prop name=":hasCopyright">
-         <text permissions="prop-default" encoding="utf8"> 
-            Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai.
-         </text>
-      </text-prop>
-      <uri-prop name=":hasExternalLink">
-         <uri permissions="prop-default"> 
-            www.loc.gov/item/00279382687-ms/
-         </uri>
-      </uri-prop>
-   </resource>
-
-   <!-- :Page -->
-   <resource label="Iliad, Prooem" restype=":Page" id="page_obj_0" permissions="res-default">  
-      <resptr-prop name=":hasTextMedium">
-         <resptr permissions="prop-default"> img_obj_6 </resptr>
-      </resptr-prop>
-      <text-prop name=":hasPagenum">
-         <text permissions="prop-default" encoding="utf8">
-            3
-         </text>
-      </text-prop>
-      <text-prop name=":hasDescription">
-         <text permissions="prop-default" encoding="utf8">   
-            Page which contains the prooem of the Iliad of Homer. 
-         </text>
-      </text-prop>   
-      <resptr-prop name=":partOf">
-         <resptr permissions="prop-default">
-            book_obj_0
-         </resptr>
-      </resptr-prop>
-      <text-prop name=":hasTranscription">
-         <text permissions="prop-default" encoding="utf8">
-            μῆνιν ἄειδε θεὰ Πηληϊάδεω Ἀχιλῆος
-            οὐλομένην, ἥ μυρί’ Ἀχαιοῖς ἄλγε’ ἔθηκε,
-            πολλὰς δ’ ἰφθίμους ψυχὰς Ἄϊδι προΐαψεν
-            ἡρώων, αὐτοὺς δὲ ἑλώρια τεῦχε κύνεσσιν
-            οἰωνοῖσί τε πᾶσι, Διὸς δ’ ἐτελείετο βουλή,
-            ἐξ οὗ δὴ τὰ πρῶτα διαστήτην ἐρίσαντε
-            Ἂτρεΐδης τε ἄναξ ἀνδρῶν καὶ δῖος Ἀχιλλεὺς.
-         </text>
-      </text-prop>
-      <text-prop name=":hasTransliteration">
-         <text permissions="prop-default" encoding="utf8">
-            Mẹ̄nin aeịde, theạ, Pēlẹ̄iadeọ̄ Achilẹ̄os
-            Oụlomenẹ̄n, hē mỵri' Achaịois ạlge' ethẹ̄ke,
-            pọllas d' ịphthimoụs psychạs Hadị proiạpsen
-            hẹ̄rōọ̄n, autoụs de helọ̄ria teụche kynẹssin
-            oịōnoịsi te pạsi, Diọs, d' eteleịeto boụlē,
-            ẹx hou dẹ̄ ta prọ̄ta diạstētẹ̄n erisạnte
-            Ạtreidẹ̄s te anạx andrọ̄n kai dịos Achịlleus
-         </text>
-      </text-prop>
-      <text-prop name=":hasTranslation">
-         <text permissions="prop-default" encoding="utf8"> 
-            Singe den Zorn, o Göttin, des Peleiaden Achilleus,
-            Ihn, der entbrannt den Achaiern unnennbaren Jammer erregte,
-            Und viel tapfere Seelen der Heldensöhne zum Aïs
-            Sendete, aber sie selbst zum Raub darstellte den Hunden,
-            Und dem Gevögel umher. So ward Zeus Wille vollendet:
-            Seit dem Tag, als erst durch bitteren Zank sich entzweiten
-            Atreus Sohn, der Herrscher des Volks, und der edle Achilleus.
-         </text>
-         <text permissions="prop-default" encoding="utf8">
-            Sing, O goddess, the anger of Achilles son of Peleus, that brought 
-            countless ills upon the Achaeans. Many a brave soul did it send 
-            hurrying down to Hades, and many a hero did it yield a prey to dogs 
-            and vultures, for so were the counsels of Jove fulfilled from the day 
-            on which the son of Atreus, king of men, and great Achilles, first 
-            fell out with one another.
-         </text>
-      </text-prop>
-      <text-prop name=":hasBibliographicReference">
-         <text permissions="prop-default" encoding="utf8">
-            Homer, Greek Manuscripts, Iliad I-V, 1700. Manuscript/Mixed Material. Retrieved from the Library of Congress (www.loc.gov/item/00279382687-ms/).
-         </text>
-      </text-prop>         
-      <text-prop name=":hasAnnotation">
-         <text permissions="prop-default" encoding="utf8"> </text>
-      </text-prop>
-   </resource>
    
    <!-- :Audio -->
    <resource label="Ederlezi" restype=":Audio" id="audio_obj_0" permissions="res-default"> 
@@ -2113,6 +2139,9 @@
             They are called Bengals. It is very curious, loves to play with water and to
             talk a lot.</text>
       </text-prop>  
+      <decimal-prop name=":hasWeight">
+         <decimal permissions="prop-default">4.8</decimal>
+      </decimal-prop>
       <resptr-prop name=":hasCreator">
          <resptr permissions="prop-default" encoding="utf8">
          </resptr>
@@ -2123,7 +2152,10 @@
       </geoname-prop>
       <date-prop name=":hasDate">
          <date permissions="prop-default"></date>
-      </date-prop>   
+      </date-prop>  
+      <interval-prop name=":hasInterval">
+         <interval permissions="prop-default">2017:2030</interval>
+      </interval-prop>      
       <resptr-prop name=":inInstitution">
          <resptr permissions="prop-default" encoding="utf8">
          </resptr>
@@ -2135,16 +2167,25 @@
       <text-prop name=":hasInventoryNumber">
          <text permissions="prop-default" encoding="utf8"></text>
       </text-prop>
+      <boolean-prop name=":isPublic">
+         <boolean permissions="prop-default">true</boolean>
+      </boolean-prop>
+      <region-prop name=":hasRegion">
+         <region permissions="prop-default"></region>
+      </region-prop> 
+      <geometry-prop name=":hasGeometry">
+         <geometry permissions="prop-default"> </geometry>
+      </geometry-prop>  
+      <color-prop name=":hasColor">
+         <color permissions="prop-default" >#f5f5dc</color>
+      </color-prop>      
       <uri-prop name=":hasExternalLink">
           <uri permissions="prop-default">
           </uri>
       </uri-prop>
    </resource>
-<<<<<<< Updated upstream
-   
-=======
 
-<resource label="meteorite" restype=":Object" id="obj_1" permissions="res-default">        
+   <resource label="meteorite" restype=":Object" id="obj_1" permissions="res-default">        
       <resptr-prop name=":hasImage">
          <resptr permissions="prop-default"> img_obj_7 </resptr>
       </resptr-prop>
@@ -2164,6 +2205,9 @@
              on Earth.
           </text>
       </text-prop>  
+      <decimal-prop name=":hasWeight">
+         <decimal permissions="prop-default">0.3</decimal>
+      </decimal-prop>
       <resptr-prop name=":hasCreator">
          <resptr permissions="prop-default" encoding="utf8">
          </resptr>
@@ -2175,8 +2219,10 @@
       </geoname-prop>
       <date-prop name=":hasDate">
          <date permissions="prop-default"></date>
-         JULIAN:BC:28000:BC:11000
-      </date-prop>   
+      </date-prop> 
+      <interval-prop name=":hasInterval">
+         <interval permissions="prop-default">-28000:2021</interval>
+      </interval-prop>   
       <resptr-prop name=":inInstitution">
          <resptr permissions="prop-default" encoding="utf8">
          </resptr>
@@ -2188,15 +2234,27 @@
       <text-prop name=":hasInventoryNumber">
          <text permissions="prop-default" encoding="utf8"></text>
       </text-prop>
+      <boolean-prop name=":isPublic">
+         <boolean permissions="prop-default">true</boolean>
+      </boolean-prop> 
+      <region-prop name=":hasRegion">
+         <region permissions="prop-default"></region>
+      </region-prop>   
+      <geometry-prop name=":hasGeometry">
+         <geometry permissions="prop-default"> </geometry>
+      </geometry-prop>      
+      <color-prop name=":hasColor">
+         <color permissions="prop-default" >#808080</color>
+      </color-prop>     
       <uri-prop name=":hasExternalLink">
          <uri permissions="prop-default">
          </uri>
       </uri-prop>
    </resource>
 
-<resource label="lekythos" restype=":Object" id="obj_2" permissions="res-default">
+   <resource label="lekythos" restype=":Object" id="obj_2" permissions="res-default">
       <resptr-prop name=":hasImage">
-         <resptr permissions="prop-default"> img_obj_XY </resptr>
+         <resptr permissions="prop-default">  </resptr>
       </resptr-prop>
       <list-prop list="category" name=":hasCategory">
          <list permissions="prop-default">Artwork</list>
@@ -2209,6 +2267,9 @@
              Attic red-figured lekythos which depicts a Festival of Adonis. Winged Eros with an incense burner stands on a ladder between women. This vessel was found in a cemetery in Naucratis, Egypt.
           </text>
       </text-prop>
+      <decimal-prop name=":hasWeight">
+         <decimal permissions="prop-default">0.5</decimal>
+      </decimal-prop>  
       <resptr-prop name=":hasCreator">
          <resptr permissions="prop-default" encoding="utf8">
          </resptr>
@@ -2222,6 +2283,9 @@
          <date permissions="prop-default"></date>
          JULIAN:BC:0400:BC:0380
       </date-prop>
+      <interval-prop name=":hasInterval">
+         <interval permissions="prop-default">-400:-380</interval>
+      </interval-prop>   
       <resptr-prop name=":inInstitution">
          <resptr permissions="prop-default" encoding="utf8">
              inst_0
@@ -2237,12 +2301,71 @@
              1888,0601.716
          </text>
       </text-prop>
+      <boolean-prop name=":isPublic">
+         <boolean permissions="prop-default">true</boolean>
+      </boolean-prop> 
+      <region-prop name=":hasRegion">
+         <region permissions="prop-default"></region>
+      </region-prop> 
+      <geometry-prop name=":hasGeometry">
+         <geometry permissions="prop-default">
+            {
+            "status":"active",
+            "lineColor":"#ff3333",
+            "lineWidth":2,
+            "points":[
+            {"x":0.08098591549295775,"y":0.16741071428571427},
+            {"x":0.7394366197183099,"y":0.7299107142857143}],
+            "type":"rectangle",
+            "original_index":0
+            }
+         </geometry>
+      </geometry-prop>   
+      <color-prop name=":hasColor">
+         <color permissions="prop-default" >#5d1f1e</color>
+      </color-prop>   
       <uri-prop name=":hasExternalLink">
          <uri permissions="prop-default">
              https://www.britishmuseum.org/collection/object/G_1888-0601-716
          </uri>
       </uri-prop>
    </resource>
+   
+   <!-- :Document -->  
+   <resource label="RosettaPDF" restype=":Document" id="doc_001" permissions="res-default">
+      <bitstream>TestprojectRosetta.pdf</bitstream>
+      <text-prop name=":hasName">
+         <text permissions="prop-default" encoding="utf8">Test project Rosetta</text>
+      </text-prop>
+      <text-prop name=":hasDescription">
+         <text permissions="prop-default" encoding="utf8">
+            This is a pdf-file which contains the data model of the test project Rosetta.
+         </text>
+      </text-prop>  
+   </resource>
 
->>>>>>> Stashed changes
+   <resource label="RosettaCSV" restype=":Document" id="doc_002" permissions="res-default">
+      <bitstream>RosettaCategoryList.csv</bitstream>
+      <text-prop name=":hasName">
+         <text permissions="prop-default" encoding="utf8">Category list of the test project Rosetta</text>
+      </text-prop>
+      <text-prop name=":hasDescription">
+         <text permissions="prop-default" encoding="utf8">
+            This is a csv-file which contains the category list of the test project Rosetta.
+         </text>
+      </text-prop>  
+   </resource>
+
+   <resource label="RosettaZIP" restype=":Document" id="doc_003" permissions="res-default">
+      <bitstream>Rosetta.zip</bitstream>
+      <text-prop name=":hasName">
+         <text permissions="prop-default" encoding="utf8">ZIP of Test project Rosetta</text>
+      </text-prop>
+      <text-prop name=":hasDescription">
+         <text permissions="prop-default" encoding="utf8">
+            This is a zip-file which contains information of the test project Rosetta.
+         </text>
+      </text-prop>  
+   </resource>
+
 </knora>
