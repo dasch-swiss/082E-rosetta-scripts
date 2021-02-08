@@ -109,9 +109,9 @@
             http://d-nb.info/gnd/118653369
          </uri>
       </uri-prop>        
-         <integer-prop name=":hasChildren">
-            <integer> </integer>
-         </integer-prop>          
+      <integer-prop name=":hasChildren">
+         <integer> </integer>
+      </integer-prop>          
       <uri-prop name=":hasExternalLink">
          <uri permissions="prop-default">
             https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D
@@ -2367,4 +2367,5 @@
          </text>
       </text-prop>  
    </resource>
+
 </knora>

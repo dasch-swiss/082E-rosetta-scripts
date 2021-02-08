@@ -20,6 +20,9 @@ Q: geonames-Angaben: Wie werden die in Webapplikation angezeigt? Sind die nur zu
 A: Es kann nur der Link angegeben werden. Die Darstellung des Links hängt dann von der Webapplikation ab.
 RG: Dann lohnt sich das Definieren einer weiteren property, in der man den Namen noch explizit angibt.
 
+Q: geonames-Angaben: Wie werden die in Webapplikation angezeigt? Sind die nur zum Zeichnen einer Karte? Braucht es eine zusätzliche Eigenschaft damit der betreffende Ortsname angezeigt werden kann? Der Ortsname steht aktuell im comment der geonames-property.
+A: Es kann nur der Link angegeben werden. Die Darstellung des Links hängt dann von der Webapplikation ab.
+
 Q: Languages, mit Language Tags?
 A: Nein, geht nicht. String value hat nicht eine Language Eigenschaft. Man müsste eine Ressource erstellen, welche Inhalt und Sprache als Property hat.
 

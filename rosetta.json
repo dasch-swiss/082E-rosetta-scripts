@@ -797,7 +797,7 @@
                   ]
                },               
                {
-                  "name": "Image2D",
+                  "name": "image2D",
                   "labels": {
                      "de": "2D-Bild",
                      "en": "2D image",
@@ -856,7 +856,7 @@
                   ]
                },
                {
-                  "name": "Image3D",
+                  "name": "image3D",
                   "labels": {
                      "de": "3D-Bild",
                      "en": "3D image",
@@ -915,7 +915,7 @@
                   ]
                },  
                {
-                  "name": "Audio",
+                  "name": "audio",
                   "labels": {
                      "de": "Audio",
                      "en": "Audio",
@@ -974,7 +974,7 @@
                   ]
                }, 
                {
-                  "name": "Film",
+                  "name": "film",
                   "labels": {
                      "de": "Film",
                      "en": "Film",
@@ -1033,7 +1033,7 @@
                   ]
                },                                               
                {
-                  "name": "Book",
+                  "name": "book",
                   "labels": {
                      "de": "Buch / Manuskript",
                      "en": "Book / manuscript",
@@ -1144,7 +1144,7 @@
                   ]
                },
                {
-                  "name": "Person",
+                  "name": "person",
                   "labels": {
                      "de": "Person",
                      "en": "Person",
@@ -1178,7 +1178,7 @@
                   ]
                },  
                {
-                  "name": "Institution",
+                  "name": "institution",
                   "labels": {
                      "de": "Institution",
                      "en": "Institution",
@@ -1212,7 +1212,7 @@
                   ]
                },                           
                {
-                  "name": "Object",
+                  "name": "object",
                   "labels": {
                      "de": "Objekt",
                      "en": "Object",
