@@ -14,6 +14,11 @@ A: Wenn man sie angibt, werden sie erstellt.
 
 Q: sind Datumsangaben möglich, bei denen das Jahr mehr als 4 Stellen hat (z.B. 28000 - jetzt beim Meteoriten so angegeben)?
 A: Es muss ein gültiges Datum sein. Ein xsd:date. Definition von xsd:date nachschauen.
+RG: Dann sind nur Angaben zwischen -9998 und 9999 als Datumsangaben möglich, wenn man etwas als DateValue definiert. 
+
+Q: geonames-Angaben: Wie werden die in Webapplikation angezeigt? Sind die nur zum Zeichnen einer Karte? Braucht es eine zusätzliche Eigenschaft damit der betreffende Ortsname angezeigt werden kann? Der Ortsname steht aktuell im comment der geonames-property.
+A: Es kann nur der Link angegeben werden. Die Darstellung des Links hängt dann von der Webapplikation ab.
+RG: Dann lohnt sich das Definieren einer weiteren property, in der man den Namen noch explizit angibt.
 
 Q: geonames-Angaben: Wie werden die in Webapplikation angezeigt? Sind die nur zum Zeichnen einer Karte? Braucht es eine zusätzliche Eigenschaft damit der betreffende Ortsname angezeigt werden kann? Der Ortsname steht aktuell im comment der geonames-property.
 A: Es kann nur der Link angegeben werden. Die Darstellung des Links hängt dann von der Webapplikation ab.
