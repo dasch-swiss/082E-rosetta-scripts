@@ -1,0 +1,76 @@
+{
+   "category": {
+      "id": "http://rdfh.ch/lists/082E/wDKAkWU_SyuIvKWU7j797g",
+      "nodes": [
+         {
+            "artwork": {
+               "id": "http://rdfh.ch/lists/082E/1x7BzQE8RomNixRUgD558A"
+            }
+         },
+         {
+            "vehicles": {
+               "id": "http://rdfh.ch/lists/082E/vrp0EJoqSx-ONQ0nAEhmzA"
+            }
+         },
+         {
+            "nature": {
+               "id": "http://rdfh.ch/lists/082E/ySQLVs8OSq-2h3TEKGPmaA",
+               "nodes": [
+                  {
+                     "humans": {
+                        "id": "http://rdfh.ch/lists/082E/wPpzEXDbQsaRHR66hsn7Lg"
+                     }
+                  },
+                  {
+                     "Animals": {
+                        "id": "http://rdfh.ch/lists/082E/SiWvsioXRG-9olqyZF187g",
+                        "nodes": [
+                           {
+                              "mammals": {
+                                 "id": "http://rdfh.ch/lists/082E/BPvsXknpTR6ACWBZltPDEA"
+                              }
+                           },
+                           {
+                              "insects": {
+                                 "id": "http://rdfh.ch/lists/082E/876HiwboS56Y6l3OSfJP9w"
+                              }
+                           },
+                           {
+                              "birds": {
+                                 "id": "http://rdfh.ch/lists/082E/scC_b0g0THWF0gCYL1hpUg"
+                              }
+                           },
+                           {
+                              "amphibians": {
+                                 "id": "http://rdfh.ch/lists/082E/1g4DgIu5SZ2GjY1g_ufgfA"
+                              }
+                           },
+                           {
+                              "reptiles": {
+                                 "id": "http://rdfh.ch/lists/082E/Wo1V4uG1S0CInpmo7XCKuA"
+                              }
+                           }
+                        ]
+                     }
+                  },
+                  {
+                     "plants": {
+                        "id": "http://rdfh.ch/lists/082E/co9-ZWkzRPG465M-kFIwLQ"
+                     }
+                  },
+                  {
+                     "weather": {
+                        "id": "http://rdfh.ch/lists/082E/t5C8uX_lRfqiYmngMoAQ5Q"
+                     }
+                  },
+                  {
+                     "physics": {
+                        "id": "http://rdfh.ch/lists/082E/94nePxLMTMSOY9ib4plYQw"
+                     }
+                  }
+               ]
+            }
+         }
+      ]
+   }
+}

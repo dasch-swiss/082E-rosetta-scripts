@@ -97,7 +97,7 @@
                         }
                      }, 
                      {
-                        "name": "animals",
+                        "name": "Animals",
                         "labels": { 
                            "de": "Tiere",
                            "en": "Animals",
@@ -192,7 +192,7 @@
            "password": "rosetta1234",
            "lang": "de",
            "groups": [":rosetta-editors"],
-           "projects": [":rosetta"]
+           "projects": [":admin","anything:member"]
          }
        ],      
       "ontologies": [
@@ -205,10 +205,7 @@
                   "super": [
                      "hasLinkTo"
                   ],
-                  "object": [
-                     ":Image2D",
-                     ":Image3D"
-                  ],
+                  "object": ":Image2D",
                   "labels": {
                      "de": "Textträger",
                      "en": "Text medium",
@@ -224,10 +221,7 @@
                   "super": [
                      "hasLinkTo"
                   ],
-                  "object": [
-                     ":Image2D",
-                     ":Image3D"
-                  ],
+                  "object": ":Image2D",
                   "labels": {
                      "de": "Bild",
                      "en": "Image",
@@ -316,13 +310,16 @@
                      "en": "Author",
                      "fr": "Auteur"
                    },
-                   "gui_element": "Searchbox",
-                   "gui_attributes": {
-                       "numprops": 1
-                   }
+                  "gui_element": "Searchbox",
+                  "gui_attributes": {
+                     "numprops": 1
+                  }
                },
                {
                   "name": "hasName",
+                  "super": [
+                     "hasValue"
+                  ],
                   "object": "TextValue",
                   "labels": { 
                      "de": "Name",
@@ -416,16 +413,12 @@
                      "en": "Literature",
                      "fr": "Littérature"
                    },
-                  "gui_element": "SimpleText",
-                  "gui_attributes": {
-                     "maxlength": "256",
-                     "size": 128
-                   }
+                  "gui_element": "Richtext"
                },
                {
                   "name": "hasExternalLink",
                   "super": [
-                     "hasLinkTo"
+                     "hasValue"
                   ],
                   "object": "UriValue",
                   "labels": {
@@ -442,15 +435,15 @@
                {
                   "name": "hasIdentifier",
                   "super": [
-                     "hasLinkTo"
+                     "hasValue"
                   ],
                   "object": "UriValue",
                   "labels": {
                      "de": "GND",
                      "en": "GND",
                      "fr": "GND"
-                   },
-                  "gui_element": "SimpleText",                   
+                  },
+                  "gui_element": "SimpleText",
                   "gui_attributes": {
                      "maxlength": "128",
                      "size": 128
@@ -461,12 +454,7 @@
                   "super": [
                      "hasLinkTo"
                   ],
-                  "object": [
-                     ":Book",
-                     ":Image2D",
-                     ":Image3D",
-                     ":Audio"
-                  ],                  
+                  "object": "Resource",
                   "labels": {
                      "de": "Verwandtes Werk",
                      "en": "Related Artwork",
@@ -489,10 +477,7 @@
                      "en": "Artist",
                      "fr": "Artiste"
                    },
-                  "gui_element": "Searchbox",
-                  "gui_attributes": {
-                     "numprops": 1
-                  }
+                  "gui_element": "Searchbox"
                },
                {
                   "name": "inInstitution",
@@ -558,7 +543,7 @@
                   "gui_element": "Searchbox",
                   "gui_attributes": {
                      "numprops": 1
-                  }                  
+                  }
                },
                {
                   "name": "hasCategory",
@@ -571,22 +556,23 @@
                   "en": "Category",
                   "fr": "Catégorie"
                   },
-                  "gui_element": {
-                  "hlist": "category"
+                  "gui_element": "Pulldown",
+                  "gui_attributes": {
+                     "hlist": "category"
                   }
                },                
                {
                   "name": "hasAnnotation",
                   "super": [
-                     "hasValue"
+                     "hasLinkTo"
                   ],
                   "object": "Annotation",
                   "labels": {
-                  "de": "Annotation",
-                  "en": "Annotation",
-                  "fr": "Annotation"
+                     "de": "Annotation",
+                     "en": "Annotation",
+                     "fr": "Annotation"
                   },
-                  "gui_element": "Richtext"
+                  "gui_element": "Searchbox"
                },                    
                {
                   "name": "hasColor",
@@ -703,26 +689,22 @@
                     "maxlength": "255",
                     "size": 80
                   }
-                }                
-
+                }
             ],
             "resources": [
                {
-                  "name": "text",
+                  "name": "Text",
                   "labels": {
                      "de": "Text",
                      "en": "Text",
                      "fr": "Texte"
                    },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "no comment",
                   "super": "Resource",
                   "cardinalities": [
                      {
                         "propname": ":hasTextMedium",
-                        "cardinality": "0-1",
-                        "gui_order": 0                        
+                        "cardinality": "0-1"
                      },
                      {
                         "propname": ":hasAuthor",
@@ -741,7 +723,7 @@
                      }, 
                      {
                         "propname": ":hasTranscription",
-                        "cardinality": "1",
+                        "cardinality": "0-1",
                         "gui_order": 4
                      },    
                      {
@@ -751,7 +733,7 @@
                      },
                      {
                         "propname": ":hasTranslation",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 6
                      },
                      {
@@ -766,12 +748,12 @@
                      }, 
                      {
                         "propname": ":hasBibliographicReference",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 9
                      },                                         
                      {
                         "propname": ":inInstitution",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 10
                      },
                      {
@@ -786,7 +768,7 @@
                      },  
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 13
                      },
                      {
@@ -801,17 +783,14 @@
                   "labels": {
                      "de": "2D-Bild",
                      "en": "2D image",
-                     "fr": "Image 2D"
+                     "fr": "image 2D"
                    },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "StillImageRepresentation",
                   "cardinalities": [
                      {
                         "propname": ":hasTitle",
-                        "cardinality": "1",
-                        "gui_order": 0                        
+                        "cardinality": "1"
                      },
                      {
                         "propname": ":hasCreator",
@@ -840,7 +819,7 @@
                      },   
                      {
                         "propname": ":inInstitution",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 6
                      },
                      {
@@ -850,7 +829,7 @@
                      },
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 8
                      }                          
                   ]
@@ -860,17 +839,14 @@
                   "labels": {
                      "de": "3D-Bild",
                      "en": "3D image",
-                     "fr": "Image 3D"
+                     "fr": "image 3D"
                    },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "DDDRepresentation",
                   "cardinalities": [
                      {
                         "propname": ":hasTitle",
-                        "cardinality": "1",
-                        "gui_order": 0    
+                        "cardinality": "1"
                      },
                      {
                         "propname": ":hasCreator",
@@ -899,7 +875,7 @@
                      },   
                      {
                         "propname": ":inInstitution",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 6
                      },
                      {
@@ -909,7 +885,7 @@
                      },
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 8
                      }                    
                   ]
@@ -921,15 +897,12 @@
                      "en": "Audio",
                      "fr": "Audio"
                    },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "AudioRepresentation",
                   "cardinalities": [
                      {
                         "propname": ":hasTitle",
-                        "cardinality": "1",
-                        "gui_order": 0    
+                        "cardinality": "1"
                      },
                      {
                         "propname": ":hasCreator",
@@ -946,30 +919,35 @@
                         "cardinality": "0-1",
                         "gui_order": 3
                      },
+                                         {
+                        "propname": ":hasInterval",
+                        "cardinality": "0-1",
+                        "gui_order": 4
+                     },     
                      {
                         "propname": ":hasCopyright",
                         "cardinality": "0-1",
-                        "gui_order": 4
+                        "gui_order": 5
                      },
                      {
                         "propname": ":hasAnnotation",
                         "cardinality": "0-1",
-                        "gui_order": 5
+                        "gui_order": 6
                      },   
                      {
                         "propname": ":inInstitution",
-                        "cardinality": "0-1",
-                        "gui_order": 6
+                        "cardinality": "0-n",
+                        "gui_order": 7
                      },
                      {
                         "propname": ":hasLocation",
                         "cardinality": "0-1",
-                        "gui_order": 7
+                        "gui_order": 8
                      },
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
-                        "gui_order": 8
+                        "cardinality": "0-n",
+                        "gui_order": 9
                      }                    
                   ]
                }, 
@@ -980,15 +958,12 @@
                      "en": "Film",
                      "fr": "Film"
                    },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "MovingImageRepresentation",
                   "cardinalities": [
                      {
                         "propname": ":hasTitle",
-                        "cardinality": "1",
-                        "gui_order": 0                       
+                        "cardinality": "1"
                      },
                      {
                         "propname": ":hasCreator",
@@ -1005,30 +980,35 @@
                         "cardinality": "0-1",
                         "gui_order": 3
                      },
+                                         {
+                        "propname": ":hasInterval",
+                        "cardinality": "0-1",
+                        "gui_order": 4
+                     },     
                      {
                         "propname": ":hasCopyright",
                         "cardinality": "0-1",
-                        "gui_order": 4
+                        "gui_order": 5
                      },
                      {
                         "propname": ":hasAnnotation",
                         "cardinality": "0-1",
-                        "gui_order": 5
+                        "gui_order": 6
                      },   
                      {
                         "propname": ":inInstitution",
-                        "cardinality": "0-1",
-                        "gui_order": 6
+                        "cardinality": "0-n",
+                        "gui_order": 7
                      },
                      {
                         "propname": ":hasLocation",
                         "cardinality": "0-1",
-                        "gui_order": 7
+                        "gui_order": 8
                      },
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
-                        "gui_order": 8
+                        "cardinality": "0-n",
+                        "gui_order": 9
                      }                    
                   ]
                },                                               
@@ -1036,8 +1016,8 @@
                   "name": "Book",
                   "labels": {
                      "de": "Buch / Manuskript",
-                     "en": "Book / manuscript",
-                     "fr": "Livre / manuscrit"
+                     "en": "book / manuscript",
+                     "fr": "livre / manuscrit"
                  },
                   "comments": "none",
                   "super": "Resource",
@@ -1045,42 +1025,42 @@
                      {
                         "propname": ":hasTitle",
                         "cardinality": "1-n",
-                        "gui_order": 0
+                        "gui_order": 1
                      },
                      {
                         "propname": ":hasDescription",
                         "cardinality": "0-1",
-                        "gui_order": 1
+                        "gui_order": 2
                      },
                      {
                         "propname": ":hasAuthor",
                         "cardinality": "0-n",
-                        "gui_order": 2
+                        "gui_order": 3
                      },
                      {
                         "propname": ":hasDate",
                         "cardinality": "0-1",
-                        "gui_order": 3
+                        "gui_order": 4
                      },
                      {
                         "propname": ":inInstitution",
-                        "cardinality": "0-1",
-                        "gui_order": 4
+                        "cardinality": "0-n",
+                        "gui_order": 5
                      },
                      {
                         "propname": ":hasLocation",
                         "cardinality": "0-1",
-                        "gui_order": 5
+                        "gui_order": 6
                      },
                      {
                         "propname": ":hasCopyright",
                         "cardinality": "0-1",
-                        "gui_order": 6
+                        "gui_order": 7
                      },  
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
-                        "gui_order": 7
+                        "cardinality": "0-n",
+                        "gui_order": 8
                      }         
                   ]
                },
@@ -1092,14 +1072,11 @@
                      "en": "Book page / Manuscript page",
                      "fr": "Page du livre / Page du manuscrit"
                  },
-                  "comments": [
-                     "A page is a part of a book or manuscript"
-                  ],
+                  "comments": "A page is a part of a book or manuscript",
                   "cardinalities": [
                      {
                         "propname": ":hasTextMedium",
-                        "cardinality": "0-1",
-                        "gui_order": 0
+                        "cardinality": "0-1"
                      },                     
                      {
                         "propname": ":hasPagenum",
@@ -1114,32 +1091,32 @@
                      {
                         "propname": ":partOf",
                         "cardinality": "1",
-                        "gui_order": 3
+                        "gui_order": 2
                      },
                      {
                         "propname": ":hasTranscription",
                         "cardinality": "0-1",
-                        "gui_order": 4
+                        "gui_order": 3
                      },
                      {
                         "propname": ":hasTransliteration",
                         "cardinality": "0-1",
-                        "gui_order": 5
+                        "gui_order": 4
                      }, 
                      {
                         "propname": ":hasTranslation",
-                        "cardinality": "0-1",
-                        "gui_order": 6
+                        "cardinality": "0-n",
+                        "gui_order": 5
                      },                   
                      {
                         "propname": ":hasBibliographicReference",
-                        "cardinality": "0-1",
-                        "gui_order": 7
+                        "cardinality": "0-n",
+                        "gui_order": 6
                      },
                      {
                         "propname": ":hasAnnotation",
                         "cardinality": "0-1",
-                        "gui_order": 8
+                        "gui_order": 7
                      }                     
                   ]
                },
@@ -1150,30 +1127,28 @@
                      "en": "Person",
                      "fr": "Personne"
                  },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "Resource",
                   "cardinalities": [
                      {
                         "propname": ":hasName",
                         "cardinality": "1",
-                        "gui_order": 0
+                        "gui_order": 1
                      },
                      {
                         "propname": ":hasIdentifier",
                         "cardinality": "0-1",
-                        "gui_order": 1
+                        "gui_order": 2
                      },
                      {
                         "propname": ":hasChildren",
                         "cardinality": "0-1",
-                        "gui_order": 2
-                     },                     
+                        "gui_order": 3
+                     },  
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
-                        "gui_order": 3
+                        "cardinality": "0-n",
+                        "gui_order": 4
                      }                                             
                   ]
                },  
@@ -1184,43 +1159,39 @@
                      "en": "Institution",
                      "fr": "Institution"
                  },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "Resource",
                   "cardinalities": [
                      {
                         "propname": ":hasName",
                         "cardinality": "1",
-                        "gui_order": 0
+                        "gui_order": 1
                      },
                      {
                         "propname": ":hasLocation",
                         "cardinality": "1",
-                        "gui_order": 1
+                        "gui_order": 2
                      },
                      {
                         "propname": ":hasIdentifier",
                         "cardinality": "0-1",
-                        "gui_order": 2
+                        "gui_order": 3
                      },
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
-                        "gui_order": 3
+                        "cardinality": "0-n",
+                        "gui_order": 4
                      }                                                            
                   ]
                },                           
-               {
+                {
                   "name": "Object",
                   "labels": {
                      "de": "Objekt",
                      "en": "Object",
                      "fr": "Objet"
                  },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "Resource",
                   "cardinalities": [
                      {
@@ -1262,12 +1233,7 @@
                         "propname": ":hasDate",
                         "cardinality": "0-1",
                         "gui_order": 7
-                     },
-                     {
-                        "propname": ":hasInterval",
-                        "cardinality": "0-1",
-                        "gui_order": 8
-                     },                     
+                     },                
                      {
                         "propname": ":inInstitution",
                         "cardinality": "0-1",
@@ -1317,23 +1283,43 @@
                      "en": "Document",
                      "fr": "Document"
                  },
-                  "comments": [
-                     "none"
-                  ],
+                  "comments": "none",
                   "super": "DocumentRepresentation",
                   "cardinalities": [
                      {
                         "propname": ":hasName",
                         "cardinality": "1",
-                        "gui_order": 0
+                        "gui_order": 1
                      },
                      {
                         "propname": ":hasDescription",
                         "cardinality": "1",
-                        "gui_order": 1
+                        "gui_order": 2
                      }                           
                   ]
-               }               
+               },
+               {
+                  "name": "TextDocument",
+                  "labels": {
+                     "de": "Text-Dokument",
+                     "en": "Text document",
+                     "fr": "Document texte"
+                 },
+                  "comments": "none",
+                  "super": "TextRepresentation",
+                  "cardinalities": [
+                     {
+                        "propname": ":hasName",
+                        "cardinality": "1",
+                        "gui_order": 1
+                     },
+                     {
+                        "propname": ":hasDescription",
+                        "cardinality": "1",
+                        "gui_order": 2
+                     }                           
+                  ]
+               }                                         
             ]
          }
       ]
