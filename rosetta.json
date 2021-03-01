@@ -97,11 +97,11 @@
                         }
                      }, 
                      {
-                        "name": "Animals",
-                        "labels": { 
-                           "de": "Tiere",
-                           "en": "Animals",
-                           "fr": "Animaux"  
+                     "name": "animals",
+                     "labels": { 
+                        "de": "Tiere",
+                        "en": "Animals",
+                        "fr": "Animaux"  
                      },
                      "nodes": [
                         {
@@ -248,7 +248,7 @@
                    "gui_attributes": {
                        "numprops": 1
                    }
-               },              
+               },                 
                {
                   "name": "hasOriginalText",
                   "super": [
@@ -291,8 +291,7 @@
                {     
                   "name": "hasTranslation",
                   "super": [
-                     "hasValue",
-                     "dcterms:description"
+                     "hasValue"
                   ],
                   "object": "TextValue",
                   "labels": {
@@ -377,7 +376,7 @@
                      "fr": "Datation"
                    },
                    "gui_element": "Date"
-               },              
+               },          
                {
                   "name": "hasFindspot",
                   "super": [
@@ -403,7 +402,7 @@
                      "fr": "Lieu"
                    },
                    "gui_element": "Geonames"
-               },     
+               },    
                {
                   "name": "hasGeoname",
                   "super": [
@@ -428,7 +427,7 @@
                      "en": "Literature",
                      "fr": "Littérature"
                    },
-                  "gui_element": "SimpleText",
+                  "gui_element": "SimpleText",                   
                   "gui_attributes": {
                      "maxlength": "128",
                      "size": 128
@@ -467,13 +466,13 @@
                      "maxlength": "128",
                      "size": 128
                    }
-               },               
+               },  
                {
                   "name": "hasRelatedArtwork",
                   "super": [
                      "hasLinkTo"
                   ],
-                  "object": "Resource",
+                  "object": "Resource",                  
                   "labels": {
                      "de": "Verwandtes Werk",
                      "en": "Related Artwork",
@@ -496,7 +495,7 @@
                      "en": "Artist",
                      "fr": "Artiste"
                    },
-                  "gui_element": "Searchbox"
+                   "gui_element": "Searchbox"
                },
                {
                   "name": "inInstitution",
@@ -575,9 +574,9 @@
                   "en": "Category",
                   "fr": "Catégorie"
                   },
-                  "gui_element": "Pulldown",
+                  "gui_element": "List",
                   "gui_attributes": {
-                     "hlist": "category"
+                  "hlist": "category"
                   }
                },                
                {
@@ -592,7 +591,7 @@
                      "fr": "Annotation"
                   },
                   "gui_element": "Searchbox"
-               },                    
+               },                                           
                {
                   "name": "hasColor",
                   "super": [
@@ -622,7 +621,7 @@
                      "maxlength": "128",
                      "size": 64
                   }
-               },               
+               },   
                {
                   "name": "hasGeometry",
                   "super": [
@@ -635,7 +634,93 @@
                      "fr": "Géométrie"
                    },
                   "gui_element": "Geometry"
-               }
+               },
+               {
+                  "name": "hasInterval",
+                  "super": [
+                     "hasValue"
+                  ],
+                  "object": "IntervalValue",
+                  "labels": {
+                     "de": "Intervall",
+                     "en": "Interval",
+                     "fr": "Intervalle"
+                   },
+                   "gui_element": "Interval"
+               },
+               {
+                  "name": "isPublic",
+                  "super": [
+                     "hasValue"
+                  ],
+                  "object": "BooleanValue",
+                  "labels": {
+                     "de": "Öffentlich",
+                     "en": "Public",
+                     "fr": "Public"
+                   },
+                   "gui_element": "Checkbox"
+               },
+               {
+                  "name": "hasRegion",
+                  "super": [
+                    "hasLinkTo"
+                  ],
+                  "object": "Region",
+                  "labels": {
+                     "de": "Region",                    
+                     "en": "Region",
+                     "fr": "Région"                    
+                  },
+                  "gui_element": "Searchbox"
+                },               
+                {
+                  "name": "hasChildren",
+                  "super": [
+                    "hasValue"
+                  ],
+                  "object": "IntValue",
+                  "labels": {
+                     "de": "Anzahl der Kinder",                      
+                     "en": "Number of children",
+                     "fr": "Nombre d'enfants"              
+                  },
+                  "gui_element": "Spinbox",
+                  "gui_attributes": {
+                    "max": 25.0,
+                    "min": 0.0
+                  }
+                },
+                {
+                  "name": "hasWeight",
+                  "super": [
+                    "hasValue"
+                  ],
+                  "object": "DecimalValue",
+                  "labels": {
+                     "de": "Gewicht",
+                     "en": "Weight",
+                     "fr": "Poids"
+                  },
+                  "gui_element": "SimpleText",
+                  "gui_attributes": {
+                    "maxlength": "255",
+                    "size": 80
+                  }
+                },
+                {
+                  "name": "hasFiles",
+                  "super": [
+                     "hasLinkTo"
+                  ],
+                  "object": ":Document",
+                  "labels": {
+                     "de": "Modell-Dateien",
+                     "en": "Model data",
+                     "fr": "Données modeèles"
+                   },
+                  "gui_element": "Searchbox"
+                }           
             ],
             "resources": [
                {
@@ -663,13 +748,13 @@
                         "gui_order": 2
                      },                     
                      {
-                        "propname": ":hasText",
+                        "propname": ":hasOriginalText",
                         "cardinality": "0-1",
                         "gui_order": 3
                      }, 
                      {
                         "propname": ":hasTranscription",
-                        "cardinality": "1",
+                        "cardinality": "0-1",
                         "gui_order": 4
                      },    
                      {
@@ -679,7 +764,7 @@
                      },
                      {
                         "propname": ":hasTranslation",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 6
                      },
                      {
@@ -694,12 +779,12 @@
                      }, 
                      {
                         "propname": ":hasBibliographicReference",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 9
                      },                                         
                      {
                         "propname": ":inInstitution",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 10
                      },
                      {
@@ -714,7 +799,7 @@
                      },  
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 13
                      },
                      {
@@ -765,7 +850,7 @@
                      },   
                      {
                         "propname": ":inInstitution",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 6
                      },
                      {
@@ -775,7 +860,7 @@
                      },
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 8
                      }                          
                   ]
@@ -815,24 +900,29 @@
                         "gui_order": 4
                      },
                      {
-                        "propname": ":hasAnnotation",
+                        "propname": ":hasFiles",
                         "cardinality": "0-1",
                         "gui_order": 5
+                     },                    
+                     {
+                        "propname": ":hasAnnotation",
+                        "cardinality": "0-1",
+                        "gui_order": 6
                      },   
                      {
                         "propname": ":inInstitution",
-                        "cardinality": "0-1",
-                        "gui_order": 6
+                        "cardinality": "0-n",
+                        "gui_order": 7
                      },
                      {
                         "propname": ":hasLocation",
                         "cardinality": "0-1",
-                        "gui_order": 7
+                        "gui_order": 8
                      },
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
-                        "gui_order": 8
+                        "cardinality": "0-n",
+                        "gui_order": 9
                      }                    
                   ]
                },  
@@ -865,30 +955,35 @@
                         "cardinality": "0-1",
                         "gui_order": 3
                      },
+                                         {
+                        "propname": ":hasInterval",
+                        "cardinality": "0-1",
+                        "gui_order": 4
+                     },     
                      {
                         "propname": ":hasCopyright",
                         "cardinality": "0-1",
-                        "gui_order": 4
+                        "gui_order": 5
                      },
                      {
                         "propname": ":hasAnnotation",
                         "cardinality": "0-1",
-                        "gui_order": 5
+                        "gui_order": 6
                      },   
                      {
                         "propname": ":inInstitution",
-                        "cardinality": "0-1",
-                        "gui_order": 6
+                        "cardinality": "0-n",
+                        "gui_order": 7
                      },
                      {
                         "propname": ":hasLocation",
                         "cardinality": "0-1",
-                        "gui_order": 7
+                        "gui_order": 8
                      },
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
-                        "gui_order": 8
+                        "cardinality": "0-n",
+                        "gui_order": 9
                      }                    
                   ]
                }, 
@@ -921,30 +1016,35 @@
                         "cardinality": "0-1",
                         "gui_order": 3
                      },
+                                         {
+                        "propname": ":hasInterval",
+                        "cardinality": "0-1",
+                        "gui_order": 4
+                     },     
                      {
                         "propname": ":hasCopyright",
                         "cardinality": "0-1",
-                        "gui_order": 4
+                        "gui_order": 5
                      },
                      {
                         "propname": ":hasAnnotation",
                         "cardinality": "0-1",
-                        "gui_order": 5
+                        "gui_order": 6
                      },   
                      {
                         "propname": ":inInstitution",
-                        "cardinality": "0-1",
-                        "gui_order": 6
+                        "cardinality": "0-n",
+                        "gui_order": 7
                      },
                      {
                         "propname": ":hasLocation",
                         "cardinality": "0-1",
-                        "gui_order": 7
+                        "gui_order": 8
                      },
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
-                        "gui_order": 8
+                        "cardinality": "0-n",
+                        "gui_order": 9
                      }                    
                   ]
                },                                               
@@ -971,32 +1071,32 @@
                      {
                         "propname": ":hasAuthor",
                         "cardinality": "0-n",
-                        "gui_order": 2
+                        "gui_order": 3
                      },
                      {
                         "propname": ":hasDate",
                         "cardinality": "0-1",
-                        "gui_order": 3
+                        "gui_order": 4
                      },
                      {
                         "propname": ":inInstitution",
-                        "cardinality": "0-1",
-                        "gui_order": 4
+                        "cardinality": "0-n",
+                        "gui_order": 5
                      },
                      {
                         "propname": ":hasLocation",
                         "cardinality": "0-1",
-                        "gui_order": 5
+                        "gui_order": 6
                      },
                      {
                         "propname": ":hasCopyright",
                         "cardinality": "0-1",
-                        "gui_order": 6
+                        "gui_order": 7
                      },  
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
-                        "gui_order": 7
+                        "cardinality": "0-n",
+                        "gui_order": 8
                      }         
                   ]
                },
@@ -1027,32 +1127,32 @@
                      {
                         "propname": ":partOf",
                         "cardinality": "1",
-                        "gui_order": 2
+                        "gui_order": 3
                      },
                      {
                         "propname": ":hasTranscription",
                         "cardinality": "0-1",
-                        "gui_order": 3
+                        "gui_order": 4
                      },
                      {
                         "propname": ":hasTransliteration",
                         "cardinality": "0-1",
-                        "gui_order": 4
+                        "gui_order": 5
                      }, 
                      {
                         "propname": ":hasTranslation",
-                        "cardinality": "0-1",
-                        "gui_order": 5
+                        "cardinality": "0-n",
+                        "gui_order": 6
                      },                   
                      {
                         "propname": ":hasBibliographicReference",
-                        "cardinality": "0-1",
-                        "gui_order": 6
+                        "cardinality": "0-n",
+                        "gui_order": 7
                      },
                      {
                         "propname": ":hasAnnotation",
                         "cardinality": "0-1",
-                        "gui_order": 7
+                        "gui_order": 8
                      }                     
                   ]
                },
@@ -1077,9 +1177,14 @@
                         "gui_order": 2
                      },
                      {
-                        "propname": ":hasExternalLink",
+                        "propname": ":hasChildren",
                         "cardinality": "0-1",
                         "gui_order": 3
+                     },  
+                     {
+                        "propname": ":hasExternalLink",
+                        "cardinality": "0-n",
+                        "gui_order": 4
                      }                                             
                   ]
                },  
@@ -1110,13 +1215,13 @@
                      },
                      {
                         "propname": ":hasExternalLink",
-                        "cardinality": "0-1",
+                        "cardinality": "0-n",
                         "gui_order": 4
                      }                                                            
                   ]
                },                           
-               {
-                  "name": "object",
+                {
+                  "name": "Object",
                   "labels": {
                      "de": "Objekt",
                      "en": "Object",
@@ -1127,24 +1232,29 @@
                   "cardinalities": [
                      {
                         "propname": ":hasImage",
-                        "cardinality": "1",
-                        "gui_order": 1
+                        "cardinality": "0-1",
+                        "gui_order": 0
                      },                     
                      {
                         "propname": ":hasCategory",
                         "cardinality": "1",
-                        "gui_order": 2
+                        "gui_order": 1
                      },
                      {
                         "propname": ":hasName",
                         "cardinality": "1",
-                        "gui_order": 3
+                        "gui_order": 2
                      },
                      {
                         "propname": ":hasDescription",
                         "cardinality": "1",
-                        "gui_order": 4
+                        "gui_order": 3
                      },
+                     {
+                        "propname": ":hasWeight",
+                        "cardinality": "0-1",
+                        "gui_order": 4
+                     },                                         
                      {
                         "propname": ":hasCreator",
                         "cardinality": "0-1",
@@ -1159,29 +1269,93 @@
                         "propname": ":hasDate",
                         "cardinality": "0-1",
                         "gui_order": 7
-                     },
+                     },                
                      {
                         "propname": ":inInstitution",
                         "cardinality": "0-1",
-                        "gui_order": 8
+                        "gui_order": 9
                      }, 
                      {
                         "propname": ":hasLocation",
                         "cardinality": "0-1",
-                        "gui_order": 9
+                        "gui_order": 10
                      },
                      {
                         "propname": ":hasInventoryNumber",
                         "cardinality": "0-1",
-                        "gui_order": 10
+                        "gui_order": 11
                      },
+                     {
+                        "propname": ":isPublic",
+                        "cardinality": "0-1",
+                        "gui_order": 12
+                     },
+                     {
+                        "propname": ":hasRegion",
+                        "cardinality": "0-1",
+                        "gui_order": 13
+                     }, 
+                     {
+                        "propname": ":hasGeometry",
+                        "cardinality": "0-1",
+                        "gui_order": 14
+                     },
+                     {
+                        "propname": ":hasColor",
+                        "cardinality": "0-1",
+                        "gui_order": 15
+                     },                                                                              
                      {
                         "propname": ":hasExternalLink",
                         "cardinality": "0-1",
-                        "gui_order": 11
+                        "gui_order": 16
                      }                                                                                                       
                   ]
-               }               
+               },
+               {
+                  "name": "Document",
+                  "labels": {
+                     "de": "Dokument",
+                     "en": "Document",
+                     "fr": "Document"
+                 },
+                  "comments": "none",
+                  "super": "DocumentRepresentation",
+                  "cardinalities": [
+                     {
+                        "propname": ":hasName",
+                        "cardinality": "1",
+                        "gui_order": 1
+                     },
+                     {
+                        "propname": ":hasDescription",
+                        "cardinality": "1",
+                        "gui_order": 2
+                     }                           
+                  ]
+               },
+               {
+                  "name": "TextDocument",
+                  "labels": {
+                     "de": "Text-Dokument",
+                     "en": "Text document",
+                     "fr": "Document texte"
+                 },
+                  "comments": "none",
+                  "super": "TextRepresentation",
+                  "cardinalities": [
+                     {
+                        "propname": ":hasName",
+                        "cardinality": "1",
+                        "gui_order": 1
+                     },
+                     {
+                        "propname": ":hasDescription",
+                        "cardinality": "1",
+                        "gui_order": 2
+                     }                           
+                  ]
+               }                                         
             ]
          }
       ]
