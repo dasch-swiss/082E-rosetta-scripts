@@ -11,7 +11,7 @@
       <allow group="ProjectAdmin">CR</allow>
    </permissions>
    <permissions id="res-restricted">
-      <allow group="UnknownUser">RV</allow>
+      <allow group="UnknownUser">V</allow>
       <allow group="KnownUser">V</allow>
       <allow group="Creator">CR</allow>> 
       <allow group="ProjectAdmin">CR</allow>> 
@@ -23,7 +23,7 @@
       <allow group="ProjectAdmin">CR</allow>> 
    </permissions>
    <permissions id="prop-restricted">
-      <allow group="UnknownUser">RV</allow>
+      <allow group="UnknownUser">V</allow>
       <allow group="KnownUser">V</allow>
       <allow group="Creator">CR</allow>
       <allow group="ProjectAdmin">CR</allow>
@@ -254,7 +254,7 @@
     
    <!-- :Image2D -->   
       <resource label="BM K.3375" restype=":Image2D" id="img_obj_0" permissions="res-default">
-      <bitstream>Bilder/K3375Gilgamesh.png</bitstream>
+      <bitstream>Images/K3375Gilgamesh.png</bitstream>
       <text-prop name=":hasTitle">
          <text permissions="prop-default" encoding="utf8">BM K.3375</text>
       </text-prop>
@@ -281,7 +281,7 @@
    </resource>   
 
    <resource label="Deluge" restype=":Image2D" id="img_obj_1" permissions="res-default">
-      <bitstream>Bilder/Danby-deluge.jpg</bitstream>
+      <bitstream>Images/Danby-deluge.jpg</bitstream>
       <text-prop name=":hasTitle">
          <text permissions="prop-default" encoding="utf8">The Deluge</text>
       </text-prop>
@@ -311,7 +311,7 @@
 
    <resource label="Liberté, j'écris ton nom" restype=":Image2D" id="img_obj_2"
       permissions="res-default">
-      <bitstream>Bilder/Leger-Eluard.jpg</bitstream>
+      <bitstream>Images/Leger-Eluard.jpg</bitstream>
       <text-prop name=":hasTitle">
          <text permissions="prop-default" encoding="utf8">Liberté</text>
       </text-prop>
@@ -339,7 +339,7 @@
    </resource>
 
    <resource label="Bashō, Horohoroto" restype=":Image2D" id="img_obj_3" permissions="res-default">
-      <bitstream>Bilder/Basho_Horohoroto.jpg</bitstream>
+      <bitstream>Images/Basho_Horohoroto.jpg</bitstream>
       <text-prop name=":hasTitle">
          <text permissions="prop-default" encoding="utf8">Horohoroto</text>
       </text-prop>
@@ -361,7 +361,7 @@
    </resource>
 
    <resource label="Western aisle mosaic of the synagogue in En-Gedi" restype=":Image2D" id="img_obj_4" permissions="res-default">
-      <bitstream>Bilder/EnGediMosaic.jpg</bitstream>
+      <bitstream>Images/EnGediMosaic.jpg</bitstream>
       <text-prop name=":hasTitle">
          <text permissions="prop-default" encoding="utf8">Western aisle mosaic of the synagogue in En-Gedi</text>
       </text-prop>
@@ -390,7 +390,7 @@
    </resource>
 
    <resource label="Bengal cat" restype=":Image2D" id="img_obj_5" permissions="res-default">
-      <bitstream>Bilder/Anubis.jpg</bitstream>
+      <bitstream>Images/Anubis.jpg</bitstream>
       <text-prop name=":hasTitle">
          <text permissions="prop-default" encoding="utf8">Bengal cat</text>
       </text-prop>
@@ -404,7 +404,7 @@
    
 
    <resource label="Iliad Prooem" restype=":Image2D" id="img_obj_6" permissions="res-default">
-      <bitstream>Bilder/IliadProoem.jp2</bitstream>
+      <bitstream>Images/IliadProoem.jp2</bitstream>
       <text-prop name=":hasTitle">
          <text permissions="prop-default" encoding="utf8">Iliad Prooem</text>
       </text-prop>
@@ -423,7 +423,7 @@
    </resource>
 
    <resource label="Gibeon Meteorite" restype=":Image2D" id="img_obj_7" permissions="res-default">
-      <bitstream>Bilder/GibbeonMeteorite.jpg</bitstream>
+      <bitstream>Images/GibbeonMeteorite.jpg</bitstream>
       <text-prop name=":hasTitle">
          <text permissions="prop-default" encoding="utf8">Gibeon Meteorite</text>
       </text-prop>
@@ -442,15 +442,15 @@
    </resource>
 
    <resource label="Dendera New Year" restype=":Image2D" id="img_obj_8" permissions="res-default">
-      <bitstream>Bilder/DenderaNeujahr.png</bitstream>
+      <bitstream>Images/DenderaNeujahr.png</bitstream>
       <text-prop name=":hasTitle">
          <text permissions="prop-default" encoding="utf8">New Year's inscription from Dendera</text>
       </text-prop>
       <date-prop name=":hasDate">
-         <date permissions="prop-default">JULIAN:BCE:0054:0042</date>
+         <date permissions="prop-default">JULIAN:BCE:0054:BCE:0042</date>
       </date-prop>
       <text-prop name=":hasDescription">
-         <text permissions="prop-default" encoding="utf8">This is a copy of the so-called New Year's inscription in the Temple of Dendera in Egypt.</text>
+         <text permissions="prop-default" encoding="utf8">This text accompanies the reliefs depicting the New Year's procession in the eastern staircase of the Temple of Hathor in Dendera.</text>
       </text-prop>
       <text-prop name=":hasCopyright">
          <text permissions="prop-default" encoding="utf8">© Alexa Rickert</text>
@@ -467,12 +467,12 @@
    </resource>   
 
    <resource label="Lekythos" restype=":Image2D" id="img_obj_9" permissions="res-default">
-      <bitstream>Bilder/BM1888-0601-716.png</bitstream>
+      <bitstream>Images/BM1888-0601-716.png</bitstream>
       <text-prop name=":hasTitle">
          <text permissions="prop-default" encoding="utf8">Attic red-figured Lekythos BM 1888,601.716</text>
       </text-prop>
       <date-prop name=":hasDate">
-         <date permissions="prop-default">JULIAN:BCE:0400:0380</date>
+         <date permissions="prop-default">JULIAN:BCE:0400:BCE:0380</date>
       </date-prop>
       <text-prop name=":hasDescription">
          <text permissions="prop-default" encoding="utf8">The attic red-figured Lekythos with the museum number 1888,601.716 in the British Museum shows a depiction of the Feast of Adonis. Eros with an incense burner stands on a ladder between women.</text>
@@ -648,7 +648,7 @@
          <resptr permissions="prop-default">img_obj_8</resptr>
       </resptr-prop>
       <text-prop name=":hasTitle">
-         <text permissions="prop-default" encoding="utf8">New Year's procession in the Temple of Hathor in Dendera.</text>
+         <text permissions="prop-default" encoding="utf8">Description of the New Year's procession in the Temple of Hathor in Dendara.</text>
       </text-prop>
       <text-prop name=":hasTransliteration">
          <text permissions="prop-default" encoding="utf8">
@@ -1475,7 +1475,7 @@
          <resptr permissions="prop-default">img_obj_5</resptr>
       </resptr-prop>
       <list-prop list="category" name=":hasCategory">
-         <list permissions="prop-default">animals:mammals</list>
+         <list permissions="prop-default">mammals</list>
       </list-prop>
       <text-prop name=":hasName">
          <text permissions="prop-default" encoding="utf8">cat</text>
@@ -1499,7 +1499,7 @@
          <resptr permissions="prop-default">img_obj_7</resptr>
       </resptr-prop>
       <list-prop list="category" name=":hasCategory">
-         <list permissions="prop-default">nature:physics</list>
+         <list permissions="prop-default">physics</list>
       </list-prop>
       <text-prop name=":hasName">
          <text permissions="prop-default" encoding="utf8">meteorite</text>
@@ -1541,7 +1541,7 @@
          <geoname permissions="prop-default" comment="Naukratis, Egypt">351274</geoname>
       </geoname-prop>
       <date-prop name=":hasDate">
-         <date permissions="prop-default">JULIAN:BCE:0400:0380</date>        
+         <date permissions="prop-default">JULIAN:BCE:0400:BCE:0380</date>        
       </date-prop>
       <resptr-prop name=":inInstitution">
          <resptr permissions="prop-default">inst_0</resptr>

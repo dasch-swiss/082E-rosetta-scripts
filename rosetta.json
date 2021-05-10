@@ -724,7 +724,7 @@
             ],
             "resources": [
                {
-                  "name": "text",
+                  "name": "Text",
                   "labels": {
                      "de": "Text",
                      "en": "Text",
@@ -988,11 +988,11 @@
                   ]
                }, 
                {
-                  "name": "Film",
+                  "name": "Video",
                   "labels": {
-                     "de": "Film",
-                     "en": "Film",
-                     "fr": "Film"
+                     "de": "Video",
+                     "en": "Video",
+                     "fr": "Video"
                    },
                   "comments": "none",
                   "super": "MovingImageRepresentation",
