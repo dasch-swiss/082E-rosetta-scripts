@@ -67,7 +67,7 @@
               {
                "name": "artwork",
                "labels": { 
-                  "de": "Kustwerk",
+                  "de": "Kunstwerk",
                   "en": "Artwork",
                   "fr": "Oeuvre d'art"
                }
@@ -200,6 +200,23 @@
             "name": "rosetta",
             "label": "The rosetta ontology",
             "properties": [
+               {
+                  "name": "hasText",
+                  "super": [
+                     "hasValue"
+                  ],
+                  "object": "TextValue",
+                  "labels": {
+                     "de": "hat einen Text",
+                     "en": "Has a text",
+                     "fr": "un texte"
+                  },
+                  "gui_element": "SimpleText",
+                  "gui_attributes": {
+                     "maxlength": "128",
+                     "size": 32
+                  }
+               },
                {
                   "name": "hasTextMedium",
                   "super": [
@@ -541,7 +558,10 @@
                      "en": "is part of",
                      "fr": "fait partie de"
                    },
-                  "gui_element": "Searchbox"
+                  "gui_element": "Searchbox",
+                  "gui_attributes": {
+                     "numprops": 1
+                  }
                },
                {
                   "name": "hasCategory",
@@ -566,9 +586,9 @@
                   ],
                   "object": "Annotation",
                   "labels": {
-                  "de": "Annotation",
-                  "en": "Annotation",
-                  "fr": "Annotation"
+                     "de": "Annotation",
+                     "en": "Annotation",
+                     "fr": "Annotation"
                   },
                   "gui_element": "Searchbox"
                },                                           
@@ -968,11 +988,11 @@
                   ]
                }, 
                {
-                  "name": "Film",
+                  "name": "Video",
                   "labels": {
-                     "de": "Film",
-                     "en": "Film",
-                     "fr": "Film"
+                     "de": "Video",
+                     "en": "Video",
+                     "fr": "Video"
                    },
                   "comments": "none",
                   "super": "MovingImageRepresentation",
