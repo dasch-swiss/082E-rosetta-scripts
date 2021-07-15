@@ -192,7 +192,7 @@
            "password": "rosetta1234",
            "lang": "de",
            "groups": [":rosetta-editors"],
-           "projects": [":admin","anything:member"]
+           "projects": [":admin",":member"]
          }
        ],      
       "ontologies": [
