@@ -213,7 +213,7 @@
                   },
                   "gui_element": "SimpleText",
                   "gui_attributes": {
-                     "maxlength": "128",
+                     "maxlength": 128,
                      "size": 32
                   }
                },
@@ -342,7 +342,7 @@
                   },
                   "gui_element": "SimpleText",
                   "gui_attributes": {
-                     "maxlength": "128",
+                     "maxlength": 128,
                      "size": 32
                   }
                },
@@ -360,7 +360,7 @@
                    },
                   "gui_element": "SimpleText",
                   "gui_attributes": {
-                     "maxlength": "255",
+                     "maxlength": 255,
                      "size": 80
                   }
                },    
@@ -429,7 +429,7 @@
                    },
                   "gui_element": "SimpleText",                   
                   "gui_attributes": {
-                     "maxlength": "128",
+                     "maxlength": 128,
                      "size": 128
                    }
                },
@@ -446,7 +446,7 @@
                    },
                   "gui_element": "SimpleText",
                   "gui_attributes": {
-                     "maxlength": "128",
+                     "maxlength": 128,
                      "size": 128
                    }
                },
@@ -463,7 +463,7 @@
                   },
                   "gui_element": "SimpleText",
                   "gui_attributes": {
-                     "maxlength": "128",
+                     "maxlength": 128,
                      "size": 128
                    }
                },  
@@ -526,7 +526,7 @@
                    },
                   "gui_element": "SimpleText",
                   "gui_attributes": {
-                     "maxlength": "80",
+                     "maxlength": 80,
                      "size": 25
                   }
                },
@@ -543,7 +543,7 @@
                    },
                   "gui_element": "SimpleText",
                   "gui_attributes": {
-                     "maxlength": "8",
+                     "maxlength": 8,
                      "size": 8
                   }
                },
@@ -618,7 +618,7 @@
                    },
                   "gui_element": "SimpleText",
                   "gui_attributes": {
-                     "maxlength": "128",
+                     "maxlength": 128,
                      "size": 64
                   }
                },   
@@ -704,7 +704,7 @@
                   },
                   "gui_element": "SimpleText",
                   "gui_attributes": {
-                    "maxlength": "255",
+                    "maxlength": 255,
                     "size": 80
                   }
                 },
