@@ -3,6 +3,7 @@
       "rosetta": "http://api.test.dasch.swiss/ontology/082E/rosetta/v2",
       "dcterms": "http://purl.org/dc/terms/"
    },
+   "$schema": "https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/knora/dsplib/schemas/ontology.json",
    "project": {
       "shortcode": "082E",
       "shortname": "rosetta",
