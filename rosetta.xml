@@ -16,14 +16,14 @@
    <permissions id="res-restricted">
       <allow group="UnknownUser">V</allow>
       <allow group="KnownUser">V</allow>
-      <allow group="Creator">CR</allow>> 
-      <allow group="ProjectAdmin">CR</allow>> 
+      <allow group="Creator">CR</allow>
+      <allow group="ProjectAdmin">CR</allow>
    </permissions>
    <permissions id="prop-default">
       <allow group="UnknownUser">V</allow>
       <allow group="KnownUser">V</allow>
       <allow group="Creator">CR</allow>
-      <allow group="ProjectAdmin">CR</allow>> 
+      <allow group="ProjectAdmin">CR</allow>
    </permissions>
    <permissions id="prop-restricted">
       <allow group="UnknownUser">V</allow>
