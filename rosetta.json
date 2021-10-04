@@ -731,7 +731,7 @@
                      "en": "Text",
                      "fr": "Texte"
                    },
-                  "comments": "no comment",
+                  "comments": {"en":"no comment"},
                   "super": "Resource",
                   "cardinalities": [
                      {
@@ -817,7 +817,7 @@
                      "en": "2D image",
                      "fr": "image 2D"
                    },
-                  "comments": "none",
+                  "comments": {"en":"a comment"},
                   "super": "StillImageRepresentation",
                   "cardinalities": [
                      {
@@ -873,7 +873,7 @@
                      "en": "3D image",
                      "fr": "image 3D"
                    },
-                  "comments": "none",
+                  "comments": {"en":"a comment"},
                   "super": "DDDRepresentation",
                   "cardinalities": [
                      {
@@ -934,7 +934,7 @@
                      "en": "Audio",
                      "fr": "Audio"
                    },
-                  "comments": "none",
+                  "comments": {"en":"a comment"},
                   "super": "AudioRepresentation",
                   "cardinalities": [
                      {
@@ -995,7 +995,7 @@
                      "en": "Video",
                      "fr": "Video"
                    },
-                  "comments": "none",
+                  "comments": {"en":"a comment"},
                   "super": "MovingImageRepresentation",
                   "cardinalities": [
                      {
@@ -1056,7 +1056,7 @@
                      "en": "book / manuscript",
                      "fr": "livre / manuscrit"
                  },
-                  "comments": "none",
+                  "comments": {"en":"a comment"},
                   "super": "Resource",
                   "cardinalities": [
                      {
@@ -1109,7 +1109,7 @@
                      "en": "Book page / Manuscript page",
                      "fr": "Page du livre / Page du manuscrit"
                  },
-                  "comments": "A page is a part of a book or manuscript",
+                  "comments": {"en": "A page is a part of a book or manuscript"},
                   "cardinalities": [
                      {
                         "propname": ":hasTextMedium",
@@ -1164,7 +1164,7 @@
                      "en": "Person",
                      "fr": "Personne"
                  },
-                  "comments": "none",
+                  "comments": {"en":"a comment"},
                   "super": "Resource",
                   "cardinalities": [
                      {
@@ -1196,7 +1196,7 @@
                      "en": "Institution",
                      "fr": "Institution"
                  },
-                  "comments": "none",
+                  "comments": {"en":"a comment"},
                   "super": "Resource",
                   "cardinalities": [
                      {
@@ -1228,7 +1228,7 @@
                      "en": "Object",
                      "fr": "Objet"
                  },
-                  "comments": "none",
+                  "comments": {"en":"a comment"},
                   "super": "Resource",
                   "cardinalities": [
                      {
@@ -1320,7 +1320,7 @@
                      "en": "Document",
                      "fr": "Document"
                  },
-                  "comments": "none",
+                  "comments": {"en":"a comment"},
                   "super": "DocumentRepresentation",
                   "cardinalities": [
                      {
@@ -1342,7 +1342,7 @@
                      "en": "Text document",
                      "fr": "Document texte"
                  },
-                  "comments": "none",
+                  "comments": {"en":"a comment"},
                   "super": "TextRepresentation",
                   "cardinalities": [
                      {
