@@ -221,9 +221,7 @@
             <uri permissions="prop-default">http://d-nb.info/gnd/5569893-1</uri>
         </uri-prop>
         <uri-prop name=":hasExternalLink">
-            <uri permissions="prop-default">
-                https://www.imj.org.il/en/wings/archaeology/rockefeller-archaeological-museum
-            </uri>
+            <uri permissions="prop-default">https://www.imj.org.il/en/wings/archaeology/rockefeller-archaeological-museum</uri>
         </uri-prop>
     </resource>
 
@@ -1180,9 +1178,7 @@
             <text permissions="prop-default" encoding="utf8">© Ǧawdat Faḫr al-Din</text>
         </text-prop>
         <uri-prop name=":hasExternalLink">
-            <uri permissions="prop-default">
-                https://arablit.org/2020/04/02/a-street-in-the-pandemic-other-poems-by-jawdat-fakhreddine/
-            </uri>
+            <uri permissions="prop-default">https://arablit.org/2020/04/02/a-street-in-the-pandemic-other-poems-by-jawdat-fakhreddine</uri>
         </uri-prop>
     </resource>
 
