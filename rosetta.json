@@ -179,7 +179,7 @@
     "groups": [
       {
         "name": "rosetta-editors",
-        "description": "Editors for the rosetta-project",
+        "descriptions": {"en":"Editors for the rosetta-project"},
         "selfjoin": false,
         "status": true
       }
