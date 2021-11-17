@@ -43,6 +43,9 @@
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://en.wikipedia.org/wiki/Homer</uri>
         </uri-prop>
+        <time-prop name=":hasTime">
+            <time permissions="prop-default">1990-05-23T13:45:12Z</time>
+        </time-prop>
     </resource>
 
     <resource label="Fernand Léger" restype=":Person" id="person_1" permissions="res-default">
@@ -55,6 +58,9 @@
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">http://fr.wikipedia.org/wiki/Fernand_Léger</uri>
         </uri-prop>
+        <time-prop name=":hasTime">
+            <time permissions="prop-default">1881-02-04T12:00:00-02:00</time>
+        </time-prop>
     </resource>
 
     <resource label="Francis Danby" restype=":Person" id="person_2" permissions="res-default">
@@ -67,6 +73,9 @@
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://en.wikipedia.org/wiki/Francis_Danby</uri>
         </uri-prop>
+        <time-prop name=":hasTime">
+            <time permissions="prop-default">0099-07-18T16:00:00Z</time>
+        </time-prop>
     </resource>
 
     <resource label="Paul Éluard" restype=":Person" id="person_3" permissions="res-default">
@@ -94,6 +103,9 @@
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D</uri>
         </uri-prop>
+        <time-prop name=":hasTime">
+            <time permissions="prop-default">0006-06-06T06:06:06-06:00</time>
+        </time-prop>
     </resource>
 
     <resource label="Ivan Krylov" restype=":Person" id="person_5" permissions="res-default">
@@ -116,6 +128,7 @@
             <uri permissions="prop-default">http://d-nb.info/gnd/1148770291</uri>
         </uri-prop>
     </resource>
+
     <resource label="Goran Bregović" restype=":Person" id="person_7" permissions="res-default">
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Goran Bregović</text>
