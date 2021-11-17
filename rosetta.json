@@ -59,6 +59,9 @@
     "lists": [
       {
         "name": "category",
+        "comments": {
+          "en": "no comment"
+        },
         "labels": {
           "de": "Kategorie",
           "en": "Category",
@@ -205,6 +208,19 @@
         "name": "rosetta",
         "label": "The rosetta ontology",
         "properties": [
+          {
+            "name": "hasTime",
+            "super": [
+              "hasValue"
+            ],
+            "object": "TimeValue",
+            "labels": {
+              "de": "Zeit",
+              "en": "Time",
+              "fr": "Heure"
+            },
+            "gui_element": "TimeStamp"
+          },
           {
             "name": "hasText",
             "super": [
@@ -1206,6 +1222,11 @@
                 "propname": ":hasExternalLink",
                 "cardinality": "0-n",
                 "gui_order": 4
+              },
+              {
+                "propname": ":hasTime",
+                "cardinality": "0-1",
+                "gui_order": 5
               }
             ]
           },
