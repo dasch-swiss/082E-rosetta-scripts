@@ -59,9 +59,6 @@
     "lists": [
       {
         "name": "category",
-        "comments": {
-          "en": "no comment"
-        },
         "labels": {
           "de": "Kategorie",
           "en": "Category",
