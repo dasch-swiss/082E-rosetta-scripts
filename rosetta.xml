@@ -1739,4 +1739,34 @@
         </text-prop>
     </resource>
 
+    <!-- :Audio -->
+    <resource label="Ederlezi" restype=":Audio" id="audio_obj_0" permissions="res-restricted">
+        <bitstream>Audio/Ederlezi.wav</bitstream>
+        <text-prop name=":hasTitle">
+            <text permissions="prop-default" encoding="utf8">Ederlezi</text>
+        </text-prop>
+        <resptr-prop name=":hasCreator">
+            <resptr permissions="prop-default">person_7</resptr>
+        </resptr-prop>
+        <date-prop name=":hasDate">
+            <date permissions="prop-default">GREGORIAN:CE:1988</date>
+        </date-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="utf8">Ederlezi is a folk-song about the returning of springtime. Goran Bregović's version 
+          from 1988 was used in Emir Kusturica's film Time of the Gypsies.</text>
+        </text-prop>
+        <interval-prop name=":hasInterval">
+            <interval permissions="prop-default">0.00:4.8</interval>
+        </interval-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">© Goran Bregović</text>
+        </text-prop>
+        <geoname-prop name=":hasLocation">
+            <geoname permissions="prop-default" comment="Sarajevo">3191281</geoname>
+        </geoname-prop>
+        <uri-prop name=":hasExternalLink">
+            <uri permissions="prop-default">http://www.goranbregovic.rs/</uri>
+        </uri-prop>
+    </resource>
+
 </knora>
