@@ -183,7 +183,9 @@
     "groups": [
       {
         "name": "rosetta-editors",
-        "descriptions": {"en":"Editors for the rosetta-project"},
+        "descriptions": {
+          "en": "Editors for the rosetta-project"
+        },
         "selfjoin": false,
         "status": true
       }
@@ -1370,6 +1372,30 @@
               "en": "a comment"
             },
             "super": "DocumentRepresentation",
+            "cardinalities": [
+              {
+                "propname": ":hasName",
+                "cardinality": "1",
+                "gui_order": 1
+              },
+              {
+                "propname": ":hasDescription",
+                "cardinality": "1",
+                "gui_order": 2
+              }
+            ]
+          },
+          {
+            "name": "Archive",
+            "labels": {
+              "de": "Archiv",
+              "en": "archive",
+              "fr": "archive"
+            },
+            "comments": {
+              "en": "a comment"
+            },
+            "super": "ArchiveRepresentation",
             "cardinalities": [
               {
                 "propname": ":hasName",

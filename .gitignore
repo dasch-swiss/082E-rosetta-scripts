@@ -2,3 +2,4 @@ lists.json
 .DS_Store
 .idea/
 env/
+id2iri_*.json
