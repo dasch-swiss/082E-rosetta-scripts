@@ -1,12 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<knora xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-       xmlns="https://dasch.swiss/schema"
-       xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/knora/dsplib/schemas/data.xsd"
-       shortcode="082E"
-       default-ontology="rosetta">
+<knora xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://dasch.swiss/schema" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/knora/dsplib/schemas/data.xsd" shortcode="082E" default-ontology="rosetta">
 
-    <!-- :permissions see https://docs.knora.org/03-apis/api-v2/reading-user-permissions/ -->
+    <!-- :permissions see https://docs-api.dasch.swiss/02-knora-ontologies/knora-base/#permissions -->
     <permissions id="res-default">
         <allow group="UnknownUser">V</allow>
         <allow group="KnownUser">V</allow>
@@ -278,10 +274,13 @@
             <date permissions="prop-default">JULIAN:BCE:0700:0600</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">Tablet K.3375 in the British Museum is tablet 11 of the Epic
+            <text permissions="prop-default" encoding="xml">
+                Tablet K.3375 in the British Museum is tablet 11 of the Epic
                 of Gilgameš. It
                 contains the very famous story of the deluge. The tablet was found at Koyunjik in the
-                Library of Ashurbanipal and it dates to the 7<sup>th</sup> century BCE.
+                Library of Ashurbanipal and it dates to the 7
+                <sup>th</sup>
+                century BCE.
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -331,8 +330,7 @@
         </uri-prop>
     </resource>
 
-    <resource label="Liberté, j'écris ton nom" restype=":Image2D" id="img_obj_2"
-              permissions="res-default">
+    <resource label="Liberté, j'écris ton nom" restype=":Image2D" id="img_obj_2" permissions="res-default">
         <bitstream>Images/Leger-Eluard.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Liberté</text>
@@ -382,8 +380,7 @@
         </uri-prop>
     </resource>
 
-    <resource label="Western aisle mosaic of the synagogue in En-Gedi" restype=":Image2D" id="img_obj_4"
-              permissions="res-default">
+    <resource label="Western aisle mosaic of the synagogue in En-Gedi" restype=":Image2D" id="img_obj_4" permissions="res-default">
         <bitstream>Images/EnGediMosaic.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Western aisle mosaic of the synagogue in En-Gedi</text>
@@ -541,45 +538,69 @@
         </text-prop>
         <text-prop name=":hasTranscription">
             <text permissions="prop-default" encoding="xml">
-                <sup>d</sup>GIŠ-gim₂-maš a-na ša₂-⸢šu⸣-ma MU-ra a-na <sup>m</sup>UD-ZI ru-u₂-qi₂
-                <br/>
-                a-na-aṭ-ṭa-la-kum₂-ma <sup>m</sup>UD-ZI
-                <br/>
+                <sup>d</sup>
+                GIŠ-gim₂-maš a-na ša₂-⸢šu⸣-ma MU-ra a-na
+                <sup>m</sup>
+                UD-ZI ru-u₂-qi₂
+                <br />
+                a-na-aṭ-ṭa-la-kum₂-ma
+                <sup>m</sup>
+                UD-ZI
+                <br />
                 mi-na-tu-ka ul ⸢ša₂⸣-na-a ki-i ia-ti-ma at-ta
-                <br/>
+                <br />
                 u₃ at-ta ul š[a₂-n]a-ta ki-i ia-ti-ma at-ta
-                <br/>
+                <br />
                 ⸢gu-um-mur-ka⸣ [lib₃]-bi ana e-peš tu-qu-un-ti
-                <br/>
+                <br />
                 [ ] a-ḫi ⸢na-ad-a⸣t e-lu ṣe-ri-ka
-                <br/>
+                <br />
                 [at-t]a ⸢ki-ki-i⸣ ta-az-ziz -m]a ina UKKIN DINGIR.MEŠ
                 ba-la-ṭa taš-⸢u₃⸣
-                <br/>
-                [<sup>m</sup>UD]-ZI-tim ana ša₂-šu-ma [MU-r]a a-na <sup>d</sup>GIŠ-gim₃-maš
-                <br/>
-                lu-up-te-ka <sup>d</sup>GIŠ-gim₂-maš a-mat ni-ṣir-ti
-                <br/>
+                <br />
+                [
+                <sup>m</sup>
+                UD]-ZI-tim ana ša₂-šu-ma [MU-r]a a-na
+                <sup>d</sup>
+                GIŠ-gim₃-maš
+                <br />
+                lu-up-te-ka
+                <sup>d</sup>
+                GIŠ-gim₂-maš a-mat ni-ṣir-ti
+                <br />
                 u₃ pi-riš-ti ša₂ DINGIR.MEŠ ka-a-ša₂ l[u-uq-bi]-ka
-                <br/>
+                <br />
                 [U]RU šu-ri-ip-pak URU ša₂ ti-du-šu at-ta :
-                <br/>
-                [x (x) x G]U₂ <sup>id₂</sup>pu-rat-ti šak-nu
-                <br/>
+                <br />
+                [x (x) x G]U₂
+                <sup>id₂</sup>
+                pu-rat-ti šak-nu
+                <br />
                 [UR]U ·u-u₂ la-bir-ma DINGIR.MEŠ qer-bu-uš
-                <br/>
+                <br />
                 [a-n]a ša₂-kan a-bu-bi ub-⸢la⸣ lib₃-ba-šu₂-nu DINGIR.MEŠ GAL.MEŠ
-                <br/>
-                [it]-ma-ma AD-šu₂-nu <sup>d</sup>a-num 〈:〉
-                <br/>
-                ma-lik-šu₂-nu qu-ra-du <sup>d</sup>en-lil₂
-                <br/>
-                [g]u-za-la₂-šu₂-nu <sup>d</sup>nin-urta 〈:〉
-                <br/>
-                gu₂-⸢gal-la⸣-šu₂-nu <sup>d</sup>en-nu-gi
-                <br/>
-                <sup>d</sup>nin-ši-ku₃ <sup>d</sup>e₂-a it-ti-šu₂-nu ta-mi₃-ma
-                <br/>
+                <br />
+                [it]-ma-ma AD-šu₂-nu
+                <sup>d</sup>
+                a-num 〈:〉
+                <br />
+                ma-lik-šu₂-nu qu-ra-du
+                <sup>d</sup>
+                en-lil₂
+                <br />
+                [g]u-za-la₂-šu₂-nu
+                <sup>d</sup>
+                nin-urta 〈:〉
+                <br />
+                gu₂-⸢gal-la⸣-šu₂-nu
+                <sup>d</sup>
+                en-nu-gi
+                <br />
+                <sup>d</sup>
+                nin-ši-ku₃
+                <sup>d</sup>
+                e₂-a it-ti-šu₂-nu ta-mi₃-ma
+                <br />
                 a-mat-su-nu u₂-ša₂-an-na-a a-na ki-ik-ki-šu₂
             </text>
         </text-prop>
@@ -652,8 +673,7 @@
         </resptr-prop>
     </resource>
 
-    <resource label="Western Aisle Mosaic in the synagogue of En Gedi" restype=":Text" id="text_obj_1"
-              permissions="res-default">
+    <resource label="Western Aisle Mosaic in the synagogue of En Gedi" restype=":Text" id="text_obj_1" permissions="res-default">
         <resptr-prop name=":hasTextMedium">
             <resptr permissions="prop-default">img_obj_4</resptr>
         </resptr-prop>
@@ -713,8 +733,7 @@
         </uri-prop>
     </resource>
 
-    <resource label="New Year's procession in the Temple of Hathor in Dendera" restype=":Text" id="text_obj_2"
-              permissions="res-default">
+    <resource label="New Year's procession in the Temple of Hathor in Dendera" restype=":Text" id="text_obj_2" permissions="res-default">
         <resptr-prop name=":hasTextMedium">
             <resptr permissions="prop-default">img_obj_8</resptr>
         </resptr-prop>
@@ -1196,8 +1215,7 @@
     </resource>
 
     <!-- Book: -->
-    <resource label="Iliad" restype=":Book" id="book_obj_0"
-              permissions="res-default">
+    <resource label="Iliad" restype=":Book" id="book_obj_0" permissions="res-default">
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Greek Manuscripts from 1397. Iliad (I-V).</text>
         </text-prop>
@@ -1229,8 +1247,7 @@
     </resource>
 
     <!-- Page: -->
-    <resource label="Iliad, Prooem" restype=":Page" id="page_obj_0"
-              permissions="res-default">
+    <resource label="Iliad, Prooem" restype=":Page" id="page_obj_0" permissions="res-default">
         <resptr-prop name=":hasTextMedium">
             <resptr permissions="prop-default">img_obj_6</resptr>
         </resptr-prop>
@@ -1696,7 +1713,7 @@
         </text-prop>
     </resource>
 
-    <resource label="RosettaZIP" restype=":Document" id="doc_003" permissions="res-default">
+    <resource label="RosettaZIP" restype=":Archive" id="doc_003" permissions="res-default">
         <bitstream>Documents/Rosetta.zip</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">ZIP of Test project Rosetta</text>
@@ -1708,7 +1725,7 @@
         </text-prop>
     </resource>
 
-    <resource label="StygimolochZIP" restype=":Document" id="doc_004" permissions="res-default">
+    <resource label="StygimolochZIP" restype=":Archive" id="doc_004" permissions="res-default">
         <bitstream>Documents/Stygimoloch.zip</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Stygimoloch</text>
@@ -1720,6 +1737,36 @@
                 (http://creativecommons.org/licenses/by-nc/4.0/).
             </text>
         </text-prop>
+    </resource>
+
+    <!-- :Audio -->
+    <resource label="Ederlezi" restype=":Audio" id="audio_obj_0" permissions="res-restricted">
+        <bitstream>Audio/Ederlezi.wav</bitstream>
+        <text-prop name=":hasTitle">
+            <text permissions="prop-default" encoding="utf8">Ederlezi</text>
+        </text-prop>
+        <resptr-prop name=":hasCreator">
+            <resptr permissions="prop-default">person_7</resptr>
+        </resptr-prop>
+        <date-prop name=":hasDate">
+            <date permissions="prop-default">GREGORIAN:CE:1988</date>
+        </date-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="utf8">Ederlezi is a folk-song about the returning of springtime. Goran Bregović's version 
+          from 1988 was used in Emir Kusturica's film Time of the Gypsies.</text>
+        </text-prop>
+        <interval-prop name=":hasInterval">
+            <interval permissions="prop-default">0.00:4.8</interval>
+        </interval-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="utf8">© Goran Bregović</text>
+        </text-prop>
+        <geoname-prop name=":hasLocation">
+            <geoname permissions="prop-default" comment="Sarajevo">3191281</geoname>
+        </geoname-prop>
+        <uri-prop name=":hasExternalLink">
+            <uri permissions="prop-default">http://www.goranbregovic.rs/</uri>
+        </uri-prop>
     </resource>
 
 </knora>
