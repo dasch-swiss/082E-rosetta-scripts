@@ -2,7 +2,7 @@
 
 <knora xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://dasch.swiss/schema" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/knora/dsplib/schemas/data.xsd" shortcode="082E" default-ontology="rosetta">
 
-    <!-- :permissions see https://docs.knora.org/03-apis/api-v2/reading-user-permissions/ -->
+    <!-- :permissions see https://docs-api.dasch.swiss/02-knora-ontologies/knora-base/#permissions -->
     <permissions id="res-default">
         <allow group="UnknownUser">V</allow>
         <allow group="KnownUser">V</allow>
@@ -10,7 +10,7 @@
         <allow group="ProjectAdmin">CR</allow>
     </permissions>
     <permissions id="res-restricted">
-        <allow group="UnknownUser">RV</allow>
+        <allow group="UnknownUser">V</allow>
         <allow group="KnownUser">V</allow>
         <allow group="Creator">CR</allow>
         <allow group="ProjectAdmin">CR</allow>
@@ -22,7 +22,7 @@
         <allow group="ProjectAdmin">CR</allow>
     </permissions>
     <permissions id="prop-restricted">
-        <allow group="UnknownUser">RV</allow>
+        <allow group="UnknownUser">V</allow>
         <allow group="KnownUser">V</allow>
         <allow group="Creator">CR</allow>
         <allow group="ProjectAdmin">CR</allow>
@@ -41,7 +41,7 @@
         </uri-prop>
     </resource>
 
-    <resource label="Fernand Léger" restype=":Person" id="person_1" permissions="res-restricted">
+    <resource label="Fernand Léger" restype=":Person" id="person_1" permissions="res-default">
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Fernand Léger</text>
         </text-prop>
@@ -280,7 +280,7 @@
         </uri-prop>
     </resource>
 
-    <resource label="Deluge" restype=":Image2D" id="img_obj_1" permissions="res-restricted">
+    <resource label="Deluge" restype=":Image2D" id="img_obj_1" permissions="res-default">
         <bitstream>Images/Danby-deluge.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">The Deluge</text>
@@ -1543,7 +1543,7 @@
             </text>
         </text-prop>
         <decimal-prop name=":hasWeight">
-            <decimal permissions="prop-default">4.8</decimal>
+            <decimal permissions="prop-restricted">4.8</decimal>
         </decimal-prop>
         <boolean-prop name=":isPublic">
             <boolean permissions="prop-default">true</boolean>
@@ -1596,7 +1596,7 @@
             </text>
         </text-prop>
         <decimal-prop name=":hasWeight">
-            <decimal permissions="prop-default">0.5</decimal>
+            <decimal permissions="prop-restricted">0.5</decimal>
         </decimal-prop>
         <geoname-prop name=":hasFindspot">
             <geoname permissions="prop-default">351274</geoname>
@@ -1635,7 +1635,7 @@
             </text>
         </text-prop>
         <time-prop name=":hasTime">
-            <time permissions="prop-default">2021-11-30T12:00:00</time>
+            <time permissions="prop-default">2021-11-30T12:00:00+00:00</time>
         </time-prop>
     </resource>
 
@@ -1673,7 +1673,7 @@
     </resource>
 
     <!-- :Audio -->
-    <resource label="Ederlezi" restype=":Audio" id="audio_obj_0" permissions="res-default">
+    <resource label="Ederlezi" restype=":Audio" id="audio_obj_0" permissions="res-restricted">
         <bitstream>Audio/Ederlezi.wav</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Ederlezi</text>
