@@ -2,7 +2,7 @@
 
 <knora xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://dasch.swiss/schema" xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/knora/dsplib/schemas/data.xsd" shortcode="082E" default-ontology="rosetta">
 
-    <!-- :permissions see https://docs.knora.org/03-apis/api-v2/reading-user-permissions/ -->
+    <!-- :permissions see https://docs-api.dasch.swiss/02-knora-ontologies/knora-base/#permissions -->
     <permissions id="res-default">
         <allow group="UnknownUser">V</allow>
         <allow group="KnownUser">V</allow>
@@ -39,9 +39,6 @@
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://en.wikipedia.org/wiki/Homer</uri>
         </uri-prop>
-        <time-prop name=":hasTime">
-            <time permissions="prop-default">1990-05-23T13:45:12Z</time>
-        </time-prop>
     </resource>
 
     <resource label="Fernand Léger" restype=":Person" id="person_1" permissions="res-default">
@@ -54,9 +51,6 @@
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">http://fr.wikipedia.org/wiki/Fernand_Léger</uri>
         </uri-prop>
-        <time-prop name=":hasTime">
-            <time permissions="prop-default">1881-02-04T12:00:00-02:00</time>
-        </time-prop>
     </resource>
 
     <resource label="Francis Danby" restype=":Person" id="person_2" permissions="res-default">
@@ -69,9 +63,6 @@
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://en.wikipedia.org/wiki/Francis_Danby</uri>
         </uri-prop>
-        <time-prop name=":hasTime">
-            <time permissions="prop-default">0099-07-18T16:00:00Z</time>
-        </time-prop>
     </resource>
 
     <resource label="Paul Éluard" restype=":Person" id="person_3" permissions="res-default">
@@ -99,9 +90,6 @@
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://en.wikipedia.org/wiki/Matsuo_Bash%C5%8D</uri>
         </uri-prop>
-        <time-prop name=":hasTime">
-            <time permissions="prop-default">0006-06-06T06:06:06-06:00</time>
-        </time-prop>
     </resource>
 
     <resource label="Ivan Krylov" restype=":Person" id="person_5" permissions="res-default">
@@ -164,7 +152,7 @@
             <text permissions="prop-default" encoding="utf8">British Museum</text>
         </text-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="London">6697862</geoname>
+            <geoname permissions="prop-default">6697862</geoname>
         </geoname-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/38379-X</uri>
@@ -179,7 +167,7 @@
             <text permissions="prop-default" encoding="utf8">Tate Gallery London</text>
         </text-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="London">6695209</geoname>
+            <geoname permissions="prop-default">6695209</geoname>
         </geoname-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/10012396-X</uri>
@@ -194,7 +182,7 @@
             <text permissions="prop-default" encoding="utf8">Centre Georges Pompidou</text>
         </text-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="Paris">6269530</geoname>
+            <geoname permissions="prop-default">6269530</geoname>
         </geoname-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/1038030-9</uri>
@@ -209,7 +197,7 @@
             <text permissions="prop-default" encoding="utf8">St. Catherine's Monastery</text>
         </text-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="Mt. Sinai">350564</geoname>
+            <geoname permissions="prop-default">350564</geoname>
         </geoname-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/660210-1</uri>
@@ -224,7 +212,7 @@
             <text permissions="prop-default" encoding="utf8">Rockefeller Museum</text>
         </text-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="Jerusalem">11874035</geoname>
+            <geoname permissions="prop-default">11874035</geoname>
         </geoname-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/5569893-1</uri>
@@ -239,7 +227,7 @@
             <text permissions="prop-default" encoding="utf8">Synagogue in En-Gedi</text>
         </text-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="En-Gedi">8375748</geoname>
+            <geoname permissions="prop-default">8375748</geoname>
         </geoname-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/4091761-7</uri>
@@ -254,7 +242,7 @@
             <text permissions="prop-default" encoding="utf8">Temple of Hathor</text>
         </text-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="Dendera">358422</geoname>
+            <geoname permissions="prop-default">358422</geoname>
         </geoname-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/4133506-5</uri>
@@ -275,12 +263,7 @@
         </date-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
-                Tablet K.3375 in the British Museum is tablet 11 of the Epic
-                of Gilgameš. It
-                contains the very famous story of the deluge. The tablet was found at Koyunjik in the
-                Library of Ashurbanipal and it dates to the 7
-                <sup>th</sup>
-                century BCE.
+                Tablet K.3375 in the British Museum is tablet 11 of the Epic of Gilgameš. It contains the very famous story of the deluge. The tablet was found at Koyunjik in the Library of Ashurbanipal and it dates to the 7<sup>th</sup> century BCE.
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -290,7 +273,7 @@
             <resptr permissions="prop-default">inst_0</resptr>
         </resptr-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="London">6697862</geoname>
+            <geoname permissions="prop-default">6697862</geoname>
         </geoname-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://www.britishmuseum.org/collection/object/W_K-3375</uri>
@@ -309,21 +292,18 @@
             <date permissions="prop-default">GREGORIAN:CE:1877:CE:1879</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Oil paint on canvas. The subject is from the book Genesis
-                in the Old Testament. God
-                sends a flood and spares only Noah and his family.
+            <text permissions="prop-default" encoding="utf8">Oil paint on canvas. The subject is from the book Genesis in the Old Testament. God sends a flood and spares only Noah and his family.
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">The Deluge, Francis Danby,1877-1879, Photo: © Tate, London
-                [2020]
+            <text permissions="prop-default" encoding="utf8">The Deluge, Francis Danby,1877-1879, Photo: © Tate, London [2020]
             </text>
         </text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_1</resptr>
         </resptr-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="London">6695209</geoname>
+            <geoname permissions="prop-default">6695209</geoname>
         </geoname-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://www.tate.org.uk/art/artworks/danby-the-deluge-t01337</uri>
@@ -351,7 +331,7 @@
             <resptr permissions="prop-default">inst_2</resptr>
         </resptr-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="Paris">6269530</geoname>
+            <geoname permissions="prop-default">6269530</geoname>
         </geoname-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://www.centrepompidou.fr/fr/ressources/oeuvre/c8Ebapd</uri>
@@ -389,11 +369,7 @@
             <date permissions="prop-default">JULIAN:CE:0450:CE:0500</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">The mosaic in the western aisle of the synagogue of En-Gedi
-                contains
-                Hebrew and Aramaic text. The first two lines name 13 generations from Adam to
-                Jafet. The following section contains the names of the zodiacal signs, the months,
-                of 3 patriarchs and of 3 followers of Daniel.
+            <text permissions="prop-default" encoding="utf8">The mosaic in the western aisle of the synagogue of En-Gedi contains Hebrew and Aramaic text. The first two lines name 13 generations from Adam to Jafet. The following section contains the names of the zodiacal signs, the months, of 3 patriarchs and of 3 followers of Daniel.
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -404,7 +380,7 @@
             <resptr permissions="prop-default">inst_5</resptr>
         </resptr-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="En-Gedi">295220</geoname>
+            <geoname permissions="prop-default">295220</geoname>
         </geoname-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://synagogues.kinneret.ac.il/synagogues/en-gedi/</uri>
@@ -417,8 +393,7 @@
             <text permissions="prop-default" encoding="utf8">Bengal cat</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This male Bengal cat is called Anubis. He is very curious,
-                but shy.
+            <text permissions="prop-default" encoding="utf8">This male Bengal cat is called Anubis. He is very curious, but shy.
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -433,20 +408,18 @@
             <text permissions="prop-default" encoding="utf8">Iliad Prooem</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This page shows the prooem of the Iliad in Greek manuscript
-                1397 in St. Catherine's Monastery on Mount Sinai.
+            <text permissions="prop-default" encoding="utf8">This page shows the prooem of the Iliad in Greek manuscript 1397 in St. Catherine's Monastery on Mount Sinai.
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">© Library of Congress Collection of Manuscripts in St.
-                Catherine's Monastery, Mt. Sinai.
+            <text permissions="prop-default" encoding="utf8">© Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai.
             </text>
         </text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_3</resptr>
         </resptr-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="Mount Sinai">350564</geoname>
+            <geoname permissions="prop-default">350564</geoname>
         </geoname-prop>
     </resource>
 
@@ -456,15 +429,14 @@
             <text permissions="prop-default" encoding="utf8">Gibeon Meteorite</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This is a polished piece of the Gibeon Meteorite which
-                shows nice Widmanstätten patterns.
+            <text permissions="prop-default" encoding="utf8">This is a polished piece of the Gibeon Meteorite which shows nice Widmanstätten patterns.
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© Rita Gautschy</text>
         </text-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="Gibeon, Namibia">3357293</geoname>
+            <geoname permissions="prop-default">3357293</geoname>
         </geoname-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://en.wikipedia.org/wiki/Gibeon_(meteorite)</uri>
@@ -480,8 +452,7 @@
             <date permissions="prop-default">JULIAN:BCE:0054:BCE:0042</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This text accompanies the reliefs depicting the New Year's
-                procession in the eastern staircase of the Temple of Hathor in Dendera.
+            <text permissions="prop-default" encoding="utf8">This text accompanies the reliefs depicting the New Year's procession in the eastern staircase of the Temple of Hathor in Dendera.
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -491,7 +462,7 @@
             <resptr permissions="prop-default">inst_6</resptr>
         </resptr-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="Dendera, Egypt">358422</geoname>
+            <geoname permissions="prop-default">358422</geoname>
         </geoname-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://sailingstonetravel.com/dendera-temple-of-hathor/</uri>
@@ -507,9 +478,7 @@
             <date permissions="prop-default">JULIAN:BCE:0400:BCE:0380</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">The attic red-figured Lekythos with the museum number
-                1888,601.716 in the British Museum shows a depiction of the Feast of Adonis. Eros with an incense burner
-                stands on a ladder between women.
+            <text permissions="prop-default" encoding="utf8">The attic red-figured Lekythos with the museum number 1888,601.716 in the British Museum shows a depiction of the Feast of Adonis. Eros with an incense burner stands on a ladder between women.
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -519,7 +488,7 @@
             <resptr permissions="prop-default">inst_0</resptr>
         </resptr-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="London">6697862</geoname>
+            <geoname permissions="prop-default">6697862</geoname>
         </geoname-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://www.britishmuseum.org/collection/object/G_1888-0601-716</uri>
@@ -532,8 +501,7 @@
             <resptr permissions="prop-default">img_obj_0</resptr>
         </resptr-prop>
         <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Epic of Gilgameš, tablet 11: British
-                Museum K.3375
+            <text permissions="prop-default" encoding="utf8">Epic of Gilgameš, tablet 11: British Museum K.3375
             </text>
         </text-prop>
         <text-prop name=":hasTranscription">
@@ -652,15 +620,14 @@
             </text>
         </text-prop>
         <text-prop name=":hasFindspot">
-            <text permissions="prop-default" encoding="utf8">Koyunjik</text>
+            <text permissions="prop-default" encoding="utf8">92878</text>
         </text-prop>
         <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="utf8">Bezold, C., Catalogue of the cuneiform tablets in the
-                Kouyunjik Collection of the British Museum, London 1891.
+            <text permissions="prop-default" encoding="utf8">Bezold, C., Catalogue of the cuneiform tablets in the Kouyunjik Collection of the British Museum, London 1891.
             </text>
         </text-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="London">2643743</geoname>
+            <geoname permissions="prop-default">2643743</geoname>
         </geoname-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© The Trustees of the British Museum</text>
@@ -708,14 +675,12 @@
             </text>
         </text-prop>
         <text-prop name=":hasFindspot">
-            <text permissions="prop-default" encoding="utf8">En Gedi</text>
+            <text permissions="prop-default" encoding="utf8">8375748</text>
         </text-prop>
         <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="utf8">Levine, L. I., The Inscription in the ‘En-Gedi Synagogue,
-                in: L. I. Levine (Hrsg.), Ancient Synagogues Revealed, Jerusalem 1981, 140–145.
+            <text permissions="prop-default" encoding="utf8">Levine, L. I., The Inscription in the ‘En-Gedi Synagogue, in: L. I. Levine (Hrsg.), Ancient Synagogues Revealed, Jerusalem 1981, 140–145.
             </text>
-            <text permissions="prop-default" encoding="utf8">Magness, J., The En-Gedi Synagogue Inscription
-                Reconsidered, in: Z. Weiss (Hrsg.), Ehud Netzer Volume, Eretz-Israel 31, Jerusalem 2015, 123–131.
+            <text permissions="prop-default" encoding="utf8">Magness, J., The En-Gedi Synagogue Inscription Reconsidered, in: Z. Weiss (Hrsg.), Ehud Netzer Volume, Eretz-Israel 31, Jerusalem 2015, 123–131.
             </text>
         </text-prop>
         <resptr-prop name=":inInstitution">
@@ -723,7 +688,7 @@
             <resptr permissions="prop-default">inst_5</resptr>
         </resptr-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="En-Gedi">295220</geoname>
+            <geoname permissions="prop-default">295220</geoname>
         </geoname-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© Rita Gautschy</text>
@@ -738,16 +703,13 @@
             <resptr permissions="prop-default">img_obj_8</resptr>
         </resptr-prop>
         <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Description of the New Year's procession in the Temple of
-                Hathor in Dendara.
+            <text permissions="prop-default" encoding="utf8">Description of the New Year's procession in the Temple of Hathor in Dendara.
             </text>
         </text-prop>
         <text-prop name=":hasTransliteration">
             <text permissions="prop-default" encoding="utf8">
-                p.t m ḥb ndb{w} m rš.wt ḏr ẖnm nbw.t stw.t i͗t=s i͗j=s m ḥtp r pr=s m ḥʿʿ(.wt) m ḥb=s nfr wp rnp.t
-                mi͗t.t
-                i͗sk m ḥb.w tp tr.w r-sꜣ ẖnm mꜢ.wt n(.t) I͗Ꜣḫw nswt ḏs=f ḥr kꜢp n=s ʿntw ḥr snṯr pr=s m sṯi͗-nṯr ḥr ḏsr
-                ḥw.t-nṯr=s m ʿšꜢw wr ḥr ms n=s ʿꜢb.t ʿꜢ.t tꜢ ḥnq.t wr.tw ḫr-m-m=sn
+                p.t m ḥb ndb{w} m rš.wt ḏr ẖnm nbw.t stw.t i͗t=s i͗j=s m ḥtp r pr=s m ḥʿʿ(.wt) m ḥb=s nfr wp rnp.t mi͗t.t
+                i͗sk m ḥb.w tp tr.w r-sꜣ ẖnm mꜢ.wt n(.t) I͗Ꜣḫw nswt ḏs=f ḥr kꜢp n=s ʿntw ḥr snṯr pr=s m sṯi͗-nṯr ḥr ḏsr ḥw.t-nṯr=s m ʿšꜢw wr ḥr ms n=s ʿꜢb.t ʿꜢ.t tꜢ ḥnq.t wr.tw ḫr-m-m=sn
             </text>
         </text-prop>
         <text-prop name=":hasTranslation">
@@ -761,19 +723,17 @@
             </text>
         </text-prop>
         <text-prop name=":hasFindspot">
-            <text permissions="prop-default" encoding="utf8">Dendera</text>
+            <text permissions="prop-default" encoding="utf8">358422</text>
         </text-prop>
         <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="utf8">Rickert, A., Eine Beschreibung der Neujahrsprozession im
-                Hathortempel von Dendera, in: R. Färber und R. Gautschy (Hrsg.), Zeit in den Kulturen des Altertums.
-                Antike Chronologie im Spiegel der Quellen, Köln 2020, 127–136.
+            <text permissions="prop-default" encoding="utf8">Rickert, A., Eine Beschreibung der Neujahrsprozession im Hathortempel von Dendera, in: R. Färber und R. Gautschy (Hrsg.), Zeit in den Kulturen des Altertums. Antike Chronologie im Spiegel der Quellen, Köln 2020, 127–136.
             </text>
         </text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_6</resptr>
         </resptr-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="Dendera">358422</geoname>
+            <geoname permissions="prop-default">358422</geoname>
         </geoname-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© Alexa Rickert</text>
@@ -1108,7 +1068,7 @@
                 As she used to do before.
                 And who would, in the times that sore?
                 To escape th' untimely end,
-                She is creeping to an Ant
+                She is creeping to an Antx
                 With the bitter her lament.
                 "Oh", she said, "My gentle friend,
 
@@ -1158,7 +1118,7 @@
             </text>
         </text-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="Japan">1861060</geoname>
+            <geoname permissions="prop-default">1861060</geoname>
         </geoname-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">Public domain</text>
@@ -1204,7 +1164,7 @@
             </text>
         </text-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="Lebanon">272103</geoname>
+            <geoname permissions="prop-default">272103</geoname>
         </geoname-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© Ǧawdat Faḫr al-Din</text>
@@ -1220,8 +1180,7 @@
             <text permissions="prop-default" encoding="utf8">Greek Manuscripts from 1397. Iliad (I-V).</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Manuscript containing the Iliad of Homer kept in St.
-                Catherine's Monastery in Mt. Sinai.
+            <text permissions="prop-default" encoding="utf8">Manuscript containing the Iliad of Homer kept in St. Catherine's Monastery in Mt. Sinai.
             </text>
         </text-prop>
         <resptr-prop name=":hasAuthor">
@@ -1234,11 +1193,10 @@
             <resptr permissions="prop-default">inst_0</resptr>
         </resptr-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="Mt. Sinai">350564</geoname>
+            <geoname permissions="prop-default">350564</geoname>
         </geoname-prop>
         <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">Library of Congress Collection of Manuscripts in St.
-                Catherine's Monastery, Mt. Sinai.
+            <text permissions="prop-default" encoding="utf8">Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai.
             </text>
         </text-prop>
         <uri-prop name=":hasExternalLink">
@@ -1303,8 +1261,7 @@
             </text>
         </text-prop>
         <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="utf8">Homer, Greek Manuscripts, Iliad I-V, 1700. Manuscript/Mixed
-                Material. Retrieved from the Library of Congress (www.loc.gov/item/00279382687-ms/).
+            <text permissions="prop-default" encoding="utf8">Homer, Greek Manuscripts, Iliad I-V, 1700. Manuscript/Mixed Material. Retrieved from the Library of Congress (www.loc.gov/item/00279382687-ms/).
             </text>
         </text-prop>
     </resource>
@@ -1582,13 +1539,11 @@
             <text permissions="prop-default" encoding="utf8">cat</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">An example of a domesticated cat breed created from hybrids
-                of domestic cats with the Asian leopard cat. They are called Bengals. It is very curious, loves to play
-                with water and to talk a lot.
+            <text permissions="prop-default" encoding="utf8">An example of a domesticated cat breed created from hybrids of domestic cats with the Asian leopard cat. They are called Bengals. It is very curious, loves to play with water and to talk a lot.
             </text>
         </text-prop>
         <decimal-prop name=":hasWeight">
-            <decimal permissions="prop-default">4.8</decimal>
+            <decimal permissions="prop-restricted">4.8</decimal>
         </decimal-prop>
         <boolean-prop name=":isPublic">
             <boolean permissions="prop-default">true</boolean>
@@ -1609,17 +1564,14 @@
             <text permissions="prop-default" encoding="utf8">meteorite</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This is a piece of the so-called Gibeon Meteroite that fell
-                in Namibia in prehistoric times (28000-11000 BCE). It is composed of an iron-nickel alloy. Ground and
-                etched, beautiful Widmanstätten patterns become visible. Widmanstätten patterns are characteristic for
-                meteorite material - they cannot be formed under conditions prevailing on Earth.
+            <text permissions="prop-default" encoding="utf8">This is a piece of the so-called Gibeon Meteroite that fell in Namibia in prehistoric times (28000-11000 BCE). It is composed of an iron-nickel alloy. Ground and etched, beautiful Widmanstätten patterns become visible. Widmanstätten patterns are characteristic for meteorite material - they cannot be formed under conditions prevailing on Earth.
             </text>
         </text-prop>
         <decimal-prop name=":hasWeight">
             <decimal permissions="prop-default">0.3</decimal>
         </decimal-prop>
         <geoname-prop name=":hasFindspot">
-            <geoname permissions="prop-default" comment="Gibeon, Namibia">11821111</geoname>
+            <geoname permissions="prop-default">11821111</geoname>
         </geoname-prop>
         <boolean-prop name=":isPublic">
             <boolean permissions="prop-default">true</boolean>
@@ -1640,16 +1592,14 @@
             <text permissions="prop-default" encoding="utf8">lekythos</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Attic red-figured lekythos which depicts a Festival of
-                Adonis. Winged Eros with an incense burner stands on a ladder between women. This vessel was found in a
-                cemetery in Naucratis, Egypt.
+            <text permissions="prop-default" encoding="utf8">Attic red-figured lekythos which depicts a Festival of Adonis. Winged Eros with an incense burner stands on a ladder between women. This vessel was found in a cemetery in Naucratis, Egypt.
             </text>
         </text-prop>
         <decimal-prop name=":hasWeight">
-            <decimal permissions="prop-default">0.5</decimal>
+            <decimal permissions="prop-restricted">0.5</decimal>
         </decimal-prop>
         <geoname-prop name=":hasFindspot">
-            <geoname permissions="prop-default" comment="Naukratis, Egypt">351274</geoname>
+            <geoname permissions="prop-default">351274</geoname>
         </geoname-prop>
         <date-prop name=":hasDate">
             <date permissions="prop-default">JULIAN:BCE:0400:BCE:0380</date>
@@ -1658,7 +1608,7 @@
             <resptr permissions="prop-default">inst_0</resptr>
         </resptr-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="London">6697862</geoname>
+            <geoname permissions="prop-default">6697862</geoname>
         </geoname-prop>
         <text-prop name=":hasInventoryNumber">
             <text permissions="prop-default" encoding="utf8">1888,0601.716</text>
@@ -1666,20 +1616,6 @@
         <boolean-prop name=":isPublic">
             <boolean permissions="prop-default">true</boolean>
         </boolean-prop>
-        <geometry-prop name=":hasGeometry">
-            <geometry permissions="prop-default">
-                {
-                "status":"active",
-                "lineColor":"#ff3333",
-                "lineWidth":2,
-                "points":[
-                {"x":0.08098591549295775,"y":0.16741071428571427},
-                {"x":0.7394366197183099,"y":0.7299107142857143}],
-                "type":"rectangle",
-                "original_index":0
-                }
-            </geometry>
-        </geometry-prop>
         <color-prop name=":hasColor">
             <color permissions="prop-default">#5d1f1e</color>
         </color-prop>
@@ -1695,10 +1631,12 @@
             <text permissions="prop-default" encoding="utf8">Test project Rosetta</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This is a pdf-file which contains the data model of the
-                test project Rosetta.
+            <text permissions="prop-default" encoding="utf8">This is a pdf-file which contains the data model of the test project Rosetta.
             </text>
         </text-prop>
+        <time-prop name=":hasTime">
+            <time permissions="prop-default">2021-11-30T12:00:00+00:00</time>
+        </time-prop>
     </resource>
 
     <resource label="RosettaCSV" restype=":TextDocument" id="doc_002" permissions="res-default">
@@ -1707,34 +1645,29 @@
             <text permissions="prop-default" encoding="utf8">Category list of the test project Rosetta</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This is a csv-file which contains the category list of the
-                test project Rosetta.
+            <text permissions="prop-default" encoding="utf8">This is a csv-file which contains the category list of the test project Rosetta.
             </text>
         </text-prop>
     </resource>
 
     <resource label="RosettaZIP" restype=":Archive" id="doc_003" permissions="res-default">
-        <bitstream>Documents/Rosetta.zip</bitstream>
+        <bitstream>Archive/Rosetta.zip</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">ZIP of Test project Rosetta</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This is a zip-file which contains information about the
-                test project Rosetta.
+            <text permissions="prop-default" encoding="utf8">This is a zip-file which contains information about the test project Rosetta.
             </text>
         </text-prop>
     </resource>
 
     <resource label="StygimolochZIP" restype=":Archive" id="doc_004" permissions="res-default">
-        <bitstream>Documents/Stygimoloch.zip</bitstream>
+        <bitstream>Archive/Stygimoloch.zip</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Stygimoloch</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This is a zip-file which contains the data for a 3D-model
-                of a Stygimoloch (dinosaur). The model was designed by D.art and is licensed under Creative Commons
-                Attribution-NonCommercial
-                (http://creativecommons.org/licenses/by-nc/4.0/).
+            <text permissions="prop-default" encoding="utf8">This is a zip-file which contains the data for a 3D-model of a Stygimoloch (dinosaur). The model was designed by D.art and is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).
             </text>
         </text-prop>
     </resource>
@@ -1752,8 +1685,7 @@
             <date permissions="prop-default">GREGORIAN:CE:1988</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Ederlezi is a folk-song about the returning of springtime. Goran Bregović's version 
-          from 1988 was used in Emir Kusturica's film Time of the Gypsies.</text>
+            <text permissions="prop-default" encoding="utf8">Ederlezi is a folk-song about the returning of springtime. Goran Bregović's version from 1988 was used in Emir Kusturica's film Time of the Gypsies.</text>
         </text-prop>
         <interval-prop name=":hasInterval">
             <interval permissions="prop-default">0.00:4.8</interval>
@@ -1762,7 +1694,7 @@
             <text permissions="prop-default" encoding="utf8">© Goran Bregović</text>
         </text-prop>
         <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default" comment="Sarajevo">3191281</geoname>
+            <geoname permissions="prop-default">3191281</geoname>
         </geoname-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">http://www.goranbregovic.rs/</uri>
