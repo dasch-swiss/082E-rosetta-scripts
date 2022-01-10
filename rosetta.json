@@ -216,6 +216,7 @@
             "super": [
               "hasValue"
             ],
+            "subject": ":Document",
             "object": "TimeValue",
             "labels": {
               "de": "Zeit",
