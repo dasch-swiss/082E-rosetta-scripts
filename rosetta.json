@@ -558,9 +558,9 @@
           {
             "name": "hasPagenum",
             "super": [
-              "hasValue"
+              "seqnum"
             ],
-            "object": "TextValue",
+            "object": "IntValue",
             "labels": {
               "de": "Seitenzahl",
               "en": "Page number",
@@ -881,6 +881,32 @@
                 "propname": ":hasExternalLink",
                 "cardinality": "0-n",
                 "gui_order": 7
+              }
+            ]
+          },
+          {
+            "name": "ImagePartOfABook",
+            "labels": {
+              "de": "Bild in einem Buch",
+              "en": "Image in a book",
+              "fr": "Image dans un livre"
+            },
+            "comments": {
+              "en": "Image that forms part of a book"
+            },
+            "super": "StillImageRepresentation",
+            "cardinalities": [
+              {
+                "propname": ":hasTitle",
+                "cardinality": "1"
+              },
+              {
+                "propname": ":hasPagenum",
+                "cardinality": "1"
+              },
+              {
+                "propname": ":partOf",
+                "cardinality": "1"
               }
             ]
           },

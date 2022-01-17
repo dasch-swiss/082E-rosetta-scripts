@@ -401,7 +401,6 @@
         </text-prop>
     </resource>
 
-
     <resource label="Iliad Prooem" restype=":Image2D" id="img_obj_6" permissions="res-default">
         <bitstream>Images/IliadProoem.jp2</bitstream>
         <text-prop name=":hasTitle">
@@ -1174,7 +1173,34 @@
         </uri-prop>
     </resource>
 
-    <!-- Book: -->
+    <!-- :ImagePartOfABook -->
+    <resource label="Tree" restype=":ImagePartOfABook" id="image_part_of_a_book_obj_0" permissions="res-default">
+        <bitstream>Images/tree.jpg</bitstream>
+        <text-prop name=":hasTitle">
+            <text permissions="prop-default" encoding="utf8">Image of a Tree</text>
+        </text-prop>
+        <integer-prop name=":hasPagenum">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
+        <resptr-prop name=":partOf">
+            <resptr permissions="prop-default">book_obj_1</resptr>
+        </resptr-prop>
+    </resource>
+
+    <resource label="Flower" restype=":ImagePartOfABook" id="image_part_of_a_book_obj_1" permissions="res-default">
+        <bitstream>Images/flower.jpg</bitstream>
+        <text-prop name=":hasTitle">
+            <text permissions="prop-default" encoding="utf8">Image of a Flower</text>
+        </text-prop>
+        <integer-prop name=":hasPagenum">
+            <integer permissions="prop-default">2</integer>
+        </integer-prop>
+        <resptr-prop name=":partOf">
+            <resptr permissions="prop-default">book_obj_1</resptr>
+        </resptr-prop>
+    </resource>
+
+    <!-- :Book -->
     <resource label="Iliad" restype=":Book" id="book_obj_0" permissions="res-default">
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Greek Manuscripts from 1397. Iliad (I-V).</text>
@@ -1204,14 +1230,24 @@
         </uri-prop>
     </resource>
 
-    <!-- Page: -->
+    <resource label="Book with Images" restype=":Book" id="book_obj_1" permissions="res-default">
+        <text-prop name=":hasTitle">
+            <text permissions="prop-default" encoding="utf8">Book with images</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="utf8">A book with several images to demonstrate part-whole relations of resources
+            </text>
+        </text-prop>
+    </resource>
+
+    <!-- :Page -->
     <resource label="Iliad, Prooem" restype=":Page" id="page_obj_0" permissions="res-default">
         <resptr-prop name=":hasTextMedium">
             <resptr permissions="prop-default">img_obj_6</resptr>
         </resptr-prop>
-        <text-prop name=":hasPagenum">
-            <text permissions="prop-default" encoding="utf8">3</text>
-        </text-prop>
+        <integer-prop name=":hasPagenum">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="utf8">Page which contains the prooem of the Iliad of Homer.
             </text>
