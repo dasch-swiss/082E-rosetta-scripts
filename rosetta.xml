@@ -1246,7 +1246,7 @@
             <resptr permissions="prop-default">img_obj_6</resptr>
         </resptr-prop>
         <integer-prop name=":hasPagenum">
-            <integer permissions="prop-default">3</integer>
+            <integer permissions="prop-default">1</integer>
         </integer-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="utf8">Page which contains the prooem of the Iliad of Homer.
