@@ -308,6 +308,23 @@
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://www.tate.org.uk/art/artworks/danby-the-deluge-t01337</uri>
         </uri-prop>
+        <geometry-prop name=":hasGeometry">
+            <geometry permissions="prop-default">
+                {
+                    "status": "active",
+                    "type": "polygon",
+                    "lineColor": "#ff3333",
+                    "lineWidth": 2,
+                    "points": [{"x": 0.1725239616613418, "y": 0.1597222222222222},
+                               {"x": 0.8242811501597445, "y": 0.1458333333333333},
+                               {"x": 0.8242811501597445, "y": 0.8310185185185185},
+                               {"x": 0.1757188498402556, "y": 0.8240740740740741},
+                               {"x": 0.1757188498402556, "y": 0.1597222222222222},
+                               {"x": 0.1693290734824281, "y": 0.1643518518518518}],
+                    "original_index": 0
+                }
+            </geometry>
+          </geometry-prop>
     </resource>
 
     <resource label="Liberté, j'écris ton nom" restype=":Image2D" id="img_obj_2" permissions="res-default">
@@ -618,9 +635,9 @@
                 Ihre Rede jedoch gab er einem Rohrhaus wieder:
             </text>
         </text-prop>
-        <text-prop name=":hasFindspot">
-            <text permissions="prop-default" encoding="utf8">92878</text>
-        </text-prop>
+        <geoname-prop name=":hasFindspot">
+            <geoname permissions="prop-default">92878</geoname>
+        </geoname-prop>
         <text-prop name=":hasBibliographicReference">
             <text permissions="prop-default" encoding="utf8">Bezold, C., Catalogue of the cuneiform tablets in the Kouyunjik Collection of the British Museum, London 1891.
             </text>
@@ -673,9 +690,9 @@
                 8 Hananiah, Mishael und Azariah. Friede sei mit Israel.
             </text>
         </text-prop>
-        <text-prop name=":hasFindspot">
-            <text permissions="prop-default" encoding="utf8">8375748</text>
-        </text-prop>
+        <geoname-prop name=":hasFindspot">
+            <geoname permissions="prop-default">8375748</geoname>
+        </geoname-prop>
         <text-prop name=":hasBibliographicReference">
             <text permissions="prop-default" encoding="utf8">Levine, L. I., The Inscription in the ‘En-Gedi Synagogue, in: L. I. Levine (Hrsg.), Ancient Synagogues Revealed, Jerusalem 1981, 140–145.
             </text>
@@ -721,9 +738,9 @@
                 Bier sind zahlreich unter ihnen.
             </text>
         </text-prop>
-        <text-prop name=":hasFindspot">
-            <text permissions="prop-default" encoding="utf8">358422</text>
-        </text-prop>
+        <geoname-prop name=":hasFindspot">
+            <geoname permissions="prop-default">358422</geoname>
+        </geoname-prop>
         <text-prop name=":hasBibliographicReference">
             <text permissions="prop-default" encoding="utf8">Rickert, A., Eine Beschreibung der Neujahrsprozession im Hathortempel von Dendera, in: R. Färber und R. Gautschy (Hrsg.), Zeit in den Kulturen des Altertums. Antike Chronologie im Spiegel der Quellen, Köln 2020, 127–136.
             </text>
@@ -1660,6 +1677,45 @@
         </uri-prop>
     </resource>
 
+    <resource label="Multiple cardinality demonstration" restype=":Object" id="obj_3" permissions="res-default">
+        <resptr-prop name=":hasImage">
+            <resptr permissions="prop-default">img_obj_1</resptr>
+            <resptr permissions="prop-default">img_obj_2</resptr>
+            <resptr permissions="prop-default">img_obj_3</resptr>
+        </resptr-prop>
+        <list-prop list="category" name=":hasCategory">
+            <list permissions="prop-default">nature</list>
+            <list permissions="prop-default">animals</list>
+            <list permissions="prop-default">mammals</list>
+        </list-prop>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Demonstration of the multiple cardinalities</text>
+            <text permissions="prop-default" encoding="utf8">In other words: show how 0-n cardinalities work</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="utf8">This is a UTF-8 text element inside the property ":hasDescription"</text>
+            <text permissions="prop-default" encoding="xml">This is a <b>XML-enriched text</b> element inside the property ":hasDescription". <br />It contains line breaks and <sup>supralinear text</sup></text>
+        </text-prop>
+        ...
+
+        <geoname-prop name=":hasFindspot">
+            <geoname permissions="prop-default">8375748</geoname>
+            <geoname permissions="prop-default">12420872</geoname>
+        </geoname-prop>
+        <date-prop name=":hasDate">
+            <date permissions="prop-default">JULIAN:BCE:0700:0600</date>
+            <date permissions="prop-default">GREGORIAN:CE:2021:2022</date>
+        </date-prop>
+        <time-prop name=":hasTime">
+            <time permissions="prop-default">2021-11-30T12:00:00+00:00</time>
+            <time permissions="prop-default" comment="Johannes' 50th birthday">2043-01-26T19:40:00+00:00</time>
+        </time-prop>
+        <interval-prop name=":hasInterval">
+            <interval permissions="prop-default">0.00:4.80</interval>
+            <interval permissions="prop-default">1.05:6.20</interval>
+        </interval-prop>
+    </resource>
+
     <!-- :Document -->
     <resource label="RosettaPDF" restype=":Document" id="doc_001" permissions="res-default">
         <bitstream>Documents/RosettaTestproject.pdf</bitstream>
@@ -1667,8 +1723,7 @@
             <text permissions="prop-default" encoding="utf8">Test project Rosetta</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This is a pdf-file which contains the data model of the test project Rosetta.
-            </text>
+            <text permissions="prop-default" encoding="utf8">This is a pdf-file which contains the data model of the test project Rosetta.</text>
         </text-prop>
         <time-prop name=":hasTime">
             <time permissions="prop-default">2021-11-30T12:00:00+00:00</time>
