@@ -324,7 +324,7 @@
                     "original_index": 0
                 }
             </geometry>
-          </geometry-prop>
+        </geometry-prop>
     </resource>
 
     <resource label="Liberté, j'écris ton nom" restype=":Image2D" id="img_obj_2" permissions="res-default">
@@ -1691,16 +1691,22 @@
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Demonstration of the multiple cardinalities</text>
             <text permissions="prop-default" encoding="utf8">In other words: show how 0-n cardinalities work</text>
+            <text permissions="prop-default" encoding="xml"><strong>XML-enriched text</strong> doesn't work, because the "gui_element" is "SimpleText" <br /><sup>supralinear text</sup> and a link to the object "cat": <a class="salsah-link" href="IRI:obj_0:IRI">link</a></text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="utf8">This is a UTF-8 text element inside the property ":hasDescription"</text>
-            <text permissions="prop-default" encoding="xml">This is a <b>XML-enriched text</b> element inside the property ":hasDescription". <br />It contains line breaks and <sup>supralinear text</sup></text>
+            <text permissions="prop-default" encoding="xml">This is a <strong>XML-enriched text</strong> element inside the property ":hasDescription". <br />It contains line breaks and <sup>supralinear text</sup> and a link to the object "cat": <a class="salsah-link" href="IRI:obj_0:IRI">link</a></text>
+            <text permissions="prop-default" encoding="utf8">But XML works only if "gui_element" is "Richtext".</text>
         </text-prop>
-        ...
-
+        <decimal-prop name=":hasWeight">
+            <decimal permissions="prop-restricted">0.5</decimal>
+            <decimal permissions="prop-restricted">5</decimal>
+            <decimal permissions="prop-restricted">500</decimal>
+        </decimal-prop>
         <geoname-prop name=":hasFindspot">
             <geoname permissions="prop-default">8375748</geoname>
             <geoname permissions="prop-default">12420872</geoname>
+            <geoname permissions="prop-default">1242087</geoname>
         </geoname-prop>
         <date-prop name=":hasDate">
             <date permissions="prop-default">JULIAN:BCE:0700:0600</date>
@@ -1714,6 +1720,63 @@
             <interval permissions="prop-default">0.00:4.80</interval>
             <interval permissions="prop-default">1.05:6.20</interval>
         </interval-prop>
+        <color-prop name=":hasColor">
+            <color permissions="prop-default">#5d1f1e</color>
+            <color permissions="prop-default">#5a121e</color>
+            <color permissions="prop-default">#2d1b2e</color>
+        </color-prop>
+        <uri-prop name=":hasExternalLink">
+            <uri permissions="prop-default">https://www.britishmuseum.org/</uri>
+            <uri permissions="prop-default">https://www.wikipedia.org/</uri>
+            <uri permissions="prop-default">https://www.dasch.swiss/</uri>
+        </uri-prop>
+        <text-prop name=":hasComment">
+            <text encoding="utf8" permissions="prop-default">Is this a correct comment?</text>
+            <text encoding="utf8" permissions="prop-default">And this?</text>
+        </text-prop>
+    </resource>
+
+    <resource label="Annotation to object 'Multiple cardinality demonstration'" restype=":Annotation" id="annotation_0" permissions="res-default">
+        <text-prop name=":hasComment">
+            <text encoding="utf8" permissions="prop-default">
+                This is an annotation to the object 'Multiple cardinality demonstration'. Note that this resource
+                is created with &lt;resource restype="Annotation"&gt;&lt;text-prop name="hasComment"&gt;...
+                Both times, there is no colon in front of those names. Also, these names were not defined in the
+                project-specific ontology, because they are predefined in the knora-base ontology.
+            </text>
+        </text-prop>
+        <resptr-prop name=":isAnnotationOf">
+            <resptr permissions="prop-default">obj_3</resptr>
+        </resptr-prop>
+    </resource>
+
+    <resource label="Region in image" restype=":Region" id="region_0" permissions="res-default">
+        <color-prop name=":hasColor">
+            <color permissions="prop-default">#5d1f1e</color>
+        </color-prop>
+        <resptr-prop name=":isRegionOf">
+            <resptr permissions="prop-default">img_obj_1</resptr>
+        </resptr-prop>
+        <geometry-prop name=":hasGeometry">
+            <geometry permissions="prop-default">
+                {
+                    "status": "active",
+                    "type": "polygon",
+                    "lineColor": "#ff3333",
+                    "lineWidth": 2,
+                    "points": [{"x": 0.3725239616613418, "y": 0.5597222222222222},
+                               {"x": 0.3242811501597445, "y": 0.4458333333333333},
+                               {"x": 0.5242811501597445, "y": 0.6310185185185185},
+                               {"x": 0.1757188498402556, "y": 0.7240740740740741},
+                               {"x": 0.1757188498402556, "y": 0.3597222222222222},
+                               {"x": 0.1693290734824281, "y": 0.0643518518518518}],
+                    "original_index": 0
+                }
+            </geometry>
+        </geometry-prop>
+        <text-prop name=":hasComment">
+            <text encoding="utf8" permissions="prop-default">This is the comment of the image region.</text>
+        </text-prop>
     </resource>
 
     <!-- :Document -->
