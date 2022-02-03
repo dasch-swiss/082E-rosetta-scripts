@@ -1689,13 +1689,21 @@
             <list permissions="prop-default">mammals</list>
         </list-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Demonstration of the multiple cardinalities</text>
-            <text permissions="prop-default" encoding="utf8">In other words: show how 0-n cardinalities work</text>
-            <text permissions="prop-default" encoding="xml"><strong>XML-enriched text</strong> doesn't work, because the "gui_element" is "SimpleText" <br /><sup>supralinear text</sup> and a link to the object "cat": <a class="salsah-link" href="IRI:obj_0:IRI">link</a></text>
+            <text permissions="prop-default" encoding="utf8">
+                Demonstration of the multiple cardinalities
+            </text>
+            <text permissions="prop-default" encoding="utf8">
+                In other words: show how 0-n cardinalities work
+            </text>
+            <text permissions="prop-default" encoding="xml">
+                Even <strong>XML-enriched text</strong> works in a "gui_element": "SimpleText", 
+                but it is better to use "Richtext". <br />This is <sup>supralinear text</sup> 
+                and has a <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to the object "cat".
+            </text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="utf8">This is a UTF-8 text element inside the property ":hasDescription"</text>
-            <text permissions="prop-default" encoding="xml">This is a <strong>XML-enriched text</strong> element inside the property ":hasDescription". <br />It contains line breaks and <sup>supralinear text</sup> and a link to the object "cat": <a class="salsah-link" href="IRI:obj_0:IRI">link</a></text>
+            <text permissions="prop-default" encoding="xml">This is a <strong>XML-enriched text</strong> element inside the property ":hasDescription". <br />It contains line breaks and <sup>supralinear text</sup> and a <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to the object "cat".</text>
             <text permissions="prop-default" encoding="utf8">But XML works only if "gui_element" is "Richtext".</text>
         </text-prop>
         <decimal-prop name=":hasWeight">
@@ -1706,7 +1714,7 @@
         <geoname-prop name=":hasFindspot">
             <geoname permissions="prop-default">8375748</geoname>
             <geoname permissions="prop-default">12420872</geoname>
-            <geoname permissions="prop-default">1242087</geoname>
+            <geoname permissions="prop-default">8375738</geoname>
         </geoname-prop>
         <date-prop name=":hasDate">
             <date permissions="prop-default">JULIAN:BCE:0700:0600</date>
@@ -1739,10 +1747,7 @@
     <resource label="Annotation to object 'Multiple cardinality demonstration'" restype=":Annotation" id="annotation_0" permissions="res-default">
         <text-prop name=":hasComment">
             <text encoding="utf8" permissions="prop-default">
-                This is an annotation to the object 'Multiple cardinality demonstration'. Note that this resource
-                is created with &lt;resource restype="Annotation"&gt;&lt;text-prop name="hasComment"&gt;...
-                Both times, there is no colon in front of those names. Also, these names were not defined in the
-                project-specific ontology, because they are predefined in the knora-base ontology.
+                This is an annotation to the object 'Multiple cardinality demonstration'.
             </text>
         </text-prop>
         <resptr-prop name=":isAnnotationOf">
@@ -1775,7 +1780,10 @@
             </geometry>
         </geometry-prop>
         <text-prop name=":hasComment">
-            <text encoding="utf8" permissions="prop-default">This is the comment of the image region.</text>
+            <text encoding="utf8" permissions="prop-default">
+                The image region doesn't work as expected. It is not displayed as region on the image, 
+                but as Annotation to the resource. 
+            </text>
         </text-prop>
     </resource>
 
