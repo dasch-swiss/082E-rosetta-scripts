@@ -216,7 +216,6 @@
             "super": [
               "hasValue"
             ],
-            "subject": ":Document",
             "object": "TimeValue",
             "labels": {
               "de": "Zeit",
@@ -605,22 +604,9 @@
             }
           },
           {
-            "name": "hasAnnotation",
-            "super": [
-              "hasLinkTo"
-            ],
-            "object": "Annotation",
-            "labels": {
-              "de": "Annotation",
-              "en": "Annotation",
-              "fr": "Annotation"
-            },
-            "gui_element": "Searchbox"
-          },
-          {
             "name": "hasColor",
             "super": [
-              "hasValue"
+              "hasColor"
             ],
             "object": "ColorValue",
             "labels": {
@@ -650,7 +636,7 @@
           {
             "name": "hasGeometry",
             "super": [
-              "hasValue"
+              "hasGeometry"
             ],
             "object": "GeomValue",
             "labels": {
@@ -685,19 +671,6 @@
               "fr": "Public"
             },
             "gui_element": "Checkbox"
-          },
-          {
-            "name": "hasRegion",
-            "super": [
-              "hasLinkTo"
-            ],
-            "object": "Region",
-            "labels": {
-              "de": "Region",
-              "en": "Region",
-              "fr": "Région"
-            },
-            "gui_element": "Searchbox"
           },
           {
             "name": "hasChildren",
@@ -741,8 +714,47 @@
             "object": ":Document",
             "labels": {
               "de": "Modell-Dateien",
-              "en": "Model data",
-              "fr": "Données modeèles"
+              "en": "Files belonging to the model",
+              "fr": "Fichiers appartenants au modèle"
+            },
+            "gui_element": "Searchbox"
+          },
+          {
+            "name": "hasComment",
+            "super": [
+              "hasComment"
+            ],
+            "object": "TextValue",
+            "labels": {
+              "de": "Kommentar",
+              "en": "Comment",
+              "fr": "Commentaire"
+            },
+            "gui_element": "SimpleText"
+          },
+          {
+            "name": "isAnnotationOf",
+            "super": [
+              "isAnnotationOf"
+            ],
+            "object": "Resource",
+            "labels": {
+              "de": "Annotation",
+              "en": "Annotation",
+              "fr": "Annotation"
+            },
+            "gui_element": "Searchbox"
+          },
+          {
+            "name": "isRegionOf",
+            "super": [
+              "isRegionOf"
+            ],
+            "object": ":Image2D",
+            "labels": {
+              "de": "isRegionOf",
+              "en": "isRegionOf",
+              "fr": "isRegionOf"
             },
             "gui_element": "Searchbox"
           }
@@ -881,6 +893,11 @@
                 "propname": ":hasExternalLink",
                 "cardinality": "0-n",
                 "gui_order": 7
+              },
+              {
+                "propname": ":hasGeometry",
+                "cardinality": "0-n",
+                "gui_order": 8
               }
             ]
           },
@@ -1273,27 +1290,27 @@
             "cardinalities": [
               {
                 "propname": ":hasImage",
-                "cardinality": "0-1",
+                "cardinality": "0-n",
                 "gui_order": 0
               },
               {
                 "propname": ":hasCategory",
-                "cardinality": "1",
+                "cardinality": "0-n",
                 "gui_order": 1
               },
               {
                 "propname": ":hasName",
-                "cardinality": "1",
+                "cardinality": "0-n",
                 "gui_order": 2
               },
               {
                 "propname": ":hasDescription",
-                "cardinality": "1",
+                "cardinality": "0-n",
                 "gui_order": 3
               },
               {
                 "propname": ":hasWeight",
-                "cardinality": "0-1",
+                "cardinality": "0-n",
                 "gui_order": 4
               },
               {
@@ -1303,12 +1320,12 @@
               },
               {
                 "propname": ":hasFindspot",
-                "cardinality": "0-1",
+                "cardinality": "0-n",
                 "gui_order": 6
               },
               {
                 "propname": ":hasDate",
-                "cardinality": "0-1",
+                "cardinality": "0-n",
                 "gui_order": 7
               },
               {
@@ -1333,13 +1350,28 @@
               },
               {
                 "propname": ":hasColor",
-                "cardinality": "0-1",
+                "cardinality": "0-n",
                 "gui_order": 12
               },
               {
                 "propname": ":hasExternalLink",
-                "cardinality": "0-1",
+                "cardinality": "0-n",
                 "gui_order": 13
+              },
+              {
+                "propname": ":hasComment",
+                "cardinality": "0-n",
+                "gui_order": 14
+              },
+              {
+                "propname": ":hasTime",
+                "cardinality": "0-n",
+                "gui_order": 15
+              },
+              {
+                "propname": ":hasInterval",
+                "cardinality": "0-n",
+                "gui_order": 16
               }
             ]
           },
@@ -1417,6 +1449,64 @@
                 "propname": ":hasDescription",
                 "cardinality": "1",
                 "gui_order": 2
+              }
+            ]
+          },
+          {
+            "name": "Annotation",
+            "labels": {
+              "de": "Annotation",
+              "en": "Annotation",
+              "fr": "Annotation"
+            },
+            "comments": {
+              "en": "a comment"
+            },
+            "super": "Annotation",
+            "cardinalities": [
+              {
+                "propname": ":hasComment",
+                "cardinality": "1-n",
+                "gui_order": 1
+              },
+              {
+                "propname": ":isAnnotationOf",
+                "cardinality": "1",
+                "gui_order": 2
+              }
+            ]
+          },
+          {
+            "name": "Region",
+            "labels": {
+              "de": "Region",
+              "en": "Region",
+              "fr": "Region"
+            },
+            "comments": {
+              "en": "a comment"
+            },
+            "super": "Region",
+            "cardinalities": [
+              {
+                "propname": ":hasColor",
+                "cardinality": "1",
+                "gui_order": 1
+              },
+              {
+                "propname": ":isRegionOf",
+                "cardinality": "1",
+                "gui_order": 2
+              },
+              {
+                "propname": ":hasGeometry",
+                "cardinality": "1",
+                "gui_order": 3
+              },
+              {
+                "propname": ":hasComment",
+                "cardinality": "1-n",
+                "gui_order": 4
               }
             ]
           }
