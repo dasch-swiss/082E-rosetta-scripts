@@ -1828,4 +1828,17 @@
         </uri-prop>
     </resource>
 
+    <!-- :ObjectWithDifferentRepresentations -->
+    <resource label="ObjectWithDifferentRepresentations" restype=":ObjectWithDifferentRepresentations" id="obj_diff_0" permissions="res-default">
+        <resptr-prop name=":hasRepresentation">
+            <resptr permissions="prop-default">img_obj_0</resptr>
+        </resptr-prop>
+        <resptr-prop name=":hasRepresentation">
+            <resptr permissions="prop-default">audio_obj_0</resptr>
+        </resptr-prop>
+        <resptr-prop name=":hasRepresentation">
+            <resptr permissions="prop-default">doc_001</resptr>
+        </resptr-prop>
+    </resource>
+
 </knora>

@@ -757,6 +757,17 @@
               "fr": "isRegionOf"
             },
             "gui_element": "Searchbox"
+          },
+          {
+            "name": "hasRepresentation",
+            "super": [
+              "hasRepresentation"
+            ],
+            "object": "Representation",
+            "labels": {
+              "en": "Represented by"
+            },
+            "gui_element": "Searchbox"
           }
         ],
         "resources": [
@@ -1507,6 +1518,24 @@
                 "propname": ":hasComment",
                 "cardinality": "1-n",
                 "gui_order": 4
+              }
+            ]
+          },
+          {
+            "name": "ObjectWithDifferentRepresentations",
+            "labels": {
+              "de": "Objekt mit unterschiedlichen Repräsentationen",
+              "en": "Object with different representations"
+            },
+            "comments": {
+              "en": "an object that can have representations of different types (audio, images,...)"
+            },
+            "super": "Resource",
+            "cardinalities": [
+              {
+                "propname": ":hasRepresentation",
+                "cardinality": "0-n",
+                "gui_order": 1
               }
             ]
           }
