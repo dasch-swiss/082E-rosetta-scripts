@@ -1,6 +1,5 @@
 {
   "prefixes": {
-    "rosetta": "http://api.test.dasch.swiss/ontology/082E/rosetta/v2",
     "dcterms": "http://purl.org/dc/terms/"
   },
   "$schema": "https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/knora/dsplib/schemas/ontology.json",
@@ -209,7 +208,7 @@
     "ontologies": [
       {
         "name": "rosetta",
-        "label": "The rosetta ontology",
+        "label": "rosetta",
         "properties": [
           {
             "name": "hasTime",
@@ -1535,6 +1534,44 @@
               {
                 "propname": ":hasRepresentation",
                 "cardinality": "0-n",
+                "gui_order": 1
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "rosetta2",
+        "label": "rosetta2",
+        "properties": [
+          {
+            "name": "hasLinkToOtherOnto",
+            "super": [
+              "hasLinkTo"
+            ],
+            "object": "rosetta:Image2D",
+            "labels": {
+              "de": "Textträger",
+              "en": "Text medium",
+              "fr": "Support de texte"
+            },
+            "gui_element": "Searchbox",
+            "gui_attributes": {
+              "numprops": 1
+            }
+          }
+        ],
+        "resources": [
+          {
+            "name": "TestResource",
+            "labels": {
+              "en": "TestResource"
+            },
+            "super": "Resource",
+            "cardinalities": [
+              {
+                "propname": ":hasLinkToOtherOnto",
+                "cardinality": "1",
                 "gui_order": 1
               }
             ]
