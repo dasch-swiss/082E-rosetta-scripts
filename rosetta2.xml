@@ -41,7 +41,7 @@ But first, the IRI of an existing Image2D must be retrieved, either from
 
     <resource label="TestResource 1" restype=":TestResource" id="TestResource_1" permissions="res-default">
         <resptr-prop name=":hasLinkToOtherOnto">
-            <resptr permissions="prop-default">http://rdfh.ch/082E/fXR5TurFQ3y82ijZ3g_BSw</resptr>
+            <resptr permissions="prop-default">img_obj_0</resptr>
         </resptr-prop>
     </resource>
 
