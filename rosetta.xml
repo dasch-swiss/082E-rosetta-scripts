@@ -1415,8 +1415,6 @@
                 Это День Святого Георгия
                 И я не с той, которую люблю
             </text>
-        </text-prop>
-        <text-prop name=":hasTranslation">
             <text permissions="prop-default" encoding="utf8">
                 Ederlezi - English
 
@@ -1840,6 +1838,17 @@
             <resptr permissions="prop-default">audio_obj_0</resptr>
             <resptr permissions="prop-default">doc_001</resptr>
         </resptr-prop>
+    </resource>
+
+    <!-- :Video -->
+    <resource label="Sunset Waves Close Up" restype=":Video" id="video_0" permissions="res-default">
+        <bitstream>Video/SunsetWavesCloseUp.mp4</bitstream>
+        <text-prop name=":hasTitle">
+            <text encoding="utf8" permissions="prop-default">Sunset Waves Close Up</text>
+        </text-prop>
+        <interval-prop name=":hasInterval">
+            <interval permissions="prop-default">2.0:10.0</interval>
+        </interval-prop>
     </resource>
 
 </knora>
