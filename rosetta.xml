@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<knora 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns="https://dasch.swiss/schema" 
-    xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/knora/dsplib/schemas/data.xsd" 
-    shortcode="082E" 
+<knora
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="https://dasch.swiss/schema"
+    xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/knora/dsplib/schemas/data.xsd"
+    shortcode="082E"
     default-ontology="rosetta">
-    
+
     <!-- :permissions see https://docs.dasch.swiss/DSP-API/05-internals/design/api-admin/administration/#permissions -->
     <permissions id="res-default">
         <allow group="UnknownUser">V</allow>
@@ -268,7 +268,9 @@
         </date-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
-                Tablet K.3375 in the British Museum is tablet 11 of the Epic of Gilgameš. It contains the very famous story of the deluge. The tablet was found at Koyunjik in the Library of Ashurbanipal and it dates to the 7<sup>th</sup> century BCE.
+                Tablet K.3375 in the British Museum is tablet 11 of the Epic of Gilgameš. It contains the very famous story of the deluge. The tablet was found at Koyunjik in the Library of Ashurbanipal and it dates to the 7
+                <sup>th</sup>
+                century BCE.
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -1672,14 +1674,31 @@
             <text permissions="prop-default" encoding="utf8">Demonstration of multiple cardinalities</text>
             <text permissions="prop-default" encoding="utf8">In other words: show how 0-n cardinalities work</text>
             <text permissions="prop-default" encoding="xml">
-                Even <strong>XML-enriched text</strong> works in a "gui_element": "SimpleText", 
-                but it is better to use "Richtext". <br />This is <sup>supralinear text</sup> 
-                and has a <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to the object "cat".
+                Even
+                <strong>XML-enriched text</strong>
+                works in a "gui_element": "SimpleText", 
+                but it is better to use "Richtext".
+                <br />
+                This is
+                <sup>supralinear text</sup>
+                and has a
+                <a class="salsah-link" href="IRI:obj_0:IRI">link</a>
+                to the object "cat".
             </text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="utf8">This is a UTF-8 text element inside the property ":hasDescription"</text>
-            <text permissions="prop-default" encoding="xml">This is a <strong>XML-enriched text</strong> element inside the property ":hasDescription". <br />It contains line breaks and <sup>supralinear text</sup> and a <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to the object "cat".</text>
+            <text permissions="prop-default" encoding="xml">
+                This is a
+                <strong>XML-enriched text</strong>
+                element inside the property ":hasDescription".
+                <br />
+                It contains line breaks and
+                <sup>supralinear text</sup>
+                and a
+                <a class="salsah-link" href="IRI:obj_0:IRI">link</a>
+                to the object "cat".
+            </text>
             <text permissions="prop-default" encoding="utf8">But XML works only if "gui_element" is "Richtext".</text>
         </text-prop>
         <decimal-prop name=":hasWeight">
@@ -1817,9 +1836,6 @@
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="utf8">Ederlezi is a folk-song about the returning of springtime. Goran Bregović's version from 1988 was used in Emir Kusturica's film Time of the Gypsies.</text>
         </text-prop>
-        <interval-prop name=":hasInterval">
-            <interval permissions="prop-default">0.00:4.8</interval>
-        </interval-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© Goran Bregović</text>
         </text-prop>
@@ -1846,8 +1862,30 @@
         <text-prop name=":hasTitle">
             <text encoding="utf8" permissions="prop-default">Sunset Waves Close Up</text>
         </text-prop>
+    </resource>
+
+    <!-- :Excerpt -->
+    <resource label="Excerpt of a Video" restype=":Excerpt" id="video_sequence_0" permissions="res-default">
+        <text-prop name=":hasTitle">
+            <text encoding="utf8" permissions="prop-default">Sequence of a video</text>
+        </text-prop>
+        <resptr-prop name=":sequenceOfVideo">
+            <resptr permissions="prop-default">video_0</resptr>
+        </resptr-prop>
         <interval-prop name=":hasInterval">
             <interval permissions="prop-default">2.0:10.0</interval>
+        </interval-prop>
+    </resource>
+
+    <resource label="Excerpt of a Video" restype=":Excerpt" id="audio_sequence_0" permissions="res-default">
+        <text-prop name=":hasTitle">
+            <text encoding="utf8" permissions="prop-default">Sequence of an Audio Resource</text>
+        </text-prop>
+        <resptr-prop name=":sequenceOfAudio">
+            <resptr permissions="prop-default">audio_obj_0</resptr>
+        </resptr-prop>
+        <interval-prop name=":hasInterval">
+            <interval permissions="prop-default">8.0:12.0</interval>
         </interval-prop>
     </resource>
 

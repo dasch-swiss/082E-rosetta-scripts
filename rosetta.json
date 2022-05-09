@@ -649,15 +649,38 @@
             "gui_element": "Geometry"
           },
           {
-            "name": "hasInterval",
+            "name": "sequenceOfVideo",
             "super": [
-              "hasValue"
+              "isSequenceOf"
+            ],
+            "object": ":Video",
+            "labels": {
+              "de": "ist Sequenz von",
+              "en": "is sequence of"
+            },
+            "gui_element": "Searchbox"
+          },
+          {
+            "name": "sequenceOfAudio",
+            "super": [
+              "isSequenceOf"
+            ],
+            "object": ":Audio",
+            "labels": {
+              "de": "ist Sequenz von",
+              "en": "is sequence of"
+            },
+            "gui_element": "Searchbox"
+          },
+          {
+            "name": "hasBounds",
+            "super": [
+              "hasSequenceBounds"
             ],
             "object": "IntervalValue",
             "labels": {
-              "de": "Intervall",
-              "en": "Interval",
-              "fr": "Intervalle"
+              "de": "Intervall, das den Start- und Endpunkt der Sequenz definitert",
+              "en": "Interval defining the start and end point of the sequence"
             },
             "gui_element": "Interval"
           },
@@ -1030,11 +1053,6 @@
                 "gui_order": 3
               },
               {
-                "propname": ":hasInterval",
-                "cardinality": "0-1",
-                "gui_order": 4
-              },
-              {
                 "propname": ":hasCopyright",
                 "cardinality": "0-1",
                 "gui_order": 5
@@ -1088,11 +1106,6 @@
                 "gui_order": 3
               },
               {
-                "propname": ":hasInterval",
-                "cardinality": "0-1",
-                "gui_order": 4
-              },
-              {
                 "propname": ":hasCopyright",
                 "cardinality": "0-1",
                 "gui_order": 5
@@ -1111,6 +1124,43 @@
                 "propname": ":hasExternalLink",
                 "cardinality": "0-n",
                 "gui_order": 8
+              }
+            ]
+          },
+          {
+            "name": "Excerpt",
+            "labels": {
+              "de": "Exzerpt einer Audio- oder Video-Ressource",
+              "en": "Excerpt of an audio or video resource"
+            },
+            "comments": {
+              "en": "a comment"
+            },
+            "super": "Resource",
+            "cardinalities": [
+              {
+                "propname": ":hasTitle",
+                "cardinality": "1"
+              },
+              {
+                "propname": ":hasSequenceBounds",
+                "cardinality": "1",
+                "gui_order": 1
+              },
+              {
+                "propname": ":hasCreator",
+                "cardinality": "0-1",
+                "gui_order": 2
+              },
+              {
+                "propname": ":hasDate",
+                "cardinality": "0-1",
+                "gui_order": 3
+              },
+              {
+                "propname": ":hasDescription",
+                "cardinality": "0-1",
+                "gui_order": 4
               }
             ]
           },
