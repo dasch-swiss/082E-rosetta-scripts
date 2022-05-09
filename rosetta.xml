@@ -1840,4 +1840,15 @@
         </resptr-prop>
     </resource>
 
+    <!-- :Video -->
+    <resource label="Sunset Waves Close Up" restype=":Video" id="video_0" permissions="res-default">
+        <bitstream>Video/SunsetWavesCloseUp.mp4</bitstream>
+        <text-prop name=":hasTitle">
+            <text encoding="utf8" permissions="prop-default">Sunset Waves Close Up</text>
+        </text-prop>
+        <interval-prop name=":hasInterval">
+            <interval permissions="prop-default">2.0:10.0</interval>
+        </interval-prop>
+    </resource>
+
 </knora>
