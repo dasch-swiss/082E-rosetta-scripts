@@ -1864,8 +1864,8 @@
         </text-prop>
     </resource>
 
-    <!-- :Excerpt -->
-    <resource label="Excerpt of a Video" restype=":Excerpt" id="video_sequence_0" permissions="res-default">
+    <!-- :VideoSequence -->
+    <resource label="Excerpt of a Video" restype=":VideoSequence" id="video_sequence_0" permissions="res-default">
         <text-prop name=":hasTitle">
             <text encoding="utf8" permissions="prop-default">Sequence of a video</text>
         </text-prop>
@@ -1877,7 +1877,8 @@
         </interval-prop>
     </resource>
 
-    <resource label="Excerpt of a Video" restype=":Excerpt" id="audio_sequence_0" permissions="res-default">
+    <!-- :AudioSequence -->
+    <resource label="Excerpt of a Video" restype=":AudioSequence" id="audio_sequence_0" permissions="res-default">
         <text-prop name=":hasTitle">
             <text encoding="utf8" permissions="prop-default">Sequence of an Audio Resource</text>
         </text-prop>
