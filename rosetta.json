@@ -1128,10 +1128,10 @@
             ]
           },
           {
-            "name": "Excerpt",
+            "name": "VideoSequence",
             "labels": {
-              "de": "Exzerpt einer Audio- oder Video-Ressource",
-              "en": "Excerpt of an audio or video resource"
+              "de": "Exzerpt einer Video-Ressource",
+              "en": "Excerpt of a video resource"
             },
             "comments": {
               "en": "a comment"
@@ -1140,6 +1140,51 @@
             "cardinalities": [
               {
                 "propname": ":hasTitle",
+                "cardinality": "1"
+              },
+              {
+                "propname": ":sequenceOfVideo",
+                "cardinality": "1"
+              },
+              {
+                "propname": ":hasSequenceBounds",
+                "cardinality": "1",
+                "gui_order": 1
+              },
+              {
+                "propname": ":hasCreator",
+                "cardinality": "0-1",
+                "gui_order": 2
+              },
+              {
+                "propname": ":hasDate",
+                "cardinality": "0-1",
+                "gui_order": 3
+              },
+              {
+                "propname": ":hasDescription",
+                "cardinality": "0-1",
+                "gui_order": 4
+              }
+            ]
+          },
+          {
+            "name": "AudioSequence",
+            "labels": {
+              "de": "Exzerpt einer Audio-Ressource",
+              "en": "Excerpt of an audio resource"
+            },
+            "comments": {
+              "en": "a comment"
+            },
+            "super": "Resource",
+            "cardinalities": [
+              {
+                "propname": ":hasTitle",
+                "cardinality": "1"
+              },
+              {
+                "propname": ":sequenceOfAudio",
                 "cardinality": "1"
               },
               {
