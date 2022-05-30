@@ -270,6 +270,14 @@
             <text permissions="prop-default" encoding="xml">
                 Tablet K.3375 in the British Museum is tablet 11 of the Epic of Gilgameš. It contains the very famous story of the deluge. The tablet was found at Koyunjik in the Library of Ashurbanipal and it dates to the 7<sup>th</sup> century BCE.
             </text>
+            <text permissions="prop-default" encoding="xml">
+                Variations of the &lt;bitstream&gt;-Tag:
+                <ul>
+                    <li>The &lt;bitstream&gt;-Tag of resource "Liberté, j'écris ton nom" has no "permissions" attribute, so an UnknownUser has no rights at all. A user who is not logged in doesn't see the image at all.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "Deluge" has permissions="prop-restricted", which gives an UnknownUser the right "RV" (Restricted view permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in should see a blurred image.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "BM K.3375" has permissions="prop-default", which gives an UnknownUser the right "V" (View permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in sees the image in full resolution.</li> 
+                </ul>
+            </text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© The Trustees of the British Museum</text>
@@ -286,7 +294,7 @@
     </resource>
 
     <resource label="Deluge" restype=":Image2D" id="img_obj_1" permissions="res-default">
-        <bitstream permissions="prop-default">Images/Danby-deluge.jpg</bitstream>
+        <bitstream permissions="prop-restricted">Images/Danby-deluge.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">The Deluge</text>
         </text-prop>
@@ -297,7 +305,17 @@
             <date permissions="prop-default">GREGORIAN:CE:1877:CE:1879</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Oil paint on canvas. The subject is from the book Genesis in the Old Testament. God sends a flood and spares only Noah and his family.</text>
+            <text permissions="prop-default" encoding="xml">
+                Oil paint on canvas. The subject is from the book Genesis in the Old Testament. God sends a flood and spares only Noah and his family.
+            </text>
+            <text permissions="prop-default" encoding="xml">
+                Variations of the &lt;bitstream&gt;-Tag:
+                <ul>
+                    <li>The &lt;bitstream&gt;-Tag of resource "Liberté, j'écris ton nom" has no "permissions" attribute, so an UnknownUser has no rights at all. A user who is not logged in doesn't see the image at all.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "Deluge" has permissions="prop-restricted", which gives an UnknownUser the right "RV" (Restricted view permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in should see a blurred image.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "BM K.3375" has permissions="prop-default", which gives an UnknownUser the right "V" (View permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in sees the image in full resolution.</li> 
+                </ul>
+            </text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">The Deluge, Francis Danby,1877-1879, Photo: © Tate, London [2020]</text>
@@ -331,7 +349,7 @@
     </resource>
 
     <resource label="Liberté, j'écris ton nom" restype=":Image2D" id="img_obj_2" permissions="res-default">
-        <bitstream permissions="prop-default">Images/Leger-Eluard.jpg</bitstream>
+        <bitstream>Images/Leger-Eluard.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Liberté</text>
         </text-prop>
@@ -342,7 +360,15 @@
             <date permissions="prop-default">GREGORIAN:CE:1953</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Illustration of the poem "Liberté" by Paul Éluard.</text>
+            <text permissions="prop-default" encoding="xml">Illustration of the poem "Liberté" by Paul Éluard.</text>
+            <text permissions="prop-default" encoding="xml">
+                Variations of the &lt;bitstream&gt;-Tag:
+                <ul>
+                    <li>The &lt;bitstream&gt;-Tag of resource "Liberté, j'écris ton nom" has no "permissions" attribute, so an UnknownUser has no rights at all. A user who is not logged in doesn't see the image at all.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "Deluge" has permissions="prop-restricted", which gives an UnknownUser the right "RV" (Restricted view permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in should see a blurred image.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "BM K.3375" has permissions="prop-default", which gives an UnknownUser the right "V" (View permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in sees the image in full resolution.</li> 
+                </ul>
+            </text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© Pierre Seghers, Paris</text>
