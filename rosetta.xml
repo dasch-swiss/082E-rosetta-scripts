@@ -259,7 +259,7 @@
 
     <!-- :Image2D -->
     <resource label="BM K.3375" restype=":Image2D" id="img_obj_0" permissions="res-default">
-        <bitstream>Images/K3375Gilgamesh.png</bitstream>
+        <bitstream permissions="prop-default">Images/K3375Gilgamesh.png</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">BM K.3375</text>
         </text-prop>
@@ -286,7 +286,7 @@
     </resource>
 
     <resource label="Deluge" restype=":Image2D" id="img_obj_1" permissions="res-default">
-        <bitstream>Images/Danby-deluge.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/Danby-deluge.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">The Deluge</text>
         </text-prop>
@@ -331,7 +331,7 @@
     </resource>
 
     <resource label="Liberté, j'écris ton nom" restype=":Image2D" id="img_obj_2" permissions="res-default">
-        <bitstream>Images/Leger-Eluard.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/Leger-Eluard.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Liberté</text>
         </text-prop>
@@ -359,7 +359,7 @@
     </resource>
 
     <resource label="Bashō, Horohoroto" restype=":Image2D" id="img_obj_3" permissions="res-default">
-        <bitstream>Images/Basho_Horohoroto.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/Basho_Horohoroto.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Horohoroto</text>
         </text-prop>
@@ -381,7 +381,7 @@
     </resource>
 
     <resource label="Western aisle mosaic of the synagogue in En-Gedi" restype=":Image2D" id="img_obj_4" permissions="res-default">
-        <bitstream>Images/EnGediMosaic.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/EnGediMosaic.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Western aisle mosaic of the synagogue in En-Gedi</text>
         </text-prop>
@@ -407,7 +407,7 @@
     </resource>
 
     <resource label="Bengal cat" restype=":Image2D" id="img_obj_5" permissions="res-default">
-        <bitstream>Images/Anubis.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/Anubis.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Bengal cat</text>
         </text-prop>
@@ -420,7 +420,7 @@
     </resource>
 
     <resource label="Iliad Prooem" restype=":Image2D" id="img_obj_6" permissions="res-default">
-        <bitstream>Images/IliadProoem.jp2</bitstream>
+        <bitstream permissions="prop-default">Images/IliadProoem.jp2</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Iliad Prooem</text>
         </text-prop>
@@ -439,7 +439,7 @@
     </resource>
 
     <resource label="Gibeon Meteorite" restype=":Image2D" id="img_obj_7" permissions="res-default">
-        <bitstream>Images/GibbeonMeteorite.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/GibbeonMeteorite.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Gibeon Meteorite</text>
         </text-prop>
@@ -458,7 +458,7 @@
     </resource>
 
     <resource label="Dendera New Year" restype=":Image2D" id="img_obj_8" permissions="res-default">
-        <bitstream>Images/DenderaNeujahr.png</bitstream>
+        <bitstream permissions="prop-default">Images/DenderaNeujahr.png</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">New Year's inscription from Dendera</text>
         </text-prop>
@@ -483,7 +483,7 @@
     </resource>
 
     <resource label="Lekythos" restype=":Image2D" id="img_obj_9" permissions="res-default">
-        <bitstream>Images/BM1888-0601-716.png</bitstream>
+        <bitstream permissions="prop-default">Images/BM1888-0601-716.png</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Attic red-figured Lekythos BM 1888,601.716</text>
         </text-prop>
@@ -1182,7 +1182,7 @@
 
     <!-- :ImagePartOfABook -->
     <resource label="Tree" restype=":ImagePartOfABook" id="image_part_of_a_book_obj_0" permissions="res-default">
-        <bitstream>Images/tree.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/tree.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Image of a Tree</text>
         </text-prop>
@@ -1195,7 +1195,7 @@
     </resource>
 
     <resource label="Flower" restype=":ImagePartOfABook" id="image_part_of_a_book_obj_1" permissions="res-default">
-        <bitstream>Images/flower.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/flower.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Image of a Flower</text>
         </text-prop>
@@ -1760,7 +1760,7 @@
 
     <!-- :Document -->
     <resource label="RosettaPDF" restype=":Document" id="doc_001" permissions="res-default">
-        <bitstream>Documents/RosettaTestproject.pdf</bitstream>
+        <bitstream permissions="prop-default">Documents/RosettaTestproject.pdf</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Test project Rosetta</text>
         </text-prop>
@@ -1773,7 +1773,7 @@
     </resource>
 
     <resource label="RosettaCSV" restype=":TextDocument" id="doc_002" permissions="res-default">
-        <bitstream>Documents/RosettaCategoryList.csv</bitstream>
+        <bitstream permissions="prop-default">Documents/RosettaCategoryList.csv</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Category list of the test project Rosetta</text>
         </text-prop>
@@ -1783,7 +1783,7 @@
     </resource>
 
     <resource label="RosettaZIP" restype=":Archive" id="doc_003" permissions="res-default">
-        <bitstream>Archive/Rosetta.zip</bitstream>
+        <bitstream permissions="prop-default">Archive/Rosetta.zip</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">ZIP of Test project Rosetta</text>
         </text-prop>
@@ -1793,7 +1793,7 @@
     </resource>
 
     <resource label="StygimolochZIP" restype=":Archive" id="doc_004" permissions="res-default">
-        <bitstream>Archive/Stygimoloch.zip</bitstream>
+        <bitstream permissions="prop-default">Archive/Stygimoloch.zip</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Stygimoloch</text>
         </text-prop>
@@ -1804,7 +1804,7 @@
 
     <!-- :Audio -->
     <resource label="Ederlezi" restype=":Audio" id="audio_obj_0" permissions="res-restricted">
-        <bitstream>Audio/Ederlezi.wav</bitstream>
+        <bitstream permissions="prop-default">Audio/Ederlezi.wav</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Ederlezi</text>
         </text-prop>
@@ -1842,7 +1842,7 @@
 
     <!-- :Video -->
     <resource label="Sunset Waves Close Up" restype=":Video" id="video_0" permissions="res-default">
-        <bitstream>Video/SunsetWavesCloseUp.mp4</bitstream>
+        <bitstream permissions="prop-default">Video/SunsetWavesCloseUp.mp4</bitstream>
         <text-prop name=":hasTitle">
             <text encoding="utf8" permissions="prop-default">Sunset Waves Close Up</text>
         </text-prop>
