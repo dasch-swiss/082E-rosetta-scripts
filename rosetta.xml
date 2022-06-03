@@ -259,7 +259,7 @@
 
     <!-- :Image2D -->
     <resource label="BM K.3375" restype=":Image2D" id="img_obj_0" permissions="res-default">
-        <bitstream>Images/K3375Gilgamesh.png</bitstream>
+        <bitstream permissions="prop-default">Images/K3375Gilgamesh.png</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">BM K.3375</text>
         </text-prop>
@@ -269,6 +269,14 @@
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 Tablet K.3375 in the British Museum is tablet 11 of the Epic of Gilgameš. It contains the very famous story of the deluge. The tablet was found at Koyunjik in the Library of Ashurbanipal and it dates to the 7<sup>th</sup> century BCE.
+            </text>
+            <text permissions="prop-default" encoding="xml">
+                Variations of the &lt;bitstream&gt;-Tag:
+                <ul>
+                    <li>The &lt;bitstream&gt;-Tag of resource "Liberté, j'écris ton nom" has no "permissions" attribute, so an UnknownUser has no rights at all. A user who is not logged in doesn't see the image at all.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "Deluge" has permissions="prop-restricted", which gives an UnknownUser the right "RV" (Restricted view permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in should see a blurred image.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "BM K.3375" has permissions="prop-default", which gives an UnknownUser the right "V" (View permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in sees the image in full resolution.</li> 
+                </ul>
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -286,7 +294,7 @@
     </resource>
 
     <resource label="Deluge" restype=":Image2D" id="img_obj_1" permissions="res-default">
-        <bitstream>Images/Danby-deluge.jpg</bitstream>
+        <bitstream permissions="prop-restricted">Images/Danby-deluge.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">The Deluge</text>
         </text-prop>
@@ -297,7 +305,17 @@
             <date permissions="prop-default">GREGORIAN:CE:1877:CE:1879</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Oil paint on canvas. The subject is from the book Genesis in the Old Testament. God sends a flood and spares only Noah and his family.</text>
+            <text permissions="prop-default" encoding="xml">
+                Oil paint on canvas. The subject is from the book Genesis in the Old Testament. God sends a flood and spares only Noah and his family.
+            </text>
+            <text permissions="prop-default" encoding="xml">
+                Variations of the &lt;bitstream&gt;-Tag:
+                <ul>
+                    <li>The &lt;bitstream&gt;-Tag of resource "Liberté, j'écris ton nom" has no "permissions" attribute, so an UnknownUser has no rights at all. A user who is not logged in doesn't see the image at all.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "Deluge" has permissions="prop-restricted", which gives an UnknownUser the right "RV" (Restricted view permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in should see a blurred image.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "BM K.3375" has permissions="prop-default", which gives an UnknownUser the right "V" (View permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in sees the image in full resolution.</li> 
+                </ul>
+            </text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">The Deluge, Francis Danby,1877-1879, Photo: © Tate, London [2020]</text>
@@ -342,7 +360,15 @@
             <date permissions="prop-default">GREGORIAN:CE:1953</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Illustration of the poem "Liberté" by Paul Éluard.</text>
+            <text permissions="prop-default" encoding="xml">Illustration of the poem "Liberté" by Paul Éluard.</text>
+            <text permissions="prop-default" encoding="xml">
+                Variations of the &lt;bitstream&gt;-Tag:
+                <ul>
+                    <li>The &lt;bitstream&gt;-Tag of resource "Liberté, j'écris ton nom" has no "permissions" attribute, so an UnknownUser has no rights at all. A user who is not logged in doesn't see the image at all.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "Deluge" has permissions="prop-restricted", which gives an UnknownUser the right "RV" (Restricted view permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in should see a blurred image.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "BM K.3375" has permissions="prop-default", which gives an UnknownUser the right "V" (View permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in sees the image in full resolution.</li> 
+                </ul>
+            </text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© Pierre Seghers, Paris</text>
@@ -359,7 +385,7 @@
     </resource>
 
     <resource label="Bashō, Horohoroto" restype=":Image2D" id="img_obj_3" permissions="res-default">
-        <bitstream>Images/Basho_Horohoroto.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/Basho_Horohoroto.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Horohoroto</text>
         </text-prop>
@@ -381,7 +407,7 @@
     </resource>
 
     <resource label="Western aisle mosaic of the synagogue in En-Gedi" restype=":Image2D" id="img_obj_4" permissions="res-default">
-        <bitstream>Images/EnGediMosaic.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/EnGediMosaic.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Western aisle mosaic of the synagogue in En-Gedi</text>
         </text-prop>
@@ -407,7 +433,7 @@
     </resource>
 
     <resource label="Bengal cat" restype=":Image2D" id="img_obj_5" permissions="res-default">
-        <bitstream>Images/Anubis.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/Anubis.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Bengal cat</text>
         </text-prop>
@@ -420,7 +446,7 @@
     </resource>
 
     <resource label="Iliad Prooem" restype=":Image2D" id="img_obj_6" permissions="res-default">
-        <bitstream>Images/IliadProoem.jp2</bitstream>
+        <bitstream permissions="prop-default">Images/IliadProoem.jp2</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Iliad Prooem</text>
         </text-prop>
@@ -439,7 +465,7 @@
     </resource>
 
     <resource label="Gibeon Meteorite" restype=":Image2D" id="img_obj_7" permissions="res-default">
-        <bitstream>Images/GibbeonMeteorite.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/GibbeonMeteorite.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Gibeon Meteorite</text>
         </text-prop>
@@ -458,7 +484,7 @@
     </resource>
 
     <resource label="Dendera New Year" restype=":Image2D" id="img_obj_8" permissions="res-default">
-        <bitstream>Images/DenderaNeujahr.png</bitstream>
+        <bitstream permissions="prop-default">Images/DenderaNeujahr.png</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">New Year's inscription from Dendera</text>
         </text-prop>
@@ -483,7 +509,7 @@
     </resource>
 
     <resource label="Lekythos" restype=":Image2D" id="img_obj_9" permissions="res-default">
-        <bitstream>Images/BM1888-0601-716.png</bitstream>
+        <bitstream permissions="prop-default">Images/BM1888-0601-716.png</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Attic red-figured Lekythos BM 1888,601.716</text>
         </text-prop>
@@ -1182,7 +1208,7 @@
 
     <!-- :ImagePartOfABook -->
     <resource label="Tree" restype=":ImagePartOfABook" id="image_part_of_a_book_obj_0" permissions="res-default">
-        <bitstream>Images/tree.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/tree.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Image of a Tree</text>
         </text-prop>
@@ -1195,7 +1221,7 @@
     </resource>
 
     <resource label="Flower" restype=":ImagePartOfABook" id="image_part_of_a_book_obj_1" permissions="res-default">
-        <bitstream>Images/flower.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/flower.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Image of a Flower</text>
         </text-prop>
@@ -1760,7 +1786,7 @@
 
     <!-- :Document -->
     <resource label="RosettaPDF" restype=":Document" id="doc_001" permissions="res-default">
-        <bitstream>Documents/RosettaTestproject.pdf</bitstream>
+        <bitstream permissions="prop-default">Documents/RosettaTestproject.pdf</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Test project Rosetta</text>
         </text-prop>
@@ -1773,7 +1799,7 @@
     </resource>
 
     <resource label="RosettaCSV" restype=":TextDocument" id="doc_002" permissions="res-default">
-        <bitstream>Documents/RosettaCategoryList.csv</bitstream>
+        <bitstream permissions="prop-default">Documents/RosettaCategoryList.csv</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Category list of the test project Rosetta</text>
         </text-prop>
@@ -1783,7 +1809,7 @@
     </resource>
 
     <resource label="RosettaZIP" restype=":Archive" id="doc_003" permissions="res-default">
-        <bitstream>Archive/Rosetta.zip</bitstream>
+        <bitstream permissions="prop-default">Archive/Rosetta.zip</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">ZIP of Test project Rosetta</text>
         </text-prop>
@@ -1793,7 +1819,7 @@
     </resource>
 
     <resource label="StygimolochZIP" restype=":Archive" id="doc_004" permissions="res-default">
-        <bitstream>Archive/Stygimoloch.zip</bitstream>
+        <bitstream permissions="prop-default">Archive/Stygimoloch.zip</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Stygimoloch</text>
         </text-prop>
@@ -1804,7 +1830,7 @@
 
     <!-- :Audio -->
     <resource label="Ederlezi" restype=":Audio" id="audio_obj_0" permissions="res-restricted">
-        <bitstream>Audio/Ederlezi.wav</bitstream>
+        <bitstream permissions="prop-default">Audio/Ederlezi.wav</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Ederlezi</text>
         </text-prop>
@@ -1842,7 +1868,7 @@
 
     <!-- :Video -->
     <resource label="Sunset Waves Close Up" restype=":Video" id="video_0" permissions="res-default">
-        <bitstream>Video/SunsetWavesCloseUp.mp4</bitstream>
+        <bitstream permissions="prop-default">Video/SunsetWavesCloseUp.mp4</bitstream>
         <text-prop name=":hasTitle">
             <text encoding="utf8" permissions="prop-default">Sunset Waves Close Up</text>
         </text-prop>
