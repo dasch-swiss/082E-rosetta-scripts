@@ -735,11 +735,11 @@
             "gui_element": "SimpleText"
           },
           {
-            "name": "isAnnotationOf",
+            "name": "isAnnotationOfObject",
             "super": [
               "isAnnotationOf"
             ],
-            "object": "Resource",
+            "object": ":Object",
             "labels": {
               "de": "Annotation",
               "en": "Annotation",
@@ -1483,7 +1483,7 @@
                 "gui_order": 1
               },
               {
-                "propname": ":isAnnotationOf",
+                "propname": ":isAnnotationOfObject",
                 "cardinality": "1",
                 "gui_order": 2
               }
