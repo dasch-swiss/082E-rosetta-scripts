@@ -57,6 +57,29 @@
     ],
     "lists": [
       {
+        "name": "flatlist",
+        "labels": {
+          "en": "Flat list"
+        },
+        "comments": {
+          "en": "Flat list"
+        },
+        "nodes": [
+          {
+            "name": "first-node",
+            "labels": {
+              "en": "First node"
+            }
+          },
+          {
+            "name": "second-node",
+            "labels": {
+              "en": "Second node"
+            }
+          }
+        ]
+      },
+      {
         "name": "category",
         "labels": {
           "de": "Kategorie",
@@ -603,6 +626,22 @@
             "gui_element": "List",
             "gui_attributes": {
               "hlist": "category"
+            }
+          },
+          {
+            "name": "hasFlatList",
+            "super": [
+              "hasValue"
+            ],
+            "object": "ListValue",
+            "labels": {
+              "de": "Flatlist",
+              "en": "Flatlist",
+              "fr": "Flatlist"
+            },
+            "gui_element": "Radio",
+            "gui_attributes": {
+              "hlist": "flatlist"
             }
           },
           {
@@ -1308,6 +1347,11 @@
               },
               {
                 "propname": ":hasCategory",
+                "cardinality": "0-n",
+                "gui_order": 1
+              },
+              {
+                "propname": ":hasFlatList",
                 "cardinality": "0-n",
                 "gui_order": 1
               },
