@@ -57,6 +57,29 @@
     ],
     "lists": [
       {
+        "name": "flatlist",
+        "labels": {
+          "en": "Flat list"
+        },
+        "comments": {
+          "en": "Flat list"
+        },
+        "nodes": [
+          {
+            "name": "first-node",
+            "labels": {
+              "en": "First node"
+            }
+          },
+          {
+            "name": "second-node",
+            "labels": {
+              "en": "Second node"
+            }
+          }
+        ]
+      },
+      {
         "name": "category",
         "labels": {
           "de": "Kategorie",
@@ -606,6 +629,22 @@
             }
           },
           {
+            "name": "hasFlatList",
+            "super": [
+              "hasValue"
+            ],
+            "object": "ListValue",
+            "labels": {
+              "de": "Flatlist",
+              "en": "Flatlist",
+              "fr": "Flatlist"
+            },
+            "gui_element": "Radio",
+            "gui_attributes": {
+              "hlist": "flatlist"
+            }
+          },
+          {
             "name": "hasColor",
             "super": [
               "hasColor"
@@ -735,11 +774,11 @@
             "gui_element": "SimpleText"
           },
           {
-            "name": "isAnnotationOf",
+            "name": "isAnnotationOfObject",
             "super": [
               "isAnnotationOf"
             ],
-            "object": "Resource",
+            "object": ":Object",
             "labels": {
               "de": "Annotation",
               "en": "Annotation",
@@ -1312,6 +1351,11 @@
                 "gui_order": 1
               },
               {
+                "propname": ":hasFlatList",
+                "cardinality": "0-n",
+                "gui_order": 1
+              },
+              {
                 "propname": ":hasName",
                 "cardinality": "0-n",
                 "gui_order": 2
@@ -1483,7 +1527,7 @@
                 "gui_order": 1
               },
               {
-                "propname": ":isAnnotationOf",
+                "propname": ":isAnnotationOfObject",
                 "cardinality": "1",
                 "gui_order": 2
               }

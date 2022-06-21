@@ -1648,6 +1648,10 @@
         <list-prop list="category" name=":hasCategory">
             <list permissions="prop-default">artwork</list>
         </list-prop>
+        <list-prop list="flatlist" name=":hasFlatList">
+            <list permissions="prop-default">first-node</list>
+            <list permissions="prop-default">second-node</list>
+        </list-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">lekythos</text>
         </text-prop>
@@ -1693,6 +1697,9 @@
             <list permissions="prop-default">nature</list>
             <list permissions="prop-default">animals</list>
             <list permissions="prop-default">mammals</list>
+        </list-prop>
+        <list-prop list="flatlist" name=":hasFlatList">
+            <list permissions="prop-default">first-node</list>
         </list-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Demonstration of multiple cardinalities</text>
@@ -1750,7 +1757,7 @@
         <text-prop name=":hasComment">
             <text encoding="utf8" permissions="prop-default">This is an annotation to the object 'Multiple cardinality demonstration'.</text>
         </text-prop>
-        <resptr-prop name=":isAnnotationOf">
+        <resptr-prop name=":isAnnotationOfObject">
             <resptr permissions="prop-default">obj_3</resptr>
         </resptr-prop>
     </resource>
