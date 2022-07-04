@@ -247,23 +247,6 @@
             "gui_element": "TimeStamp"
           },
           {
-            "name": "hasText",
-            "super": [
-              "hasValue"
-            ],
-            "object": "TextValue",
-            "labels": {
-              "de": "hat einen Text",
-              "en": "Has a text",
-              "fr": "un texte"
-            },
-            "gui_element": "SimpleText",
-            "gui_attributes": {
-              "maxlength": 128,
-              "size": 32
-            }
-          },
-          {
             "name": "hasTextMedium",
             "super": [
               "hasLinkTo"
@@ -449,19 +432,6 @@
               "de": "Ort",
               "en": "Location",
               "fr": "Lieu"
-            },
-            "gui_element": "Geonames"
-          },
-          {
-            "name": "hasGeoname",
-            "super": [
-              "hasValue"
-            ],
-            "object": "GeonameValue",
-            "labels": {
-              "de": "Geoname",
-              "en": "Geoname",
-              "fr": "Geonom"
             },
             "gui_element": "Geonames"
           },
