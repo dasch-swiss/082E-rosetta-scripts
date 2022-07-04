@@ -645,19 +645,6 @@
             }
           },
           {
-            "name": "hasGeometry",
-            "super": [
-              "hasGeometry"
-            ],
-            "object": "GeomValue",
-            "labels": {
-              "de": "Geometrie",
-              "en": "Geometry",
-              "fr": "Géométrie"
-            },
-            "gui_element": "Geometry"
-          },
-          {
             "name": "hasInterval",
             "super": [
               "hasValue"
@@ -742,32 +729,6 @@
               "fr": "Commentaire"
             },
             "gui_element": "SimpleText"
-          },
-          {
-            "name": "isAnnotationOfObject",
-            "super": [
-              "isAnnotationOf"
-            ],
-            "object": ":Object",
-            "labels": {
-              "de": "Annotation",
-              "en": "Annotation",
-              "fr": "Annotation"
-            },
-            "gui_element": "Searchbox"
-          },
-          {
-            "name": "isRegionOf",
-            "super": [
-              "isRegionOf"
-            ],
-            "object": ":Image2D",
-            "labels": {
-              "de": "isRegionOf",
-              "en": "isRegionOf",
-              "fr": "isRegionOf"
-            },
-            "gui_element": "Searchbox"
           },
           {
             "name": "hasRepresentation",
@@ -915,11 +876,6 @@
                 "propname": ":hasExternalLink",
                 "cardinality": "0-n",
                 "gui_order": 7
-              },
-              {
-                "propname": ":hasGeometry",
-                "cardinality": "0-n",
-                "gui_order": 8
               }
             ]
           },
@@ -1476,64 +1432,6 @@
                 "propname": ":hasDescription",
                 "cardinality": "1",
                 "gui_order": 2
-              }
-            ]
-          },
-          {
-            "name": "Annotation",
-            "labels": {
-              "de": "Annotation",
-              "en": "Annotation",
-              "fr": "Annotation"
-            },
-            "comments": {
-              "en": "a comment"
-            },
-            "super": "Annotation",
-            "cardinalities": [
-              {
-                "propname": ":hasComment",
-                "cardinality": "1-n",
-                "gui_order": 1
-              },
-              {
-                "propname": ":isAnnotationOfObject",
-                "cardinality": "1",
-                "gui_order": 2
-              }
-            ]
-          },
-          {
-            "name": "Region",
-            "labels": {
-              "de": "Region",
-              "en": "Region",
-              "fr": "Region"
-            },
-            "comments": {
-              "en": "a comment"
-            },
-            "super": "Region",
-            "cardinalities": [
-              {
-                "propname": ":hasColor",
-                "cardinality": "1",
-                "gui_order": 1
-              },
-              {
-                "propname": ":isRegionOf",
-                "cardinality": "1",
-                "gui_order": 2
-              },
-              {
-                "propname": ":hasGeometry",
-                "cardinality": "1",
-                "gui_order": 3
-              },
-              {
-                "propname": ":hasComment",
-                "cardinality": "1-n",
-                "gui_order": 4
               }
             ]
           },
