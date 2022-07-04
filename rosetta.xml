@@ -350,23 +350,6 @@
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://www.tate.org.uk/art/artworks/danby-the-deluge-t01337</uri>
         </uri-prop>
-        <geometry-prop name=":hasGeometry">
-            <geometry permissions="prop-default">
-                {
-                    "status": "active",
-                    "type": "polygon",
-                    "lineColor": "#ff3333",
-                    "lineWidth": 2,
-                    "points": [{"x": 0.1725239616613418, "y": 0.1597222222222222},
-                               {"x": 0.8242811501597445, "y": 0.1458333333333333},
-                               {"x": 0.8242811501597445, "y": 0.8310185185185185},
-                               {"x": 0.1757188498402556, "y": 0.8240740740740741},
-                               {"x": 0.1757188498402556, "y": 0.1597222222222222},
-                               {"x": 0.1693290734824281, "y": 0.1643518518518518}],
-                    "original_index": 0
-                }
-            </geometry>
-        </geometry-prop>
     </resource>
 
     <resource label="Liberté, j'écris ton nom" restype=":Image2D" id="img_obj_2" permissions="res-default">
@@ -1813,42 +1796,58 @@
         </text-prop>
     </resource>
 
-    <resource label="Annotation to object 'Multiple cardinality demonstration'" restype=":Annotation" id="annotation_0" permissions="res-default">
-        <text-prop name=":hasComment">
+    <!-- Annotation -->
+    <resource label="Annotation to object 'Multiple cardinality demonstration'" restype="Annotation" id="annotation_0" permissions="res-default">
+        <text-prop name="hasComment">
             <text encoding="utf8" permissions="prop-default">This is an annotation to the object 'Multiple cardinality demonstration'.</text>
         </text-prop>
-        <resptr-prop name=":isAnnotationOfObject">
+        <resptr-prop name="isAnnotationOf">
             <resptr permissions="prop-default">obj_3</resptr>
         </resptr-prop>
     </resource>
 
-    <resource label="Region in image" restype=":Region" id="region_0" permissions="res-default">
-        <color-prop name=":hasColor">
+    <!-- Region -->
+    <resource label="Region in image" restype="Region" id="region_0" permissions="res-default">
+        <color-prop name="hasColor">
             <color permissions="prop-default">#5d1f1e</color>
         </color-prop>
-        <resptr-prop name=":isRegionOf">
+        <resptr-prop name="isRegionOf">
             <resptr permissions="prop-default">img_obj_1</resptr>
         </resptr-prop>
-        <geometry-prop name=":hasGeometry">
+        <geometry-prop name="hasGeometry">
             <geometry permissions="prop-default">
                 {
                     "status": "active",
-                    "type": "polygon",
+                    "type": "rectangle",
                     "lineColor": "#ff3333",
                     "lineWidth": 2,
-                    "points": [{"x": 0.3725239616613418, "y": 0.5597222222222222},
-                               {"x": 0.3242811501597445, "y": 0.4458333333333333},
-                               {"x": 0.5242811501597445, "y": 0.6310185185185185},
-                               {"x": 0.1757188498402556, "y": 0.7240740740740741},
-                               {"x": 0.1757188498402556, "y": 0.3597222222222222},
-                               {"x": 0.1693290734824281, "y": 0.0643518518518518}],
+                    "points": [
+                        {"x":0.08098591549295775,"y":0.16741071428571427},
+                        {"x":0.739436619718309900,"y":0.72991071428571430}
+                    ],
                     "original_index": 0
                 }
             </geometry>
         </geometry-prop>
-        <text-prop name=":hasComment">
-            <text encoding="utf8" permissions="prop-default">The image region doesn't work as expected. It is not displayed as region on the image, but as Annotation to the resource. </text>
+        <text-prop name="hasComment">
+            <text encoding="xml" permissions="prop-default">
+                This is a rectangle-formed region of interest of the image Deluge. It is also displayed as Annotation.
+            </text>
         </text-prop>
+    </resource>
+
+    <!-- LinkObj -->
+    <resource label="Link between 'RosettaPDF', 'Bengal cat' and 'EderleziText'" id="link_obj_0" restype="LinkObj" permissions="res-default">
+        <text-prop name="hasComment">
+            <text permissions="prop-default" encoding="xml">
+                A link object can link together an arbitrary number of resources from any resource class.
+            </text>
+        </text-prop>
+        <resptr-prop name="hasLinkTo">
+            <resptr permissions="prop-default">doc_001</resptr>
+            <resptr permissions="prop-default">img_obj_5</resptr>
+            <resptr permissions="prop-default">text_obj_7</resptr>
+        </resptr-prop>
     </resource>
 
     <!-- :Document -->
