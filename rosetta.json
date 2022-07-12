@@ -1186,7 +1186,7 @@
                 "cardinality": "1"
               },
               {
-                "propname": ":hasSequenceBounds",
+                "propname": ":hasBounds",
                 "cardinality": "1",
                 "gui_order": 1
               },
@@ -1227,7 +1227,7 @@
                 "cardinality": "1"
               },
               {
-                "propname": ":hasSequenceBounds",
+                "propname": ":hasBounds",
                 "cardinality": "1",
                 "gui_order": 1
               },
@@ -1519,11 +1519,6 @@
                 "propname": ":hasTime",
                 "cardinality": "0-n",
                 "gui_order": 15
-              },
-              {
-                "propname": ":hasInterval",
-                "cardinality": "0-n",
-                "gui_order": 16
               }
             ]
           },
