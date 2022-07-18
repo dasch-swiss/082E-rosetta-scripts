@@ -251,7 +251,7 @@
             "super": [
               "hasLinkTo"
             ],
-            "object": ":Image2D",
+            "object": "StillImageRepresentation",
             "labels": {
               "de": "Textträger",
               "en": "Text medium",
@@ -718,6 +718,19 @@
             "gui_element": "Searchbox"
           },
           {
+            "name": "linksToRegion",
+            "super": [
+              "hasLinkTo"
+            ],
+            "object": "Region",
+            "labels": {
+              "de": "verweist auf eine Region in einem Bild",
+              "en": "links to a region of an image",
+              "fr": "réfère à une région d'une image"
+            },
+            "gui_element": "Searchbox"
+          },
+          {
             "name": "hasComment",
             "super": [
               "hasComment"
@@ -874,6 +887,11 @@
               },
               {
                 "propname": ":hasExternalLink",
+                "cardinality": "0-n",
+                "gui_order": 7
+              },
+              {
+                "propname": ":linksToRegion",
                 "cardinality": "0-n",
                 "gui_order": 7
               }

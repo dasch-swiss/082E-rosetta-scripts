@@ -295,6 +295,9 @@
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_0</resptr>
         </resptr-prop>
+        <resptr-prop name=":linksToRegion">
+            <resptr permissions="prop-default">region_0</resptr>
+        </resptr-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">6697862</geoname>
         </geoname-prop>
@@ -1797,17 +1800,17 @@
     </resource>
 
     <!-- Annotation -->
-    <resource label="Annotation to object 'Multiple cardinality demonstration'" restype="Annotation" id="annotation_0" permissions="res-default">
+    <annotation label="Annotation to object 'Multiple cardinality demonstration'" id="annotation_0" permissions="res-default">
         <text-prop name="hasComment">
             <text encoding="utf8" permissions="prop-default">This is an annotation to the object 'Multiple cardinality demonstration'.</text>
         </text-prop>
         <resptr-prop name="isAnnotationOf">
             <resptr permissions="prop-default">obj_3</resptr>
         </resptr-prop>
-    </resource>
+    </annotation>
 
     <!-- Region -->
-    <resource label="Region in image" restype="Region" id="region_0" permissions="res-default">
+    <region label="Region in image" id="region_0" permissions="res-default">
         <color-prop name="hasColor">
             <color permissions="prop-default">#5d1f1e</color>
         </color-prop>
@@ -1822,7 +1825,7 @@
                     "lineColor": "#ff3333",
                     "lineWidth": 2,
                     "points": [
-                        {"x":0.08098591549295775,"y":0.16741071428571427},
+                        {"x":0.080985915492957750,"y":0.16741071428571427},
                         {"x":0.739436619718309900,"y":0.72991071428571430}
                     ],
                     "original_index": 0
@@ -1834,10 +1837,10 @@
                 This is a rectangle-formed region of interest of the image Deluge. It is also displayed as Annotation.
             </text>
         </text-prop>
-    </resource>
+    </region>
 
     <!-- LinkObj -->
-    <resource label="Link between 'RosettaPDF', 'Bengal cat' and 'EderleziText'" id="link_obj_0" restype="LinkObj" permissions="res-default">
+    <link label="Link between 'RosettaPDF', 'Bengal cat' and 'EderleziText'" id="link_obj_0" permissions="res-default">
         <text-prop name="hasComment">
             <text permissions="prop-default" encoding="xml">
                 A link object can link together an arbitrary number of resources from any resource class.
@@ -1848,7 +1851,7 @@
             <resptr permissions="prop-default">img_obj_5</resptr>
             <resptr permissions="prop-default">text_obj_7</resptr>
         </resptr-prop>
-    </resource>
+    </link>
 
     <!-- :Document -->
     <resource label="RosettaPDF" restype=":Document" id="doc_001" permissions="res-default">
