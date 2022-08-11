@@ -675,7 +675,7 @@
             ],
             "object": "IntervalValue",
             "labels": {
-              "de": "Intervall, das den Start- und Endpunkt der Sequenz definitert",
+              "de": "Intervall, das den Start- und Endpunkt der Sequenz definiert",
               "en": "Interval defining the start and end point of the sequence"
             },
             "gui_element": "Interval"

@@ -1748,23 +1748,17 @@
             <text permissions="prop-default" encoding="utf8">Demonstration of multiple cardinalities</text>
             <text permissions="prop-default" encoding="utf8">In other words: show how 0-n cardinalities work</text>
             <text permissions="prop-default" encoding="xml">
-                Even
-                <strong>XML-enriched text</strong>
-                works in a "gui_element": "SimpleText", 
-                but it is better to use "Richtext".
-                <br />
-                This is
-                <sup>supralinear text</sup>
-                and has a
-                <a class="salsah-link" href="IRI:obj_0:IRI">link</a>
-                to the object "cat".
+                Even <strong>XML-enriched text</strong> works in a "gui_element": "SimpleText", but it is better to use
+                "Richtext".<br />
+                This is <sup>supralinear text</sup> and has a <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to
+                the object "cat".
             </text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="utf8">This is a UTF-8 text element inside the property ":hasDescription"</text>
             <text permissions="prop-default" encoding="xml">
-                This is a <strong>XML-enriched text</strong> element inside the property ":hasDescription". <br />It
-                contains line break tags and <sup>supralinear text</sup> and a
+                This is a <strong>XML-enriched text</strong> element inside the property ":hasDescription". <br />
+                It contains line break tags and <sup>supralinear text</sup> and a
                 <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to the object "cat".
             </text>
         </text-prop>
