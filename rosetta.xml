@@ -33,7 +33,7 @@
         <allow group="ProjectAdmin">CR</allow>
     </permissions>
 
-    <!-- :Persons -->
+    <!-- :Person -->
     <resource label="Homer" restype=":Person" id="person_0" permissions="res-default">
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Homer</text>
@@ -151,7 +151,7 @@
         </uri-prop>
     </resource>
 
-    <!-- :Institutions -->
+    <!-- :Institution -->
     <resource label="British Museum" restype=":Institution" id="inst_0" permissions="res-default">
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">British Museum</text>
@@ -268,16 +268,24 @@
         </date-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
-                Tablet K.3375 in the British Museum is tablet 11 of the Epic of Gilgameš. It contains the very famous story of the deluge. The tablet was found at Koyunjik in the Library of Ashurbanipal and it dates to the 7
-                <sup>th</sup>
-                century BCE.
+                Tablet K.3375 in the British Museum is tablet 11 of the Epic of Gilgameš. It contains the very famous
+                story of the deluge. The tablet was found at Koyunjik in the Library of Ashurbanipal and it dates to
+                the 7<sup>th</sup> century BCE.
             </text>
             <text permissions="prop-default" encoding="xml">
                 Variations of the &lt;bitstream&gt;-Tag:
                 <ul>
-                    <li>The &lt;bitstream&gt;-Tag of resource "Liberté, j'écris ton nom" has no "permissions" attribute, so an UnknownUser has no rights at all. A user who is not logged in doesn't see the image at all.</li> 
-                    <li>The &lt;bitstream&gt;-Tag of resource "Deluge" has permissions="prop-restricted", which gives an UnknownUser the right "RV" (Restricted view permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in should see a blurred image.</li> 
-                    <li>The &lt;bitstream&gt;-Tag of resource "BM K.3375" has permissions="prop-default", which gives an UnknownUser the right "V" (View permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in sees the image in full resolution.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "Liberté, j'écris ton nom" has no "permissions"
+                        attribute, so an UnknownUser has no rights at all. A user who is not logged in doesn't see the
+                        image at all.</li>
+                    <li>The &lt;bitstream&gt;-Tag of resource "Deluge" has permissions="prop-restricted", which gives
+                        an UnknownUser the right "RV" (Restricted view permission, see
+                        https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is
+                        not logged in should see a blurred image.</li>
+                    <li>The &lt;bitstream&gt;-Tag of resource "BM K.3375" has permissions="prop-default", which gives
+                        an UnknownUser the right "V" (View permission, see
+                        https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is
+                        not logged in sees the image in full resolution.</li>
                 </ul>
             </text>
         </text-prop>
@@ -286,6 +294,9 @@
         </text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_0</resptr>
+        </resptr-prop>
+        <resptr-prop name=":linksToRegion">
+            <resptr permissions="prop-default">region_0</resptr>
         </resptr-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">6697862</geoname>
@@ -308,19 +319,30 @@
         </date-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
-                Oil paint on canvas. The subject is from the book Genesis in the Old Testament. God sends a flood and spares only Noah and his family.
+                Oil paint on canvas. The subject is from the book Genesis in the Old Testament. God sends a flood and
+                spares only Noah and his family.
             </text>
             <text permissions="prop-default" encoding="xml">
                 Variations of the &lt;bitstream&gt;-Tag:
                 <ul>
-                    <li>The &lt;bitstream&gt;-Tag of resource "Liberté, j'écris ton nom" has no "permissions" attribute, so an UnknownUser has no rights at all. A user who is not logged in doesn't see the image at all.</li> 
-                    <li>The &lt;bitstream&gt;-Tag of resource "Deluge" has permissions="prop-restricted", which gives an UnknownUser the right "RV" (Restricted view permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in should see a blurred image.</li> 
-                    <li>The &lt;bitstream&gt;-Tag of resource "BM K.3375" has permissions="prop-default", which gives an UnknownUser the right "V" (View permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in sees the image in full resolution.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "Liberté, j'écris ton nom" has no "permissions"
+                        attribute, so an UnknownUser has no rights at all. A user who is not logged in doesn't see the
+                        image at all.</li>
+                    <li>The &lt;bitstream&gt;-Tag of resource "Deluge" has permissions="prop-restricted", which gives
+                        an UnknownUser the right "RV" (Restricted view permission, see
+                        https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is
+                        not logged in should see a blurred image.</li>
+                    <li>The &lt;bitstream&gt;-Tag of resource "BM K.3375" has permissions="prop-default", which gives
+                        an UnknownUser the right "V" (View permission, see
+                        https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is
+                        not logged in sees the image in full resolution.</li>
                 </ul>
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">The Deluge, Francis Danby,1877-1879, Photo: © Tate, London [2020]</text>
+            <text permissions="prop-default" encoding="xml">
+                The Deluge, Francis Danby, 1877-1879, Photo: © Tate, London [2020]
+            </text>
         </text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_1</resptr>
@@ -331,23 +353,6 @@
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://www.tate.org.uk/art/artworks/danby-the-deluge-t01337</uri>
         </uri-prop>
-        <geometry-prop name=":hasGeometry">
-            <geometry permissions="prop-default">
-                {
-                    "status": "active",
-                    "type": "polygon",
-                    "lineColor": "#ff3333",
-                    "lineWidth": 2,
-                    "points": [{"x": 0.1725239616613418, "y": 0.1597222222222222},
-                               {"x": 0.8242811501597445, "y": 0.1458333333333333},
-                               {"x": 0.8242811501597445, "y": 0.8310185185185185},
-                               {"x": 0.1757188498402556, "y": 0.8240740740740741},
-                               {"x": 0.1757188498402556, "y": 0.1597222222222222},
-                               {"x": 0.1693290734824281, "y": 0.1643518518518518}],
-                    "original_index": 0
-                }
-            </geometry>
-        </geometry-prop>
     </resource>
 
     <resource label="Liberté, j'écris ton nom" restype=":Image2D" id="img_obj_2" permissions="res-default">
@@ -362,13 +367,21 @@
             <date permissions="prop-default">GREGORIAN:CE:1953</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">Illustration of the poem "Liberté" by Paul Éluard.</text>
+            <text permissions="prop-default" encoding="utf8">Illustration of the poem "Liberté" by Paul Éluard.</text>
             <text permissions="prop-default" encoding="xml">
                 Variations of the &lt;bitstream&gt;-Tag:
                 <ul>
-                    <li>The &lt;bitstream&gt;-Tag of resource "Liberté, j'écris ton nom" has no "permissions" attribute, so an UnknownUser has no rights at all. A user who is not logged in doesn't see the image at all.</li> 
-                    <li>The &lt;bitstream&gt;-Tag of resource "Deluge" has permissions="prop-restricted", which gives an UnknownUser the right "RV" (Restricted view permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in should see a blurred image.</li> 
-                    <li>The &lt;bitstream&gt;-Tag of resource "BM K.3375" has permissions="prop-default", which gives an UnknownUser the right "V" (View permission, see https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is not logged in sees the image in full resolution.</li> 
+                    <li>The &lt;bitstream&gt;-Tag of resource "Liberté, j'écris ton nom" has no "permissions"
+                        attribute, so an UnknownUser has no rights at all. A user who is not logged in doesn't see the
+                        image at all.</li>
+                    <li>The &lt;bitstream&gt;-Tag of resource "Deluge" has permissions="prop-restricted", which gives
+                        an UnknownUser the right "RV" (Restricted view permission, see
+                        https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is
+                        not logged in should see a blurred image.</li>
+                    <li>The &lt;bitstream&gt;-Tag of resource "BM K.3375" has permissions="prop-default", which gives
+                        an UnknownUser the right "V" (View permission, see
+                        https://docs.dasch.swiss/DSP-API/02-knora-ontologies/knora-base/#permissions). A user who is
+                        not logged in sees the image in full resolution.</li>
                 </ul>
             </text>
         </text-prop>
@@ -417,7 +430,11 @@
             <date permissions="prop-default">JULIAN:CE:0450:CE:0500</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">The mosaic in the western aisle of the synagogue of En-Gedi contains Hebrew and Aramaic text. The first two lines name 13 generations from Adam to Jafet. The following section contains the names of the zodiacal signs, the months, of 3 patriarchs and of 3 followers of Daniel.</text>
+            <text permissions="prop-default" encoding="xml">
+                The mosaic in the western aisle of the synagogue of En-Gedi contains Hebrew and Aramaic text. The first
+                two lines name 13 generations from Adam to Jafet. The following section contains the names of the
+                zodiacal signs, the months, of 3 patriarchs and of 3 followers of Daniel.
+            </text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© Rita Gautschy</text>
@@ -440,7 +457,9 @@
             <text permissions="prop-default" encoding="utf8">Bengal cat</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This male Bengal cat is called Anubis. He is very curious, but shy.</text>
+            <text permissions="prop-default" encoding="xml">
+                This male Bengal cat is called Anubis. He is very curious, but shy.
+            </text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© Rita Gautschy</text>
@@ -453,10 +472,15 @@
             <text permissions="prop-default" encoding="utf8">Iliad Prooem</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This page shows the prooem of the Iliad in Greek manuscript 1397 in St. Catherine's Monastery on Mount Sinai.</text>
+            <text permissions="prop-default" encoding="xml">
+                This page shows the prooem of the Iliad in Greek manuscript 1397 in St. Catherine's Monastery on Mount
+                Sinai.
+            </text>
         </text-prop>
         <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">© Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai.</text>
+            <text permissions="prop-default" encoding="xml">
+                © Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai.
+            </text>
         </text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_3</resptr>
@@ -472,7 +496,9 @@
             <text permissions="prop-default" encoding="utf8">Gibeon Meteorite</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This is a polished piece of the Gibeon Meteorite which shows nice Widmanstätten patterns.</text>
+            <text permissions="prop-default" encoding="xml">
+                This is a polished piece of the Gibeon Meteorite which shows nice Widmanstätten patterns.
+            </text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© Rita Gautschy</text>
@@ -494,7 +520,9 @@
             <date permissions="prop-default">JULIAN:BCE:0054:BCE:0042</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This text accompanies the reliefs depicting the New Year's procession in the eastern staircase of the Temple of Hathor in Dendera.</text>
+            <text permissions="prop-default" encoding="xml">
+                This text accompanies the reliefs depicting the New Year's procession in the eastern staircase of the
+                Temple of Hathor in Dendera.</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© Alexa Rickert</text>
@@ -519,7 +547,10 @@
             <date permissions="prop-default">JULIAN:BCE:0400:BCE:0380</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">The attic red-figured Lekythos with the museum number 1888,601.716 in the British Museum shows a depiction of the Feast of Adonis. Eros with an incense burner stands on a ladder between women.</text>
+            <text permissions="prop-default" encoding="xml">
+                The attic red-figured Lekythos with the museum number 1888,601.716 in the British Museum shows a
+                depiction of the Feast of Adonis. Eros with an incense burner stands on a ladder between women.
+            </text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© The Trustees of the British Museum</text>
@@ -545,14 +576,9 @@
         </text-prop>
         <text-prop name=":hasTranscription">
             <text permissions="prop-default" encoding="xml">
-                <sup>d</sup>
-                GIŠ-gim₂-maš a-na ša₂-⸢šu⸣-ma MU-ra a-na
-                <sup>m</sup>
-                UD-ZI ru-u₂-qi₂
+                <sup>d</sup> GIŠ-gim₂-maš a-na ša₂-⸢šu⸣-ma MU-ra a-na <sup>m</sup> UD-ZI ru-u₂-qi₂
                 <br />
-                a-na-aṭ-ṭa-la-kum₂-ma
-                <sup>m</sup>
-                UD-ZI
+                a-na-aṭ-ṭa-la-kum₂-ma <sup>m</sup> UD-ZI
                 <br />
                 mi-na-tu-ka ul ⸢ša₂⸣-na-a ki-i ia-ti-ma at-ta
                 <br />
@@ -562,51 +588,31 @@
                 <br />
                 [ ] a-ḫi ⸢na-ad-a⸣t e-lu ṣe-ri-ka
                 <br />
-                [at-t]a ⸢ki-ki-i⸣ ta-az-ziz -m]a ina UKKIN DINGIR.MEŠ
-                ba-la-ṭa taš-⸢u₃⸣
+                [at-t]a ⸢ki-ki-i⸣ ta-az-ziz -m]a ina UKKIN DINGIR.MEŠ ba-la-ṭa taš-⸢u₃⸣
                 <br />
-                [
-                <sup>m</sup>
-                UD]-ZI-tim ana ša₂-šu-ma [MU-r]a a-na
-                <sup>d</sup>
-                GIŠ-gim₃-maš
+                [ <sup>m</sup> UD]-ZI-tim ana ša₂-šu-ma [MU-r]a a-na <sup>d</sup> GIŠ-gim₃-maš
                 <br />
-                lu-up-te-ka
-                <sup>d</sup>
-                GIŠ-gim₂-maš a-mat ni-ṣir-ti
+                lu-up-te-ka <sup>d</sup> GIŠ-gim₂-maš a-mat ni-ṣir-ti
                 <br />
                 u₃ pi-riš-ti ša₂ DINGIR.MEŠ ka-a-ša₂ l[u-uq-bi]-ka
                 <br />
                 [U]RU šu-ri-ip-pak URU ša₂ ti-du-šu at-ta :
                 <br />
-                [x (x) x G]U₂
-                <sup>id₂</sup>
-                pu-rat-ti šak-nu
+                [x (x) x G]U₂ <sup>id₂</sup> pu-rat-ti šak-nu
                 <br />
                 [UR]U ·u-u₂ la-bir-ma DINGIR.MEŠ qer-bu-uš
                 <br />
                 [a-n]a ša₂-kan a-bu-bi ub-⸢la⸣ lib₃-ba-šu₂-nu DINGIR.MEŠ GAL.MEŠ
                 <br />
-                [it]-ma-ma AD-šu₂-nu
-                <sup>d</sup>
-                a-num 〈:〉
+                [it]-ma-ma AD-šu₂-nu <sup>d</sup> a-num 〈:〉
                 <br />
-                ma-lik-šu₂-nu qu-ra-du
-                <sup>d</sup>
-                en-lil₂
+                ma-lik-šu₂-nu qu-ra-du <sup>d</sup> en-lil₂
                 <br />
-                [g]u-za-la₂-šu₂-nu
-                <sup>d</sup>
-                nin-urta 〈:〉
+                [g]u-za-la₂-šu₂-nu <sup>d</sup> nin-urta 〈:〉
                 <br />
-                gu₂-⸢gal-la⸣-šu₂-nu
-                <sup>d</sup>
-                en-nu-gi
+                gu₂-⸢gal-la⸣-šu₂-nu <sup>d</sup> en-nu-gi
                 <br />
-                <sup>d</sup>
-                nin-ši-ku₃
-                <sup>d</sup>
-                e₂-a it-ti-šu₂-nu ta-mi₃-ma
+                <sup>d</sup> nin-ši-ku₃ <sup>d</sup> e₂-a it-ti-šu₂-nu ta-mi₃-ma
                 <br />
                 a-mat-su-nu u₂-ša₂-an-na-a a-na ki-ik-ki-šu₂
             </text>
@@ -662,7 +668,10 @@
             <geoname permissions="prop-default">92878</geoname>
         </geoname-prop>
         <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="utf8">Bezold, C., Catalogue of the cuneiform tablets in the Kouyunjik Collection of the British Museum, London 1891.</text>
+            <text permissions="prop-default" encoding="xml">
+                Bezold, C., Catalogue of the cuneiform tablets in the Kouyunjik Collection of the British Museum,
+                London 1891.
+            </text>
         </text-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">2643743</geoname>
@@ -716,8 +725,14 @@
             <geoname permissions="prop-default">8375748</geoname>
         </geoname-prop>
         <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="utf8">Levine, L. I., The Inscription in the ‘En-Gedi Synagogue, in: L. I. Levine (Hrsg.), Ancient Synagogues Revealed, Jerusalem 1981, 140–145.</text>
-            <text permissions="prop-default" encoding="utf8">Magness, J., The En-Gedi Synagogue Inscription Reconsidered, in: Z. Weiss (Hrsg.), Ehud Netzer Volume, Eretz-Israel 31, Jerusalem 2015, 123–131.</text>
+            <text permissions="prop-default" encoding="xml">
+                Levine, L. I., The Inscription in the ‘En-Gedi Synagogue, in: L. I. Levine (Hrsg.), Ancient Synagogues
+                Revealed, Jerusalem 1981, 140–145.
+            </text>
+            <text permissions="prop-default" encoding="xml">
+                Magness, J., The En-Gedi Synagogue Inscription Reconsidered, in: Z. Weiss (Hrsg.), Ehud Netzer Volume,
+                Eretz-Israel 31, Jerusalem 2015, 123–131.
+            </text>
         </text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_4</resptr>
@@ -739,16 +754,19 @@
             <resptr permissions="prop-default">img_obj_8</resptr>
         </resptr-prop>
         <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Description of the New Year's procession in the Temple of Hathor in Dendara.</text>
+            <text permissions="prop-default" encoding="xml">
+                Description of the New Year's procession in the Temple of Hathor in Dendara.
+            </text>
         </text-prop>
         <text-prop name=":hasTransliteration">
-            <text permissions="prop-default" encoding="utf8">
+            <text permissions="prop-default" encoding="xml">
                 p.t m ḥb ndb{w} m rš.wt ḏr ẖnm nbw.t stw.t i͗t=s i͗j=s m ḥtp r pr=s m ḥʿʿ(.wt) m ḥb=s nfr wp rnp.t mi͗t.t
-                i͗sk m ḥb.w tp tr.w r-sꜣ ẖnm mꜢ.wt n(.t) I͗Ꜣḫw nswt ḏs=f ḥr kꜢp n=s ʿntw ḥr snṯr pr=s m sṯi͗-nṯr ḥr ḏsr ḥw.t-nṯr=s m ʿšꜢw wr ḥr ms n=s ʿꜢb.t ʿꜢ.t tꜢ ḥnq.t wr.tw ḫr-m-m=sn
+                i͗sk m ḥb.w tp tr.w r-sꜣ ẖnm mꜢ.wt n(.t) I͗Ꜣḫw nswt ḏs=f ḥr kꜢp n=s ʿntw ḥr snṯr pr=s m sṯi͗-nṯr ḥr ḏsr
+                ḥw.t-nṯr=s m ʿšꜢw wr ḥr ms n=s ʿꜢb.t ʿꜢ.t tꜢ ḥnq.t wr.tw ḫr-m-m=sn
             </text>
         </text-prop>
         <text-prop name=":hasTranslation">
-            <text permissions="prop-default" encoding="utf8">
+            <text permissions="prop-default" encoding="xml">
                 Der Himmel ist im Fest, der Erdboden ist in Freude, weil sich die Goldene mit den Strahlen ihres Vaters
                 vereint. Sie kommt in Frieden zu ihrem Haus in Jubel an ihrem schönen Fest „Eröffner des Jahres“
                 (Neujahrsfest), ebenso an den Festen zu den Zeiten nach der Vereinigung mit den Strahlen des Glänzenden.
@@ -761,7 +779,11 @@
             <geoname permissions="prop-default">358422</geoname>
         </geoname-prop>
         <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="utf8">Rickert, A., Eine Beschreibung der Neujahrsprozession im Hathortempel von Dendera, in: R. Färber und R. Gautschy (Hrsg.), Zeit in den Kulturen des Altertums. Antike Chronologie im Spiegel der Quellen, Köln 2020, 127–136.</text>
+            <text permissions="prop-default" encoding="xml">
+                Rickert, A., Eine Beschreibung der Neujahrsprozession im Hathortempel von Dendera, in: R. Färber und R.
+                Gautschy (Hrsg.), Zeit in den Kulturen des Altertums. Antike Chronologie im Spiegel der Quellen,
+                Köln 2020, 127–136.
+            </text>
         </text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_6</resptr>
@@ -1208,131 +1230,6 @@
         </uri-prop>
     </resource>
 
-    <!-- :ImagePartOfABook -->
-    <resource label="Tree" restype=":ImagePartOfABook" id="image_part_of_a_book_obj_0" permissions="res-default">
-        <bitstream permissions="prop-default">Images/tree.jpg</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Image of a Tree</text>
-        </text-prop>
-        <integer-prop name=":hasPagenum">
-            <integer permissions="prop-default">1</integer>
-        </integer-prop>
-        <resptr-prop name=":partOf">
-            <resptr permissions="prop-default">book_obj_1</resptr>
-        </resptr-prop>
-    </resource>
-
-    <resource label="Flower" restype=":ImagePartOfABook" id="image_part_of_a_book_obj_1" permissions="res-default">
-        <bitstream permissions="prop-default">Images/flower.jpg</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Image of a Flower</text>
-        </text-prop>
-        <integer-prop name=":hasPagenum">
-            <integer permissions="prop-default">2</integer>
-        </integer-prop>
-        <resptr-prop name=":partOf">
-            <resptr permissions="prop-default">book_obj_1</resptr>
-        </resptr-prop>
-    </resource>
-
-    <!-- :Book -->
-    <resource label="Iliad" restype=":Book" id="book_obj_0" permissions="res-default">
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Greek Manuscripts from 1397. Iliad (I-V).</text>
-        </text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Manuscript containing the Iliad of Homer kept in St. Catherine's Monastery in Mt. Sinai.</text>
-        </text-prop>
-        <resptr-prop name=":hasAuthor">
-            <resptr permissions="prop-default">person_0</resptr>
-        </resptr-prop>
-        <date-prop name=":hasDate">
-            <date permissions="prop-default">GREGORIAN:CE:1700:CE:1799</date>
-        </date-prop>
-        <resptr-prop name=":inInstitution">
-            <resptr permissions="prop-default">inst_0</resptr>
-        </resptr-prop>
-        <geoname-prop name=":hasLocation">
-            <geoname permissions="prop-default">350564</geoname>
-        </geoname-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai.</text>
-        </text-prop>
-        <uri-prop name=":hasExternalLink">
-            <uri permissions="prop-default">https://www.loc.gov/item/00279382687-ms</uri>
-        </uri-prop>
-    </resource>
-
-    <resource label="Book with Images" restype=":Book" id="book_obj_1" permissions="res-default">
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Book with images</text>
-        </text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">A book with several images to demonstrate part-whole relations of resources</text>
-        </text-prop>
-    </resource>
-
-    <!-- :Page -->
-    <resource label="Iliad, Prooem" restype=":Page" id="page_obj_0" permissions="res-default">
-        <resptr-prop name=":hasTextMedium">
-            <resptr permissions="prop-default">img_obj_6</resptr>
-        </resptr-prop>
-        <integer-prop name=":hasPagenum">
-            <integer permissions="prop-default">1</integer>
-        </integer-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Page which contains the prooem of the Iliad of Homer.</text>
-        </text-prop>
-        <resptr-prop name=":partOf">
-            <resptr permissions="prop-default">book_obj_0</resptr>
-        </resptr-prop>
-        <text-prop name=":hasTranscription">
-            <text permissions="prop-default" encoding="utf8">
-                𝛍ῆ𝝼𝛊𝝼 ἄ𝛆𝛊𝛅𝛆 𝛉𝛆ὰ 𝝥𝛈𝝺𝛈ϊά𝛅𝛆𝞈 Ἀ𝞆𝛊𝝺ῆ𝝾𝞁
-                𝝾ὐ𝝺𝝾𝛍έ𝝼𝛈𝝼, ἥ 𝛍𝞄𝞀ί’ Ἀ𝞆𝛂𝛊𝝾ῖ𝞁 ἄ𝝺𝝲𝛆’ ἔ𝛉𝛈𝝹𝛆,
-                𝝿𝝾𝝺𝝺ὰ𝞁 𝛅’ ἰ𝛗𝛉ί𝛍𝝾υ𝞁 𝞇𝞄𝞆ὰ𝞁 Ἄϊ𝛅𝛊 𝝿𝞀𝝾ΐ𝛂𝞇𝛆𝝼
-                ἡ𝞀ώ𝞈𝝼, 𝛂ὐ𝛕𝝾ὺ𝞁 𝛅ὲ ἑ𝝺ώ𝞀𝛊𝛂 𝛕𝛆ῦ𝞆𝛆 𝝹ύ𝝼𝛆𝛔𝛔𝛊𝝼
-                𝝾ἰ𝞈𝝼𝝾ῖ𝛔𝛊 𝛕𝛆 𝝿ᾶ𝛔𝛊, 𝝙𝛊ὸ𝞁 𝛅’ ἐ𝛕𝛆𝝺𝛆ί𝛆𝛕𝝾 𝝱𝝾𝞄𝝺ή,
-                ἐ𝝽 𝝾ὗ 𝛅ὴ 𝛕ὰ 𝝿𝞀ῶ𝛕𝛂 𝛅𝛊𝛂𝛔𝛕ή𝛕𝛈𝝼 ἐ𝞀ί𝛔𝛂𝝼𝛕𝛆
-                Ἂ𝛕𝞀𝛆ΐ𝛅𝛈𝞁 𝛕𝛆 ἄ𝝼𝛂𝝽 ἀ𝝼𝛅𝞀ῶ𝝼 𝝹𝛂ὶ 𝛅ῖ𝝾𝞁 Ἀ𝞆𝛊𝝺𝝺𝛆ὺ𝞁.
-            </text>
-        </text-prop>
-        <text-prop name=":hasTransliteration">
-            <text permissions="prop-default" encoding="utf8">
-                Mẹ̄nin aeịde, theạ, Pēlẹ̄iadeọ̄ Achilẹ̄os
-                Oụlomenẹ̄n, hē mỵri' Achaịois ạlge' ethẹ̄ke,
-                pọllas d' ịphthimoụs psychạs Hadị proiạpsen
-                hẹ̄rōọ̄n, autoụs de helọ̄ria teụche kynẹssin
-                oịōnoịsi te pạsi, Diọs, d' eteleịeto boụlē,
-                ẹx hou dẹ̄ ta prọ̄ta diạstētẹ̄n erisạnte
-                Ạtreidẹ̄s te anạx andrọ̄n kai dịos Achịlleus
-            </text>
-        </text-prop>
-        <text-prop name=":hasTranslation">
-            <text permissions="prop-default" encoding="utf8">
-                Singe den Zorn, o Göttin, des Peleiaden Achilleus,
-                Ihn, der entbrannt den Achaiern unnennbaren Jammer erregte,
-                Und viel tapfere Seelen der Heldensöhne zum Aïs
-                Sendete, aber sie selbst zum Raub darstellte den Hunden,
-                Und dem Gevögel umher. So ward Zeus Wille vollendet:
-                Seit dem Tag, als erst durch bitteren Zank sich entzweiten
-                Atreus Sohn, der Herrscher des Volks, und der edle Achilleus.
-            </text>
-            <text permissions="prop-default" encoding="utf8">
-                Sing, O goddess, the anger of Achilles son of Peleus, that brought
-                countless ills upon the Achaeans. Many a brave soul did it send
-                hurrying down to Hades, and many a hero did it yield a prey to dogs
-                and vultures, for so were the counsels of Jove fulfilled from the day
-                on which the son of Atreus, king of men, and great Achilles, first
-                fell out with one another.
-            </text>
-        </text-prop>
-        <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="utf8">Homer, Greek Manuscripts, Iliad I-V, 1700. Manuscript/Mixed Material. Retrieved from the Library of Congress (www.loc.gov/item/00279382687-ms/).</text>
-        </text-prop>
-    </resource>
-
-    <!-- :Text for Audio -->
     <resource label="EderleziText" restype=":Text" id="text_obj_7" permissions="res-default">
         <resptr-prop name=":hasAuthor">
             <resptr permissions="prop-default">person_7</resptr>
@@ -1591,6 +1488,139 @@
         </uri-prop>
     </resource>
 
+    <!-- :ImagePartOfABook -->
+    <resource label="Tree" restype=":ImagePartOfABook" id="image_part_of_a_book_obj_0" permissions="res-default">
+        <bitstream permissions="prop-default">Images/tree.jpg</bitstream>
+        <text-prop name=":hasTitle">
+            <text permissions="prop-default" encoding="utf8">Image of a Tree</text>
+        </text-prop>
+        <integer-prop name=":hasPagenum">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
+        <resptr-prop name=":partOf">
+            <resptr permissions="prop-default">book_obj_1</resptr>
+        </resptr-prop>
+    </resource>
+
+    <resource label="Flower" restype=":ImagePartOfABook" id="image_part_of_a_book_obj_1" permissions="res-default">
+        <bitstream permissions="prop-default">Images/flower.jpg</bitstream>
+        <text-prop name=":hasTitle">
+            <text permissions="prop-default" encoding="utf8">Image of a Flower</text>
+        </text-prop>
+        <integer-prop name=":hasPagenum">
+            <integer permissions="prop-default">2</integer>
+        </integer-prop>
+        <resptr-prop name=":partOf">
+            <resptr permissions="prop-default">book_obj_1</resptr>
+        </resptr-prop>
+    </resource>
+
+    <!-- :Book -->
+    <resource label="Iliad" restype=":Book" id="book_obj_0" permissions="res-default">
+        <text-prop name=":hasTitle">
+            <text permissions="prop-default" encoding="utf8">Greek Manuscripts from 1397. Iliad (I-V).</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">
+                Manuscript containing the Iliad of Homer kept in St. Catherine's Monastery in Mt. Sinai.
+            </text>
+        </text-prop>
+        <resptr-prop name=":hasAuthor">
+            <resptr permissions="prop-default">person_0</resptr>
+        </resptr-prop>
+        <date-prop name=":hasDate">
+            <date permissions="prop-default">GREGORIAN:CE:1700:CE:1799</date>
+        </date-prop>
+        <resptr-prop name=":inInstitution">
+            <resptr permissions="prop-default">inst_0</resptr>
+        </resptr-prop>
+        <geoname-prop name=":hasLocation">
+            <geoname permissions="prop-default">350564</geoname>
+        </geoname-prop>
+        <text-prop name=":hasCopyright">
+            <text permissions="prop-default" encoding="xml">
+                Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai.
+            </text>
+        </text-prop>
+        <uri-prop name=":hasExternalLink">
+            <uri permissions="prop-default">https://www.loc.gov/item/00279382687-ms</uri>
+        </uri-prop>
+    </resource>
+
+    <resource label="Book with Images" restype=":Book" id="book_obj_1" permissions="res-default">
+        <text-prop name=":hasTitle">
+            <text permissions="prop-default" encoding="utf8">Book with images</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">
+                A book with several images to demonstrate part-whole relations of resources
+            </text>
+        </text-prop>
+    </resource>
+
+    <!-- :Page -->
+    <resource label="Iliad, Prooem" restype=":Page" id="page_obj_0" permissions="res-default">
+        <resptr-prop name=":hasTextMedium">
+            <resptr permissions="prop-default">img_obj_6</resptr>
+        </resptr-prop>
+        <integer-prop name=":hasPagenum">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="utf8">Page which contains the prooem of the Iliad of Homer.</text>
+        </text-prop>
+        <resptr-prop name=":partOf">
+            <resptr permissions="prop-default">book_obj_0</resptr>
+        </resptr-prop>
+        <text-prop name=":hasTranscription">
+            <text permissions="prop-default" encoding="utf8">
+                𝛍ῆ𝝼𝛊𝝼 ἄ𝛆𝛊𝛅𝛆 𝛉𝛆ὰ 𝝥𝛈𝝺𝛈ϊά𝛅𝛆𝞈 Ἀ𝞆𝛊𝝺ῆ𝝾𝞁
+                𝝾ὐ𝝺𝝾𝛍έ𝝼𝛈𝝼, ἥ 𝛍𝞄𝞀ί’ Ἀ𝞆𝛂𝛊𝝾ῖ𝞁 ἄ𝝺𝝲𝛆’ ἔ𝛉𝛈𝝹𝛆,
+                𝝿𝝾𝝺𝝺ὰ𝞁 𝛅’ ἰ𝛗𝛉ί𝛍𝝾υ𝞁 𝞇𝞄𝞆ὰ𝞁 Ἄϊ𝛅𝛊 𝝿𝞀𝝾ΐ𝛂𝞇𝛆𝝼
+                ἡ𝞀ώ𝞈𝝼, 𝛂ὐ𝛕𝝾ὺ𝞁 𝛅ὲ ἑ𝝺ώ𝞀𝛊𝛂 𝛕𝛆ῦ𝞆𝛆 𝝹ύ𝝼𝛆𝛔𝛔𝛊𝝼
+                𝝾ἰ𝞈𝝼𝝾ῖ𝛔𝛊 𝛕𝛆 𝝿ᾶ𝛔𝛊, 𝝙𝛊ὸ𝞁 𝛅’ ἐ𝛕𝛆𝝺𝛆ί𝛆𝛕𝝾 𝝱𝝾𝞄𝝺ή,
+                ἐ𝝽 𝝾ὗ 𝛅ὴ 𝛕ὰ 𝝿𝞀ῶ𝛕𝛂 𝛅𝛊𝛂𝛔𝛕ή𝛕𝛈𝝼 ἐ𝞀ί𝛔𝛂𝝼𝛕𝛆
+                Ἂ𝛕𝞀𝛆ΐ𝛅𝛈𝞁 𝛕𝛆 ἄ𝝼𝛂𝝽 ἀ𝝼𝛅𝞀ῶ𝝼 𝝹𝛂ὶ 𝛅ῖ𝝾𝞁 Ἀ𝞆𝛊𝝺𝝺𝛆ὺ𝞁.
+            </text>
+        </text-prop>
+        <text-prop name=":hasTransliteration">
+            <text permissions="prop-default" encoding="utf8">
+                Mẹ̄nin aeịde, theạ, Pēlẹ̄iadeọ̄ Achilẹ̄os
+                Oụlomenẹ̄n, hē mỵri' Achaịois ạlge' ethẹ̄ke,
+                pọllas d' ịphthimoụs psychạs Hadị proiạpsen
+                hẹ̄rōọ̄n, autoụs de helọ̄ria teụche kynẹssin
+                oịōnoịsi te pạsi, Diọs, d' eteleịeto boụlē,
+                ẹx hou dẹ̄ ta prọ̄ta diạstētẹ̄n erisạnte
+                Ạtreidẹ̄s te anạx andrọ̄n kai dịos Achịlleus
+            </text>
+        </text-prop>
+        <text-prop name=":hasTranslation">
+            <text permissions="prop-default" encoding="utf8">
+                Singe den Zorn, o Göttin, des Peleiaden Achilleus,
+                Ihn, der entbrannt den Achaiern unnennbaren Jammer erregte,
+                Und viel tapfere Seelen der Heldensöhne zum Aïs
+                Sendete, aber sie selbst zum Raub darstellte den Hunden,
+                Und dem Gevögel umher. So ward Zeus Wille vollendet:
+                Seit dem Tag, als erst durch bitteren Zank sich entzweiten
+                Atreus Sohn, der Herrscher des Volks, und der edle Achilleus.
+            </text>
+            <text permissions="prop-default" encoding="utf8">
+                Sing, O goddess, the anger of Achilles son of Peleus, that brought
+                countless ills upon the Achaeans. Many a brave soul did it send
+                hurrying down to Hades, and many a hero did it yield a prey to dogs
+                and vultures, for so were the counsels of Jove fulfilled from the day
+                on which the son of Atreus, king of men, and great Achilles, first
+                fell out with one another.
+            </text>
+        </text-prop>
+        <text-prop name=":hasBibliographicReference">
+            <text permissions="prop-default" encoding="xml">
+                Homer, Greek Manuscripts, Iliad I-V, 1700. Manuscript/Mixed Material. Retrieved from the Library of
+                Congress (www.loc.gov/item/00279382687-ms/).
+            </text>
+        </text-prop>
+    </resource>
+
     <!-- :Object -->
     <resource label="cat" restype=":Object" id="obj_0" permissions="res-default">
         <resptr-prop name=":hasImage">
@@ -1603,7 +1633,10 @@
             <text permissions="prop-default" encoding="utf8">cat</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">An example of a domesticated cat breed created from hybrids of domestic cats with the Asian leopard cat. They are called Bengals. It is very curious, loves to play with water and to talk a lot.</text>
+            <text permissions="prop-default" encoding="xml">
+                An example of a domesticated cat breed created from hybrids of domestic cats with the Asian leopard
+                cat. They are called Bengals. It is very curious, loves to play with water and to talk a lot.
+            </text>
         </text-prop>
         <decimal-prop name=":hasWeight">
             <decimal permissions="prop-restricted">4.8</decimal>
@@ -1627,7 +1660,12 @@
             <text permissions="prop-default" encoding="utf8">meteorite</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This is a piece of the so-called Gibeon Meteroite that fell in Namibia in prehistoric times (28000-11000 BCE). It is composed of an iron-nickel alloy. Ground and etched, beautiful Widmanstätten patterns become visible. Widmanstätten patterns are characteristic for meteorite material - they cannot be formed under conditions prevailing on Earth.</text>
+            <text permissions="prop-default" encoding="xml">
+                This is a piece of the so-called Gibeon Meteroite that fell in Namibia in prehistoric times
+                (28000-11000 BCE). It is composed of an iron-nickel alloy. Ground and etched, beautiful Widmanstätten
+                patterns become visible. Widmanstätten patterns are characteristic for meteorite material - they cannot
+                be formed under conditions prevailing on Earth.
+            </text>
         </text-prop>
         <decimal-prop name=":hasWeight">
             <decimal permissions="prop-default">0.3</decimal>
@@ -1658,7 +1696,10 @@
             <text permissions="prop-default" encoding="utf8">lekythos</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Attic red-figured lekythos which depicts a Festival of Adonis. Winged Eros with an incense burner stands on a ladder between women. This vessel was found in a cemetery in Naucratis, Egypt.</text>
+            <text permissions="prop-default" encoding="xml">
+                Attic red-figured lekythos which depicts a Festival of Adonis. Winged Eros with an incense burner
+                stands on a ladder between women. This vessel was found in a cemetery in Naucratis, Egypt.
+            </text>
         </text-prop>
         <decimal-prop name=":hasWeight">
             <decimal permissions="prop-restricted">0.5</decimal>
@@ -1722,17 +1763,10 @@
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="utf8">This is a UTF-8 text element inside the property ":hasDescription"</text>
             <text permissions="prop-default" encoding="xml">
-                This is a
-                <strong>XML-enriched text</strong>
-                element inside the property ":hasDescription".
-                <br />
-                It contains line breaks and
-                <sup>supralinear text</sup>
-                and a
-                <a class="salsah-link" href="IRI:obj_0:IRI">link</a>
-                to the object "cat".
+                This is a <strong>XML-enriched text</strong> element inside the property ":hasDescription". <br />It
+                contains line break tags and <sup>supralinear text</sup> and a
+                <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to the object "cat".
             </text>
-            <text permissions="prop-default" encoding="utf8">But XML works only if "gui_element" is "Richtext".</text>
         </text-prop>
         <decimal-prop name=":hasWeight">
             <decimal permissions="prop-restricted">0.5</decimal>
@@ -1772,43 +1806,59 @@
         </text-prop>
     </resource>
 
-    <resource label="Annotation to object 'Multiple cardinality demonstration'" restype=":Annotation" id="annotation_0" permissions="res-default">
-        <text-prop name=":hasComment">
+    <!-- Annotation -->
+    <annotation label="Annotation to object 'Multiple cardinality demonstration'" id="annotation_0" permissions="res-default">
+        <text-prop name="hasComment">
             <text encoding="utf8" permissions="prop-default">This is an annotation to the object 'Multiple cardinality demonstration'.</text>
         </text-prop>
-        <resptr-prop name=":isAnnotationOfObject">
+        <resptr-prop name="isAnnotationOf">
             <resptr permissions="prop-default">obj_3</resptr>
         </resptr-prop>
-    </resource>
+    </annotation>
 
-    <resource label="Region in image" restype=":Region" id="region_0" permissions="res-default">
-        <color-prop name=":hasColor">
+    <!-- Region -->
+    <region label="Region in image" id="region_0" permissions="res-default">
+        <color-prop name="hasColor">
             <color permissions="prop-default">#5d1f1e</color>
         </color-prop>
-        <resptr-prop name=":isRegionOf">
+        <resptr-prop name="isRegionOf">
             <resptr permissions="prop-default">img_obj_1</resptr>
         </resptr-prop>
-        <geometry-prop name=":hasGeometry">
+        <geometry-prop name="hasGeometry">
             <geometry permissions="prop-default">
                 {
                     "status": "active",
-                    "type": "polygon",
+                    "type": "rectangle",
                     "lineColor": "#ff3333",
                     "lineWidth": 2,
-                    "points": [{"x": 0.3725239616613418, "y": 0.5597222222222222},
-                               {"x": 0.3242811501597445, "y": 0.4458333333333333},
-                               {"x": 0.5242811501597445, "y": 0.6310185185185185},
-                               {"x": 0.1757188498402556, "y": 0.7240740740740741},
-                               {"x": 0.1757188498402556, "y": 0.3597222222222222},
-                               {"x": 0.1693290734824281, "y": 0.0643518518518518}],
+                    "points": [
+                        {"x":0.080985915492957750,"y":0.16741071428571427},
+                        {"x":0.739436619718309900,"y":0.72991071428571430}
+                    ],
                     "original_index": 0
                 }
             </geometry>
         </geometry-prop>
-        <text-prop name=":hasComment">
-            <text encoding="utf8" permissions="prop-default">The image region doesn't work as expected. It is not displayed as region on the image, but as Annotation to the resource. </text>
+        <text-prop name="hasComment">
+            <text encoding="xml" permissions="prop-default">
+                This is a rectangle-formed region of interest of the image Deluge. It is also displayed as Annotation.
+            </text>
         </text-prop>
-    </resource>
+    </region>
+
+    <!-- LinkObj -->
+    <link label="Link between 'RosettaPDF', 'Bengal cat' and 'EderleziText'" id="link_obj_0" permissions="res-default">
+        <text-prop name="hasComment">
+            <text permissions="prop-default" encoding="xml">
+                A link object can link together an arbitrary number of resources from any resource class.
+            </text>
+        </text-prop>
+        <resptr-prop name="hasLinkTo">
+            <resptr permissions="prop-default">doc_001</resptr>
+            <resptr permissions="prop-default">img_obj_5</resptr>
+            <resptr permissions="prop-default">text_obj_7</resptr>
+        </resptr-prop>
+    </link>
 
     <!-- :Document -->
     <resource label="RosettaPDF" restype=":Document" id="doc_001" permissions="res-default">
@@ -1817,30 +1867,38 @@
             <text permissions="prop-default" encoding="utf8">Test project Rosetta</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This is a pdf-file which contains the data model of the test project Rosetta.</text>
+            <text permissions="prop-default" encoding="xml">
+                This is a pdf-file which contains the data model of the test project Rosetta.
+            </text>
         </text-prop>
         <time-prop name=":hasTime">
             <time permissions="prop-default">2021-11-30T12:00:00+00:00</time>
         </time-prop>
     </resource>
 
+    <!-- :TextDocument -->
     <resource label="RosettaCSV" restype=":TextDocument" id="doc_002" permissions="res-default">
         <bitstream permissions="prop-default">Documents/RosettaCategoryList.csv</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Category list of the test project Rosetta</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This is a csv-file which contains the category list of the test project Rosetta.</text>
+            <text permissions="prop-default" encoding="xml">
+                This is a csv-file which contains the category list of the test project Rosetta.
+            </text>
         </text-prop>
     </resource>
 
+    <!-- :Archive -->
     <resource label="RosettaZIP" restype=":Archive" id="doc_003" permissions="res-default">
         <bitstream permissions="prop-default">Archive/Rosetta.zip</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">ZIP of Test project Rosetta</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This is a zip-file which contains information about the test project Rosetta.</text>
+            <text permissions="prop-default" encoding="xml">
+                This is a zip-file which contains information about the test project Rosetta.
+            </text>
         </text-prop>
     </resource>
 
@@ -1850,7 +1908,11 @@
             <text permissions="prop-default" encoding="utf8">Stygimoloch</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This is a zip-file which contains the data for a 3D-model of a Stygimoloch (dinosaur). The model was designed by D.art and is licensed under Creative Commons Attribution-NonCommercial (http://creativecommons.org/licenses/by-nc/4.0/).</text>
+            <text permissions="prop-default" encoding="xml">
+                This is a zip-file which contains the data for a 3D-model of a Stygimoloch (dinosaur). The model was
+                designed by D.art and is licensed under Creative Commons Attribution-NonCommercial
+                (http://creativecommons.org/licenses/by-nc/4.0/).
+            </text>
         </text-prop>
     </resource>
 
@@ -1867,7 +1929,10 @@
             <date permissions="prop-default">GREGORIAN:CE:1988</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Ederlezi is a folk-song about the returning of springtime. Goran Bregović's version from 1988 was used in Emir Kusturica's film Time of the Gypsies.</text>
+            <text permissions="prop-default" encoding="xml">
+                Ederlezi is a folk-song about the returning of springtime. Goran Bregović's version from 1988 was used
+                in Emir Kusturica's film Time of the Gypsies.
+            </text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© Goran Bregović</text>

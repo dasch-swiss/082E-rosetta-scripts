@@ -247,28 +247,11 @@
             "gui_element": "TimeStamp"
           },
           {
-            "name": "hasText",
-            "super": [
-              "hasValue"
-            ],
-            "object": "TextValue",
-            "labels": {
-              "de": "hat einen Text",
-              "en": "Has a text",
-              "fr": "un texte"
-            },
-            "gui_element": "SimpleText",
-            "gui_attributes": {
-              "maxlength": 128,
-              "size": 32
-            }
-          },
-          {
             "name": "hasTextMedium",
             "super": [
               "hasLinkTo"
             ],
-            "object": ":Image2D",
+            "object": "StillImageRepresentation",
             "labels": {
               "de": "Textträger",
               "en": "Text medium",
@@ -449,19 +432,6 @@
               "de": "Ort",
               "en": "Location",
               "fr": "Lieu"
-            },
-            "gui_element": "Geonames"
-          },
-          {
-            "name": "hasGeoname",
-            "super": [
-              "hasValue"
-            ],
-            "object": "GeonameValue",
-            "labels": {
-              "de": "Geoname",
-              "en": "Geoname",
-              "fr": "Geonom"
             },
             "gui_element": "Geonames"
           },
@@ -674,20 +644,7 @@
               "size": 64
             }
           },
-          {
-            "name": "hasGeometry",
-            "super": [
-              "hasGeometry"
-            ],
-            "object": "GeomValue",
-            "labels": {
-              "de": "Geometrie",
-              "en": "Geometry",
-              "fr": "Géométrie"
-            },
-            "gui_element": "Geometry"
-          },
-          {
+          {          
             "name": "sequenceOfVideo",
             "super": [
               "isSequenceOf"
@@ -784,6 +741,19 @@
             "gui_element": "Searchbox"
           },
           {
+            "name": "linksToRegion",
+            "super": [
+              "hasLinkTo"
+            ],
+            "object": "Region",
+            "labels": {
+              "de": "verweist auf eine Region in einem Bild",
+              "en": "links to a region of an image",
+              "fr": "réfère à une région d'une image"
+            },
+            "gui_element": "Searchbox"
+          },
+          {
             "name": "hasComment",
             "super": [
               "hasComment"
@@ -795,32 +765,6 @@
               "fr": "Commentaire"
             },
             "gui_element": "SimpleText"
-          },
-          {
-            "name": "isAnnotationOfObject",
-            "super": [
-              "isAnnotationOf"
-            ],
-            "object": ":Object",
-            "labels": {
-              "de": "Annotation",
-              "en": "Annotation",
-              "fr": "Annotation"
-            },
-            "gui_element": "Searchbox"
-          },
-          {
-            "name": "isRegionOf",
-            "super": [
-              "isRegionOf"
-            ],
-            "object": ":Image2D",
-            "labels": {
-              "de": "isRegionOf",
-              "en": "isRegionOf",
-              "fr": "isRegionOf"
-            },
-            "gui_element": "Searchbox"
           },
           {
             "name": "hasRepresentation",
@@ -970,9 +914,9 @@
                 "gui_order": 7
               },
               {
-                "propname": ":hasGeometry",
+                "propname": ":linksToRegion",
                 "cardinality": "0-n",
-                "gui_order": 8
+                "gui_order": 7
               }
             ]
           },
@@ -1596,64 +1540,6 @@
                 "propname": ":hasDescription",
                 "cardinality": "1",
                 "gui_order": 2
-              }
-            ]
-          },
-          {
-            "name": "Annotation",
-            "labels": {
-              "de": "Annotation",
-              "en": "Annotation",
-              "fr": "Annotation"
-            },
-            "comments": {
-              "en": "a comment"
-            },
-            "super": "Annotation",
-            "cardinalities": [
-              {
-                "propname": ":hasComment",
-                "cardinality": "1-n",
-                "gui_order": 1
-              },
-              {
-                "propname": ":isAnnotationOfObject",
-                "cardinality": "1",
-                "gui_order": 2
-              }
-            ]
-          },
-          {
-            "name": "Region",
-            "labels": {
-              "de": "Region",
-              "en": "Region",
-              "fr": "Region"
-            },
-            "comments": {
-              "en": "a comment"
-            },
-            "super": "Region",
-            "cardinalities": [
-              {
-                "propname": ":hasColor",
-                "cardinality": "1",
-                "gui_order": 1
-              },
-              {
-                "propname": ":isRegionOf",
-                "cardinality": "1",
-                "gui_order": 2
-              },
-              {
-                "propname": ":hasGeometry",
-                "cardinality": "1",
-                "gui_order": 3
-              },
-              {
-                "propname": ":hasComment",
-                "cardinality": "1-n",
-                "gui_order": 4
               }
             ]
           },
