@@ -945,12 +945,11 @@
           {
             "name": "MinimalisticImagePartOfABook",
             "labels": {
-              "de": "Bild in einem Buch",
-              "en": "Image in a book",
-              "fr": "Image dans un livre"
+              "de": "Minimalistisches Bild in einem Buch",
+              "en": "Minimalistic Image in a book"
             },
             "comments": {
-              "en": "Image that forms part of a book"
+              "en": "This class uses the base properties 'seqnum' and 'isPartOf' directly"
             },
             "super": "StillImageRepresentation",
             "cardinalities": [
