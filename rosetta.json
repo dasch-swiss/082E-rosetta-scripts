@@ -649,6 +649,7 @@
             "super": [
               "isSequenceOf"
             ],
+            "subject": ":VideoSequence",
             "object": ":Video",
             "labels": {
               "de": "ist Sequenz von",
@@ -661,6 +662,7 @@
             "super": [
               "isSequenceOf"
             ],
+            "subject": ":AudioSequence",
             "object": ":Audio",
             "labels": {
               "de": "ist Sequenz von",
@@ -786,9 +788,6 @@
               "en": "Text",
               "fr": "Texte"
             },
-            "comments": {
-              "en": "no comment"
-            },
             "super": "Resource",
             "cardinalities": [
               {
@@ -869,9 +868,6 @@
               "en": "2D image",
               "fr": "image 2D"
             },
-            "comments": {
-              "en": "a comment"
-            },
             "super": "StillImageRepresentation",
             "cardinalities": [
               {
@@ -947,14 +943,37 @@
             ]
           },
           {
+            "name": "MinimalisticImagePartOfABook",
+            "labels": {
+              "de": "Bild in einem Buch",
+              "en": "Image in a book",
+              "fr": "Image dans un livre"
+            },
+            "comments": {
+              "en": "Image that forms part of a book"
+            },
+            "super": "StillImageRepresentation",
+            "cardinalities": [
+              {
+                "propname": ":hasTitle",
+                "cardinality": "1"
+              },
+              {
+                "propname": "seqnum",
+                "cardinality": "1"
+              },
+              {
+                "propname": "isPartOf",
+                "cardinality": "1"
+              }
+            ]
+          },
+          {
             "name": "Image3D",
             "labels": {
               "de": "3D-Bild",
               "en": "3D image",
               "fr": "image 3D"
-            },
-            "comments": {
-              "en": "a comment"
             },
             "super": "DDDRepresentation",
             "cardinalities": [
@@ -1011,9 +1030,6 @@
               "en": "Audio",
               "fr": "Audio"
             },
-            "comments": {
-              "en": "a comment"
-            },
             "super": "AudioRepresentation",
             "cardinalities": [
               {
@@ -1064,9 +1080,6 @@
               "en": "Video",
               "fr": "Video"
             },
-            "comments": {
-              "en": "a comment"
-            },
             "super": "MovingImageRepresentation",
             "cardinalities": [
               {
@@ -1113,11 +1126,8 @@
           {
             "name": "VideoSequence",
             "labels": {
-              "de": "Exzerpt einer Video-Ressource",
-              "en": "Excerpt of a video resource"
-            },
-            "comments": {
-              "en": "a comment"
+              "de": "Sequenz einer Video-Ressource",
+              "en": "Sequence of a video resource"
             },
             "super": "Resource",
             "cardinalities": [
@@ -1154,11 +1164,8 @@
           {
             "name": "AudioSequence",
             "labels": {
-              "de": "Exzerpt einer Audio-Ressource",
-              "en": "Excerpt of an audio resource"
-            },
-            "comments": {
-              "en": "a comment"
+              "de": "Sequenz einer Audio-Ressource",
+              "en": "Sequence of an audio resource"
             },
             "super": "Resource",
             "cardinalities": [
@@ -1193,14 +1200,38 @@
             ]
           },
           {
+            "name": "MinimalisticSequence",
+            "labels": {
+              "de": "Minimalistische Sequenz einer Audio-/Video-Ressource",
+              "en": "Minimalistic sequence of an audio/video resource"
+            },
+            "comments": {
+              "de": "Sequenz einer Audio-/Video-Ressource, welche die base properties 'isSequenceOf' und 'hasSequenceBounds' direkt verwendet",
+              "en": "Sequence of an audio/video resource that uses the base properties 'isSequenceOf' and 'hasSequenceBounds' directly"
+            },
+            "super": "Resource",
+            "cardinalities": [
+              {
+                "propname": ":hasTitle",
+                "cardinality": "1"
+              },
+              {
+                "propname": "isSequenceOf",
+                "cardinality": "1"
+              },
+              {
+                "propname": "hasSequenceBounds",
+                "cardinality": "1",
+                "gui_order": 1
+              }
+            ]
+          },
+          {
             "name": "Book",
             "labels": {
               "de": "Buch / Manuskript",
               "en": "book / manuscript",
               "fr": "livre / manuscrit"
-            },
-            "comments": {
-              "en": "a comment"
             },
             "super": "Resource",
             "cardinalities": [
@@ -1306,9 +1337,6 @@
               "en": "Person",
               "fr": "Personne"
             },
-            "comments": {
-              "en": "a comment"
-            },
             "super": "Resource",
             "cardinalities": [
               {
@@ -1340,9 +1368,6 @@
               "en": "Institution",
               "fr": "Institution"
             },
-            "comments": {
-              "en": "a comment"
-            },
             "super": "Resource",
             "cardinalities": [
               {
@@ -1373,9 +1398,6 @@
               "de": "Objekt",
               "en": "Object",
               "fr": "Objet"
-            },
-            "comments": {
-              "en": "a comment"
             },
             "super": "Resource",
             "cardinalities": [
@@ -1473,9 +1495,6 @@
               "en": "Document",
               "fr": "Document"
             },
-            "comments": {
-              "en": "a comment"
-            },
             "super": "DocumentRepresentation",
             "cardinalities": [
               {
@@ -1502,9 +1521,6 @@
               "en": "Archive",
               "fr": "Archive"
             },
-            "comments": {
-              "en": "a comment"
-            },
             "super": "ArchiveRepresentation",
             "cardinalities": [
               {
@@ -1525,9 +1541,6 @@
               "de": "Text-Dokument",
               "en": "Text document",
               "fr": "Document texte"
-            },
-            "comments": {
-              "en": "a comment"
             },
             "super": "TextRepresentation",
             "cardinalities": [
