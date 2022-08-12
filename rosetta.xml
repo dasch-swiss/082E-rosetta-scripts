@@ -1515,6 +1515,20 @@
         </resptr-prop>
     </resource>
 
+    !-- :MinimalisticImagePartOfABook -->
+    <resource label="Tree" restype=":MinimalisticImagePartOfABook" id="minimalistic_image_part_of_a_book_obj_0" permissions="res-default">
+        <bitstream permissions="prop-default">Images/tree.jpg</bitstream>
+        <text-prop name=":hasTitle">
+            <text permissions="prop-default" encoding="utf8">Image of a Tree</text>
+        </text-prop>
+        <integer-prop name="seqnum">
+            <integer permissions="prop-default">1</integer>
+        </integer-prop>
+        <resptr-prop name="isPartOf">
+            <resptr permissions="prop-default">book_obj_1</resptr>
+        </resptr-prop>
+    </resource>
+
     <!-- :Book -->
     <resource label="Iliad" restype=":Book" id="book_obj_0" permissions="res-default">
         <text-prop name=":hasTitle">
@@ -1780,10 +1794,6 @@
             <time permissions="prop-default">2021-11-30T12:00:00+00:00</time>
             <time permissions="prop-default" comment="Johannes' 50th birthday">2043-01-26T19:40:00+00:00</time>
         </time-prop>
-        <interval-prop name=":hasInterval">
-            <interval permissions="prop-default">0.00:4.80</interval>
-            <interval permissions="prop-default">1.05:6.20</interval>
-        </interval-prop>
         <color-prop name=":hasColor">
             <color permissions="prop-default">#5d1f1e</color>
             <color permissions="prop-default">#5a121e</color>
@@ -1957,27 +1967,52 @@
     </resource>
 
     <!-- :VideoSequence -->
-    <resource label="Excerpt of a Video" restype=":VideoSequence" id="video_sequence_0" permissions="res-default">
+    <resource label="Section of a Video" restype=":VideoSequence" id="video_sequence_0" permissions="res-default">
         <text-prop name=":hasTitle">
             <text encoding="utf8" permissions="prop-default">Sequence of a video</text>
         </text-prop>
         <resptr-prop name=":sequenceOfVideo">
             <resptr permissions="prop-default">video_0</resptr>
         </resptr-prop>
-        <interval-prop name=":hasInterval">
+        <interval-prop name=":hasBounds">
             <interval permissions="prop-default">2.0:10.0</interval>
         </interval-prop>
     </resource>
 
     <!-- :AudioSequence -->
-    <resource label="Excerpt of a Video" restype=":AudioSequence" id="audio_sequence_0" permissions="res-default">
+    <resource label="Section of a Video" restype=":AudioSequence" id="audio_sequence_0" permissions="res-default">
         <text-prop name=":hasTitle">
             <text encoding="utf8" permissions="prop-default">Sequence of an Audio Resource</text>
         </text-prop>
         <resptr-prop name=":sequenceOfAudio">
             <resptr permissions="prop-default">audio_obj_0</resptr>
         </resptr-prop>
-        <interval-prop name=":hasInterval">
+        <interval-prop name=":hasBounds">
+            <interval permissions="prop-default">8.0:12.0</interval>
+        </interval-prop>
+    </resource>
+
+    <!-- :MinimalisticSequence -->
+    <resource label="Minimalistic section of a Video" restype=":MinimalisticSequence" id="minimalistic_sequence_0" permissions="res-default">
+        <text-prop name=":hasTitle">
+            <text encoding="utf8" permissions="prop-default">Sequence of a Video Resource</text>
+        </text-prop>
+        <resptr-prop name="isSequenceOf">
+            <resptr permissions="prop-default">video_0</resptr>
+        </resptr-prop>
+        <interval-prop name="hasSequenceBounds">
+            <interval permissions="prop-default">8.0:12.0</interval>
+        </interval-prop>
+    </resource>
+
+    <resource label="Minimalistic section of an Audio" restype=":MinimalisticSequence" id="minimalistic_sequence_1" permissions="res-default">
+        <text-prop name=":hasTitle">
+            <text encoding="utf8" permissions="prop-default">Sequence of an Audio Resource</text>
+        </text-prop>
+        <resptr-prop name="isSequenceOf">
+            <resptr permissions="prop-default">audio_obj_0</resptr>
+        </resptr-prop>
+        <interval-prop name="hasSequenceBounds">
             <interval permissions="prop-default">8.0:12.0</interval>
         </interval-prop>
     </resource>
