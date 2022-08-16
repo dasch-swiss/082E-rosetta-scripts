@@ -1042,17 +1042,17 @@
               {
                 "propname": ":hasCreator",
                 "cardinality": "0-1",
-                "gui_order": 1
+                "gui_order": 2
               },
               {
                 "propname": ":hasDate",
                 "cardinality": "0-1",
-                "gui_order": 2
+                "gui_order": 3
               },
               {
                 "propname": ":hasDescription",
                 "cardinality": "0-1",
-                "gui_order": 3
+                "gui_order": 4
               },
               {
                 "propname": ":hasCopyright",
@@ -1087,22 +1087,23 @@
             "cardinalities": [
               {
                 "propname": ":hasTitle",
-                "cardinality": "1"
+                "cardinality": "1",
+                "gui_order": 1
               },
               {
                 "propname": ":hasCreator",
                 "cardinality": "0-1",
-                "gui_order": 1
+                "gui_order": 2
               },
               {
                 "propname": ":hasDate",
                 "cardinality": "0-1",
-                "gui_order": 2
+                "gui_order": 3
               },
               {
                 "propname": ":hasDescription",
                 "cardinality": "0-1",
-                "gui_order": 3
+                "gui_order": 4
               },
               {
                 "propname": ":hasCopyright",
@@ -1144,23 +1145,19 @@
               },
               {
                 "propname": ":hasBounds",
-                "cardinality": "1",
-                "gui_order": 1
+                "cardinality": "1"
               },
               {
                 "propname": ":hasCreator",
-                "cardinality": "0-1",
-                "gui_order": 2
+                "cardinality": "0-1"
               },
               {
                 "propname": ":hasDate",
-                "cardinality": "0-1",
-                "gui_order": 3
+                "cardinality": "0-1"
               },
               {
                 "propname": ":hasDescription",
-                "cardinality": "0-1",
-                "gui_order": 4
+                "cardinality": "0-1"
               }
             ]
           },
@@ -1182,23 +1179,19 @@
               },
               {
                 "propname": ":hasBounds",
-                "cardinality": "1",
-                "gui_order": 1
+                "cardinality": "1"
               },
               {
                 "propname": ":hasCreator",
-                "cardinality": "0-1",
-                "gui_order": 2
+                "cardinality": "0-1"
               },
               {
                 "propname": ":hasDate",
-                "cardinality": "0-1",
-                "gui_order": 3
+                "cardinality": "0-1"
               },
               {
                 "propname": ":hasDescription",
-                "cardinality": "0-1",
-                "gui_order": 4
+                "cardinality": "0-1"
               }
             ]
           },
@@ -1224,8 +1217,7 @@
               },
               {
                 "propname": "hasSequenceBounds",
-                "cardinality": "1",
-                "gui_order": 1
+                "cardinality": "1"
               }
             ]
           },
@@ -1294,7 +1286,8 @@
             "cardinalities": [
               {
                 "propname": ":hasTextMedium",
-                "cardinality": "0-1"
+                "cardinality": "0-1",
+                "gui_order": 0
               },
               {
                 "propname": ":hasPagenum",
