@@ -792,7 +792,8 @@
             "cardinalities": [
               {
                 "propname": ":hasTextMedium",
-                "cardinality": "0-1"
+                "cardinality": "0-1",
+                "gui_order": 0
               },
               {
                 "propname": ":hasAuthor",
@@ -872,7 +873,8 @@
             "cardinalities": [
               {
                 "propname": ":hasTitle",
-                "cardinality": "1"
+                "cardinality": "1",
+                "gui_order": 0
               },
               {
                 "propname": ":hasCreator",
@@ -912,7 +914,7 @@
               {
                 "propname": ":linksToRegion",
                 "cardinality": "0-n",
-                "gui_order": 7
+                "gui_order": 8
               }
             ]
           },
@@ -978,7 +980,8 @@
             "cardinalities": [
               {
                 "propname": ":hasTitle",
-                "cardinality": "1"
+                "cardinality": "1",
+                "gui_order": 0
               },
               {
                 "propname": ":hasCreator",
@@ -1033,7 +1036,8 @@
             "cardinalities": [
               {
                 "propname": ":hasTitle",
-                "cardinality": "1"
+                "cardinality": "1",
+                "gui_order": 1
               },
               {
                 "propname": ":hasCreator",
