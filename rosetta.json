@@ -644,44 +644,6 @@
               "size": 64
             }
           },
-          {          
-            "name": "sequenceOfVideo",
-            "super": [
-              "isSequenceOf"
-            ],
-            "subject": ":VideoSequence",
-            "object": ":Video",
-            "labels": {
-              "de": "ist Sequenz von",
-              "en": "is sequence of"
-            },
-            "gui_element": "Searchbox"
-          },
-          {
-            "name": "sequenceOfAudio",
-            "super": [
-              "isSequenceOf"
-            ],
-            "subject": ":AudioSequence",
-            "object": ":Audio",
-            "labels": {
-              "de": "ist Sequenz von",
-              "en": "is sequence of"
-            },
-            "gui_element": "Searchbox"
-          },
-          {
-            "name": "hasBounds",
-            "super": [
-              "hasSequenceBounds"
-            ],
-            "object": "IntervalValue",
-            "labels": {
-              "de": "Intervall, das den Start- und Endpunkt der Sequenz definiert",
-              "en": "Interval defining the start and end point of the sequence"
-            },
-            "gui_element": "Interval"
-          },
           {
             "name": "isPublic",
             "super": [
@@ -935,31 +897,6 @@
                 "cardinality": "1"
               },
               {
-                "propname": ":hasPagenum",
-                "cardinality": "1"
-              },
-              {
-                "propname": ":partOf",
-                "cardinality": "1"
-              }
-            ]
-          },
-          {
-            "name": "MinimalisticImagePartOfABook",
-            "labels": {
-              "de": "Minimalistisches Bild in einem Buch",
-              "en": "Minimalistic Image in a book"
-            },
-            "comments": {
-              "en": "This class uses the base properties 'seqnum' and 'isPartOf' directly"
-            },
-            "super": "StillImageRepresentation",
-            "cardinalities": [
-              {
-                "propname": ":hasTitle",
-                "cardinality": "1"
-              },
-              {
                 "propname": "seqnum",
                 "cardinality": "1"
               },
@@ -1140,11 +1077,11 @@
                 "cardinality": "1"
               },
               {
-                "propname": ":sequenceOfVideo",
+                "propname": "isSequenceOf",
                 "cardinality": "1"
               },
               {
-                "propname": ":hasBounds",
+                "propname": "hasSequenceBounds",
                 "cardinality": "1"
               },
               {
@@ -1174,11 +1111,11 @@
                 "cardinality": "1"
               },
               {
-                "propname": ":sequenceOfAudio",
+                "propname": "isSequenceOf",
                 "cardinality": "1"
               },
               {
-                "propname": ":hasBounds",
+                "propname": "hasSequenceBounds",
                 "cardinality": "1"
               },
               {
@@ -1192,32 +1129,6 @@
               {
                 "propname": ":hasDescription",
                 "cardinality": "0-1"
-              }
-            ]
-          },
-          {
-            "name": "MinimalisticSequence",
-            "labels": {
-              "de": "Minimalistische Sequenz einer Audio-/Video-Ressource",
-              "en": "Minimalistic sequence of an audio/video resource"
-            },
-            "comments": {
-              "de": "Sequenz einer Audio-/Video-Ressource, welche die base properties 'isSequenceOf' und 'hasSequenceBounds' direkt verwendet",
-              "en": "Sequence of an audio/video resource that uses the base properties 'isSequenceOf' and 'hasSequenceBounds' directly"
-            },
-            "super": "Resource",
-            "cardinalities": [
-              {
-                "propname": ":hasTitle",
-                "cardinality": "1"
-              },
-              {
-                "propname": "isSequenceOf",
-                "cardinality": "1"
-              },
-              {
-                "propname": "hasSequenceBounds",
-                "cardinality": "1"
               }
             ]
           },

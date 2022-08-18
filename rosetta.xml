@@ -1494,10 +1494,10 @@
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Image of a Tree</text>
         </text-prop>
-        <integer-prop name=":hasPagenum">
+        <integer-prop name="seqnum">
             <integer permissions="prop-default">1</integer>
         </integer-prop>
-        <resptr-prop name=":partOf">
+        <resptr-prop name="isPartOf">
             <resptr permissions="prop-default">book_obj_1</resptr>
         </resptr-prop>
     </resource>
@@ -1507,22 +1507,8 @@
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Image of a Flower</text>
         </text-prop>
-        <integer-prop name=":hasPagenum">
-            <integer permissions="prop-default">2</integer>
-        </integer-prop>
-        <resptr-prop name=":partOf">
-            <resptr permissions="prop-default">book_obj_1</resptr>
-        </resptr-prop>
-    </resource>
-
-    <!-- :MinimalisticImagePartOfABook -->
-    <resource label="Minimalistic ImagePartOfABook" restype=":MinimalisticImagePartOfABook" id="minimalistic_image_part_of_a_book_obj_0" permissions="res-default">
-        <bitstream permissions="prop-default">Images/Anubis.jpg</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">This class uses the base properties 'seqnum' and 'isPartOf' directly</text>
-        </text-prop>
         <integer-prop name="seqnum">
-            <integer permissions="prop-default">3</integer>
+            <integer permissions="prop-default">2</integer>
         </integer-prop>
         <resptr-prop name="isPartOf">
             <resptr permissions="prop-default">book_obj_1</resptr>
@@ -1971,10 +1957,10 @@
         <text-prop name=":hasTitle">
             <text encoding="utf8" permissions="prop-default">Sequence of a video</text>
         </text-prop>
-        <resptr-prop name=":sequenceOfVideo">
+        <resptr-prop name="isSequenceOf">
             <resptr permissions="prop-default">video_0</resptr>
         </resptr-prop>
-        <interval-prop name=":hasBounds">
+        <interval-prop name="hasSequenceBounds">
             <interval permissions="prop-default">0.0:2.0</interval>
         </interval-prop>
     </resource>
@@ -1984,36 +1970,11 @@
         <text-prop name=":hasTitle">
             <text encoding="utf8" permissions="prop-default">Sequence of an Audio Resource</text>
         </text-prop>
-        <resptr-prop name=":sequenceOfAudio">
+        <resptr-prop name="isSequenceOf">
             <resptr permissions="prop-default">audio_obj_0</resptr>
         </resptr-prop>
-        <interval-prop name=":hasBounds">
+        <interval-prop name="hasSequenceBounds">
             <interval permissions="prop-default">0.0:2.0</interval>
-        </interval-prop>
-    </resource>
-
-    <!-- :MinimalisticSequence -->
-    <resource label="Minimalistic section of a Video" restype=":MinimalisticSequence" id="minimalistic_sequence_0" permissions="res-default">
-        <text-prop name=":hasTitle">
-            <text encoding="utf8" permissions="prop-default">Sequence of a video resource that uses the base properties 'isSequenceOf' and 'hasSequenceBounds' directly</text>
-        </text-prop>
-        <resptr-prop name="isSequenceOf">
-            <resptr permissions="prop-default">video_0</resptr>
-        </resptr-prop>
-        <interval-prop name="hasSequenceBounds">
-            <interval permissions="prop-default">2.0:4.0</interval>
-        </interval-prop>
-    </resource>
-
-    <resource label="Minimalistic section of an Audio" restype=":MinimalisticSequence" id="minimalistic_sequence_1" permissions="res-default">
-        <text-prop name=":hasTitle">
-            <text encoding="utf8" permissions="prop-default">Sequence of an audio resource that uses the base properties 'isSequenceOf' and 'hasSequenceBounds' directly</text>
-        </text-prop>
-        <resptr-prop name="isSequenceOf">
-            <resptr permissions="prop-default">audio_obj_0</resptr>
-        </resptr-prop>
-        <interval-prop name="hasSequenceBounds">
-            <interval permissions="prop-default">2.0:4.0</interval>
         </interval-prop>
     </resource>
 
