@@ -645,19 +645,6 @@
             }
           },
           {
-            "name": "hasInterval",
-            "super": [
-              "hasValue"
-            ],
-            "object": "IntervalValue",
-            "labels": {
-              "de": "Intervall",
-              "en": "Interval",
-              "fr": "Intervalle"
-            },
-            "gui_element": "Interval"
-          },
-          {
             "name": "isPublic",
             "super": [
               "hasValue"
@@ -763,14 +750,12 @@
               "en": "Text",
               "fr": "Texte"
             },
-            "comments": {
-              "en": "no comment"
-            },
             "super": "Resource",
             "cardinalities": [
               {
                 "propname": ":hasTextMedium",
-                "cardinality": "0-1"
+                "cardinality": "0-1",
+                "gui_order": 0
               },
               {
                 "propname": ":hasAuthor",
@@ -846,14 +831,12 @@
               "en": "2D image",
               "fr": "image 2D"
             },
-            "comments": {
-              "en": "a comment"
-            },
             "super": "StillImageRepresentation",
             "cardinalities": [
               {
                 "propname": ":hasTitle",
-                "cardinality": "1"
+                "cardinality": "1",
+                "gui_order": 0
               },
               {
                 "propname": ":hasCreator",
@@ -893,7 +876,7 @@
               {
                 "propname": ":linksToRegion",
                 "cardinality": "0-n",
-                "gui_order": 7
+                "gui_order": 8
               }
             ]
           },
@@ -914,11 +897,11 @@
                 "cardinality": "1"
               },
               {
-                "propname": ":hasPagenum",
+                "propname": "seqnum",
                 "cardinality": "1"
               },
               {
-                "propname": ":partOf",
+                "propname": "isPartOf",
                 "cardinality": "1"
               }
             ]
@@ -930,14 +913,12 @@
               "en": "3D image",
               "fr": "image 3D"
             },
-            "comments": {
-              "en": "a comment"
-            },
             "super": "DDDRepresentation",
             "cardinalities": [
               {
                 "propname": ":hasTitle",
-                "cardinality": "1"
+                "cardinality": "1",
+                "gui_order": 0
               },
               {
                 "propname": ":hasCreator",
@@ -988,32 +969,25 @@
               "en": "Audio",
               "fr": "Audio"
             },
-            "comments": {
-              "en": "a comment"
-            },
             "super": "AudioRepresentation",
             "cardinalities": [
               {
                 "propname": ":hasTitle",
-                "cardinality": "1"
+                "cardinality": "1",
+                "gui_order": 1
               },
               {
                 "propname": ":hasCreator",
                 "cardinality": "0-1",
-                "gui_order": 1
+                "gui_order": 2
               },
               {
                 "propname": ":hasDate",
                 "cardinality": "0-1",
-                "gui_order": 2
-              },
-              {
-                "propname": ":hasDescription",
-                "cardinality": "0-1",
                 "gui_order": 3
               },
               {
-                "propname": ":hasInterval",
+                "propname": ":hasDescription",
                 "cardinality": "0-1",
                 "gui_order": 4
               },
@@ -1046,32 +1020,25 @@
               "en": "Video",
               "fr": "Video"
             },
-            "comments": {
-              "en": "a comment"
-            },
             "super": "MovingImageRepresentation",
             "cardinalities": [
               {
                 "propname": ":hasTitle",
-                "cardinality": "1"
+                "cardinality": "1",
+                "gui_order": 1
               },
               {
                 "propname": ":hasCreator",
                 "cardinality": "0-1",
-                "gui_order": 1
+                "gui_order": 2
               },
               {
                 "propname": ":hasDate",
                 "cardinality": "0-1",
-                "gui_order": 2
-              },
-              {
-                "propname": ":hasDescription",
-                "cardinality": "0-1",
                 "gui_order": 3
               },
               {
-                "propname": ":hasInterval",
+                "propname": ":hasDescription",
                 "cardinality": "0-1",
                 "gui_order": 4
               },
@@ -1098,14 +1065,79 @@
             ]
           },
           {
+            "name": "VideoSequence",
+            "labels": {
+              "de": "Sequenz einer Video-Ressource",
+              "en": "Sequence of a video resource"
+            },
+            "super": "Resource",
+            "cardinalities": [
+              {
+                "propname": ":hasTitle",
+                "cardinality": "1"
+              },
+              {
+                "propname": "isSequenceOf",
+                "cardinality": "1"
+              },
+              {
+                "propname": "hasSequenceBounds",
+                "cardinality": "1"
+              },
+              {
+                "propname": ":hasCreator",
+                "cardinality": "0-1"
+              },
+              {
+                "propname": ":hasDate",
+                "cardinality": "0-1"
+              },
+              {
+                "propname": ":hasDescription",
+                "cardinality": "0-1"
+              }
+            ]
+          },
+          {
+            "name": "AudioSequence",
+            "labels": {
+              "de": "Sequenz einer Audio-Ressource",
+              "en": "Sequence of an audio resource"
+            },
+            "super": "Resource",
+            "cardinalities": [
+              {
+                "propname": ":hasTitle",
+                "cardinality": "1"
+              },
+              {
+                "propname": "isSequenceOf",
+                "cardinality": "1"
+              },
+              {
+                "propname": "hasSequenceBounds",
+                "cardinality": "1"
+              },
+              {
+                "propname": ":hasCreator",
+                "cardinality": "0-1"
+              },
+              {
+                "propname": ":hasDate",
+                "cardinality": "0-1"
+              },
+              {
+                "propname": ":hasDescription",
+                "cardinality": "0-1"
+              }
+            ]
+          },
+          {
             "name": "Book",
             "labels": {
               "de": "Buch / Manuskript",
               "en": "book / manuscript",
               "fr": "livre / manuscrit"
-            },
-            "comments": {
-              "en": "a comment"
             },
             "super": "Resource",
             "cardinalities": [
@@ -1165,7 +1197,8 @@
             "cardinalities": [
               {
                 "propname": ":hasTextMedium",
-                "cardinality": "0-1"
+                "cardinality": "0-1",
+                "gui_order": 0
               },
               {
                 "propname": ":hasPagenum",
@@ -1211,9 +1244,6 @@
               "en": "Person",
               "fr": "Personne"
             },
-            "comments": {
-              "en": "a comment"
-            },
             "super": "Resource",
             "cardinalities": [
               {
@@ -1245,9 +1275,6 @@
               "en": "Institution",
               "fr": "Institution"
             },
-            "comments": {
-              "en": "a comment"
-            },
             "super": "Resource",
             "cardinalities": [
               {
@@ -1278,9 +1305,6 @@
               "de": "Objekt",
               "en": "Object",
               "fr": "Objet"
-            },
-            "comments": {
-              "en": "a comment"
             },
             "super": "Resource",
             "cardinalities": [
@@ -1368,11 +1392,6 @@
                 "propname": ":hasTime",
                 "cardinality": "0-n",
                 "gui_order": 15
-              },
-              {
-                "propname": ":hasInterval",
-                "cardinality": "0-n",
-                "gui_order": 16
               }
             ]
           },
@@ -1382,9 +1401,6 @@
               "de": "Dokument",
               "en": "Document",
               "fr": "Document"
-            },
-            "comments": {
-              "en": "a comment"
             },
             "super": "DocumentRepresentation",
             "cardinalities": [
@@ -1412,9 +1428,6 @@
               "en": "Archive",
               "fr": "Archive"
             },
-            "comments": {
-              "en": "a comment"
-            },
             "super": "ArchiveRepresentation",
             "cardinalities": [
               {
@@ -1435,9 +1448,6 @@
               "de": "Text-Dokument",
               "en": "Text document",
               "fr": "Document texte"
-            },
-            "comments": {
-              "en": "a comment"
             },
             "super": "TextRepresentation",
             "cardinalities": [

@@ -1,12 +1,12 @@
 <?xml version='1.0' encoding='utf-8'?>
 
-<knora 
-    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
-    xmlns="https://dasch.swiss/schema" 
-    xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/knora/dsplib/schemas/data.xsd" 
-    shortcode="082E" 
+<knora
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns="https://dasch.swiss/schema"
+    xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/knora/dsplib/schemas/data.xsd"
+    shortcode="082E"
     default-ontology="rosetta">
-    
+
     <!-- :permissions see https://docs.dasch.swiss/DSP-API/05-internals/design/api-admin/administration/#permissions -->
     <permissions id="res-default">
         <allow group="UnknownUser">V</allow>
@@ -1494,10 +1494,10 @@
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Image of a Tree</text>
         </text-prop>
-        <integer-prop name=":hasPagenum">
+        <integer-prop name="seqnum">
             <integer permissions="prop-default">1</integer>
         </integer-prop>
-        <resptr-prop name=":partOf">
+        <resptr-prop name="isPartOf">
             <resptr permissions="prop-default">book_obj_1</resptr>
         </resptr-prop>
     </resource>
@@ -1507,10 +1507,10 @@
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Image of a Flower</text>
         </text-prop>
-        <integer-prop name=":hasPagenum">
+        <integer-prop name="seqnum">
             <integer permissions="prop-default">2</integer>
         </integer-prop>
-        <resptr-prop name=":partOf">
+        <resptr-prop name="isPartOf">
             <resptr permissions="prop-default">book_obj_1</resptr>
         </resptr-prop>
     </resource>
@@ -1748,16 +1748,17 @@
             <text permissions="prop-default" encoding="utf8">Demonstration of multiple cardinalities</text>
             <text permissions="prop-default" encoding="utf8">In other words: show how 0-n cardinalities work</text>
             <text permissions="prop-default" encoding="xml">
-                Even <strong>XML-enriched text</strong> works in a "gui_element": "SimpleText", 
-                but it is better to use "Richtext". <br />This is <sup>supralinear text</sup> 
-                and has a <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to the object "cat".
+                Even <strong>XML-enriched text</strong> works in a "gui_element": "SimpleText", but it is better to use
+                "Richtext".<br />
+                This is <sup>supralinear text</sup> and has a <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to
+                the object "cat".
             </text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="utf8">This is a UTF-8 text element inside the property ":hasDescription"</text>
             <text permissions="prop-default" encoding="xml">
-                This is a <strong>XML-enriched text</strong> element inside the property ":hasDescription". <br />It
-                contains line break tags and <sup>supralinear text</sup> and a
+                This is a <strong>XML-enriched text</strong> element inside the property ":hasDescription". <br />
+                It contains line break tags and <sup>supralinear text</sup> and a
                 <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to the object "cat".
             </text>
         </text-prop>
@@ -1779,10 +1780,6 @@
             <time permissions="prop-default">2021-11-30T12:00:00+00:00</time>
             <time permissions="prop-default" comment="Johannes' 50th birthday">2043-01-26T19:40:00+00:00</time>
         </time-prop>
-        <interval-prop name=":hasInterval">
-            <interval permissions="prop-default">0.00:4.80</interval>
-            <interval permissions="prop-default">1.05:6.20</interval>
-        </interval-prop>
         <color-prop name=":hasColor">
             <color permissions="prop-default">#5d1f1e</color>
             <color permissions="prop-default">#5a121e</color>
@@ -1927,9 +1924,6 @@
                 in Emir Kusturica's film Time of the Gypsies.
             </text>
         </text-prop>
-        <interval-prop name=":hasInterval">
-            <interval permissions="prop-default">0.00:4.8</interval>
-        </interval-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© Goran Bregović</text>
         </text-prop>
@@ -1956,8 +1950,31 @@
         <text-prop name=":hasTitle">
             <text encoding="utf8" permissions="prop-default">Sunset Waves Close Up</text>
         </text-prop>
-        <interval-prop name=":hasInterval">
-            <interval permissions="prop-default">2.0:10.0</interval>
+    </resource>
+
+    <!-- :VideoSequence -->
+    <resource label="Section of a Video" restype=":VideoSequence" id="video_sequence_0" permissions="res-default">
+        <text-prop name=":hasTitle">
+            <text encoding="utf8" permissions="prop-default">Sequence of a video</text>
+        </text-prop>
+        <resptr-prop name="isSequenceOf">
+            <resptr permissions="prop-default">video_0</resptr>
+        </resptr-prop>
+        <interval-prop name="hasSequenceBounds">
+            <interval permissions="prop-default">0.0:2.0</interval>
+        </interval-prop>
+    </resource>
+
+    <!-- :AudioSequence -->
+    <resource label="Section of a Video" restype=":AudioSequence" id="audio_sequence_0" permissions="res-default">
+        <text-prop name=":hasTitle">
+            <text encoding="utf8" permissions="prop-default">Sequence of an Audio Resource</text>
+        </text-prop>
+        <resptr-prop name="isSequenceOf">
+            <resptr permissions="prop-default">audio_obj_0</resptr>
+        </resptr-prop>
+        <interval-prop name="hasSequenceBounds">
+            <interval permissions="prop-default">0.0:2.0</interval>
         </interval-prop>
     </resource>
 
