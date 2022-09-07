@@ -1851,7 +1851,7 @@
     </link>
 
     <!-- :Document -->
-    <resource label="RosettaPDF" restype=":Document" id="doc_001" permissions="res-default">
+    <resource label="RosettaPDF" restype=":Document" id="doc_000" permissions="res-default">
         <bitstream permissions="prop-default">Documents/RosettaTestproject.pdf</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Test project Rosetta</text>
@@ -1866,9 +1866,57 @@
         </time-prop>
     </resource>
 
-    <!-- :TextDocument -->
-    <resource label="RosettaCSV" restype=":TextDocument" id="doc_002" permissions="res-default">
-        <bitstream permissions="prop-default">Documents/RosettaCategoryList.csv</bitstream>
+    <resource label="RosettaDOCX" restype=":Document" id="doc_001" permissions="res-default">
+        <bitstream permissions="prop-default">Documents/RosettaTestproject.docx</bitstream>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Test project Rosetta</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">
+                This is a docx-file which contains the data model of the test project Rosetta.
+            </text>
+        </text-prop>
+    </resource>
+
+    <resource label="RosettaPPTX" restype=":Document" id="doc_002" permissions="res-default">
+        <bitstream permissions="prop-default">Documents/DSP Scheme.pptx</bitstream>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Scheme of DSP</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">
+                This is a pptx-file which explains the DaSCH Service Platform.
+            </text>
+        </text-prop>
+    </resource>
+
+    <resource label="RosettaXLSX" restype=":Document" id="doc_003" permissions="res-default">
+        <bitstream permissions="prop-default">Documents/resources_template.xlsx</bitstream>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Template from docs.dasch.swiss</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">
+                This is a xlsx-file that is downloadable on docs.dasch.swiss.
+            </text>
+        </text-prop>
+    </resource>
+
+    <!-- :TextFile -->
+    <resource label="RosettaTXT" restype=":TextFile" id="textfile_001" permissions="res-default">
+        <bitstream permissions="prop-default">Texts/RosettaCategoryList.txt</bitstream>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">Category list of the test project Rosetta</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">
+                This is a txt-file which contains the category list of the test project Rosetta.
+            </text>
+        </text-prop>
+    </resource>
+
+    <resource label="RosettaCSV" restype=":TextFile" id="textfile_002" permissions="res-default">
+        <bitstream permissions="prop-default">Texts/RosettaCategoryList.csv</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">Category list of the test project Rosetta</text>
         </text-prop>
@@ -1879,8 +1927,22 @@
         </text-prop>
     </resource>
 
+    <resource label="RosettaXML" restype=":TextFile" id="textfile_003" permissions="res-default">
+        <bitstream permissions="prop-default">rosetta.xml</bitstream>
+        <text-prop name=":hasName">
+            <text permissions="prop-default" encoding="utf8">
+                The XML file containing the resources of the Rosetta test project
+            </text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text permissions="prop-default" encoding="xml">
+                This is an xml-file which contains the data of the test project Rosetta.
+            </text>
+        </text-prop>
+    </resource>
+
     <!-- :Archive -->
-    <resource label="RosettaZIP" restype=":Archive" id="doc_003" permissions="res-default">
+    <resource label="RosettaZIP" restype=":Archive" id="arch_000" permissions="res-default">
         <bitstream permissions="prop-default">Archive/Rosetta.zip</bitstream>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">ZIP of Test project Rosetta</text>
@@ -1888,20 +1950,6 @@
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 This is a zip-file which contains information about the test project Rosetta.
-            </text>
-        </text-prop>
-    </resource>
-
-    <resource label="StygimolochZIP" restype=":Archive" id="doc_004" permissions="res-default">
-        <bitstream permissions="prop-default">Archive/Stygimoloch.zip</bitstream>
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Stygimoloch</text>
-        </text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
-                This is a zip-file which contains the data for a 3D-model of a Stygimoloch (dinosaur). The model was
-                designed by D.art and is licensed under Creative Commons Attribution-NonCommercial
-                (http://creativecommons.org/licenses/by-nc/4.0/).
             </text>
         </text-prop>
     </resource>
@@ -1933,6 +1981,13 @@
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">http://www.goranbregovic.rs/</uri>
         </uri-prop>
+    </resource>
+
+    <resource label="MP3 music file" restype=":Audio" id="audio_obj_1" permissions="res-default">
+        <bitstream permissions="prop-default">Audio/music.mp3</bitstream>
+        <text-prop name=":hasTitle">
+            <text permissions="prop-default" encoding="utf8">MP3 music file from filesamples.com</text>
+        </text-prop>
     </resource>
 
     <!-- :ObjectWithDifferentRepresentations -->
