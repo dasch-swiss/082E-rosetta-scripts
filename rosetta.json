@@ -1443,11 +1443,11 @@
             ]
           },
           {
-            "name": "TextDocument",
+            "name": "TextFile",
             "labels": {
-              "de": "Text-Dokument",
-              "en": "Text document",
-              "fr": "Document texte"
+              "de": "Text-Datei",
+              "en": "Text file",
+              "fr": "fichier texte"
             },
             "super": "TextRepresentation",
             "cardinalities": [
