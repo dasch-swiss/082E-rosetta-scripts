@@ -4,3 +4,4 @@ lists-only.json
 .idea/
 env/
 id2iri_*.json
+stashed_*.txt
