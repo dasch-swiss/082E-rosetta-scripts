@@ -224,6 +224,7 @@
           ":rosetta-editors"
         ],
         "projects": [
+          ":member",
           ":admin"
         ]
       }
