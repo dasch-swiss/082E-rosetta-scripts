@@ -291,7 +291,7 @@
     </resource>
 
     <resource label="Deluge" restype=":Image2D" id="img_obj_1" permissions="res-default">
-        <bitstream permissions="prop-restricted">Images/Danby-deluge.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/Danby-deluge.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">The Deluge</text>
         </text-prop>
@@ -324,7 +324,7 @@
     </resource>
 
     <resource label="Liberté, j'écris ton nom" restype=":Image2D" id="img_obj_2" permissions="res-default">
-        <bitstream>Images/Leger-Eluard.jpg</bitstream>
+        <bitstream permissions="prop-default">Images/Leger-Eluard.jpg</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Liberté</text>
         </text-prop>
