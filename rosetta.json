@@ -1479,6 +1479,11 @@
                 "propname": ":hasRepresentation",
                 "cardinality": "0-n",
                 "gui_order": 1
+              },
+              {
+                "propname": ":hasDescription",
+                "cardinality": "0-1",
+                "gui_order": 2
               }
             ]
           }

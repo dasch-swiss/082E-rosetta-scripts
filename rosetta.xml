@@ -7,7 +7,7 @@
     shortcode="082E"
     default-ontology="rosetta">
 
-    <!-- :permissions see https://docs.dasch.swiss/DSP-API/05-internals/design/api-admin/administration/#permissions -->
+    <!-- :permissions see https://docs.dasch.swiss/latest/DSP-API/05-internals/design/api-admin/administration/#permissions -->
     <permissions id="res-default">
         <allow group="UnknownUser">V</allow>
         <allow group="KnownUser">V</allow>
@@ -15,10 +15,8 @@
         <allow group="ProjectAdmin">CR</allow>
     </permissions>
     <permissions id="res-restricted">
-        <allow group="UnknownUser">V</allow>
-        <allow group="KnownUser">V</allow>
-        <allow group="Creator">CR</allow>
-        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">M</allow>
+        <allow group="ProjectAdmin">D</allow>
     </permissions>
     <permissions id="prop-default">
         <allow group="UnknownUser">V</allow>
@@ -27,10 +25,8 @@
         <allow group="ProjectAdmin">CR</allow>
     </permissions>
     <permissions id="prop-restricted">
-        <allow group="UnknownUser">V</allow>
-        <allow group="KnownUser">V</allow>
-        <allow group="Creator">CR</allow>
-        <allow group="ProjectAdmin">CR</allow>
+        <allow group="Creator">M</allow>
+        <allow group="ProjectAdmin">D</allow>
     </permissions>
 
     <!-- :Person -->
@@ -1591,7 +1587,7 @@
             </text>
         </text-prop>
         <decimal-prop name=":hasWeight">
-            <decimal permissions="prop-restricted">4.8</decimal>
+            <decimal permissions="prop-default">4.8</decimal>
         </decimal-prop>
         <boolean-prop name=":isPublic">
             <boolean permissions="prop-default">true</boolean>
@@ -1654,7 +1650,7 @@
             </text>
         </text-prop>
         <decimal-prop name=":hasWeight">
-            <decimal permissions="prop-restricted">0.5</decimal>
+            <decimal permissions="prop-default">0.5</decimal>
         </decimal-prop>
         <geoname-prop name=":hasFindspot">
             <geoname permissions="prop-default">351274</geoname>
@@ -1682,24 +1678,25 @@
         </uri-prop>
     </resource>
 
-    <resource label="Multiple cardinality demonstration" restype=":Object" id="obj_3" permissions="res-default">
+    <resource label="Multiple cardinality demonstration" restype=":Object" id="obj_3" permissions="res-restricted">
         <resptr-prop name=":hasImage">
             <resptr permissions="prop-default">img_obj_1</resptr>
-            <resptr permissions="prop-default">img_obj_2</resptr>
+            <resptr permissions="prop-restricted">img_obj_2</resptr>
             <resptr permissions="prop-default">img_obj_3</resptr>
         </resptr-prop>
         <list-prop list="category" name=":hasCategory">
-            <list permissions="prop-default">nature</list>
+            <list permissions="prop-restricted">nature</list>
             <list permissions="prop-default">animals</list>
-            <list permissions="prop-default">mammals</list>
+            <list permissions="prop-restricted">mammals</list>
         </list-prop>
         <list-prop list="flatlist" name=":hasFlatList">
-            <list permissions="prop-default">first-node</list>
+            <list permissions="prop-restricted">first-node</list>
         </list-prop>
         <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Demonstration of multiple cardinalities</text>
-            <text permissions="prop-default" encoding="utf8">In other words: show how 0-n cardinalities work</text>
-            <text permissions="prop-default" encoding="xml">
+            <text encoding="utf8">This text cannot be seen by anyone except the System Administrator.</text>
+            <text permissions="prop-restricted" encoding="utf8">The text above has no "permissions" attribute, so only the System Administrator can see it!</text>
+            <text permissions="prop-restricted" encoding="utf8">Demonstration of multiple cardinalities: show how 0-n cardinalities work</text>
+            <text permissions="prop-restricted" encoding="xml">
                 Even <strong>XML-enriched text</strong> works in a "gui_element": "SimpleText", but it is better to use
                 "Richtext".<br />
                 This is <sup>supralinear text</sup> and has a <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to
@@ -1707,8 +1704,8 @@
             </text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">This is a UTF-8 text element inside the property ":hasDescription"</text>
-            <text permissions="prop-default" encoding="xml">
+            <text permissions="prop-restricted" encoding="utf8">This is a UTF-8 text element inside the property ":hasDescription"</text>
+            <text permissions="prop-restricted" encoding="xml">
                 This is a <strong>XML-enriched text</strong> element inside the property ":hasDescription". <br />
                 It contains line break tags and <sup>supralinear text</sup> and a
                 <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to the object "cat".
@@ -1720,36 +1717,36 @@
             <decimal permissions="prop-restricted">500</decimal>
         </decimal-prop>
         <geoname-prop name=":hasFindspot">
-            <geoname permissions="prop-default">8375748</geoname>
-            <geoname permissions="prop-default">12420872</geoname>
-            <geoname permissions="prop-default">8375738</geoname>
+            <geoname permissions="prop-restricted">8375748</geoname>
+            <geoname permissions="prop-restricted">12420872</geoname>
+            <geoname permissions="prop-restricted">8375738</geoname>
         </geoname-prop>
         <date-prop name=":hasDate">
-            <date permissions="prop-default">JULIAN:BCE:0700:0600</date>
-            <date permissions="prop-default">GREGORIAN:CE:2021:2022</date>
+            <date permissions="prop-restricted">JULIAN:BCE:0700:0600</date>
+            <date permissions="prop-restricted">GREGORIAN:CE:2021:2022</date>
         </date-prop>
         <time-prop name=":hasTime">
-            <time permissions="prop-default">2021-11-30T12:00:00+00:00</time>
-            <time permissions="prop-default" comment="Johannes' 50th birthday">2043-01-26T19:40:00+00:00</time>
+            <time permissions="prop-restricted">2021-11-30T12:00:00+00:00</time>
+            <time permissions="prop-restricted" comment="Johannes' 50th birthday">2043-01-26T19:40:00+00:00</time>
         </time-prop>
         <color-prop name=":hasColor">
-            <color permissions="prop-default">#5d1f1e</color>
-            <color permissions="prop-default">#5a121e</color>
-            <color permissions="prop-default">#2d1b2e</color>
+            <color permissions="prop-restricted">#5d1f1e</color>
+            <color permissions="prop-restricted">#5a121e</color>
+            <color permissions="prop-restricted">#2d1b2e</color>
         </color-prop>
         <uri-prop name=":hasExternalLink">
-            <uri permissions="prop-default">https://www.britishmuseum.org/</uri>
-            <uri permissions="prop-default">https://www.wikipedia.org/</uri>
-            <uri permissions="prop-default">https://www.dasch.swiss/</uri>
+            <uri permissions="prop-restricted">https://www.britishmuseum.org/</uri>
+            <uri permissions="prop-restricted">https://www.wikipedia.org/</uri>
+            <uri permissions="prop-restricted">https://www.dasch.swiss/</uri>
         </uri-prop>
         <text-prop name=":hasComment">
-            <text encoding="utf8" permissions="prop-default">A comment</text>
-            <text encoding="utf8" permissions="prop-default">And another comment</text>
+            <text encoding="utf8" permissions="prop-restricted">A comment</text>
+            <text encoding="utf8" permissions="prop-restricted">And another comment</text>
         </text-prop>
     </resource>
 
     <!-- Annotation -->
-    <annotation label="Annotation to object 'Multiple cardinality demonstration'" id="annotation_0" permissions="res-default">
+    <annotation label="Annotation to object 'Multiple cardinality demonstration'" id="annotation_0" permissions="res-restricted">
         <text-prop name="hasComment">
             <text encoding="utf8" permissions="prop-default">This is an annotation to the object 'Multiple cardinality demonstration'.</text>
         </text-prop>
@@ -1907,7 +1904,7 @@
     </resource>
 
     <!-- :Audio -->
-    <resource label="Ederlezi" restype=":Audio" id="audio_obj_0" permissions="res-restricted">
+    <resource label="Ederlezi" restype=":Audio" id="audio_obj_0" permissions="res-default">
         <bitstream permissions="prop-default">Audio/Ederlezi.wav</bitstream>
         <text-prop name=":hasTitle">
             <text permissions="prop-default" encoding="utf8">Ederlezi</text>
@@ -1949,6 +1946,11 @@
             <resptr permissions="prop-default">audio_obj_0</resptr>
             <resptr permissions="prop-default">doc_001</resptr>
         </resptr-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="utf8" permissions="prop-default">
+                If a resource has a property derived from "hasRepresentation", it can have resptr-links to different multimedia resources.
+            </text>
+        </text-prop>
     </resource>
 
     <!-- :Video -->
@@ -1956,6 +1958,11 @@
         <bitstream permissions="prop-default">Video/SunsetWavesCloseUp.mp4</bitstream>
         <text-prop name=":hasTitle">
             <text encoding="utf8" permissions="prop-default">Sunset Waves Close Up</text>
+        </text-prop>
+        <text-prop name=":hasDescription">
+            <text encoding="utf8" permissions="prop-default">
+                This is a sample video file from the internet.
+            </text>
         </text-prop>
     </resource>
 
