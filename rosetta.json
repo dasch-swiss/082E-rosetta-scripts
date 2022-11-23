@@ -290,7 +290,12 @@
               "en": "Text",
               "fr": "Texte"
             },
-            "gui_element": "Richtext"
+            "gui_element": "Textarea",
+            "gui_attributes": {
+              "rows": 10,
+              "cols": 40,
+              "wrap": "soft"
+            }
           },
           {
             "name": "hasTranscription",
@@ -316,7 +321,12 @@
               "en": "Transliteration",
               "fr": "Translittération"
             },
-            "gui_element": "Richtext"
+            "gui_element": "Textarea",
+            "gui_attributes": {
+              "rows": 10,
+              "cols": 40,
+              "wrap": "soft"
+            }
           },
           {
             "name": "hasTranslation",
@@ -329,7 +339,12 @@
               "en": "Translation",
               "fr": "Traduction"
             },
-            "gui_element": "Richtext"
+            "gui_element": "Textarea",
+            "gui_attributes": {
+              "rows": 10,
+              "cols": 40,
+              "wrap": "soft"
+            }
           },
           {
             "name": "hasDescription",
