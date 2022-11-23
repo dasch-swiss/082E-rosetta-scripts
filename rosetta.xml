@@ -686,7 +686,7 @@
             </text>
         </text-prop>
         <text-prop name=":hasTransliteration">
-            <text permissions="prop-default" encoding="xml">
+            <text permissions="prop-default" encoding="utf8">
                 p.t m ḥb ndb{w} m rš.wt ḏr ẖnm nbw.t stw.t i͗t=s i͗j=s m ḥtp r pr=s m ḥʿʿ(.wt) m ḥb=s nfr wp rnp.t mi͗t.t
                 i͗sk m ḥb.w tp tr.w r-sꜣ ẖnm mꜢ.wt n(.t) I͗Ꜣḫw nswt ḏs=f ḥr kꜢp n=s ʿntw ḥr snṯr pr=s m sṯi͗-nṯr ḥr ḏsr
                 ḥw.t-nṯr=s m ʿšꜢw wr ḥr ms n=s ʿꜢb.t ʿꜢ.t tꜢ ḥnq.t wr.tw ḫr-m-m=sn
@@ -1925,7 +1925,7 @@
             <resptr permissions="prop-default">doc_001</resptr>
         </resptr-prop>
         <text-prop name=":hasDescription">
-            <text encoding="utf8" permissions="prop-default">
+            <text encoding="xml" permissions="prop-default">
                 If a resource has a property derived from "hasRepresentation", it can have resptr-links to different multimedia resources.
             </text>
         </text-prop>
