@@ -294,7 +294,7 @@
             "gui_attributes": {
               "rows": 10,
               "cols": 40,
-              "wrap": "hard"
+              "wrap": "soft"
             }
           },
           {
@@ -325,7 +325,7 @@
             "gui_attributes": {
               "rows": 10,
               "cols": 40,
-              "wrap": "hard"
+              "wrap": "soft"
             }
           },
           {
@@ -343,7 +343,7 @@
             "gui_attributes": {
               "rows": 10,
               "cols": 40,
-              "wrap": "hard"
+              "wrap": "soft"
             }
           },
           {
