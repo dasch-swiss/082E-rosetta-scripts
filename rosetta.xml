@@ -266,7 +266,9 @@
             <text permissions="prop-default" encoding="xml">
                 Tablet K.3375 in the British Museum is tablet 11 of the Epic of Gilgameš. It contains the very famous
                 story of the deluge. The tablet was found at Koyunjik in the Library of Ashurbanipal and it dates to
-                the 7<sup>th</sup> century BCE.
+                the 7
+                <sup>th</sup>
+                century BCE.
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
@@ -524,9 +526,14 @@
         </text-prop>
         <text-prop name=":hasTranscription">
             <text permissions="prop-default" encoding="xml">
-                <sup>d</sup> GIŠ-gim₂-maš a-na ša₂-⸢šu⸣-ma MU-ra a-na <sup>m</sup> UD-ZI ru-u₂-qi₂
+                <sup>d</sup>
+                GIŠ-gim₂-maš a-na ša₂-⸢šu⸣-ma MU-ra a-na
+                <sup>m</sup>
+                UD-ZI ru-u₂-qi₂
                 <br />
-                a-na-aṭ-ṭa-la-kum₂-ma <sup>m</sup> UD-ZI
+                a-na-aṭ-ṭa-la-kum₂-ma
+                <sup>m</sup>
+                UD-ZI
                 <br />
                 mi-na-tu-ka ul ⸢ša₂⸣-na-a ki-i ia-ti-ma at-ta
                 <br />
@@ -538,29 +545,48 @@
                 <br />
                 [at-t]a ⸢ki-ki-i⸣ ta-az-ziz -m]a ina UKKIN DINGIR.MEŠ ba-la-ṭa taš-⸢u₃⸣
                 <br />
-                [ <sup>m</sup> UD]-ZI-tim ana ša₂-šu-ma [MU-r]a a-na <sup>d</sup> GIŠ-gim₃-maš
+                [
+                <sup>m</sup>
+                UD]-ZI-tim ana ša₂-šu-ma [MU-r]a a-na
+                <sup>d</sup>
+                GIŠ-gim₃-maš
                 <br />
-                lu-up-te-ka <sup>d</sup> GIŠ-gim₂-maš a-mat ni-ṣir-ti
+                lu-up-te-ka
+                <sup>d</sup>
+                GIŠ-gim₂-maš a-mat ni-ṣir-ti
                 <br />
                 u₃ pi-riš-ti ša₂ DINGIR.MEŠ ka-a-ša₂ l[u-uq-bi]-ka
                 <br />
                 [U]RU šu-ri-ip-pak URU ša₂ ti-du-šu at-ta :
                 <br />
-                [x (x) x G]U₂ <sup>id₂</sup> pu-rat-ti šak-nu
+                [x (x) x G]U₂
+                <sup>id₂</sup>
+                pu-rat-ti šak-nu
                 <br />
                 [UR]U ·u-u₂ la-bir-ma DINGIR.MEŠ qer-bu-uš
                 <br />
                 [a-n]a ša₂-kan a-bu-bi ub-⸢la⸣ lib₃-ba-šu₂-nu DINGIR.MEŠ GAL.MEŠ
                 <br />
-                [it]-ma-ma AD-šu₂-nu <sup>d</sup> a-num 〈:〉
+                [it]-ma-ma AD-šu₂-nu
+                <sup>d</sup>
+                a-num 〈:〉
                 <br />
-                ma-lik-šu₂-nu qu-ra-du <sup>d</sup> en-lil₂
+                ma-lik-šu₂-nu qu-ra-du
+                <sup>d</sup>
+                en-lil₂
                 <br />
-                [g]u-za-la₂-šu₂-nu <sup>d</sup> nin-urta 〈:〉
+                [g]u-za-la₂-šu₂-nu
+                <sup>d</sup>
+                nin-urta 〈:〉
                 <br />
-                gu₂-⸢gal-la⸣-šu₂-nu <sup>d</sup> en-nu-gi
+                gu₂-⸢gal-la⸣-šu₂-nu
+                <sup>d</sup>
+                en-nu-gi
                 <br />
-                <sup>d</sup> nin-ši-ku₃ <sup>d</sup> e₂-a it-ti-šu₂-nu ta-mi₃-ma
+                <sup>d</sup>
+                nin-ši-ku₃
+                <sup>d</sup>
+                e₂-a it-ti-šu₂-nu ta-mi₃-ma
                 <br />
                 a-mat-su-nu u₂-ša₂-an-na-a a-na ki-ik-ki-šu₂
             </text>
@@ -760,111 +786,196 @@
         </text-prop>
         <text-prop name=":hasTranscription">
             <text permissions="prop-default" encoding="xml">
-                Sur mes cahiers d’écolier<br />
-                Sur mon pupitre et les arbres<br />
-                Sur le sable sur la neige<br />
-                J’écris ton nom<br />
-<br />
-                Sur toutes les pages lues<br />
-                Sur toutes les pages blanches<br />
-                Pierre sang papier ou cendre<br />
-                J’écris ton nom<br />
-<br />
-                Sur les images dorées<br />
-                Sur les armes des guerriers<br />
-                Sur la couronne des rois<br />
-                J’écris ton nom<br />
-<br />
-                Sur la jungle et le désert<br />
-                Sur les nids sur les genêts<br />
-                Sur l’écho de mon enfance<br />
-                J’écris ton nom<br />
-<br />
-                Sur les merveilles des nuits<br />
-                Sur le pain blanc des journées<br />
-                Sur les saisons fiancées<br />
-                J’écris ton nom<br />
-<br />
-                Sur tous mes chiffons d’azur<br />
-                Sur l’étang soleil moisi<br />
-                Sur le lac lune vivante<br />
-                J’écris ton nom<br />
-<br />
-                Sur les champs sur l’horizon<br />
-                Sur les ailes des oiseaux<br />
-                Et sur le moulin des ombres<br />
-                J’écris ton nom<br />
-<br />
-                Sur chaque bouffée d’aurore<br />
-                Sur la mer sur les bateaux<br />
-                Sur la montagne démente<br />
-                J’écris ton nom<br />
-<br />
-                Sur la mousse des nuages<br />
-                Sur les sueurs de l’orage<br />
-                Sur la pluie épaisse et fade<br />
-                J’écris ton nom<br />
-<br />
-                Sur les formes scintillantes<br />
-                Sur les cloches des couleurs<br />
-                Sur la vérité physique<br />
-                J’écris ton nom<br />
-<br />
-                Sur les sentiers éveillés<br />
-                Sur les routes déployées<br />
-                Sur les places qui débordent<br />
-                J’écris ton nom<br />
-<br />
-                Sur la lampe qui s’allume<br />
-                Sur la lampe qui s’éteint<br />
-                Sur mes maisons réunies<br />
-                J’écris ton nom<br />
-                Sur le fruit coupé en deux<br />
-                Du miroir et de ma chambre<br />
-                Sur mon lit coquille vide<br />
-                J’écris ton nom<br />
-<br />
-                Sur mon chien gourmand et tendre<br />
-                Sur ses oreilles dressées<br />
-                Sur sa patte maladroite<br />
-                J’écris ton nom<br />
-<br />
-                Sur le tremplin de ma porte<br />
-                Sur les objets familiers<br />
-                Sur le flot du feu béni<br />
-                J’écris ton nom<br />
-<br />
-                Sur toute chair accordée<br />
-                Sur le front de mes amis<br />
-                Sur chaque main qui se tend<br />
-                J’écris ton nom<br />
-<br />
-                Sur la vitre des surprises<br />
-                Sur les lèvres attentives<br />
-                Bien au-dessus du silence<br />
-                J’écris ton nom<br />
-<br />
-                Sur mes refuges détruits<br />
-                Sur mes phares écroulés<br />
-                Sur les murs de mon ennui<br />
-                J’écris ton nom<br />
-<br />
-                Sur l’absence sans désir<br />
-                Sur la solitude nue<br />
-                Sur les marches de la mort<br />
-                J’écris ton nom<br />
-<br />
-                Sur la santé revenue<br />
-                Sur le risque disparu<br />
-                Sur l’espoir sans souvenir<br />
-                J’écris ton nom<br />
-<br />
-                Et par le pouvoir d’un mot<br />
-                Je recommence ma vie<br />
-                Je suis né pour te connaître<br />
-                Pour te nommer<br />
-<br />
-                Liberté.<br />
+                Sur mes cahiers d’écolier
+                <br />
+                Sur mon pupitre et les arbres
+                <br />
+                Sur le sable sur la neige
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur toutes les pages lues
+                <br />
+                Sur toutes les pages blanches
+                <br />
+                Pierre sang papier ou cendre
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur les images dorées
+                <br />
+                Sur les armes des guerriers
+                <br />
+                Sur la couronne des rois
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur la jungle et le désert
+                <br />
+                Sur les nids sur les genêts
+                <br />
+                Sur l’écho de mon enfance
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur les merveilles des nuits
+                <br />
+                Sur le pain blanc des journées
+                <br />
+                Sur les saisons fiancées
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur tous mes chiffons d’azur
+                <br />
+                Sur l’étang soleil moisi
+                <br />
+                Sur le lac lune vivante
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur les champs sur l’horizon
+                <br />
+                Sur les ailes des oiseaux
+                <br />
+                Et sur le moulin des ombres
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur chaque bouffée d’aurore
+                <br />
+                Sur la mer sur les bateaux
+                <br />
+                Sur la montagne démente
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur la mousse des nuages
+                <br />
+                Sur les sueurs de l’orage
+                <br />
+                Sur la pluie épaisse et fade
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur les formes scintillantes
+                <br />
+                Sur les cloches des couleurs
+                <br />
+                Sur la vérité physique
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur les sentiers éveillés
+                <br />
+                Sur les routes déployées
+                <br />
+                Sur les places qui débordent
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur la lampe qui s’allume
+                <br />
+                Sur la lampe qui s’éteint
+                <br />
+                Sur mes maisons réunies
+                <br />
+                J’écris ton nom
+                <br />
+                Sur le fruit coupé en deux
+                <br />
+                Du miroir et de ma chambre
+                <br />
+                Sur mon lit coquille vide
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur mon chien gourmand et tendre
+                <br />
+                Sur ses oreilles dressées
+                <br />
+                Sur sa patte maladroite
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur le tremplin de ma porte
+                <br />
+                Sur les objets familiers
+                <br />
+                Sur le flot du feu béni
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur toute chair accordée
+                <br />
+                Sur le front de mes amis
+                <br />
+                Sur chaque main qui se tend
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur la vitre des surprises
+                <br />
+                Sur les lèvres attentives
+                <br />
+                Bien au-dessus du silence
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur mes refuges détruits
+                <br />
+                Sur mes phares écroulés
+                <br />
+                Sur les murs de mon ennui
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur l’absence sans désir
+                <br />
+                Sur la solitude nue
+                <br />
+                Sur les marches de la mort
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Sur la santé revenue
+                <br />
+                Sur le risque disparu
+                <br />
+                Sur l’espoir sans souvenir
+                <br />
+                J’écris ton nom
+                <br />
+                <br />
+                Et par le pouvoir d’un mot
+                <br />
+                Je recommence ma vie
+                <br />
+                Je suis né pour te connaître
+                <br />
+                Pour te nommer
+                <br />
+                <br />
+                Liberté.
+                <br />
             </text>
         </text-prop>
         <text-prop name=":hasTranslation">
@@ -994,38 +1105,69 @@
         </text-prop>
         <text-prop name=":hasTranscription">
             <text permissions="prop-default" encoding="xml">
-                Стрекоза и Муравей<br />
-<br />
-                Попрыгунья Стрекоза<br />
-                Лето красное пропела;<br />
-                Оглянуться не успела,<br />
-                Как зима катит в глаза.<br />
-                Помертвело чисто поле;<br />
-                Нет уж дней тех светлых боле,<br />
-                Как под каждым ей листком<br />
-                Был готов и стол, и дом.<br />
-                Все прошло: с зимой холодной<br />
-                Нужда, голод настает;<br />
-                Стрекоза уж не поет:<br />
-                И кому же в ум пойдет<br />
-                На желудок петь голодный!<br />
-                Злой тоской удручена,<br />
-                К Муравью ползет она:<br />
-                «Не оставь меня, кум милый!<br />
-                Дай ты мне собраться с силой<br />
-                И до вешних только дней<br />
-                Прокорми и обогрей!» —<br />
-                «Кумушка, мне странно это:<br />
-                Да работала ль ты в лето?» —<br />
-                Говорит ей Муравей.<br />
-                «До того ль, голубчик, было?<br />
-                В мягких муравах у нас<br />
-                Песни, резвость всякий час,<br />
-                Так, что голову вскружило». —<br />
-                «А, так ты...» — «Я без души<br />
-                Лето целое все пела». —<br />
-                «Ты все пела? это дело:<br />
-                Так поди же, попляши!»<br />
+                Стрекоза и Муравей
+                <br />
+                <br />
+                Попрыгунья Стрекоза
+                <br />
+                Лето красное пропела;
+                <br />
+                Оглянуться не успела,
+                <br />
+                Как зима катит в глаза.
+                <br />
+                Помертвело чисто поле;
+                <br />
+                Нет уж дней тех светлых боле,
+                <br />
+                Как под каждым ей листком
+                <br />
+                Был готов и стол, и дом.
+                <br />
+                Все прошло: с зимой холодной
+                <br />
+                Нужда, голод настает;
+                <br />
+                Стрекоза уж не поет:
+                <br />
+                И кому же в ум пойдет
+                <br />
+                На желудок петь голодный!
+                <br />
+                Злой тоской удручена,
+                <br />
+                К Муравью ползет она:
+                <br />
+                «Не оставь меня, кум милый!
+                <br />
+                Дай ты мне собраться с силой
+                <br />
+                И до вешних только дней
+                <br />
+                Прокорми и обогрей!» —
+                <br />
+                «Кумушка, мне странно это:
+                <br />
+                Да работала ль ты в лето?» —
+                <br />
+                Говорит ей Муравей.
+                <br />
+                «До того ль, голубчик, было?
+                <br />
+                В мягких муравах у нас
+                <br />
+                Песни, резвость всякий час,
+                <br />
+                Так, что голову вскружило». —
+                <br />
+                «А, так ты...» — «Я без души
+                <br />
+                Лето целое все пела». —
+                <br />
+                «Ты все пела? это дело:
+                <br />
+                Так поди же, попляши!»
+                <br />
             </text>
         </text-prop>
         <text-prop name=":hasTransliteration">
@@ -1145,12 +1287,18 @@
         </text-prop>
         <text-prop name=":hasTranscription">
             <text permissions="prop-default" encoding="xml">
-                عندما يتأتى ليَ الشعرُ،<br />
-                أحسد نفسي،<br />
-                ويذهب عني احتمالُ المرَضْ.<br />
-                وتحْضرُني الكائناتُ، لأنصحَها،<br />
-                وأميّزَ ما بينَها،<br />
-                وأحدّدَ في طيّها جوْهراً أو عرَضْ.<br />
+                عندما يتأتى ليَ الشعرُ،
+                <br />
+                أحسد نفسي،
+                <br />
+                ويذهب عني احتمالُ المرَضْ.
+                <br />
+                وتحْضرُني الكائناتُ، لأنصحَها،
+                <br />
+                وأميّزَ ما بينَها،
+                <br />
+                وأحدّدَ في طيّها جوْهراً أو عرَضْ.
+                <br />
             </text>
         </text-prop>
         <text-prop name=":hasTransliteration">
@@ -1529,13 +1677,20 @@
         </resptr-prop>
         <text-prop name=":hasTranscription">
             <text permissions="prop-default" encoding="xml">
-                𝛍ῆ𝝼𝛊𝝼 ἄ𝛆𝛊𝛅𝛆 𝛉𝛆ὰ 𝝥𝛈𝝺𝛈ϊά𝛅𝛆𝞈 Ἀ𝞆𝛊𝝺ῆ𝝾𝞁<br />
-                𝝾ὐ𝝺𝝾𝛍έ𝝼𝛈𝝼, ἥ 𝛍𝞄𝞀ί’ Ἀ𝞆𝛂𝛊𝝾ῖ𝞁 ἄ𝝺𝝲𝛆’ ἔ𝛉𝛈𝝹𝛆,<br />
-                𝝿𝝾𝝺𝝺ὰ𝞁 𝛅’ ἰ𝛗𝛉ί𝛍𝝾υ𝞁 𝞇𝞄𝞆ὰ𝞁 Ἄϊ𝛅𝛊 𝝿𝞀𝝾ΐ𝛂𝞇𝛆𝝼<br />
-                ἡ𝞀ώ𝞈𝝼, 𝛂ὐ𝛕𝝾ὺ𝞁 𝛅ὲ ἑ𝝺ώ𝞀𝛊𝛂 𝛕𝛆ῦ𝞆𝛆 𝝹ύ𝝼𝛆𝛔𝛔𝛊𝝼<br />
-                𝝾ἰ𝞈𝝼𝝾ῖ𝛔𝛊 𝛕𝛆 𝝿ᾶ𝛔𝛊, 𝝙𝛊ὸ𝞁 𝛅’ ἐ𝛕𝛆𝝺𝛆ί𝛆𝛕𝝾 𝝱𝝾𝞄𝝺ή,<br />
-                ἐ𝝽 𝝾ὗ 𝛅ὴ 𝛕ὰ 𝝿𝞀ῶ𝛕𝛂 𝛅𝛊𝛂𝛔𝛕ή𝛕𝛈𝝼 ἐ𝞀ί𝛔𝛂𝝼𝛕𝛆<br />
-                Ἂ𝛕𝞀𝛆ΐ𝛅𝛈𝞁 𝛕𝛆 ἄ𝝼𝛂𝝽 ἀ𝝼𝛅𝞀ῶ𝝼 𝝹𝛂ὶ 𝛅ῖ𝝾𝞁 Ἀ𝞆𝛊𝝺𝝺𝛆ὺ𝞁.<br />
+                𝛍ῆ𝝼𝛊𝝼 ἄ𝛆𝛊𝛅𝛆 𝛉𝛆ὰ 𝝥𝛈𝝺𝛈ϊά𝛅𝛆𝞈 Ἀ𝞆𝛊𝝺ῆ𝝾𝞁
+                <br />
+                𝝾ὐ𝝺𝝾𝛍έ𝝼𝛈𝝼, ἥ 𝛍𝞄𝞀ί’ Ἀ𝞆𝛂𝛊𝝾ῖ𝞁 ἄ𝝺𝝲𝛆’ ἔ𝛉𝛈𝝹𝛆,
+                <br />
+                𝝿𝝾𝝺𝝺ὰ𝞁 𝛅’ ἰ𝛗𝛉ί𝛍𝝾υ𝞁 𝞇𝞄𝞆ὰ𝞁 Ἄϊ𝛅𝛊 𝝿𝞀𝝾ΐ𝛂𝞇𝛆𝝼
+                <br />
+                ἡ𝞀ώ𝞈𝝼, 𝛂ὐ𝛕𝝾ὺ𝞁 𝛅ὲ ἑ𝝺ώ𝞀𝛊𝛂 𝛕𝛆ῦ𝞆𝛆 𝝹ύ𝝼𝛆𝛔𝛔𝛊𝝼
+                <br />
+                𝝾ἰ𝞈𝝼𝝾ῖ𝛔𝛊 𝛕𝛆 𝝿ᾶ𝛔𝛊, 𝝙𝛊ὸ𝞁 𝛅’ ἐ𝛕𝛆𝝺𝛆ί𝛆𝛕𝝾 𝝱𝝾𝞄𝝺ή,
+                <br />
+                ἐ𝝽 𝝾ὗ 𝛅ὴ 𝛕ὰ 𝝿𝞀ῶ𝛕𝛂 𝛅𝛊𝛂𝛔𝛕ή𝛕𝛈𝝼 ἐ𝞀ί𝛔𝛂𝝼𝛕𝛆
+                <br />
+                Ἂ𝛕𝞀𝛆ΐ𝛅𝛈𝞁 𝛕𝛆 ἄ𝝼𝛂𝝽 ἀ𝝼𝛅𝞀ῶ𝝼 𝝹𝛂ὶ 𝛅ῖ𝝾𝞁 Ἀ𝞆𝛊𝝺𝝺𝛆ὺ𝞁.
+                <br />
             </text>
         </text-prop>
         <text-prop name=":hasTransliteration">
@@ -1704,17 +1859,30 @@
             <text permissions="prop-restricted" encoding="utf8">The text above has no "permissions" attribute, so only the System Administrator can see it!</text>
             <text permissions="prop-restricted" encoding="utf8">Demonstration of multiple cardinalities: show how 0-n cardinalities work</text>
             <text permissions="prop-restricted" encoding="xml">
-                Even <strong>XML-enriched text</strong> works in a "gui_element": "SimpleText", but it is better to use
-                "Richtext".<br />
-                This is <sup>supralinear text</sup> and has a <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to
+                Even
+                <strong>XML-enriched text</strong>
+                works in a "gui_element": "SimpleText", but it is better to use
+                "Richtext".
+                <br />
+                This is
+                <sup>supralinear text</sup>
+                and has a
+                <a class="salsah-link" href="IRI:obj_0:IRI">link</a>
+                to
                 the object "cat".
             </text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-restricted" encoding="xml">
-                This is a <strong>XML-enriched text</strong> element inside the property ":hasDescription". <br />
-                It contains line break tags and <sup>supralinear text</sup> and a
-                <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to the object "cat".
+                This is a
+                <strong>XML-enriched text</strong>
+                element inside the property ":hasDescription".
+                <br />
+                It contains line break tags and
+                <sup>supralinear text</sup>
+                and a
+                <a class="salsah-link" href="IRI:obj_0:IRI">link</a>
+                to the object "cat".
             </text>
         </text-prop>
         <decimal-prop name=":hasWeight">
