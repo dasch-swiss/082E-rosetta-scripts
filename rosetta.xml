@@ -331,7 +331,7 @@
             <date permissions="prop-default">GREGORIAN:CE:1953</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Illustration of the poem "Liberté" by Paul Éluard.</text>
+            <text permissions="prop-default" encoding="xml">Illustration of the poem "Liberté" by Paul Éluard.</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">© Pierre Seghers, Paris</text>
@@ -359,7 +359,7 @@
             <date permissions="prop-default">GREGORIAN:CE:1688</date>
         </date-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Picture and Poem by Matsuo Bashō.</text>
+            <text permissions="prop-default" encoding="xml">Picture and Poem by Matsuo Bashō.</text>
         </text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">Public domain</text>
@@ -643,16 +643,24 @@
             <text permissions="prop-default" encoding="utf8">Western Aisle Mosaic in the synagogue of En Gedi</text>
         </text-prop>
         <text-prop name=":hasTranscription">
-            <text permissions="prop-default" encoding="utf8">
+            <text permissions="prop-default" encoding="xml">
                 1 אדם שת אנוש קינן מהללאל ירד
+                <br />
                 2 חנוך מתושלח למך נוח שם חם ויפית
-
+                <br />
+                <br />
                 3 טלה שור תאומים סרטן ארי בתולה
+                <br />
                 4 מאוזניים עקרב קישת גדי ודלי דגים
+                <br />
                 5 ניסן אייר סיון תמוז אב אילול
+                <br />
                 6 תשרי מרחשון כסליו טבית שבט
+                <br />
                 7 ואדר אברהם יצחק ויעקב שלום
+                <br />
                 8 חנניה מישאיל ועזריה שלום על ישראל
+                <br />
             </text>
         </text-prop>
         <text-prop name=":hasTranslation">
@@ -661,8 +669,7 @@
                 2 Henoch, Metuschelach, Lamech, Noah, Sem, Ham und Jafet.
 
                 3 Taleh (Widder), Schor (Stier), Teomim (Zwillinge), Sarton (Krebs), Ari (Löwe), Betulah (Jungfrau),
-                4 Moznajim (Waage), Aqrab (Skorpion), Qaschat (Schütze), Gedi (Steinbock) und Deli (Wassermann),
-                Dagim (Fische).
+                4 Moznajim (Waage), Aqrab (Skorpion), Qaschat (Schütze), Gedi (Steinbock) und Deli (Wassermann), Dagim (Fische).
                 5 Nisan, Ijjar, Sivan, Tammuz, Av, Elul,
                 6 Tischri, Marcheschvan, Kislev, Tevet, Schevat
                 7 und Adar. Abraham, Isaak und Jakob. Friede.
@@ -714,7 +721,7 @@
             </text>
         </text-prop>
         <text-prop name=":hasTranslation">
-            <text permissions="prop-default" encoding="xml">
+            <text permissions="prop-default" encoding="utf8">
                 Der Himmel ist im Fest, der Erdboden ist in Freude, weil sich die Goldene mit den Strahlen ihres Vaters
                 vereint. Sie kommt in Frieden zu ihrem Haus in Jubel an ihrem schönen Fest „Eröffner des Jahres“
                 (Neujahrsfest), ebenso an den Festen zu den Zeiten nach der Vereinigung mit den Strahlen des Glänzenden.
@@ -752,112 +759,112 @@
             <text permissions="prop-default" encoding="utf8">Liberté</text>
         </text-prop>
         <text-prop name=":hasTranscription">
-            <text permissions="prop-default" encoding="utf8">
-                Sur mes cahiers d’écolier
-                Sur mon pupitre et les arbres
-                Sur le sable sur la neige
-                J’écris ton nom
-
-                Sur toutes les pages lues
-                Sur toutes les pages blanches
-                Pierre sang papier ou cendre
-                J’écris ton nom
-
-                Sur les images dorées
-                Sur les armes des guerriers
-                Sur la couronne des rois
-                J’écris ton nom
-
-                Sur la jungle et le désert
-                Sur les nids sur les genêts
-                Sur l’écho de mon enfance
-                J’écris ton nom
-
-                Sur les merveilles des nuits
-                Sur le pain blanc des journées
-                Sur les saisons fiancées
-                J’écris ton nom
-
-                Sur tous mes chiffons d’azur
-                Sur l’étang soleil moisi
-                Sur le lac lune vivante
-                J’écris ton nom
-
-                Sur les champs sur l’horizon
-                Sur les ailes des oiseaux
-                Et sur le moulin des ombres
-                J’écris ton nom
-
-                Sur chaque bouffée d’aurore
-                Sur la mer sur les bateaux
-                Sur la montagne démente
-                J’écris ton nom
-
-                Sur la mousse des nuages
-                Sur les sueurs de l’orage
-                Sur la pluie épaisse et fade
-                J’écris ton nom
-
-                Sur les formes scintillantes
-                Sur les cloches des couleurs
-                Sur la vérité physique
-                J’écris ton nom
-
-                Sur les sentiers éveillés
-                Sur les routes déployées
-                Sur les places qui débordent
-                J’écris ton nom
-
-                Sur la lampe qui s’allume
-                Sur la lampe qui s’éteint
-                Sur mes maisons réunies
-                J’écris ton nom
-                Sur le fruit coupé en deux
-                Du miroir et de ma chambre
-                Sur mon lit coquille vide
-                J’écris ton nom
-
-                Sur mon chien gourmand et tendre
-                Sur ses oreilles dressées
-                Sur sa patte maladroite
-                J’écris ton nom
-
-                Sur le tremplin de ma porte
-                Sur les objets familiers
-                Sur le flot du feu béni
-                J’écris ton nom
-
-                Sur toute chair accordée
-                Sur le front de mes amis
-                Sur chaque main qui se tend
-                J’écris ton nom
-
-                Sur la vitre des surprises
-                Sur les lèvres attentives
-                Bien au-dessus du silence
-                J’écris ton nom
-
-                Sur mes refuges détruits
-                Sur mes phares écroulés
-                Sur les murs de mon ennui
-                J’écris ton nom
-
-                Sur l’absence sans désir
-                Sur la solitude nue
-                Sur les marches de la mort
-                J’écris ton nom
-
-                Sur la santé revenue
-                Sur le risque disparu
-                Sur l’espoir sans souvenir
-                J’écris ton nom
-
-                Et par le pouvoir d’un mot
-                Je recommence ma vie
-                Je suis né pour te connaître
-                Pour te nommer
-
-                Liberté.
+            <text permissions="prop-default" encoding="xml">
+                Sur mes cahiers d’écolier<br />
+                Sur mon pupitre et les arbres<br />
+                Sur le sable sur la neige<br />
+                J’écris ton nom<br />
+<br />
+                Sur toutes les pages lues<br />
+                Sur toutes les pages blanches<br />
+                Pierre sang papier ou cendre<br />
+                J’écris ton nom<br />
+<br />
+                Sur les images dorées<br />
+                Sur les armes des guerriers<br />
+                Sur la couronne des rois<br />
+                J’écris ton nom<br />
+<br />
+                Sur la jungle et le désert<br />
+                Sur les nids sur les genêts<br />
+                Sur l’écho de mon enfance<br />
+                J’écris ton nom<br />
+<br />
+                Sur les merveilles des nuits<br />
+                Sur le pain blanc des journées<br />
+                Sur les saisons fiancées<br />
+                J’écris ton nom<br />
+<br />
+                Sur tous mes chiffons d’azur<br />
+                Sur l’étang soleil moisi<br />
+                Sur le lac lune vivante<br />
+                J’écris ton nom<br />
+<br />
+                Sur les champs sur l’horizon<br />
+                Sur les ailes des oiseaux<br />
+                Et sur le moulin des ombres<br />
+                J’écris ton nom<br />
+<br />
+                Sur chaque bouffée d’aurore<br />
+                Sur la mer sur les bateaux<br />
+                Sur la montagne démente<br />
+                J’écris ton nom<br />
+<br />
+                Sur la mousse des nuages<br />
+                Sur les sueurs de l’orage<br />
+                Sur la pluie épaisse et fade<br />
+                J’écris ton nom<br />
+<br />
+                Sur les formes scintillantes<br />
+                Sur les cloches des couleurs<br />
+                Sur la vérité physique<br />
+                J’écris ton nom<br />
+<br />
+                Sur les sentiers éveillés<br />
+                Sur les routes déployées<br />
+                Sur les places qui débordent<br />
+                J’écris ton nom<br />
+<br />
+                Sur la lampe qui s’allume<br />
+                Sur la lampe qui s’éteint<br />
+                Sur mes maisons réunies<br />
+                J’écris ton nom<br />
+                Sur le fruit coupé en deux<br />
+                Du miroir et de ma chambre<br />
+                Sur mon lit coquille vide<br />
+                J’écris ton nom<br />
+<br />
+                Sur mon chien gourmand et tendre<br />
+                Sur ses oreilles dressées<br />
+                Sur sa patte maladroite<br />
+                J’écris ton nom<br />
+<br />
+                Sur le tremplin de ma porte<br />
+                Sur les objets familiers<br />
+                Sur le flot du feu béni<br />
+                J’écris ton nom<br />
+<br />
+                Sur toute chair accordée<br />
+                Sur le front de mes amis<br />
+                Sur chaque main qui se tend<br />
+                J’écris ton nom<br />
+<br />
+                Sur la vitre des surprises<br />
+                Sur les lèvres attentives<br />
+                Bien au-dessus du silence<br />
+                J’écris ton nom<br />
+<br />
+                Sur mes refuges détruits<br />
+                Sur mes phares écroulés<br />
+                Sur les murs de mon ennui<br />
+                J’écris ton nom<br />
+<br />
+                Sur l’absence sans désir<br />
+                Sur la solitude nue<br />
+                Sur les marches de la mort<br />
+                J’écris ton nom<br />
+<br />
+                Sur la santé revenue<br />
+                Sur le risque disparu<br />
+                Sur l’espoir sans souvenir<br />
+                J’écris ton nom<br />
+<br />
+                Et par le pouvoir d’un mot<br />
+                Je recommence ma vie<br />
+                Je suis né pour te connaître<br />
+                Pour te nommer<br />
+<br />
+                Liberté.<br />
             </text>
         </text-prop>
         <text-prop name=":hasTranslation">
@@ -986,39 +993,39 @@
             <text permissions="prop-default" encoding="utf8">Стрекоза и Муравей</text>
         </text-prop>
         <text-prop name=":hasTranscription">
-            <text permissions="prop-default" encoding="utf8">
-                Стрекоза и Муравей
-
-                Попрыгунья Стрекоза
-                Лето красное пропела;
-                Оглянуться не успела,
-                Как зима катит в глаза.
-                Помертвело чисто поле;
-                Нет уж дней тех светлых боле,
-                Как под каждым ей листком
-                Был готов и стол, и дом.
-                Все прошло: с зимой холодной
-                Нужда, голод настает;
-                Стрекоза уж не поет:
-                И кому же в ум пойдет
-                На желудок петь голодный!
-                Злой тоской удручена,
-                К Муравью ползет она:
-                «Не оставь меня, кум милый!
-                Дай ты мне собраться с силой
-                И до вешних только дней
-                Прокорми и обогрей!» —
-                «Кумушка, мне странно это:
-                Да работала ль ты в лето?» —
-                Говорит ей Муравей.
-                «До того ль, голубчик, было?
-                В мягких муравах у нас
-                Песни, резвость всякий час,
-                Так, что голову вскружило». —
-                «А, так ты...» — «Я без души
-                Лето целое все пела». —
-                «Ты все пела? это дело:
-                Так поди же, попляши!»
+            <text permissions="prop-default" encoding="xml">
+                Стрекоза и Муравей<br />
+<br />
+                Попрыгунья Стрекоза<br />
+                Лето красное пропела;<br />
+                Оглянуться не успела,<br />
+                Как зима катит в глаза.<br />
+                Помертвело чисто поле;<br />
+                Нет уж дней тех светлых боле,<br />
+                Как под каждым ей листком<br />
+                Был готов и стол, и дом.<br />
+                Все прошло: с зимой холодной<br />
+                Нужда, голод настает;<br />
+                Стрекоза уж не поет:<br />
+                И кому же в ум пойдет<br />
+                На желудок петь голодный!<br />
+                Злой тоской удручена,<br />
+                К Муравью ползет она:<br />
+                «Не оставь меня, кум милый!<br />
+                Дай ты мне собраться с силой<br />
+                И до вешних только дней<br />
+                Прокорми и обогрей!» —<br />
+                «Кумушка, мне странно это:<br />
+                Да работала ль ты в лето?» —<br />
+                Говорит ей Муравей.<br />
+                «До того ль, голубчик, было?<br />
+                В мягких муравах у нас<br />
+                Песни, резвость всякий час,<br />
+                Так, что голову вскружило». —<br />
+                «А, так ты...» — «Я без души<br />
+                Лето целое все пела». —<br />
+                «Ты все пела? это дело:<br />
+                Так поди же, попляши!»<br />
             </text>
         </text-prop>
         <text-prop name=":hasTransliteration">
@@ -1109,7 +1116,7 @@
             <text permissions="prop-default" encoding="utf8">horohoroto</text>
         </text-prop>
         <text-prop name=":hasTranscription">
-            <text permissions="prop-default" encoding="utf8">ほろほろと山吹ちるかたきのおと</text>
+            <text permissions="prop-default" encoding="xml">ほろほろと山吹ちるかたきのおと</text>
         </text-prop>
         <text-prop name=":hasTransliteration">
             <text permissions="prop-default" encoding="utf8">horohoro to / yamabuki chiru ka / taki no oto</text>
@@ -1137,13 +1144,13 @@
             <text permissions="prop-default" encoding="utf8">Hasad</text>
         </text-prop>
         <text-prop name=":hasTranscription">
-            <text permissions="prop-default" encoding="utf8">
-                عندما يتأتى ليَ الشعرُ،
-                أحسد نفسي،
-                ويذهب عني احتمالُ المرَضْ.
-                وتحْضرُني الكائناتُ، لأنصحَها،
-                وأميّزَ ما بينَها،
-                وأحدّدَ في طيّها جوْهراً أو عرَضْ.
+            <text permissions="prop-default" encoding="xml">
+                عندما يتأتى ليَ الشعرُ،<br />
+                أحسد نفسي،<br />
+                ويذهب عني احتمالُ المرَضْ.<br />
+                وتحْضرُني الكائناتُ، لأنصحَها،<br />
+                وأميّزَ ما بينَها،<br />
+                وأحدّدَ في طيّها جوْهراً أو عرَضْ.<br />
             </text>
         </text-prop>
         <text-prop name=":hasTransliteration">
@@ -1515,20 +1522,20 @@
             <integer permissions="prop-default">1</integer>
         </integer-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="utf8">Page which contains the prooem of the Iliad of Homer.</text>
+            <text permissions="prop-default" encoding="xml">Page which contains the prooem of the Iliad of Homer.</text>
         </text-prop>
         <resptr-prop name=":partOf">
             <resptr permissions="prop-default">book_obj_0</resptr>
         </resptr-prop>
         <text-prop name=":hasTranscription">
-            <text permissions="prop-default" encoding="utf8">
-                𝛍ῆ𝝼𝛊𝝼 ἄ𝛆𝛊𝛅𝛆 𝛉𝛆ὰ 𝝥𝛈𝝺𝛈ϊά𝛅𝛆𝞈 Ἀ𝞆𝛊𝝺ῆ𝝾𝞁
-                𝝾ὐ𝝺𝝾𝛍έ𝝼𝛈𝝼, ἥ 𝛍𝞄𝞀ί’ Ἀ𝞆𝛂𝛊𝝾ῖ𝞁 ἄ𝝺𝝲𝛆’ ἔ𝛉𝛈𝝹𝛆,
-                𝝿𝝾𝝺𝝺ὰ𝞁 𝛅’ ἰ𝛗𝛉ί𝛍𝝾υ𝞁 𝞇𝞄𝞆ὰ𝞁 Ἄϊ𝛅𝛊 𝝿𝞀𝝾ΐ𝛂𝞇𝛆𝝼
-                ἡ𝞀ώ𝞈𝝼, 𝛂ὐ𝛕𝝾ὺ𝞁 𝛅ὲ ἑ𝝺ώ𝞀𝛊𝛂 𝛕𝛆ῦ𝞆𝛆 𝝹ύ𝝼𝛆𝛔𝛔𝛊𝝼
-                𝝾ἰ𝞈𝝼𝝾ῖ𝛔𝛊 𝛕𝛆 𝝿ᾶ𝛔𝛊, 𝝙𝛊ὸ𝞁 𝛅’ ἐ𝛕𝛆𝝺𝛆ί𝛆𝛕𝝾 𝝱𝝾𝞄𝝺ή,
-                ἐ𝝽 𝝾ὗ 𝛅ὴ 𝛕ὰ 𝝿𝞀ῶ𝛕𝛂 𝛅𝛊𝛂𝛔𝛕ή𝛕𝛈𝝼 ἐ𝞀ί𝛔𝛂𝝼𝛕𝛆
-                Ἂ𝛕𝞀𝛆ΐ𝛅𝛈𝞁 𝛕𝛆 ἄ𝝼𝛂𝝽 ἀ𝝼𝛅𝞀ῶ𝝼 𝝹𝛂ὶ 𝛅ῖ𝝾𝞁 Ἀ𝞆𝛊𝝺𝝺𝛆ὺ𝞁.
+            <text permissions="prop-default" encoding="xml">
+                𝛍ῆ𝝼𝛊𝝼 ἄ𝛆𝛊𝛅𝛆 𝛉𝛆ὰ 𝝥𝛈𝝺𝛈ϊά𝛅𝛆𝞈 Ἀ𝞆𝛊𝝺ῆ𝝾𝞁<br />
+                𝝾ὐ𝝺𝝾𝛍έ𝝼𝛈𝝼, ἥ 𝛍𝞄𝞀ί’ Ἀ𝞆𝛂𝛊𝝾ῖ𝞁 ἄ𝝺𝝲𝛆’ ἔ𝛉𝛈𝝹𝛆,<br />
+                𝝿𝝾𝝺𝝺ὰ𝞁 𝛅’ ἰ𝛗𝛉ί𝛍𝝾υ𝞁 𝞇𝞄𝞆ὰ𝞁 Ἄϊ𝛅𝛊 𝝿𝞀𝝾ΐ𝛂𝞇𝛆𝝼<br />
+                ἡ𝞀ώ𝞈𝝼, 𝛂ὐ𝛕𝝾ὺ𝞁 𝛅ὲ ἑ𝝺ώ𝞀𝛊𝛂 𝛕𝛆ῦ𝞆𝛆 𝝹ύ𝝼𝛆𝛔𝛔𝛊𝝼<br />
+                𝝾ἰ𝞈𝝼𝝾ῖ𝛔𝛊 𝛕𝛆 𝝿ᾶ𝛔𝛊, 𝝙𝛊ὸ𝞁 𝛅’ ἐ𝛕𝛆𝝺𝛆ί𝛆𝛕𝝾 𝝱𝝾𝞄𝝺ή,<br />
+                ἐ𝝽 𝝾ὗ 𝛅ὴ 𝛕ὰ 𝝿𝞀ῶ𝛕𝛂 𝛅𝛊𝛂𝛔𝛕ή𝛕𝛈𝝼 ἐ𝞀ί𝛔𝛂𝝼𝛕𝛆<br />
+                Ἂ𝛕𝞀𝛆ΐ𝛅𝛈𝞁 𝛕𝛆 ἄ𝝼𝛂𝝽 ἀ𝝼𝛅𝞀ῶ𝝼 𝝹𝛂ὶ 𝛅ῖ𝝾𝞁 Ἀ𝞆𝛊𝝺𝝺𝛆ὺ𝞁.<br />
             </text>
         </text-prop>
         <text-prop name=":hasTransliteration">
@@ -1704,7 +1711,6 @@
             </text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text permissions="prop-restricted" encoding="utf8">This is a UTF-8 text element inside the property ":hasDescription"</text>
             <text permissions="prop-restricted" encoding="xml">
                 This is a <strong>XML-enriched text</strong> element inside the property ":hasDescription". <br />
                 It contains line break tags and <sup>supralinear text</sup> and a
@@ -1960,7 +1966,7 @@
             <text encoding="utf8" permissions="prop-default">Sunset Waves Close Up</text>
         </text-prop>
         <text-prop name=":hasDescription">
-            <text encoding="utf8" permissions="prop-default">
+            <text encoding="xml" permissions="prop-default">
                 This is a sample video file from the internet.
             </text>
         </text-prop>
