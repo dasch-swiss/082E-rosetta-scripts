@@ -55,6 +55,33 @@
       "propriétés de texte",
       "Data and Service Center for the Humanities (DaSCH)"
     ],
+    "groups": [
+      {
+        "name": "rosetta-editors",
+        "descriptions": {
+          "en": "Editors for the rosetta-project"
+        },
+        "selfjoin": false,
+        "status": true
+      }
+    ],
+    "users": [
+      {
+        "username": "rosettaedit",
+        "email": "rosettaedit@test.org",
+        "givenName": "rosetta-given",
+        "familyName": "rosetta-family",
+        "password": "rosetta1234",
+        "lang": "de",
+        "groups": [
+          ":rosetta-editors"
+        ],
+        "projects": [
+          ":member",
+          ":admin"
+        ]
+      }
+    ],
     "lists": [
       {
         "name": "flatlist",
@@ -199,33 +226,6 @@
               }
             ]
           }
-        ]
-      }
-    ],
-    "groups": [
-      {
-        "name": "rosetta-editors",
-        "descriptions": {
-          "en": "Editors for the rosetta-project"
-        },
-        "selfjoin": false,
-        "status": true
-      }
-    ],
-    "users": [
-      {
-        "username": "rosettaedit",
-        "email": "rosettaedit@test.org",
-        "givenName": "rosetta-given",
-        "familyName": "rosetta-family",
-        "password": "rosetta1234",
-        "lang": "de",
-        "groups": [
-          ":rosetta-editors"
-        ],
-        "projects": [
-          ":member",
-          ":admin"
         ]
       }
     ],
