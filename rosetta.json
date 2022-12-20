@@ -14,67 +14,106 @@
     },
     "keywords": [
       "Textquellen",
-      "Objekte",
       "Bilder",
       "Audio",
-      "Kyrillisch",
-      "Griechisch",
-      "Keilschrift",
-      "Hieroglyphen",
-      "Hebräisch",
-      "Arabisch",
-      "Japanisch",
       "Sonderzeichen",
       "XML",
       "Markup",
       "Annotation",
-      "Texteigenschaften",
       "textual sources",
-      "objects",
       "images",
       "audio",
-      "Cyrillic",
-      "Greek",
-      "cuneiform",
-      "hieroglyphs",
-      "Hebrew",
-      "Arabic",
-      "Japanese",
       "special characters",
-      "textual properties",
       "sources",
-      "objets",
-      "Cyrillique",
-      "Grec",
-      "cunéiforme",
-      "hiéroglyphes",
-      "Hébreu",
-      "Arabe",
-      "Japonais",
       "caractères spéciaux",
-      "propriétés de texte",
       "Data and Service Center for the Humanities (DaSCH)"
+    ],
+    "groups": [
+      {
+        "name": "rosetta-editors",
+        "descriptions": {
+          "en": "Editors for the rosetta-project"
+        },
+        "selfjoin": false,
+        "status": true
+      }
+    ],
+    "users": [
+      {
+        "username": "rosettaedit",
+        "email": "rosettaedit@test.org",
+        "givenName": "rosetta-given",
+        "familyName": "rosetta-family",
+        "password": "rosetta1234",
+        "lang": "de",
+        "groups": [
+          ":rosetta-editors"
+        ],
+        "projects": [
+          ":member",
+          ":admin"
+        ]
+      }
     ],
     "lists": [
       {
-        "name": "flatlist",
+        "name": "faculties-of-the-university-of-basel",
         "labels": {
-          "en": "Flat list"
+          "en": "Faculties of the University of Basel",
+          "de": "Fakultäten der Universität Basel"
         },
         "comments": {
-          "en": "Flat list"
+          "en": "Faculties of the University of Basel",
+          "de": "Fakultäten der Universität Basel"
         },
         "nodes": [
           {
-            "name": "first-node",
+            "name": "faculty-of-science",
             "labels": {
-              "en": "First node"
+              "en": "Faculty of Science",
+              "de": "Philosophisch-Naturwissenschaftliche Fakultät"
             }
           },
           {
-            "name": "second-node",
+            "name": "faculty-of-business-and-economics",
             "labels": {
-              "en": "Second node"
+              "en": "Faculty of Business and Economics",
+              "de": "Wirtschaftswissenschaftliche Fakultät"
+            }
+          },
+          {
+            "name": "faculty-of-law",
+            "labels": {
+              "en": "Faculty of Law",
+              "de": "Juristische Fakultät"
+            }
+          },
+          {
+            "name": "faculty-of-medicine",
+            "labels": {
+              "en": "Faculty of Medicine",
+              "de": "Medizinische Fakultät"
+            }
+          },
+          {
+            "name": "faculty-of-humanities-and-social-sciences",
+            "labels": {
+              "en": "Faculty of Humanities and Social Sciences",
+              "de": "Philosophisch-Historische Fakultät"
+            }
+          },
+          {
+            "name": "faculty-of-psychology",
+            "labels": {
+              "en": "Faculty of Psychology",
+              "de": "Fakultät für Psychologie"
+            }
+          },
+          {
+            "name": "faculty-of-theology",
+            "labels": {
+              "en": "Faculty of Theology",
+              "de": "Theologischen Fakultät"
             }
           }
         ]
@@ -199,33 +238,6 @@
               }
             ]
           }
-        ]
-      }
-    ],
-    "groups": [
-      {
-        "name": "rosetta-editors",
-        "descriptions": {
-          "en": "Editors for the rosetta-project"
-        },
-        "selfjoin": false,
-        "status": true
-      }
-    ],
-    "users": [
-      {
-        "username": "rosettaedit",
-        "email": "rosettaedit@test.org",
-        "givenName": "rosetta-given",
-        "familyName": "rosetta-family",
-        "password": "rosetta1234",
-        "lang": "de",
-        "groups": [
-          ":rosetta-editors"
-        ],
-        "projects": [
-          ":member",
-          ":admin"
         ]
       }
     ],
@@ -615,19 +627,18 @@
             }
           },
           {
-            "name": "hasFlatList",
+            "name": "hasFaculty",
             "super": [
               "hasValue"
             ],
             "object": "ListValue",
             "labels": {
-              "de": "Flatlist",
-              "en": "Flatlist",
-              "fr": "Flatlist"
+              "en": "Faculties of the University of Basel",
+              "de": "Fakultäten der Universität Basel"
             },
             "gui_element": "Radio",
             "gui_attributes": {
-              "hlist": "flatlist"
+              "hlist": "faculties-of-the-university-of-basel"
             }
           },
           {
@@ -1335,7 +1346,7 @@
                 "gui_order": 1
               },
               {
-                "propname": ":hasFlatList",
+                "propname": ":hasFaculty",
                 "cardinality": "0-n",
                 "gui_order": 1
               },

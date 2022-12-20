@@ -1615,9 +1615,9 @@
         <list-prop list="category" name=":hasCategory">
             <list permissions="prop-default">artwork</list>
         </list-prop>
-        <list-prop list="flatlist" name=":hasFlatList">
-            <list permissions="prop-default">first-node</list>
-            <list permissions="prop-default">second-node</list>
+        <list-prop list="faculties-of-the-university-of-basel" name=":hasFaculty">
+            <list permissions="prop-default">faculty-of-science</list>
+            <list permissions="prop-default">faculty-of-law</list>
         </list-prop>
         <text-prop name=":hasName">
             <text permissions="prop-default" encoding="utf8">lekythos</text>
@@ -1668,8 +1668,8 @@
             <list permissions="prop-default">animals</list>
             <list permissions="prop-restricted">mammals</list>
         </list-prop>
-        <list-prop list="flatlist" name=":hasFlatList">
-            <list permissions="prop-restricted">first-node</list>
+        <list-prop list="faculties-of-the-university-of-basel" name=":hasFaculty">
+            <list permissions="prop-restricted">faculty-of-law</list>
         </list-prop>
         <text-prop name=":hasName">
             <text encoding="utf8">This text cannot be seen by anyone except the System Administrator.</text>
