@@ -438,7 +438,7 @@
             "super": [
               "hasValue"
             ],
-            "object": "UnformattedTextValue",
+            "object": "FormattedTextValue",
             "labels": {
               "de": "Literatur",
               "en": "Literature",

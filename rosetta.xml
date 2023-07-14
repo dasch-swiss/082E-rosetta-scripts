@@ -262,13 +262,13 @@
         <date-prop name=":hasDate">
             <date permissions="prop-default">JULIAN:BCE:0700:0600</date>
         </date-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 Tablet K.3375 in the British Museum is tablet 11 of the Epic of Gilgameš. It contains the very famous
                 story of the deluge. The tablet was found at Koyunjik in the Library of Ashurbanipal and it dates to
                 the 7<sup>th</sup> century BCE.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <unformatted-text-prop name=":hasCopyright">
             <text permissions="prop-default">© The Trustees of the British Museum</text>
         </unformatted-text-prop>
@@ -297,17 +297,17 @@
         <date-prop name=":hasDate">
             <date permissions="prop-default">GREGORIAN:CE:1877:CE:1879</date>
         </date-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 Oil paint on canvas. The subject is from the book Genesis in the Old Testament. God sends a flood and
                 spares only Noah and his family.
             </text>
-        </text-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="xml">
+        </formatted-text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">
                 The Deluge, Francis Danby, 1877-1879, Photo: © Tate, London [2020]
             </text>
-        </text-prop>
+        </unformatted-text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_1</resptr>
         </resptr-prop>
@@ -377,13 +377,13 @@
         <date-prop name=":hasDate">
             <date permissions="prop-default">JULIAN:CE:0450:CE:0500</date>
         </date-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 The mosaic in the western aisle of the synagogue of En-Gedi contains Hebrew and Aramaic text. The first
                 two lines name 13 generations from Adam to Jafet. The following section contains the names of the
                 zodiacal signs, the months, of 3 patriarchs and of 3 followers of Daniel.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <unformatted-text-prop name=":hasCopyright">
             <text permissions="prop-default">© Rita Gautschy</text>
         </unformatted-text-prop>
@@ -404,11 +404,11 @@
         <unformatted-text-prop name=":hasTitle">
             <text permissions="prop-default">Bengal cat</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 This male Bengal cat is called Anubis. He is very curious, but shy.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <unformatted-text-prop name=":hasCopyright">
             <text permissions="prop-default">© Rita Gautschy</text>
         </unformatted-text-prop>
@@ -419,17 +419,16 @@
         <unformatted-text-prop name=":hasTitle">
             <text permissions="prop-default">Iliad Prooem</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
-                This page shows the prooem of the Iliad in Greek manuscript 1397 in St. Catherine's Monastery on Mount
-                Sinai.
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
+                This page shows the prooem of the Iliad in Greek manuscript 1397 in St. Catherine's Monastery on Mount Sinai.
             </text>
-        </text-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="xml">
+        </formatted-text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">
                 © Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai.
             </text>
-        </text-prop>
+        </unformatted-text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_3</resptr>
         </resptr-prop>
@@ -443,11 +442,11 @@
         <unformatted-text-prop name=":hasTitle">
             <text permissions="prop-default">Gibeon Meteorite</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 This is a polished piece of the Gibeon Meteorite which shows nice Widmanstätten patterns.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <unformatted-text-prop name=":hasCopyright">
             <text permissions="prop-default">© Rita Gautschy</text>
         </unformatted-text-prop>
@@ -467,11 +466,11 @@
         <date-prop name=":hasDate">
             <date permissions="prop-default">JULIAN:BCE:0054:BCE:0042</date>
         </date-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 This text accompanies the reliefs depicting the New Year's procession in the eastern staircase of the
                 Temple of Hathor in Dendera.</text>
-        </text-prop>
+        </formatted-text-prop>
         <unformatted-text-prop name=":hasCopyright">
             <text permissions="prop-default">© Alexa Rickert</text>
         </unformatted-text-prop>
@@ -494,12 +493,12 @@
         <date-prop name=":hasDate">
             <date permissions="prop-default">JULIAN:BCE:0400:BCE:0380</date>
         </date-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 The attic red-figured Lekythos with the museum number 1888,601.716 in the British Museum shows a
                 depiction of the Feast of Adonis. Eros with an incense burner stands on a ladder between women.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <unformatted-text-prop name=":hasCopyright">
             <text permissions="prop-default">© The Trustees of the British Museum</text>
         </unformatted-text-prop>
@@ -522,8 +521,8 @@
         <unformatted-text-prop name=":hasTitle">
             <text permissions="prop-default">Epic of Gilgameš, tablet 11: British Museum K.3375</text>
         </unformatted-text-prop>
-        <text-prop name=":hasTranscription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasTranscription">
+            <text permissions="prop-default">
                 <sup>d</sup> GIŠ-gim₂-maš a-na ša₂-⸢šu⸣-ma MU-ra a-na <sup>m</sup> UD-ZI ru-u₂-qi₂<br />
                 a-na-aṭ-ṭa-la-kum₂-ma <sup>m</sup> UD-ZI<br />
                 mi-na-tu-ka ul ⸢ša₂⸣-na-a ki-i ia-ti-ma at-ta<br />
@@ -545,7 +544,7 @@
                 <sup>d</sup> nin-ši-ku₃ <sup>d</sup> e₂-a it-ti-šu₂-nu ta-mi₃-ma<br />
                 a-mat-su-nu u₂-ša₂-an-na-a a-na ki-ik-ki-šu₂
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <formatted-text-prop name=":hasTransliteration">
             <text permissions="prop-default">
                 Gišgimmaš ana šašuma izzakkara ana Utnapišti rūqi<br/>
@@ -596,12 +595,11 @@
         <geoname-prop name=":hasFindspot">
             <geoname permissions="prop-default">92878</geoname>
         </geoname-prop>
-        <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="xml">
-                Bezold, C., Catalogue of the cuneiform tablets in the Kouyunjik Collection of the British Museum,
-                London 1891.
+        <formatted-text-prop name=":hasBibliographicReference">
+            <text permissions="prop-default">
+                Bezold, C., Catalogue of the cuneiform tablets in the Kouyunjik Collection of the British Museum, London 1891.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">2643743</geoname>
         </geoname-prop>
@@ -623,8 +621,8 @@
         <unformatted-text-prop name=":hasTitle">
             <text permissions="prop-default">Western Aisle Mosaic in the synagogue of En Gedi</text>
         </unformatted-text-prop>
-        <text-prop name=":hasTranscription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasTranscription">
+            <text permissions="prop-default">
                 1 אדם שת אנוש קינן מהללאל ירד<br />
                 2 חנוך מתושלח למך נוח שם חם ויפית<br /><br />
                 3 טלה שור תאומים סרטן ארי בתולה<br />
@@ -634,7 +632,7 @@
                 7 ואדר אברהם יצחק ויעקב שלום<br />
                 8 חנניה מישאיל ועזריה שלום על ישראל<br />
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <formatted-text-prop name=":hasTranslation">
             <text permissions="prop-default">
                 1 Adam, Set, Enosch, Kenan, Mahalalel, Jered,<br/>
@@ -650,16 +648,16 @@
         <geoname-prop name=":hasFindspot">
             <geoname permissions="prop-default">8375748</geoname>
         </geoname-prop>
-        <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasBibliographicReference">
+            <text permissions="prop-default">
                 Levine, L. I., The Inscription in the ‘En-Gedi Synagogue, in: L. I. Levine (Hrsg.), Ancient Synagogues
                 Revealed, Jerusalem 1981, 140–145.
             </text>
-            <text permissions="prop-default" encoding="xml">
+            <text permissions="prop-default">
                 Magness, J., The En-Gedi Synagogue Inscription Reconsidered, in: Z. Weiss (Hrsg.), Ehud Netzer Volume,
                 Eretz-Israel 31, Jerusalem 2015, 123–131.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_4</resptr>
             <resptr permissions="prop-default">inst_5</resptr>
@@ -704,13 +702,13 @@
         <geoname-prop name=":hasFindspot">
             <geoname permissions="prop-default">358422</geoname>
         </geoname-prop>
-        <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasBibliographicReference">
+            <text permissions="prop-default">
                 Rickert, A., Eine Beschreibung der Neujahrsprozession im Hathortempel von Dendera, in: R. Färber und R.
                 Gautschy (Hrsg.), Zeit in den Kulturen des Altertums. Antike Chronologie im Spiegel der Quellen,
                 Köln 2020, 127–136.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_6</resptr>
         </resptr-prop>
@@ -729,8 +727,8 @@
         <unformatted-text-prop name=":hasTitle">
             <text permissions="prop-default">Liberté</text>
         </unformatted-text-prop>
-        <text-prop name=":hasTranscription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasTranscription">
+            <text permissions="prop-default">
                 Sur mes cahiers d’écolier<br />
                 Sur mon pupitre et les arbres<br />
                 Sur le sable sur la neige<br />
@@ -837,7 +835,7 @@
 
                 Liberté.<br />
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <formatted-text-prop name=":hasTranslation">
             <text permissions="prop-default">
                 Auf meine Schulhefte<br/>
@@ -948,9 +946,9 @@
                 Freiheit.<br/>
             </text>
         </formatted-text-prop>
-        <unformatted-text-prop name=":hasBibliographicReference">
+        <formatted-text-prop name=":hasBibliographicReference">
             <text permissions="prop-default">Éluard, P., Poésie et vérité, Paris 1942.</text>
-        </unformatted-text-prop>
+        </formatted-text-prop>
         <resptr-prop name=":hasRelatedArtwork">
             <resptr permissions="prop-default">img_obj_2</resptr>
         </resptr-prop>
@@ -963,8 +961,8 @@
         <unformatted-text-prop name=":hasTitle">
             <text permissions="prop-default">Стрекоза и Муравей</text>
         </unformatted-text-prop>
-        <text-prop name=":hasTranscription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasTranscription">
+            <text permissions="prop-default">
                 Стрекоза и Муравей<br /><br />
 
                 Попрыгунья Стрекоза<br />
@@ -998,7 +996,7 @@
                 «Ты все пела? это дело:<br />
                 Так поди же, попляши!»<br />
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <formatted-text-prop name=":hasTransliteration">
             <text permissions="prop-default">
                 Strekoza i Muravej<br/>
@@ -1114,8 +1112,8 @@
         <unformatted-text-prop name=":hasTitle">
             <text permissions="prop-default">Hasad</text>
         </unformatted-text-prop>
-        <text-prop name=":hasTranscription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasTranscription">
+            <text permissions="prop-default">
                 عندما يتأتى ليَ الشعرُ،<br />
                 أحسد نفسي،<br />
                 ويذهب عني احتمالُ المرَضْ.<br />
@@ -1123,7 +1121,7 @@
                 وأميّزَ ما بينَها،<br />
                 وأحدّدَ في طيّها جوْهراً أو عرَضْ.<br />
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <formatted-text-prop name=":hasTransliteration">
             <text permissions="prop-default">
                 ʿindamā yataʾattā lī š-šiʿr,<br/>
@@ -1196,7 +1194,7 @@
             </text>
         </formatted-text-prop>
         <formatted-text-prop name=":hasTranslation">
-            <text permissions="prop-default" encoding="utf8">
+            <text permissions="prop-default">
                 Ederlezi - Serbokroatisch/Ungarisch<br/>
                 <br/>
                 Gyere, gyere velem tavasz jár már,<br/>
@@ -1231,183 +1229,181 @@
                 hej, Đurđevdan je<br/>
                 a ja nisam s onom koju volim.
             </text>
-            <text permissions="prop-default" encoding="utf8">
-                Эдерлези - Russisch
-
-                Пойдем, пойдем со мной, пришла весна,
-                Пусть ландыш будет подушкой
-                Пусть ландыш будет подушкой
-                Вечная верность ждет тебя!
-
-                Пойдем, пойдем со мной, заря зовет
-                Не облака, и не звезды в небе,
-                Не облака, и не звезды в небе,
-                Приди отдохнуть в мои руки!
-
-                Весна садится на мое плечо
-                Ландыш цветет
-                Ландыш цветет
-                Для всех, кроме меня
-
-                Дороги продолжались, но я остался
-                Нет утренней звезды
-                Нет утренней звезды
-                Моей спутницы
-
-                Вот рассвет, вот рассвет
-                Я буду молиться Богу
-                Вот рассвет, вот рассвет
-                Это День Святого Георгия
+            <text permissions="prop-default">
+                Эдерлези - Russisch<br/>
+                <br/>
+                Пойдем, пойдем со мной, пришла весна,<br/>
+                Пусть ландыш будет подушкой<br/>
+                Пусть ландыш будет подушкой<br/>
+                Вечная верность ждет тебя!<br/>
+                <br/>
+                Пойдем, пойдем со мной, заря зовет<br/>
+                Не облака, и не звезды в небе,<br/>
+                Не облака, и не звезды в небе,<br/>
+                Приди отдохнуть в мои руки!<br/>
+                <br/>
+                Весна садится на мое плечо<br/>
+                Ландыш цветет<br/>
+                Ландыш цветет<br/>
+                Для всех, кроме меня<br/>
+                <br/>
+                Дороги продолжались, но я остался<br/>
+                Нет утренней звезды<br/>
+                Нет утренней звезды<br/>
+                Моей спутницы<br/>
+                <br/>
+                Вот рассвет, вот рассвет<br/>
+                Я буду молиться Богу<br/>
+                Вот рассвет, вот рассвет<br/>
+                Это День Святого Георгия<br/>
+                И я не с той, которую люблю<br/>
+                <br/>
+                Вот рассвет, вот рассвет<br/>
+                Я буду молиться Богу<br/>
+                Вот рассвет, вот рассвет<br/>
+                Это День Святого Георгия<br/>
                 И я не с той, которую люблю
-
-                Вот рассвет, вот рассвет
-                Я буду молиться Богу
-                Вот рассвет, вот рассвет
-                Это День Святого Георгия
-                И я не с той, которую люблю
             </text>
-            <text permissions="prop-default" encoding="utf8">
-                Ederlezi - English
-
-                Come, come with me, spring has come,
-                Let the lily of the valley be your pillow
-                Let the lily of the valley be your pillow
-                Eternal faithfulness awaits you!
-
-                Come, come with me, the dawn is calling
-                Not a cloud, not a star in the sky,
-                Not a cloud, not a star in the sky,
-                Come rest in my arms!
-
-                Spring alights on my shoulder
-                Lily of the valley is flowering
-                Lily of the valley is flowering
-                For everyone but me
-
-                The roads continued on but I stayed
-                The morning star is gone
-                The morning star is gone
-                My companion
-
-                Behold the dawn, behold the dawn
-                I'll pray to God
-                Behold the dawn, behold the dawn
-                It's St George's Day
-                And I'm not with the one I love
-
-                Behold the dawn, behold the dawn
-                I'll pray to God
-                Behold the dawn, behold the dawn
-                It's St George's Day
+            <text permissions="prop-default">
+                Ederlezi - English<br/>
+<               br/>
+                Come, come with me, spring has come,<br/>
+                Let the lily of the valley be your pillow<br/>
+                Let the lily of the valley be your pillow<br/>
+                Eternal faithfulness awaits you!<br/>
+                <br/>
+                Come, come with me, the dawn is calling<br/>
+                Not a cloud, not a star in the sky,<br/>
+                Not a cloud, not a star in the sky,<br/>
+                Come rest in my arms!<br/>
+                <br/>
+                Spring alights on my shoulder<br/>
+                Lily of the valley is flowering<br/>
+                Lily of the valley is flowering<br/>
+                For everyone but me<br/>
+                <br/>
+                The roads continued on but I stayed<br/>
+                The morning star is gone<br/>
+                The morning star is gone<br/>
+                My companion<br/>
+                <br/>
+                Behold the dawn, behold the dawn<br/>
+                I'll pray to God<br/>
+                Behold the dawn, behold the dawn<br/>
+                It's St George's Day<br/>
+                And I'm not with the one I love<br/>
+                <br/>
+                Behold the dawn, behold the dawn<br/>
+                I'll pray to God<br/>
+                Behold the dawn, behold the dawn<br/>
+                It's St George's Day<br/>
                 And I'm not with the one I love
             </text>
-            <text permissions="prop-default" encoding="utf8">
-                Ederlezi - French
-
-                Viens, viens avec moi, le printemps est arrivé,
-                Le muguet sera notre oreiller
-                Le muguet sera notre oreiller
-                La fidelité éternelle t'attend
-
-                Viens, viens avec moi, l'aurore nous appelle
-                Un ciel sans nuage, sans étoile
-                Un ciel sans nuage, sans étoile
-                Viens te reposer dans mes bras!
-
-                Le printemps se pose sur mon épaule
-                Le muguet éclot
-                Le muguet éclot
-                Pour tout le monde, sauf moi
-
-                Les chemins se sont parties, et moi je suis restée
-                L'étoile du matin est disparue
-                L'étoile du matin est disparue
-                Mon compagnon
-
-                Regarde, l'aube se lève, l'aube se lève
-                Je vais prier à Dieu
-                L'aube se lève, l'aube se lève
-                Ô, c'est le jour de Saint Georges
-                Et je ne suis pas avec celui que j'aime
-
-                Regarde, l'aube se lève, l'aube se lève
-                Je vais prier à Dieu
-                L'aube se lève, l'aube se lève
-                Ô, c'est le jour de Saint Georges
+            <text permissions="prop-default">
+                Ederlezi - French<br/>
+                <br/>
+                Viens, viens avec moi, le printemps est arrivé,<br/>
+                Le muguet sera notre oreiller<br/>
+                Le muguet sera notre oreiller<br/>
+                La fidelité éternelle t'attend<br/>
+                <br/>
+                Viens, viens avec moi, l'aurore nous appelle<br/>
+                Un ciel sans nuage, sans étoile<br/>
+                Un ciel sans nuage, sans étoile<br/>
+                Viens te reposer dans mes bras!<br/>
+                <br/>
+                Le printemps se pose sur mon épaule<br/>
+                Le muguet éclot<br/>
+                Le muguet éclot<br/>
+                Pour tout le monde, sauf moi<br/>
+                <br/>
+                Les chemins se sont parties, et moi je suis restée<br/>
+                L'étoile du matin est disparue<br/>
+                L'étoile du matin est disparue<br/>
+                Mon compagnon<br/>
+                <br/>
+                Regarde, l'aube se lève, l'aube se lève<br/>
+                Je vais prier à Dieu<br/>
+                L'aube se lève, l'aube se lève<br/>
+                Ô, c'est le jour de Saint Georges<br/>
+                Et je ne suis pas avec celui que j'aime<br/>
+                <br/>
+                Regarde, l'aube se lève, l'aube se lève<br/>
+                Je vais prier à Dieu<br/>
+                L'aube se lève, l'aube se lève<br/>
+                Ô, c'est le jour de Saint Georges<br/>
                 Et je ne suis pas avec celui que j'aime
             </text>
-            <text permissions="prop-default" encoding="utf8">
-                Đurđevdan - srpski, latinica
-
-                Proljeće na moje rame slijeće
-                Đurđevak zeleni
-                Đurđevak zeleni
-                Svima osim meni
-
-                Drumovi odoše a ja osta
-                Nema zvijezde Danice
-                Nema zvijezde Danice
-                Moje saputnice
-
-                Ej kome sada moja draga
-                Na đurđevak miriše
-                Na đurđevak miriše
-                Meni nikad više
-
-                Evo zore evo zore
-                Bogu da se pomolim
-                Evo zore evo zore
-                Ej Đurđevdan je
-                A ja nisam s onom koju volim
-
-                Njeno ime neka se spominje
-                Svakog drugog dana
-                Svakog drugog dana
+            <text permissions="prop-default">
+                Đurđevdan - srpski, latinica<br/>
+                <br/>
+                Proljeće na moje rame slijeće<br/>
+                Đurđevak zeleni<br/>
+                Đurđevak zeleni<br/>
+                Svima osim meni<br/>
+                <br/>
+                Drumovi odoše a ja osta<br/>
+                Nema zvijezde Danice<br/>
+                Nema zvijezde Danice<br/>
+                Moje saputnice<br/>
+                <br/>
+                Ej kome sada moja draga<br/>
+                Na đurđevak miriše<br/>
+                Na đurđevak miriše<br/>
+                Meni nikad više<br/>
+                <br/>
+                Evo zore evo zore<br/>
+                Bogu da se pomolim<br/>
+                Evo zore evo zore<br/>
+                Ej Đurđevdan je<br/>
+                A ja nisam s onom koju volim<br/>
+                <br/>
+                Njeno ime neka se spominje<br/>
+                Svakog drugog dana<br/>
+                Svakog drugog dana<br/>
                 Osim Đurđevdana
             </text>
-            <text permissions="prop-default" encoding="utf8">
-                Ђурђевдан - српски, ћирилица
-
-                Пролеће на моjе раме слиjеће.
-                Ђурђевак зелени,
-                Ђурђевак зелени
-                Свима осим мени.
-
-                Друмови одоше а jа остах,
-                Нема звиjезде данице,
-                Нема звиjезде данице,
-                Моjе сапутнице.
-
-                Еj, коме сада моjа драга
-                На ђурђевак мирише,
-                На ђурђевак мирише,
-                Мени никад више.
-
-                Еj, ево зоре, ево зоре,
-                Богу да се помолим.
-                Ево зоре, ево зоре,
-                Ђурђевдан jе,
-                А jа нисам с оном коjу волим.
-
-                Њено име нека се спомиње
-                Сваког другог дана,
-                Сваког другог дана,
-                Осим ђурђевдана.
-
-                Еj, ево зоре, ево зоре,
-                Богу да се помолим.
-                Ево зоре, ево зоре,
-                Ђурђевдан jе,
+            <text permissions="prop-default">
+                Ђурђевдан - српски, ћирилица<br/>
+                <br/>
+                Пролеће на моjе раме слиjеће.<br/>
+                Ђурђевак зелени,<br/>
+                Ђурђевак зелени<br/>
+                Свима осим мени.<br/>
+                <br/>
+                Друмови одоше а jа остах,<br/>
+                Нема звиjезде данице,<br/>
+                Нема звиjезде данице,<br/>
+                Моjе сапутнице.<br/>
+                <br/>
+                Еj, коме сада моjа драга<br/>
+                На ђурђевак мирише,<br/>
+                На ђурђевак мирише,<br/>
+                Мени никад више.<br/>
+                <br/>
+                Еj, ево зоре, ево зоре,<br/>
+                Богу да се помолим.<br/>
+                Ево зоре, ево зоре,<br/>
+                Ђурђевдан jе,<br/>
+                А jа нисам с оном коjу волим.<br/>
+                <br/>
+                Њено име нека се спомиње<br/>
+                Сваког другог дана,<br/>
+                Сваког другог дана,<br/>
+                Осим ђурђевдана.<br/>
+                <br/>
+                Еj, ево зоре, ево зоре,<br/>
+                Богу да се помолим.<br/>
+                Ево зоре, ево зоре,<br/>
+                Ђурђевдан jе,<br/>
                 А jа нисам с оном коjу волим.
             </text>
         </formatted-text-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">
-                © Goran Bregović
-                © https://lyricstranslate.com
-                © https://www.antiwarsongs.org/
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">
+                © Goran Bregović, © https://lyricstranslate.com, © https://www.antiwarsongs.org/
             </text>
-        </text-prop>
+        </unformatted-text-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://lyricstranslate.com</uri>
             <uri permissions="prop-default">https://www.antiwarsongs.org/</uri>
@@ -1446,11 +1442,11 @@
         <unformatted-text-prop name=":hasTitle">
             <text permissions="prop-default">Greek Manuscripts from 1397. Iliad (I-V).</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 Manuscript containing the Iliad of Homer kept in St. Catherine's Monastery in Mt. Sinai.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <resptr-prop name=":hasAuthor">
             <resptr permissions="prop-default">person_0</resptr>
         </resptr-prop>
@@ -1463,11 +1459,11 @@
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">350564</geoname>
         </geoname-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="xml">
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">
                 Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai.
             </text>
-        </text-prop>
+        </unformatted-text-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://www.loc.gov/item/00279382687-ms</uri>
         </uri-prop>
@@ -1477,11 +1473,11 @@
         <unformatted-text-prop name=":hasTitle">
             <text permissions="prop-default">Book with images</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 A book with several images to demonstrate part-whole relations of resources
             </text>
-        </text-prop>
+        </formatted-text-prop>
     </resource>
 
     <!-- :Page -->
@@ -1498,8 +1494,8 @@
         <resptr-prop name=":partOf">
             <resptr permissions="prop-default">book_obj_0</resptr>
         </resptr-prop>
-        <text-prop name=":hasTranscription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasTranscription">
+            <text permissions="prop-default">
                 𝛍ῆ𝝼𝛊𝝼 ἄ𝛆𝛊𝛅𝛆 𝛉𝛆ὰ 𝝥𝛈𝝺𝛈ϊά𝛅𝛆𝞈 Ἀ𝞆𝛊𝝺ῆ𝝾𝞁<br />
                 𝝾ὐ𝝺𝝾𝛍έ𝝼𝛈𝝼, ἥ 𝛍𝞄𝞀ί’ Ἀ𝞆𝛂𝛊𝝾ῖ𝞁 ἄ𝝺𝝲𝛆’ ἔ𝛉𝛈𝝹𝛆,<br />
                 𝝿𝝾𝝺𝝺ὰ𝞁 𝛅’ ἰ𝛗𝛉ί𝛍𝝾υ𝞁 𝞇𝞄𝞆ὰ𝞁 Ἄϊ𝛅𝛊 𝝿𝞀𝝾ΐ𝛂𝞇𝛆𝝼<br />
@@ -1508,7 +1504,7 @@
                 ἐ𝝽 𝝾ὗ 𝛅ὴ 𝛕ὰ 𝝿𝞀ῶ𝛕𝛂 𝛅𝛊𝛂𝛔𝛕ή𝛕𝛈𝝼 ἐ𝞀ί𝛔𝛂𝝼𝛕𝛆<br />
                 Ἂ𝛕𝞀𝛆ΐ𝛅𝛈𝞁 𝛕𝛆 ἄ𝝼𝛂𝝽 ἀ𝝼𝛅𝞀ῶ𝝼 𝝹𝛂ὶ 𝛅ῖ𝝾𝞁 Ἀ𝞆𝛊𝝺𝝺𝛆ὺ𝞁.<br />
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <formatted-text-prop name=":hasTransliteration">
             <text permissions="prop-default">
                 Mẹ̄nin aeịde, theạ, Pēlẹ̄iadeọ̄ Achilẹ̄os<br/>
@@ -1539,12 +1535,12 @@
                 fell out with one another.
             </text>
         </formatted-text-prop>
-        <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasBibliographicReference">
+            <text permissions="prop-default">
                 Homer, Greek Manuscripts, Iliad I-V, 1700. Manuscript/Mixed Material. Retrieved from the Library of
                 Congress (www.loc.gov/item/00279382687-ms/).
             </text>
-        </text-prop>
+        </formatted-text-prop>
     </resource>
 
     <!-- :Object -->
@@ -1558,12 +1554,12 @@
         <unformatted-text-prop name=":hasName">
             <text permissions="prop-default">cat</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 An example of a domesticated cat breed created from hybrids of domestic cats with the Asian leopard
                 cat. They are called Bengals. It is very curious, loves to play with water and to talk a lot.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <decimal-prop name=":hasWeight">
             <decimal permissions="prop-default">4.8</decimal>
         </decimal-prop>
@@ -1585,14 +1581,14 @@
         <unformatted-text-prop name=":hasName">
             <text permissions="prop-default">meteorite</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 This is a piece of the so-called Gibeon Meteroite that fell in Namibia in prehistoric times
                 (28000-11000 BCE). It is composed of an iron-nickel alloy. Ground and etched, beautiful Widmanstätten
                 patterns become visible. Widmanstätten patterns are characteristic for meteorite material - they cannot
                 be formed under conditions prevailing on Earth.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <decimal-prop name=":hasWeight">
             <decimal permissions="prop-default">0.3</decimal>
         </decimal-prop>
@@ -1621,12 +1617,12 @@
         <unformatted-text-prop name=":hasName">
             <text permissions="prop-default">lekythos</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 Attic red-figured lekythos which depicts a Festival of Adonis. Winged Eros with an incense burner
                 stands on a ladder between women. This vessel was found in a cemetery in Naucratis, Egypt.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <decimal-prop name=":hasWeight">
             <decimal permissions="prop-default">0.5</decimal>
         </decimal-prop>
@@ -1675,13 +1671,13 @@
             <text permissions="prop-restricted">The text above has no "permissions" attribute, so only the System Administrator can see it!</text>
             <text permissions="prop-restricted">Demonstration of multiple cardinalities: show how 0-n cardinalities work</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-restricted" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-restricted">
                 This is a <strong>XML-enriched text</strong> element inside the property ":hasDescription". <br />
                 It contains line break tags and <sup>supralinear text</sup> and a
                 <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to the object "cat".
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <decimal-prop name=":hasWeight">
             <decimal permissions="prop-restricted">0.5</decimal>
             <decimal permissions="prop-restricted">5</decimal>
@@ -1776,11 +1772,11 @@
         <unformatted-text-prop name=":hasName">
             <text permissions="prop-default">Test project Rosetta</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 This is a pdf-file which contains the data model of the test project Rosetta.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <time-prop name=":hasTime">
             <time permissions="prop-default">2021-11-30T12:00:00+00:00</time>
         </time-prop>
@@ -1791,11 +1787,11 @@
         <unformatted-text-prop name=":hasName">
             <text permissions="prop-default">Test project Rosetta</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 This is a docx-file which contains the data model of the test project Rosetta.
             </text>
-        </text-prop>
+        </formatted-text-prop>
     </resource>
 
     <resource label="RosettaPPTX" restype=":Document" id="doc_002" permissions="res-default">
@@ -1803,11 +1799,11 @@
         <unformatted-text-prop name=":hasName">
             <text permissions="prop-default">Scheme of DSP</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 This is a pptx-file which explains the DaSCH Service Platform.
             </text>
-        </text-prop>
+        </formatted-text-prop>
     </resource>
 
     <resource label="RosettaXLSX" restype=":Document" id="doc_003" permissions="res-default">
@@ -1815,11 +1811,11 @@
         <unformatted-text-prop name=":hasName">
             <text permissions="prop-default">Template from docs.dasch.swiss</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 This is a xlsx-file that is downloadable on docs.dasch.swiss.
             </text>
-        </text-prop>
+        </formatted-text-prop>
     </resource>
 
     <!-- :TextFile -->
@@ -1828,11 +1824,11 @@
         <unformatted-text-prop name=":hasName">
             <text permissions="prop-default">Category list of the test project Rosetta</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 This is a txt-file which contains the category list of the test project Rosetta.
             </text>
-        </text-prop>
+        </formatted-text-prop>
     </resource>
 
     <resource label="RosettaCSV" restype=":TextFile" id="textfile_002" permissions="res-default">
@@ -1840,11 +1836,11 @@
         <unformatted-text-prop name=":hasName">
             <text permissions="prop-default">Category list of the test project Rosetta</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 This is a csv-file which contains the category list of the test project Rosetta.
             </text>
-        </text-prop>
+        </formatted-text-prop>
     </resource>
 
     <resource label="RosettaXML" restype=":TextFile" id="textfile_003" permissions="res-default">
@@ -1854,11 +1850,11 @@
                 The XML file containing the resources of the Rosetta test project
             </text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 This is an xml-file which contains the data of the test project Rosetta.
             </text>
-        </text-prop>
+        </formatted-text-prop>
     </resource>
 
     <!-- :Archive -->
@@ -1867,11 +1863,11 @@
         <unformatted-text-prop name=":hasName">
             <text permissions="prop-default">ZIP of Test project Rosetta</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 This is a zip-file which contains information about the test project Rosetta.
             </text>
-        </text-prop>
+        </formatted-text-prop>
     </resource>
 
     <!-- :Audio -->
@@ -1886,12 +1882,12 @@
         <date-prop name=":hasDate">
             <date permissions="prop-default">GREGORIAN:CE:1988</date>
         </date-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 Ederlezi is a folk-song about the returning of springtime. Goran Bregović's version from 1988 was used
                 in Emir Kusturica's film Time of the Gypsies.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <unformatted-text-prop name=":hasCopyright">
             <text permissions="prop-default">© Goran Bregović</text>
         </unformatted-text-prop>
@@ -1917,11 +1913,11 @@
             <resptr permissions="prop-default">audio_obj_0</resptr>
             <resptr permissions="prop-default">doc_001</resptr>
         </resptr-prop>
-        <text-prop name=":hasDescription">
-            <text encoding="xml" permissions="prop-default">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 If a resource has a property derived from "hasRepresentation", it can have resptr-links to different multimedia resources.
             </text>
-        </text-prop>
+        </formatted-text-prop>
     </resource>
 
     <!-- :Video -->
@@ -1930,11 +1926,11 @@
         <unformatted-text-prop name=":hasTitle">
             <text permissions="prop-default">Sunset Waves Close Up</text>
         </unformatted-text-prop>
-        <text-prop name=":hasDescription">
-            <text encoding="xml" permissions="prop-default">
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">
                 This is a sample video file from the internet.
             </text>
-        </text-prop>
+        </formatted-text-prop>
     </resource>
 
     <!-- :VideoSequence -->
