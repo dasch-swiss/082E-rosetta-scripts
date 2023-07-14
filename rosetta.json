@@ -296,17 +296,11 @@
             "super": [
               "hasValue"
             ],
-            "object": "TextValue",
+            "object": "FormattedTextValue",
             "labels": {
               "de": "Text",
               "en": "Text",
               "fr": "Texte"
-            },
-            "gui_element": "Textarea",
-            "gui_attributes": {
-              "rows": 10,
-              "cols": 40,
-              "wrap": "soft"
             }
           },
           {
@@ -314,30 +308,23 @@
             "super": [
               "hasValue"
             ],
-            "object": "TextValue",
+            "object": "FormattedTextValue",
             "labels": {
               "de": "Transkription",
               "en": "Transcription",
               "fr": "Transcription"
-            },
-            "gui_element": "Richtext"
+            }
           },
           {
             "name": "hasTransliteration",
             "super": [
               "hasValue"
             ],
-            "object": "TextValue",
+            "object": "FormattedTextValue",
             "labels": {
               "de": "Transliteration",
               "en": "Transliteration",
               "fr": "Translittération"
-            },
-            "gui_element": "Textarea",
-            "gui_attributes": {
-              "rows": 10,
-              "cols": 40,
-              "wrap": "soft"
             }
           },
           {
@@ -345,17 +332,11 @@
             "super": [
               "hasValue"
             ],
-            "object": "TextValue",
+            "object": "FormattedTextValue",
             "labels": {
               "de": "Übersetzung",
               "en": "Translation",
               "fr": "Traduction"
-            },
-            "gui_element": "Textarea",
-            "gui_attributes": {
-              "rows": 10,
-              "cols": 40,
-              "wrap": "soft"
             }
           },
           {
@@ -364,13 +345,12 @@
               "hasValue",
               "dcterms:description"
             ],
-            "object": "TextValue",
+            "object": "FormattedTextValue",
             "labels": {
               "de": "Beschreibung",
               "en": "Description",
               "fr": "Description"
-            },
-            "gui_element": "Richtext"
+            }
           },
           {
             "name": "hasAuthor",
@@ -394,16 +374,11 @@
             "super": [
               "hasValue"
             ],
-            "object": "TextValue",
+            "object": "UnformattedTextValue",
             "labels": {
               "de": "Name",
               "en": "Name",
               "fr": "Nom"
-            },
-            "gui_element": "SimpleText",
-            "gui_attributes": {
-              "maxlength": 128,
-              "size": 32
             }
           },
           {
@@ -412,16 +387,11 @@
               "hasValue",
               "dcterms:title"
             ],
-            "object": "TextValue",
+            "object": "UnformattedTextValue",
             "labels": {
               "de": "Titel",
               "en": "Title",
               "fr": "Titre"
-            },
-            "gui_element": "SimpleText",
-            "gui_attributes": {
-              "maxlength": 255,
-              "size": 80
             }
           },
           {
@@ -468,16 +438,11 @@
             "super": [
               "hasValue"
             ],
-            "object": "TextValue",
+            "object": "UnformattedTextValue",
             "labels": {
               "de": "Literatur",
               "en": "Literature",
               "fr": "Littérature"
-            },
-            "gui_element": "SimpleText",
-            "gui_attributes": {
-              "maxlength": 128,
-              "size": 128
             }
           },
           {
@@ -565,16 +530,11 @@
             "super": [
               "hasValue"
             ],
-            "object": "TextValue",
+            "object": "UnformattedTextValue",
             "labels": {
               "de": "Inventarnummer",
               "en": "Inventory number",
               "fr": "Numéro d'inventaire"
-            },
-            "gui_element": "SimpleText",
-            "gui_attributes": {
-              "maxlength": 80,
-              "size": 25
             }
           },
           {
@@ -659,16 +619,11 @@
             "super": [
               "hasValue"
             ],
-            "object": "TextValue",
+            "object": "UnformattedTextValue",
             "labels": {
               "de": "Copyright",
               "en": "Copyright",
               "fr": "Droit d'auteur"
-            },
-            "gui_element": "SimpleText",
-            "gui_attributes": {
-              "maxlength": 128,
-              "size": 64
             }
           },
           {
@@ -749,13 +704,12 @@
             "super": [
               "hasComment"
             ],
-            "object": "TextValue",
+            "object": "FormattedTextValue",
             "labels": {
               "de": "Kommentar",
               "en": "Comment",
               "fr": "Commentaire"
-            },
-            "gui_element": "SimpleText"
+            }
           },
           {
             "name": "hasRepresentation",

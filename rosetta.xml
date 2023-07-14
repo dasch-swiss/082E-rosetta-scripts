@@ -31,9 +31,9 @@
 
     <!-- :Person -->
     <resource label="Homer" restype=":Person" id="person_0" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Homer</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Homer</text>
+        </unformatted-text-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/11855333X</uri>
         </uri-prop>
@@ -43,9 +43,9 @@
     </resource>
 
     <resource label="Fernand Léger" restype=":Person" id="person_1" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Fernand Léger</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Fernand Léger</text>
+        </unformatted-text-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/118570994</uri>
         </uri-prop>
@@ -55,9 +55,9 @@
     </resource>
 
     <resource label="Francis Danby" restype=":Person" id="person_2" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Francis Danby</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Francis Danby</text>
+        </unformatted-text-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/119116294</uri>
         </uri-prop>
@@ -67,9 +67,9 @@
     </resource>
 
     <resource label="Paul Éluard" restype=":Person" id="person_3" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Paul Éluard</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Paul Éluard</text>
+        </unformatted-text-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/118530062</uri>
         </uri-prop>
@@ -82,9 +82,9 @@
     </resource>
 
     <resource label="Matsuo Bashō" restype=":Person" id="person_4" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Matsuo Bashō</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Matsuo Bashō</text>
+        </unformatted-text-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/118653369</uri>
         </uri-prop>
@@ -94,9 +94,9 @@
     </resource>
 
     <resource label="Ivan Krylov" restype=":Person" id="person_5" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Ivan Krylov</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Ivan Krylov</text>
+        </unformatted-text-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/118724886</uri>
         </uri-prop>
@@ -106,18 +106,18 @@
     </resource>
 
     <resource label="Ǧawdat Faḫr al-Din" restype=":Person" id="person_6" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Ǧawdat Faḫr al-Din</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Ǧawdat Faḫr al-Din</text>
+        </unformatted-text-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/1148770291</uri>
         </uri-prop>
     </resource>
 
     <resource label="Goran Bregović" restype=":Person" id="person_7" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Goran Bregović</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Goran Bregović</text>
+        </unformatted-text-prop>
         <uri-prop name=":hasIdentifier">
             <uri permissions="prop-default">http://d-nb.info/gnd/123552095</uri>
         </uri-prop>
@@ -130,18 +130,18 @@
     </resource>
 
     <resource label="Beachfront" restype=":Person" id="person_8" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Beachfront</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Beachfront</text>
+        </unformatted-text-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">http://www.beachfrontbroll.com</uri>
         </uri-prop>
     </resource>
 
     <resource label="D.art" restype=":Person" id="person_9" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">D.art</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">D.art</text>
+        </unformatted-text-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://sketchfab.com/D.art</uri>
         </uri-prop>
@@ -149,9 +149,9 @@
 
     <!-- :Institution -->
     <resource label="British Museum" restype=":Institution" id="inst_0" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">British Museum</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">British Museum</text>
+        </unformatted-text-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">6697862</geoname>
         </geoname-prop>
@@ -164,9 +164,9 @@
     </resource>
 
     <resource label="Tate Gallery London" restype=":Institution" id="inst_1" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Tate Gallery London</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Tate Gallery London</text>
+        </unformatted-text-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">6695209</geoname>
         </geoname-prop>
@@ -179,9 +179,9 @@
     </resource>
 
     <resource label="Centre Georges Pompidou" restype=":Institution" id="inst_2" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Centre Georges Pompidou</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Centre Georges Pompidou</text>
+        </unformatted-text-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">6269530</geoname>
         </geoname-prop>
@@ -194,9 +194,9 @@
     </resource>
 
     <resource label="St. Catherine's Monastery" restype=":Institution" id="inst_3" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">St. Catherine's Monastery</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">St. Catherine's Monastery</text>
+        </unformatted-text-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">350564</geoname>
         </geoname-prop>
@@ -209,9 +209,9 @@
     </resource>
 
     <resource label="Rockefeller Museum" restype=":Institution" id="inst_4" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Rockefeller Museum</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Rockefeller Museum</text>
+        </unformatted-text-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">11874035</geoname>
         </geoname-prop>
@@ -224,9 +224,9 @@
     </resource>
 
     <resource label="Synagogue in En-Gedi" restype=":Institution" id="inst_5" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Synagogue in En-Gedi</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Synagogue in En-Gedi</text>
+        </unformatted-text-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">8375748</geoname>
         </geoname-prop>
@@ -239,9 +239,9 @@
     </resource>
 
     <resource label="Temple of Hathor in Dendera" restype=":Institution" id="inst_6" permissions="res-default">
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Temple of Hathor</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Temple of Hathor</text>
+        </unformatted-text-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">358422</geoname>
         </geoname-prop>
@@ -256,9 +256,9 @@
     <!-- :Image2D -->
     <resource label="BM K.3375" restype=":Image2D" id="img_obj_0" permissions="res-default">
         <bitstream permissions="prop-default">Images/K3375Gilgamesh.png</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">BM K.3375</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">BM K.3375</text>
+        </unformatted-text-prop>
         <date-prop name=":hasDate">
             <date permissions="prop-default">JULIAN:BCE:0700:0600</date>
         </date-prop>
@@ -269,9 +269,9 @@
                 the 7<sup>th</sup> century BCE.
             </text>
         </text-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">© The Trustees of the British Museum</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">© The Trustees of the British Museum</text>
+        </unformatted-text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_0</resptr>
         </resptr-prop>
@@ -288,9 +288,9 @@
 
     <resource label="Deluge" restype=":Image2D" id="img_obj_1" permissions="res-default">
         <bitstream permissions="prop-default">Images/Danby-deluge.jpg</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">The Deluge</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">The Deluge</text>
+        </unformatted-text-prop>
         <resptr-prop name=":hasCreator">
             <resptr permissions="prop-default">person_2</resptr>
         </resptr-prop>
@@ -321,21 +321,21 @@
 
     <resource label="Liberté, j'écris ton nom" restype=":Image2D" id="img_obj_2" permissions="res-default">
         <bitstream permissions="prop-default">Images/Leger-Eluard.jpg</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Liberté</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Liberté</text>
+        </unformatted-text-prop>
         <resptr-prop name=":hasCreator">
             <resptr permissions="prop-default">person_3</resptr>
         </resptr-prop>
         <date-prop name=":hasDate">
             <date permissions="prop-default">GREGORIAN:CE:1953</date>
         </date-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">Illustration of the poem "Liberté" by Paul Éluard.</text>
-        </text-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">© Pierre Seghers, Paris</text>
-        </text-prop>
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">Illustration of the poem "Liberté" by Paul Éluard.</text>
+        </formatted-text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">© Pierre Seghers, Paris</text>
+        </unformatted-text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_2</resptr>
         </resptr-prop>
@@ -349,21 +349,21 @@
 
     <resource label="Bashō, Horohoroto" restype=":Image2D" id="img_obj_3" permissions="res-default">
         <bitstream permissions="prop-default">Images/Basho_Horohoroto.jpg</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Horohoroto</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Horohoroto</text>
+        </unformatted-text-prop>
         <resptr-prop name=":hasCreator">
             <resptr permissions="prop-default">person_4</resptr>
         </resptr-prop>
         <date-prop name=":hasDate">
             <date permissions="prop-default">GREGORIAN:CE:1688</date>
         </date-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">Picture and Poem by Matsuo Bashō.</text>
-        </text-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">Public domain</text>
-        </text-prop>
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">Picture and Poem by Matsuo Bashō.</text>
+        </formatted-text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">Public domain</text>
+        </unformatted-text-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://en.wikipedia.org/wiki/Haiku#/media/File:Basho_Horohoroto.jpg</uri>
         </uri-prop>
@@ -371,9 +371,9 @@
 
     <resource label="Western aisle mosaic of the synagogue in En-Gedi" restype=":Image2D" id="img_obj_4" permissions="res-default">
         <bitstream permissions="prop-default">Images/EnGediMosaic.jpg</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Western aisle mosaic of the synagogue in En-Gedi</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Western aisle mosaic of the synagogue in En-Gedi</text>
+        </unformatted-text-prop>
         <date-prop name=":hasDate">
             <date permissions="prop-default">JULIAN:CE:0450:CE:0500</date>
         </date-prop>
@@ -384,9 +384,9 @@
                 zodiacal signs, the months, of 3 patriarchs and of 3 followers of Daniel.
             </text>
         </text-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">© Rita Gautschy</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">© Rita Gautschy</text>
+        </unformatted-text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_4</resptr>
             <resptr permissions="prop-default">inst_5</resptr>
@@ -401,24 +401,24 @@
 
     <resource label="Bengal cat" restype=":Image2D" id="img_obj_5" permissions="res-default">
         <bitstream permissions="prop-default">Images/Anubis.jpg</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Bengal cat</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Bengal cat</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 This male Bengal cat is called Anubis. He is very curious, but shy.
             </text>
         </text-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">© Rita Gautschy</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">© Rita Gautschy</text>
+        </unformatted-text-prop>
     </resource>
 
     <resource label="Iliad Prooem" restype=":Image2D" id="img_obj_6" permissions="res-default">
         <bitstream permissions="prop-default">Images/IliadProoem.jp2</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Iliad Prooem</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Iliad Prooem</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 This page shows the prooem of the Iliad in Greek manuscript 1397 in St. Catherine's Monastery on Mount
@@ -440,17 +440,17 @@
 
     <resource label="Gibeon Meteorite" restype=":Image2D" id="img_obj_7" permissions="res-default">
         <bitstream permissions="prop-default">Images/GibbeonMeteorite.jpg</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Gibeon Meteorite</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Gibeon Meteorite</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 This is a polished piece of the Gibeon Meteorite which shows nice Widmanstätten patterns.
             </text>
         </text-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">© Rita Gautschy</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">© Rita Gautschy</text>
+        </unformatted-text-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">3357293</geoname>
         </geoname-prop>
@@ -461,9 +461,9 @@
 
     <resource label="Dendera New Year" restype=":Image2D" id="img_obj_8" permissions="res-default">
         <bitstream permissions="prop-default">Images/DenderaNeujahr.png</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">New Year's inscription from Dendera</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">New Year's inscription from Dendera</text>
+        </unformatted-text-prop>
         <date-prop name=":hasDate">
             <date permissions="prop-default">JULIAN:BCE:0054:BCE:0042</date>
         </date-prop>
@@ -472,9 +472,9 @@
                 This text accompanies the reliefs depicting the New Year's procession in the eastern staircase of the
                 Temple of Hathor in Dendera.</text>
         </text-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">© Alexa Rickert</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">© Alexa Rickert</text>
+        </unformatted-text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_6</resptr>
         </resptr-prop>
@@ -488,9 +488,9 @@
 
     <resource label="Lekythos" restype=":Image2D" id="img_obj_9" permissions="res-default">
         <bitstream permissions="prop-default">Images/BM1888-0601-716.png</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Attic red-figured Lekythos BM 1888,601.716</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Attic red-figured Lekythos BM 1888,601.716</text>
+        </unformatted-text-prop>
         <date-prop name=":hasDate">
             <date permissions="prop-default">JULIAN:BCE:0400:BCE:0380</date>
         </date-prop>
@@ -500,9 +500,9 @@
                 depiction of the Feast of Adonis. Eros with an incense burner stands on a ladder between women.
             </text>
         </text-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">© The Trustees of the British Museum</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">© The Trustees of the British Museum</text>
+        </unformatted-text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_0</resptr>
         </resptr-prop>
@@ -519,9 +519,9 @@
         <resptr-prop name=":hasTextMedium">
             <resptr permissions="prop-default">img_obj_0</resptr>
         </resptr-prop>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Epic of Gilgameš, tablet 11: British Museum K.3375</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Epic of Gilgameš, tablet 11: British Museum K.3375</text>
+        </unformatted-text-prop>
         <text-prop name=":hasTranscription">
             <text permissions="prop-default" encoding="xml">
                 <sup>d</sup> GIŠ-gim₂-maš a-na ša₂-⸢šu⸣-ma MU-ra a-na <sup>m</sup> UD-ZI ru-u₂-qi₂<br />
@@ -546,53 +546,53 @@
                 a-mat-su-nu u₂-ša₂-an-na-a a-na ki-ik-ki-šu₂
             </text>
         </text-prop>
-        <text-prop name=":hasTransliteration">
-            <text permissions="prop-default" encoding="utf8">
-                Gišgimmaš ana šašuma izzakkara ana Utnapišti rūqi
-                anaṭṭalakumma Utnapišti
-                minatuka ul šanâ kî iatima atta
-                u atta ul šanata kî iatima atta
-                ⸢gummurka⸣ libbi ana epeš tuqunti
-                [x]x aḫi ⸢nada⸣t elu ṣerika
-                [att]a ⸢kikî⸣ tazzizma ina puḫur ilī balaṭa tēšu
-                Utnapištim ana šašuma izzakkara ana Gišgimmaš
-                lupteka Gišgimmaš amat niṣirti
-                u pirišti ša ilī kāša luqbika
-                Šurippak ālu ša tidušu atta
-                ā[lu? ša ina kišā]d puratti šaknu
-                āl[u] šû labirma ilū qerbu⸢šu⸣
-                [an]a šakan abubi ubla libbašunu ilī rabûti
-                [it]mama abušunu Anum
-                malikšunu quradu Enlil
-                [g]uzalašunu Ninurta
-                gu⸢galla⸣šunu Ennugi
-                Ninšiku Ea ittišunu tamima
+        <formatted-text-prop name=":hasTransliteration">
+            <text permissions="prop-default">
+                Gišgimmaš ana šašuma izzakkara ana Utnapišti rūqi<br/>
+                anaṭṭalakumma Utnapišti<br/>
+                minatuka ul šanâ kî iatima atta<br/>
+                u atta ul šanata kî iatima atta<br/>
+                ⸢gummurka⸣ libbi ana epeš tuqunti<br/>
+                [x]x aḫi ⸢nada⸣t elu ṣerika<br/>
+                [att]a ⸢kikî⸣ tazzizma ina puḫur ilī balaṭa tēšu<br/>
+                Utnapištim ana šašuma izzakkara ana Gišgimmaš<br/>
+                lupteka Gišgimmaš amat niṣirti<br/>
+                u pirišti ša ilī kāša luqbika<br/>
+                Šurippak ālu ša tidušu atta<br/>
+                ā[lu? ša ina kišā]d puratti šaknu<br/>
+                āl[u] šû labirma ilū qerbu⸢šu⸣<br/>
+                [an]a šakan abubi ubla libbašunu ilī rabûti<br/>
+                [it]mama abušunu Anum<br/>
+                malikšunu quradu Enlil<br/>
+                [g]uzalašunu Ninurta<br/>
+                gu⸢galla⸣šunu Ennugi<br/>
+                Ninšiku Ea ittišunu tamima<br/>
                 amatsunu ušannâ ana kikkišu
             </text>
-        </text-prop>
-        <text-prop name=":hasTranslation">
-            <text permissions="prop-default" encoding="utf8">
-                Gilgamesch sprach zu ihm, zum fernen Utnapischtim:
-                »Schau ich auf dich, Utnapischtim,
-                So sind deine Masse nicht anders — wie ich bist du,
-                Ja, du bist nicht anders — wie ich bist du!
-                Mein Herz ist ganz darauf gerichtet, mit dir zu kämpfen,
-                Und doch ist mein Arm untätig gegen dich!
-                Daher sage mir: wie tratst du in die Schar der Götter und gingst dem Leben nach?«
-                Utnapischtim sprach zu ihm, zu Gilgamesch:
-                »Ein Verborgenes, Gilgamesch, will ich dir eröffnen,
-                Und der Götter Geheimnis will ich dir sagen.
-                Schuruppak — eine Stadt, die du kennst,
-                Die am Ufer des Euphrat liegt —,
-                Diese Stadt war schon alt, und die Götter waren ihr nah.
-                Eine Sintflut zu machen, entbrannte das Herz den grossen Göttern.
-                Den Eid leistete ihr Vater Anu,
-                Enlil, der Held, der sie berät,
-                Ihr Minister Ninurta, ihr Deichgraf Ennugi.
-                Ninschiku-Ea hatte mit ihnen geschworen;
+        </formatted-text-prop>
+        <formatted-text-prop name=":hasTranslation">
+            <text permissions="prop-default">
+                Gilgamesch sprach zu ihm, zum fernen Utnapischtim:<br/>
+                »Schau ich auf dich, Utnapischtim,<br/>
+                So sind deine Masse nicht anders — wie ich bist du,<br/>
+                Ja, du bist nicht anders — wie ich bist du!<br/>
+                Mein Herz ist ganz darauf gerichtet, mit dir zu kämpfen,<br/>
+                Und doch ist mein Arm untätig gegen dich!<br/>
+                Daher sage mir: wie tratst du in die Schar der Götter und gingst dem Leben nach?«<br/>
+                Utnapischtim sprach zu ihm, zu Gilgamesch:<br/>
+                »Ein Verborgenes, Gilgamesch, will ich dir eröffnen,<br/>
+                Und der Götter Geheimnis will ich dir sagen.<br/>
+                Schuruppak — eine Stadt, die du kennst,<br/>
+                Die am Ufer des Euphrat liegt —,<br/>
+                Diese Stadt war schon alt, und die Götter waren ihr nah.<br/>
+                Eine Sintflut zu machen, entbrannte das Herz den grossen Göttern.<br/>
+                Den Eid leistete ihr Vater Anu,<br/>
+                Enlil, der Held, der sie berät,<br/>
+                Ihr Minister Ninurta, ihr Deichgraf Ennugi.<br/>
+                Ninschiku-Ea hatte mit ihnen geschworen;<br/>
                 Ihre Rede jedoch gab er einem Rohrhaus wieder:
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <geoname-prop name=":hasFindspot">
             <geoname permissions="prop-default">92878</geoname>
         </geoname-prop>
@@ -605,9 +605,9 @@
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">2643743</geoname>
         </geoname-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">© The Trustees of the British Museum</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">© The Trustees of the British Museum</text>
+        </unformatted-text-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://www.britishmuseum.org/collection/object/W_K-3375</uri>
         </uri-prop>
@@ -620,9 +620,9 @@
         <resptr-prop name=":hasTextMedium">
             <resptr permissions="prop-default">img_obj_4</resptr>
         </resptr-prop>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Western Aisle Mosaic in the synagogue of En Gedi</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Western Aisle Mosaic in the synagogue of En Gedi</text>
+        </unformatted-text-prop>
         <text-prop name=":hasTranscription">
             <text permissions="prop-default" encoding="xml">
                 1 אדם שת אנוש קינן מהללאל ירד<br />
@@ -635,19 +635,18 @@
                 8 חנניה מישאיל ועזריה שלום על ישראל<br />
             </text>
         </text-prop>
-        <text-prop name=":hasTranslation">
-            <text permissions="prop-default" encoding="utf8">
-                1 Adam, Set, Enosch, Kenan, Mahalalel, Jered,
-                2 Henoch, Metuschelach, Lamech, Noah, Sem, Ham und Jafet.
-
-                3 Taleh (Widder), Schor (Stier), Teomim (Zwillinge), Sarton (Krebs), Ari (Löwe), Betulah (Jungfrau),
-                4 Moznajim (Waage), Aqrab (Skorpion), Qaschat (Schütze), Gedi (Steinbock) und Deli (Wassermann), Dagim (Fische).
-                5 Nisan, Ijjar, Sivan, Tammuz, Av, Elul,
-                6 Tischri, Marcheschvan, Kislev, Tevet, Schevat
-                7 und Adar. Abraham, Isaak und Jakob. Friede.
+        <formatted-text-prop name=":hasTranslation">
+            <text permissions="prop-default">
+                1 Adam, Set, Enosch, Kenan, Mahalalel, Jered,<br/>
+                2 Henoch, Metuschelach, Lamech, Noah, Sem, Ham und Jafet.<br/>
+                3 Taleh (Widder), Schor (Stier), Teomim (Zwillinge), Sarton (Krebs), Ari (Löwe), Betulah (Jungfrau),<br/>
+                4 Moznajim (Waage), Aqrab (Skorpion), Qaschat (Schütze), Gedi (Steinbock) und Deli (Wassermann), Dagim (Fische).<br/>
+                5 Nisan, Ijjar, Sivan, Tammuz, Av, Elul,<br/>
+                6 Tischri, Marcheschvan, Kislev, Tevet, Schevat<br/>
+                7 und Adar. Abraham, Isaak und Jakob. Friede.<br/>
                 8 Hananiah, Mishael und Azariah. Friede sei mit Israel.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <geoname-prop name=":hasFindspot">
             <geoname permissions="prop-default">8375748</geoname>
         </geoname-prop>
@@ -668,9 +667,9 @@
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">295220</geoname>
         </geoname-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">© Rita Gautschy</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">© Rita Gautschy</text>
+        </unformatted-text-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://synagogues.kinneret.ac.il/synagogues/en-gedi/</uri>
         </uri-prop>
@@ -680,20 +679,20 @@
         <resptr-prop name=":hasTextMedium">
             <resptr permissions="prop-default">img_obj_8</resptr>
         </resptr-prop>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="xml">
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">
                 Description of the New Year's procession in the Temple of Hathor in Dendara.
             </text>
-        </text-prop>
-        <text-prop name=":hasTransliteration">
-            <text permissions="prop-default" encoding="utf8">
+        </unformatted-text-prop>
+        <formatted-text-prop name=":hasTransliteration">
+            <text permissions="prop-default">
                 p.t m ḥb ndb{w} m rš.wt ḏr ẖnm nbw.t stw.t i͗t=s i͗j=s m ḥtp r pr=s m ḥʿʿ(.wt) m ḥb=s nfr wp rnp.t mi͗t.t
                 i͗sk m ḥb.w tp tr.w r-sꜣ ẖnm mꜢ.wt n(.t) I͗Ꜣḫw nswt ḏs=f ḥr kꜢp n=s ʿntw ḥr snṯr pr=s m sṯi͗-nṯr ḥr ḏsr
                 ḥw.t-nṯr=s m ʿšꜢw wr ḥr ms n=s ʿꜢb.t ʿꜢ.t tꜢ ḥnq.t wr.tw ḫr-m-m=sn
             </text>
-        </text-prop>
-        <text-prop name=":hasTranslation">
-            <text permissions="prop-default" encoding="utf8">
+        </formatted-text-prop>
+        <formatted-text-prop name=":hasTranslation">
+            <text permissions="prop-default">
                 Der Himmel ist im Fest, der Erdboden ist in Freude, weil sich die Goldene mit den Strahlen ihres Vaters
                 vereint. Sie kommt in Frieden zu ihrem Haus in Jubel an ihrem schönen Fest „Eröffner des Jahres“
                 (Neujahrsfest), ebenso an den Festen zu den Zeiten nach der Vereinigung mit den Strahlen des Glänzenden.
@@ -701,7 +700,7 @@
                 Weihen ihres Tempels mit einer großen Menge, beim Bringen eines großen Speiseopfers für sie, Brot und
                 Bier sind zahlreich unter ihnen.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <geoname-prop name=":hasFindspot">
             <geoname permissions="prop-default">358422</geoname>
         </geoname-prop>
@@ -718,18 +717,18 @@
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">358422</geoname>
         </geoname-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">© Alexa Rickert</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">© Alexa Rickert</text>
+        </unformatted-text-prop>
     </resource>
 
     <resource label="Liberté" restype=":Text" id="text_obj_3" permissions="res-default">
         <resptr-prop name=":hasAuthor">
             <resptr permissions="prop-default">person_3</resptr>
         </resptr-prop>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Liberté</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Liberté</text>
+        </unformatted-text-prop>
         <text-prop name=":hasTranscription">
             <text permissions="prop-default" encoding="xml">
                 Sur mes cahiers d’écolier<br />
@@ -839,119 +838,119 @@
                 Liberté.<br />
             </text>
         </text-prop>
-        <text-prop name=":hasTranslation">
-            <text permissions="prop-default" encoding="utf8">
-                Auf meine Schulhefte
-                Auf mein Pult und die Bäume
-                Auf den Sand auf den Schnee
-                Schreib ich deinen Namen
-
-                Auf alle gelesenen Seiten
-                Auf alle leeren Seiten
-                Stein Blut Papier oder Asche
-                Schreib ich deinen Namen
-
-                Auf die Heiligenbilder
-                Auf die Waffen der Krieger
-                Auf die Krone der Könige
-                Schreib ich deinen Namen
-
-                Auf den Dschungel und die Wüste
-                Auf die Nester auf die Ginsterbüsche
-                Auf das Echo meiner Kindheit
-                Schreib ich deinen Namen
-
-                Auf die Wunder der Nächte
-                Auf das Weißbrot der Tage
-                Auf die verlobten Gezeiten
-                Schreib ich deinen Namen
-
-                Auf all meine Fetzen Himmelblau
-                Auf den schimmligen Sonnenteich
-                Auf den frischen Mondsee
-                Schreib ich deinen Namen
-
-                Auf die Felder auf den Horizont
-                Auf die Schwingen der Vögel
-                Und auf die Mühle der Schatten
-                Schreib ich deinen Namen
-
-                Auf jeden Hauch Morgenrot
-                Auf das Meer auf die Schiffe
-                Auf das wahnsinnige Gebirge
-                Schreib ich deinen Namen
-
-                Auf das Moos der Wolken
-                Auf den Schweiß der Stürme
-                Auf den dichten faden Regen
-                Schreib ich deinen Namen
-
-                Auf die funkelnden Formen
-                Auf die Glocken der Farben
-                Auf die physische Wahrheit
-                Schreib ich deinen Namen
-
-                Auf die munteren Pfade
-                Auf die entfalteten Straßen
-                Auf die überquellenden Plätze
-                Schreib ich deinen Namen
-
-                Auf die Lampe die angeht
-                Auf die Lampe die ausgeht
-                Auf meine vereinten Häuser
-                Schreib ich deinen Namen
-
-                Auf die halbierte Frucht
-                Des Spiegels und meiner Kammer
-                Auf meines Bettes leere Muschel
-                Schreib ich deinen Namen
-
-                Auf meinen gefräßigen und sanften Hund
-                Auf seine gespitzten Ohren
-                Auf seine täppische Pfote
-                Schreib ich deinen Namen
-
-                Auf das Sprungbrett meiner Tür
-                Auf die häuslichen Dinge
-                Auf das Wallen gesegneter Glut
-                Schreib ich deinen Namen
-
-                Auf jeden sich schenkenden Leib
-                Auf die Stirn meiner Freunde
-                Auf jede gereichte Hand
-                Schreib ich deinen Namen
-
-                Auf das Fenster des Verwunderns
-                Auf die erwartenden Lippen
-                Hoch über das Schweigen
-                Schreib ich deinen Namen
-
-                Auf meine zerstörten Zufluchten
-                Auf meine zerfallenen Leuchttürme
-                Auf die Mauern meines Leids
-                Schreib ich deinen Namen
-
-                Auf die wunschlose Trance
-                Auf die nackte Einsamkeit
-                Auf die Treppenstufen des Todes
-                Schreib ich deinen Namen
-
-                Auf die zurückgekehrte Gesundheit
-                Auf die entschwundene Gefahr
-                Auf die Hoffnung ohne Erinnerung
-                Schreib ich deinen Namen
-
-                Und durch die Macht eines Wortes
-                Beginn ich mein Leben neu
-                Ich bin geboren dich zu kennen
-                Dich zu nennen
-
-                Freiheit.
+        <formatted-text-prop name=":hasTranslation">
+            <text permissions="prop-default">
+                Auf meine Schulhefte<br/>
+                Auf mein Pult und die Bäume<br/>
+                Auf den Sand auf den Schnee<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf alle gelesenen Seiten<br/>
+                Auf alle leeren Seiten<br/>
+                Stein Blut Papier oder Asche<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf die Heiligenbilder<br/>
+                Auf die Waffen der Krieger<br/>
+                Auf die Krone der Könige<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf den Dschungel und die Wüste<br/>
+                Auf die Nester auf die Ginsterbüsche<br/>
+                Auf das Echo meiner Kindheit<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf die Wunder der Nächte<br/>
+                Auf das Weißbrot der Tage<br/>
+                Auf die verlobten Gezeiten<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf all meine Fetzen Himmelblau<br/>
+                Auf den schimmligen Sonnenteich<br/>
+                Auf den frischen Mondsee<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf die Felder auf den Horizont<br/>
+                Auf die Schwingen der Vögel<br/>
+                Und auf die Mühle der Schatten<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf jeden Hauch Morgenrot<br/>
+                Auf das Meer auf die Schiffe<br/>
+                Auf das wahnsinnige Gebirge<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf das Moos der Wolken<br/>
+                Auf den Schweiß der Stürme<br/>
+                Auf den dichten faden Regen<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf die funkelnden Formen<br/>
+                Auf die Glocken der Farben<br/>
+                Auf die physische Wahrheit<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf die munteren Pfade<br/>
+                Auf die entfalteten Straßen<br/>
+                Auf die überquellenden Plätze<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf die Lampe die angeht<br/>
+                Auf die Lampe die ausgeht<br/>
+                Auf meine vereinten Häuser<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf die halbierte Frucht<br/>
+                Des Spiegels und meiner Kammer<br/>
+                Auf meines Bettes leere Muschel<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf meinen gefräßigen und sanften Hund<br/>
+                Auf seine gespitzten Ohren<br/>
+                Auf seine täppische Pfote<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf das Sprungbrett meiner Tür<br/>
+                Auf die häuslichen Dinge<br/>
+                Auf das Wallen gesegneter Glut<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf jeden sich schenkenden Leib<br/>
+                Auf die Stirn meiner Freunde<br/>
+                Auf jede gereichte Hand<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf das Fenster des Verwunderns<br/>
+                Auf die erwartenden Lippen<br/>
+                Hoch über das Schweigen<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf meine zerstörten Zufluchten<br/>
+                Auf meine zerfallenen Leuchttürme<br/>
+                Auf die Mauern meines Leids<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf die wunschlose Trance<br/>
+                Auf die nackte Einsamkeit<br/>
+                Auf die Treppenstufen des Todes<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Auf die zurückgekehrte Gesundheit<br/>
+                Auf die entschwundene Gefahr<br/>
+                Auf die Hoffnung ohne Erinnerung<br/>
+                Schreib ich deinen Namen<br/>
+                <br/>
+                Und durch die Macht eines Wortes<br/>
+                Beginn ich mein Leben neu<br/>
+                Ich bin geboren dich zu kennen<br/>
+                Dich zu nennen<br/>
+                <br/>
+                Freiheit.<br/>
             </text>
-        </text-prop>
-        <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="utf8">Éluard, P., Poésie et vérité, Paris 1942.</text>
-        </text-prop>
+        </formatted-text-prop>
+        <unformatted-text-prop name=":hasBibliographicReference">
+            <text permissions="prop-default">Éluard, P., Poésie et vérité, Paris 1942.</text>
+        </unformatted-text-prop>
         <resptr-prop name=":hasRelatedArtwork">
             <resptr permissions="prop-default">img_obj_2</resptr>
         </resptr-prop>
@@ -961,9 +960,9 @@
         <resptr-prop name=":hasAuthor">
             <resptr permissions="prop-default">person_5</resptr>
         </resptr-prop>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Стрекоза и Муравей</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Стрекоза и Муравей</text>
+        </unformatted-text-prop>
         <text-prop name=":hasTranscription">
             <text permissions="prop-default" encoding="xml">
                 Стрекоза и Муравей<br /><br />
@@ -1000,81 +999,81 @@
                 Так поди же, попляши!»<br />
             </text>
         </text-prop>
-        <text-prop name=":hasTransliteration">
-            <text permissions="prop-default" encoding="utf8">
-                Strekoza i Muravej
-                Poprygunʹja Strekoza
-                Leto krasnoe propela;
-                Ogljanutʹsja ne uspela,
-                Kak zima katit v glaza.
-                Pomertvelo čisto pole;
-                Net už dnej teh svetlyh bole,
-                Kak pod každym ej listkom
-                Byl gotov i stol, i dom.
-                Vse prošlo: s zimoj holodnoj
-                Nužda, golod nastaet;
-                Strekoza už ne poet:
-                I komu že v um pojdet
-                Na želudok petʹ golodnyj!
-                Zloj toskoj udručena,
-                K Muravʹju polzet ona:
-                «Ne ostavʹ menja, kum milyj!
-                Daj ty mne sobratʹsja s siloj
-                I do vešnih tolʹko dnej
-                Prokormi i obogrej!» —
-                «Kumuška, mne stranno èto:
-                Da rabotala lʹ ty v leto?» —
-                Govorit ej Muravej.
-                «Do togo lʹ, golubčik, bylo?
-                V mjagkih muravah u nas
-                Pesni, rezvostʹ vsjakij čas,
-                Tak, čto golovu vskružilo». —
-                «A, tak ty...» — «Ja bez duši
-                Leto celoe vse pela». —
-                «Ty vse pela? èto delo:
-                Tak podi že, popljaši!»
+        <formatted-text-prop name=":hasTransliteration">
+            <text permissions="prop-default">
+                Strekoza i Muravej<br/>
+                Poprygunʹja Strekoza<br/>
+                Leto krasnoe propela;<br/>
+                Ogljanutʹsja ne uspela,<br/>
+                Kak zima katit v glaza.<br/>
+                Pomertvelo čisto pole;<br/>
+                Net už dnej teh svetlyh bole,<br/>
+                Kak pod každym ej listkom<br/>
+                Byl gotov i stol, i dom.<br/>
+                Vse prošlo: s zimoj holodnoj<br/>
+                Nužda, golod nastaet;<br/>
+                Strekoza už ne poet:<br/>
+                I komu že v um pojdet<br/>
+                Na želudok petʹ golodnyj!<br/>
+                Zloj toskoj udručena,<br/>
+                K Muravʹju polzet ona:<br/>
+                «Ne ostavʹ menja, kum milyj!<br/>
+                Daj ty mne sobratʹsja s siloj<br/>
+                I do vešnih tolʹko dnej<br/>
+                Prokormi i obogrej!» —<br/>
+                «Kumuška, mne stranno èto:<br/>
+                Da rabotala lʹ ty v leto?» —<br/>
+                Govorit ej Muravej.<br/>
+                «Do togo lʹ, golubčik, bylo?<br/>
+                V mjagkih muravah u nas<br/>
+                Pesni, rezvostʹ vsjakij čas,<br/>
+                Tak, čto golovu vskružilo». —<br/>
+                «A, tak ty...» — «Ja bez duši<br/>
+                Leto celoe vse pela». —<br/>
+                «Ty vse pela? èto delo:<br/>
+                Tak podi že, popljaši!»<br/>
             </text>
-        </text-prop>
-        <text-prop name=":hasTranslation">
-            <text permissions="prop-default" encoding="utf8">
-                A playful prankish Dragonfly
-                The whole Summer have sung out
-                Finally, she looked about;
-                Winter 's already coming by.
-                Like deceased the forest stays.
-                Where are you, those happy days,
-                When for her, under each tree,
-                Was a home with tart and tea?
-                The evil Winter took all it,
-                Leaving only some cold and need.
-                Dragonfly sings no more,
-                As she used to do before.
-                And who would, in the times that sore?
-                To escape th' untimely end,
-                She is creeping to an Antx
-                With the bitter her lament.
-                "Oh", she said, "My gentle friend,
-
-                I do beg you, be so dear,
-                Do not leave me to die here,
-                Give some shelter, food, and drink
-                For half-a-year,
-                Till the Spring".
-                "Did you work at all in Summer?"
-                Asked the Ant with a slight stammer,
-                "Such a speech is strange to hear."
-
-                Dragonfly said, "Alas, my dear,
-                No I didn't. Listen, I'm...
-                Just I hadn't any time.
-                Whole Summer we were playing `and
-                singing". "Well", answers the Ant,
-                "Did you sing?
-                This is the thing!
-                Now, you'll have your chance
-                To dance."
+        </formatted-text-prop>
+        <formatted-text-prop name=":hasTranslation">
+            <text permissions="prop-default">
+                A playful prankish Dragonfly<br/>
+                The whole Summer have sung out<br/>
+                Finally, she looked about;<br/>
+                Winter 's already coming by.<br/>
+                Like deceased the forest stays.<br/>
+                Where are you, those happy days,<br/>
+                When for her, under each tree,<br/>
+                Was a home with tart and tea?<br/>
+                The evil Winter took all it,<br/>
+                Leaving only some cold and need.<br/>
+                Dragonfly sings no more,<br/>
+                As she used to do before.<br/>
+                And who would, in the times that sore?<br/>
+                To escape th' untimely end,<br/>
+                She is creeping to an Antx<br/>
+                With the bitter her lament.<br/>
+                "Oh", she said, "My gentle friend,<br/>
+                <br/>
+                I do beg you, be so dear,<br/>
+                Do not leave me to die here,<br/>
+                Give some shelter, food, and drink<br/>
+                For half-a-year,<br/>
+                Till the Spring".<br/>
+                "Did you work at all in Summer?"<br/>
+                Asked the Ant with a slight stammer,<br/>
+                "Such a speech is strange to hear."<br/>
+                <br/>
+                Dragonfly said, "Alas, my dear,<br/>
+                No I didn't. Listen, I'm...<br/>
+                Just I hadn't any time.<br/>
+                Whole Summer we were playing `and<br/>
+                singing". "Well", answers the Ant,<br/>
+                "Did you sing?<br/>
+                This is the thing!<br/>
+                Now, you'll have your chance<br/>
+                To dance."<br/>
             </text>
-        </text-prop>
+        </formatted-text-prop>
     </resource>
 
     <resource label="horohoroto" restype=":Text" id="text_obj_5" permissions="res-default">
@@ -1084,37 +1083,37 @@
         <resptr-prop name=":hasAuthor">
             <resptr permissions="prop-default">person_4</resptr>
         </resptr-prop>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">horohoroto</text>
-        </text-prop>
-        <text-prop name=":hasTranscription">
-            <text permissions="prop-default" encoding="xml">ほろほろと山吹ちるかたきのおと</text>
-        </text-prop>
-        <text-prop name=":hasTransliteration">
-            <text permissions="prop-default" encoding="utf8">horohoro to / yamabuki chiru ka / taki no oto</text>
-        </text-prop>
-        <text-prop name=":hasTranslation">
-            <text permissions="prop-default" encoding="utf8">
-                petal after petal
-                mountain roses flutter down:
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">horohoroto</text>
+        </unformatted-text-prop>
+        <formatted-text-prop name=":hasTranscription">
+            <text permissions="prop-default">ほろほろと山吹ちるかたきのおと</text>
+        </formatted-text-prop>
+        <formatted-text-prop name=":hasTransliteration">
+            <text permissions="prop-default">horohoro to / yamabuki chiru ka / taki no oto</text>
+        </formatted-text-prop>
+        <formatted-text-prop name=":hasTranslation">
+            <text permissions="prop-default">
+                petal after petal<br/>
+                mountain roses flutter down:<br/>
                 the thunder of water fall
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">1861060</geoname>
         </geoname-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">Public domain</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">Public domain</text>
+        </unformatted-text-prop>
     </resource>
 
     <resource label="Hasad" restype=":Text" id="text_obj_6" permissions="res-default">
         <resptr-prop name=":hasAuthor">
             <resptr permissions="prop-default">person_6</resptr>
         </resptr-prop>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Hasad</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Hasad</text>
+        </unformatted-text-prop>
         <text-prop name=":hasTranscription">
             <text permissions="prop-default" encoding="xml">
                 عندما يتأتى ليَ الشعرُ،<br />
@@ -1125,33 +1124,33 @@
                 وأحدّدَ في طيّها جوْهراً أو عرَضْ.<br />
             </text>
         </text-prop>
-        <text-prop name=":hasTransliteration">
-            <text permissions="prop-default" encoding="utf8">
-                ʿindamā yataʾattā lī š-šiʿr,
-                ʾaḥsudu nafsī,
-                wa-yaḏhabu ʿannī ḥtmālu l-maraḍ.
-                wa-yaḥḍurunī l-kāʾināt, li-ʾanṣaḥahā,
-                wa-ʾumayyiza mā baynahā,
+        <formatted-text-prop name=":hasTransliteration">
+            <text permissions="prop-default">
+                ʿindamā yataʾattā lī š-šiʿr,<br/>
+                ʾaḥsudu nafsī,<br/>
+                wa-yaḏhabu ʿannī ḥtmālu l-maraḍ.<br/>
+                wa-yaḥḍurunī l-kāʾināt, li-ʾanṣaḥahā,<br/>
+                wa-ʾumayyiza mā baynahā,<br/>
                 wa-ʾuḥaddida fī ṭayyihā ǧawharan ʾaw ʿaraḍan.
             </text>
-        </text-prop>
-        <text-prop name=":hasTranslation">
-            <text permissions="prop-default" encoding="utf8">
-                When poetry yields to me
-                I envy myself.
-                The odds of malady fade
-                and all creatures attend to me
-                as I discern them
-                and determine, in their folds,
+        </formatted-text-prop>
+        <formatted-text-prop name=":hasTranslation">
+            <text permissions="prop-default">
+                When poetry yields to me<br/>
+                I envy myself.<br/>
+                The odds of malady fade<br/>
+                and all creatures attend to me<br/>
+                as I discern them<br/>
+                and determine, in their folds,<br/>
                 essence from excess.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">272103</geoname>
         </geoname-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">© Ǧawdat Faḫr al-Din</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">© Ǧawdat Faḫr al-Din</text>
+        </unformatted-text-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://arablit.org/2020/04/02/a-street-in-the-pandemic-other-poems-by-jawdat-fakhreddine</uri>
         </uri-prop>
@@ -1161,75 +1160,75 @@
         <resptr-prop name=":hasAuthor">
             <resptr permissions="prop-default">person_7</resptr>
         </resptr-prop>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Ederlezi</text>
-        </text-prop>
-        <text-prop name=":hasOriginalText">
-            <text permissions="prop-default" encoding="utf8">
-                Ederlezi - Romani
-
-                Sa me amala oro khelena
-                Oro khelena, dive kerena
-                Sa O Roma, daje
-                Sa O Roma, babo babo
-                Sa O Roma, O daje
-                Sa O Roma, babo babo
-                Ederlezi, Ederlezi
-                Sa O Roma, daje
-
-                Sa O Roma babo,
-                e bakren činen,
-                A me, čorro,
-                dural bešava
-                Romano dive, amaro dive
-                Amaro dive, Ederlezi
-
-                E devado babo,
-                amenge bakro
-                Sa O Roma babo,
-                e bakren činen
-
-                Sa O Roma, babo babo
-                Sa O Roma, O daje
-                Sa O Roma, babo babo
-                Ederlezi, Ederlezi
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Ederlezi</text>
+        </unformatted-text-prop>
+        <formatted-text-prop name=":hasOriginalText">
+            <text permissions="prop-default">
+                Ederlezi - Romani<br/>
+                <br/>
+                Sa me amala oro khelena<br/>
+                Oro khelena, dive kerena<br/>
+                Sa O Roma, daje<br/>
+                Sa O Roma, babo babo<br/>
+                Sa O Roma, O daje<br/>
+                Sa O Roma, babo babo<br/>
+                Ederlezi, Ederlezi<br/>
+                Sa O Roma, daje<br/>
+                <br/>
+                Sa O Roma babo,<br/>
+                e bakren činen,<br/>
+                A me, čorro,<br/>
+                dural bešava<br/>
+                Romano dive, amaro dive<br/>
+                Amaro dive, Ederlezi<br/>
+                <br/>
+                E devado babo,<br/>
+                amenge bakro<br/>
+                Sa O Roma babo,<br/>
+                e bakren činen<br/>
+                <br/>
+                Sa O Roma, babo babo<br/>
+                Sa O Roma, O daje<br/>
+                Sa O Roma, babo babo<br/>
+                Ederlezi, Ederlezi<br/>
                 Sa O Roma, daje
             </text>
-        </text-prop>
-        <text-prop name=":hasTranslation">
+        </formatted-text-prop>
+        <formatted-text-prop name=":hasTranslation">
             <text permissions="prop-default" encoding="utf8">
-                Ederlezi - Serbokroatisch/Ungarisch
-
-                Gyere, gyere velem tavasz jár már,
-                gyöngyvirág lesz majd a párnád,
-                gyöngyvirág lesz majd a párnád,
-                örök hűség vár rád!
-
-                Gyere, gyere velem hív a hajnal,
-                nincsen felhő nincsen csillag,
-                nincsen felhő nincsen csillag,
-                pihenj karjaimban!
-
-                Proljeće na moje rame slijeće
-                Đurđevak zeleni
-                Đurđevak zeleni
-                svima osim meni.
-
-                Drumovi odoše a ja osta
-                nema zvijezde danice
-                nema zvijezde danice
-                moje saputnice.
-
-                Hej, evo zore, evo zore
-                Bogu da se pomolim
-                evo zore, evo zore
-                hej, Đurđevdan je
-                a ja nisam s onom koju volim.
-
-                Hej, evo zore, evo zore
-                Bogu da se pomolim
-                evo zore, evo zore
-                hej, Đurđevdan je
+                Ederlezi - Serbokroatisch/Ungarisch<br/>
+                <br/>
+                Gyere, gyere velem tavasz jár már,<br/>
+                gyöngyvirág lesz majd a párnád,<br/>
+                gyöngyvirág lesz majd a párnád,<br/>
+                örök hűség vár rád!<br/>
+                <br/>
+                Gyere, gyere velem hív a hajnal,<br/>
+                nincsen felhő nincsen csillag,<br/>
+                nincsen felhő nincsen csillag,<br/>
+                pihenj karjaimban!<br/>
+                <br/>
+                Proljeće na moje rame slijeće<br/>
+                Đurđevak zeleni<br/>
+                Đurđevak zeleni<br/>
+                svima osim meni.<br/>
+                <br/>
+                Drumovi odoše a ja osta<br/>
+                nema zvijezde danice<br/>
+                nema zvijezde danice<br/>
+                moje saputnice.<br/>
+                <br/>
+                Hej, evo zore, evo zore<br/>
+                Bogu da se pomolim<br/>
+                evo zore, evo zore<br/>
+                hej, Đurđevdan je<br/>
+                a ja nisam s onom koju volim.<br/>
+                <br/>
+                Hej, evo zore, evo zore<br/>
+                Bogu da se pomolim<br/>
+                evo zore, evo zore<br/>
+                hej, Đurđevdan je<br/>
                 a ja nisam s onom koju volim.
             </text>
             <text permissions="prop-default" encoding="utf8">
@@ -1401,7 +1400,7 @@
                 Ђурђевдан jе,
                 А jа нисам с оном коjу волим.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <text-prop name=":hasCopyright">
             <text permissions="prop-default" encoding="utf8">
                 © Goran Bregović
@@ -1418,9 +1417,9 @@
     <!-- :ImagePartOfABook -->
     <resource label="Tree" restype=":ImagePartOfABook" id="image_part_of_a_book_obj_0" permissions="res-default">
         <bitstream permissions="prop-default">Images/tree.jpg</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Image of a Tree</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Image of a Tree</text>
+        </unformatted-text-prop>
         <integer-prop name="seqnum">
             <integer permissions="prop-default">1</integer>
         </integer-prop>
@@ -1431,9 +1430,9 @@
 
     <resource label="Flower" restype=":ImagePartOfABook" id="image_part_of_a_book_obj_1" permissions="res-default">
         <bitstream permissions="prop-default">Images/flower.jpg</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Image of a Flower</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Image of a Flower</text>
+        </unformatted-text-prop>
         <integer-prop name="seqnum">
             <integer permissions="prop-default">2</integer>
         </integer-prop>
@@ -1444,9 +1443,9 @@
 
     <!-- :Book -->
     <resource label="Iliad" restype=":Book" id="book_obj_0" permissions="res-default">
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Greek Manuscripts from 1397. Iliad (I-V).</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Greek Manuscripts from 1397. Iliad (I-V).</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 Manuscript containing the Iliad of Homer kept in St. Catherine's Monastery in Mt. Sinai.
@@ -1475,9 +1474,9 @@
     </resource>
 
     <resource label="Book with Images" restype=":Book" id="book_obj_1" permissions="res-default">
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Book with images</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Book with images</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 A book with several images to demonstrate part-whole relations of resources
@@ -1493,9 +1492,9 @@
         <integer-prop name=":hasPagenum">
             <integer permissions="prop-default">1</integer>
         </integer-prop>
-        <text-prop name=":hasDescription">
-            <text permissions="prop-default" encoding="xml">Page which contains the prooem of the Iliad of Homer.</text>
-        </text-prop>
+        <formatted-text-prop name=":hasDescription">
+            <text permissions="prop-default">Page which contains the prooem of the Iliad of Homer.</text>
+        </formatted-text-prop>
         <resptr-prop name=":partOf">
             <resptr permissions="prop-default">book_obj_0</resptr>
         </resptr-prop>
@@ -1510,36 +1509,36 @@
                 Ἂ𝛕𝞀𝛆ΐ𝛅𝛈𝞁 𝛕𝛆 ἄ𝝼𝛂𝝽 ἀ𝝼𝛅𝞀ῶ𝝼 𝝹𝛂ὶ 𝛅ῖ𝝾𝞁 Ἀ𝞆𝛊𝝺𝝺𝛆ὺ𝞁.<br />
             </text>
         </text-prop>
-        <text-prop name=":hasTransliteration">
-            <text permissions="prop-default" encoding="utf8">
-                Mẹ̄nin aeịde, theạ, Pēlẹ̄iadeọ̄ Achilẹ̄os
-                Oụlomenẹ̄n, hē mỵri' Achaịois ạlge' ethẹ̄ke,
-                pọllas d' ịphthimoụs psychạs Hadị proiạpsen
-                hẹ̄rōọ̄n, autoụs de helọ̄ria teụche kynẹssin
-                oịōnoịsi te pạsi, Diọs, d' eteleịeto boụlē,
-                ẹx hou dẹ̄ ta prọ̄ta diạstētẹ̄n erisạnte
+        <formatted-text-prop name=":hasTransliteration">
+            <text permissions="prop-default">
+                Mẹ̄nin aeịde, theạ, Pēlẹ̄iadeọ̄ Achilẹ̄os<br/>
+                Oụlomenẹ̄n, hē mỵri' Achaịois ạlge' ethẹ̄ke,<br/>
+                pọllas d' ịphthimoụs psychạs Hadị proiạpsen<br/>
+                hẹ̄rōọ̄n, autoụs de helọ̄ria teụche kynẹssin<br/>
+                oịōnoịsi te pạsi, Diọs, d' eteleịeto boụlē,<br/>
+                ẹx hou dẹ̄ ta prọ̄ta diạstētẹ̄n erisạnte<br/>
                 Ạtreidẹ̄s te anạx andrọ̄n kai dịos Achịlleus
             </text>
-        </text-prop>
-        <text-prop name=":hasTranslation">
-            <text permissions="prop-default" encoding="utf8">
-                Singe den Zorn, o Göttin, des Peleiaden Achilleus,
-                Ihn, der entbrannt den Achaiern unnennbaren Jammer erregte,
-                Und viel tapfere Seelen der Heldensöhne zum Aïs
-                Sendete, aber sie selbst zum Raub darstellte den Hunden,
-                Und dem Gevögel umher. So ward Zeus Wille vollendet:
-                Seit dem Tag, als erst durch bitteren Zank sich entzweiten
+        </formatted-text-prop>
+        <formatted-text-prop name=":hasTranslation">
+            <text permissions="prop-default">
+                Singe den Zorn, o Göttin, des Peleiaden Achilleus,<br/>
+                Ihn, der entbrannt den Achaiern unnennbaren Jammer erregte,<br/>
+                Und viel tapfere Seelen der Heldensöhne zum Aïs<br/>
+                Sendete, aber sie selbst zum Raub darstellte den Hunden,<br/>
+                Und dem Gevögel umher. So ward Zeus Wille vollendet:<br/>
+                Seit dem Tag, als erst durch bitteren Zank sich entzweiten<br/>
                 Atreus Sohn, der Herrscher des Volks, und der edle Achilleus.
             </text>
-            <text permissions="prop-default" encoding="utf8">
-                Sing, O goddess, the anger of Achilles son of Peleus, that brought
-                countless ills upon the Achaeans. Many a brave soul did it send
-                hurrying down to Hades, and many a hero did it yield a prey to dogs
-                and vultures, for so were the counsels of Jove fulfilled from the day
-                on which the son of Atreus, king of men, and great Achilles, first
+            <text permissions="prop-default">
+                Sing, O goddess, the anger of Achilles son of Peleus, that brought<br/>
+                countless ills upon the Achaeans. Many a brave soul did it send<br/>
+                hurrying down to Hades, and many a hero did it yield a prey to dogs<br/>
+                and vultures, for so were the counsels of Jove fulfilled from the day<br/>
+                on which the son of Atreus, king of men, and great Achilles, first<br/>
                 fell out with one another.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <text-prop name=":hasBibliographicReference">
             <text permissions="prop-default" encoding="xml">
                 Homer, Greek Manuscripts, Iliad I-V, 1700. Manuscript/Mixed Material. Retrieved from the Library of
@@ -1556,9 +1555,9 @@
         <list-prop list="category" name=":hasCategory">
             <list permissions="prop-default">mammals</list>
         </list-prop>
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">cat</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">cat</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 An example of a domesticated cat breed created from hybrids of domestic cats with the Asian leopard
@@ -1583,9 +1582,9 @@
         <list-prop list="category" name=":hasCategory">
             <list permissions="prop-default">physics</list>
         </list-prop>
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">meteorite</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">meteorite</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 This is a piece of the so-called Gibeon Meteroite that fell in Namibia in prehistoric times
@@ -1619,9 +1618,9 @@
             <list permissions="prop-default">faculty-of-science</list>
             <list permissions="prop-default">faculty-of-law</list>
         </list-prop>
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">lekythos</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">lekythos</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 Attic red-figured lekythos which depicts a Festival of Adonis. Winged Eros with an incense burner
@@ -1643,9 +1642,9 @@
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">6697862</geoname>
         </geoname-prop>
-        <text-prop name=":hasInventoryNumber">
-            <text permissions="prop-default" encoding="utf8">1888,0601.716</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasInventoryNumber">
+            <text permissions="prop-default">1888,0601.716</text>
+        </unformatted-text-prop>
         <boolean-prop name=":isPublic">
             <boolean permissions="prop-default">true</boolean>
         </boolean-prop>
@@ -1671,17 +1670,11 @@
         <list-prop list="faculties-of-the-university-of-basel" name=":hasFaculty">
             <list permissions="prop-restricted">faculty-of-law</list>
         </list-prop>
-        <text-prop name=":hasName">
-            <text encoding="utf8">This text cannot be seen by anyone except the System Administrator.</text>
-            <text permissions="prop-restricted" encoding="utf8">The text above has no "permissions" attribute, so only the System Administrator can see it!</text>
-            <text permissions="prop-restricted" encoding="utf8">Demonstration of multiple cardinalities: show how 0-n cardinalities work</text>
-            <text permissions="prop-restricted" encoding="xml">
-                Even <strong>XML-enriched text</strong> works in a "gui_element": "SimpleText", but it is better to use
-                "Richtext".<br />
-                This is <sup>supralinear text</sup> and has a <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to
-                the object "cat".
-            </text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text>This text cannot be seen by anyone except the System Administrator.</text>
+            <text permissions="prop-restricted">The text above has no "permissions" attribute, so only the System Administrator can see it!</text>
+            <text permissions="prop-restricted">Demonstration of multiple cardinalities: show how 0-n cardinalities work</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-restricted" encoding="xml">
                 This is a <strong>XML-enriched text</strong> element inside the property ":hasDescription". <br />
@@ -1717,17 +1710,17 @@
             <uri permissions="prop-restricted">https://www.wikipedia.org/</uri>
             <uri permissions="prop-restricted">https://www.dasch.swiss/</uri>
         </uri-prop>
-        <text-prop name=":hasComment">
-            <text encoding="utf8" permissions="prop-restricted">A comment</text>
-            <text encoding="utf8" permissions="prop-restricted">And another comment</text>
-        </text-prop>
+        <formatted-text-prop name=":hasComment">
+            <text permissions="prop-restricted">A comment</text>
+            <text permissions="prop-restricted">And another comment</text>
+        </formatted-text-prop>
     </resource>
 
     <!-- Annotation -->
     <annotation label="Annotation to object 'Multiple cardinality demonstration'" id="annotation_0" permissions="res-restricted">
-        <text-prop name="hasComment">
-            <text encoding="utf8" permissions="prop-default">This is an annotation to the object 'Multiple cardinality demonstration'.</text>
-        </text-prop>
+        <formatted-text-prop name="hasComment">
+            <text permissions="prop-default">This is an annotation to the object 'Multiple cardinality demonstration'.</text>
+        </formatted-text-prop>
         <resptr-prop name="isAnnotationOf">
             <resptr permissions="prop-default">obj_3</resptr>
         </resptr-prop>
@@ -1756,20 +1749,20 @@
                 }
             </geometry>
         </geometry-prop>
-        <text-prop name="hasComment">
-            <text encoding="xml" permissions="prop-default">
+        <formatted-text-prop name="hasComment">
+            <text permissions="prop-default">
                 This is a rectangle-formed region of interest of the image Deluge. It is also displayed as Annotation.
             </text>
-        </text-prop>
+        </formatted-text-prop>
     </region>
 
     <!-- LinkObj -->
     <link label="Link between 'RosettaPDF', 'Bengal cat' and 'EderleziText'" id="link_obj_0" permissions="res-default">
-        <text-prop name="hasComment">
-            <text permissions="prop-default" encoding="xml">
+        <formatted-text-prop name="hasComment">
+            <text permissions="prop-default">
                 A link object can link together an arbitrary number of resources from any resource class.
             </text>
-        </text-prop>
+        </formatted-text-prop>
         <resptr-prop name="hasLinkTo">
             <resptr permissions="prop-default">doc_001</resptr>
             <resptr permissions="prop-default">img_obj_5</resptr>
@@ -1780,9 +1773,9 @@
     <!-- :Document -->
     <resource label="RosettaPDF" restype=":Document" id="doc_000" permissions="res-default">
         <bitstream permissions="prop-default">Documents/RosettaTestproject.pdf</bitstream>
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Test project Rosetta</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Test project Rosetta</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 This is a pdf-file which contains the data model of the test project Rosetta.
@@ -1795,9 +1788,9 @@
 
     <resource label="RosettaDOCX" restype=":Document" id="doc_001" permissions="res-default">
         <bitstream permissions="prop-default">Documents/RosettaTestproject.docx</bitstream>
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Test project Rosetta</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Test project Rosetta</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 This is a docx-file which contains the data model of the test project Rosetta.
@@ -1807,9 +1800,9 @@
 
     <resource label="RosettaPPTX" restype=":Document" id="doc_002" permissions="res-default">
         <bitstream permissions="prop-default">Documents/DSP Scheme.pptx</bitstream>
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Scheme of DSP</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Scheme of DSP</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 This is a pptx-file which explains the DaSCH Service Platform.
@@ -1819,9 +1812,9 @@
 
     <resource label="RosettaXLSX" restype=":Document" id="doc_003" permissions="res-default">
         <bitstream permissions="prop-default">Documents/resources_template.xlsx</bitstream>
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Template from docs.dasch.swiss</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Template from docs.dasch.swiss</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 This is a xlsx-file that is downloadable on docs.dasch.swiss.
@@ -1832,9 +1825,9 @@
     <!-- :TextFile -->
     <resource label="RosettaTXT" restype=":TextFile" id="textfile_001" permissions="res-default">
         <bitstream permissions="prop-default">Texts/RosettaCategoryList.txt</bitstream>
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Category list of the test project Rosetta</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Category list of the test project Rosetta</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 This is a txt-file which contains the category list of the test project Rosetta.
@@ -1844,9 +1837,9 @@
 
     <resource label="RosettaCSV" restype=":TextFile" id="textfile_002" permissions="res-default">
         <bitstream permissions="prop-default">Texts/RosettaCategoryList.csv</bitstream>
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">Category list of the test project Rosetta</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">Category list of the test project Rosetta</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 This is a csv-file which contains the category list of the test project Rosetta.
@@ -1856,11 +1849,11 @@
 
     <resource label="RosettaXML" restype=":TextFile" id="textfile_003" permissions="res-default">
         <bitstream permissions="prop-default">rosetta.xml</bitstream>
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">
                 The XML file containing the resources of the Rosetta test project
             </text>
-        </text-prop>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 This is an xml-file which contains the data of the test project Rosetta.
@@ -1871,9 +1864,9 @@
     <!-- :Archive -->
     <resource label="RosettaZIP" restype=":Archive" id="arch_000" permissions="res-default">
         <bitstream permissions="prop-default">Archive/Rosetta.zip</bitstream>
-        <text-prop name=":hasName">
-            <text permissions="prop-default" encoding="utf8">ZIP of Test project Rosetta</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasName">
+            <text permissions="prop-default">ZIP of Test project Rosetta</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-default" encoding="xml">
                 This is a zip-file which contains information about the test project Rosetta.
@@ -1884,9 +1877,9 @@
     <!-- :Audio -->
     <resource label="Ederlezi" restype=":Audio" id="audio_obj_0" permissions="res-default">
         <bitstream permissions="prop-default">Audio/Ederlezi.wav</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">Ederlezi</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Ederlezi</text>
+        </unformatted-text-prop>
         <resptr-prop name=":hasCreator">
             <resptr permissions="prop-default">person_7</resptr>
         </resptr-prop>
@@ -1899,9 +1892,9 @@
                 in Emir Kusturica's film Time of the Gypsies.
             </text>
         </text-prop>
-        <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="utf8">© Goran Bregović</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasCopyright">
+            <text permissions="prop-default">© Goran Bregović</text>
+        </unformatted-text-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">3191281</geoname>
         </geoname-prop>
@@ -1912,9 +1905,9 @@
 
     <resource label="MP3 music file" restype=":Audio" id="audio_obj_1" permissions="res-default">
         <bitstream permissions="prop-default">Audio/music.mp3</bitstream>
-        <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="utf8">MP3 music file from filesamples.com</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">MP3 music file from filesamples.com</text>
+        </unformatted-text-prop>
     </resource>
 
     <!-- :ObjectWithDifferentRepresentations -->
@@ -1934,9 +1927,9 @@
     <!-- :Video -->
     <resource label="Sunset Waves Close Up" restype=":Video" id="video_0" permissions="res-default">
         <bitstream permissions="prop-default">Video/SunsetWavesCloseUp.mp4</bitstream>
-        <text-prop name=":hasTitle">
-            <text encoding="utf8" permissions="prop-default">Sunset Waves Close Up</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Sunset Waves Close Up</text>
+        </unformatted-text-prop>
         <text-prop name=":hasDescription">
             <text encoding="xml" permissions="prop-default">
                 This is a sample video file from the internet.
@@ -1946,9 +1939,9 @@
 
     <!-- :VideoSequence -->
     <resource label="Section of a Video" restype=":VideoSequence" id="video_sequence_0" permissions="res-default">
-        <text-prop name=":hasTitle">
-            <text encoding="utf8" permissions="prop-default">Sequence of a video</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Sequence of a video</text>
+        </unformatted-text-prop>
         <resptr-prop name="isSequenceOf">
             <resptr permissions="prop-default">video_0</resptr>
         </resptr-prop>
@@ -1959,9 +1952,9 @@
 
     <!-- :AudioSequence -->
     <resource label="Section of a Video" restype=":AudioSequence" id="audio_sequence_0" permissions="res-default">
-        <text-prop name=":hasTitle">
-            <text encoding="utf8" permissions="prop-default">Sequence of an Audio Resource</text>
-        </text-prop>
+        <unformatted-text-prop name=":hasTitle">
+            <text permissions="prop-default">Sequence of an Audio Resource</text>
+        </unformatted-text-prop>
         <resptr-prop name="isSequenceOf">
             <resptr permissions="prop-default">audio_obj_0</resptr>
         </resptr-prop>
