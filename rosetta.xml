@@ -1947,7 +1947,7 @@
     </resource>
 
     <!-- :AudioSequence -->
-    <resource label="Section of a Video" restype=":AudioSequence" id="audio_sequence_0" permissions="res-default">
+    <resource label="Section of an Audio" restype=":AudioSequence" id="audio_sequence_0" permissions="res-default">
         <unformatted-text-prop name=":hasTitle">
             <text permissions="prop-default">Sequence of an Audio Resource</text>
         </unformatted-text-prop>
