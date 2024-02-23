@@ -1675,12 +1675,6 @@
             <text encoding="utf8">This text cannot be seen by anyone except the System Administrator.</text>
             <text permissions="prop-restricted" encoding="utf8">The text above has no "permissions" attribute, so only the System Administrator can see it!</text>
             <text permissions="prop-restricted" encoding="utf8">Demonstration of multiple cardinalities: show how 0-n cardinalities work</text>
-            <text permissions="prop-restricted" encoding="utf8">
-                Even <strong>XML-enriched text</strong> works in a "gui_element": "SimpleText", but it is better to use
-                "Richtext".<br />
-                This is <sup>supralinear text</sup> and has a <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to
-                the object "cat".
-            </text>
         </text-prop>
         <text-prop name=":hasDescription">
             <text permissions="prop-restricted" encoding="xml">
