@@ -1675,7 +1675,7 @@
             <text encoding="utf8">This text cannot be seen by anyone except the System Administrator.</text>
             <text permissions="prop-restricted" encoding="utf8">The text above has no "permissions" attribute, so only the System Administrator can see it!</text>
             <text permissions="prop-restricted" encoding="utf8">Demonstration of multiple cardinalities: show how 0-n cardinalities work</text>
-            <text permissions="prop-restricted" encoding="xml">
+            <text permissions="prop-restricted" encoding="utf8">
                 Even <strong>XML-enriched text</strong> works in a "gui_element": "SimpleText", but it is better to use
                 "Richtext".<br />
                 This is <sup>supralinear text</sup> and has a <a class="salsah-link" href="IRI:obj_0:IRI">link</a> to
@@ -1726,7 +1726,7 @@
     <!-- Annotation -->
     <annotation label="Annotation to object 'Multiple cardinality demonstration'" id="annotation_0" permissions="res-restricted">
         <text-prop name="hasComment">
-            <text encoding="utf8" permissions="prop-default">This is an annotation to the object 'Multiple cardinality demonstration'.</text>
+            <text encoding="xml" permissions="prop-default">This is an annotation to the object 'Multiple cardinality demonstration'.</text>
         </text-prop>
         <resptr-prop name="isAnnotationOf">
             <resptr permissions="prop-default">obj_3</resptr>
