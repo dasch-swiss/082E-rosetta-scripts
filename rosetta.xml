@@ -668,9 +668,7 @@
             <resptr permissions="prop-default">img_obj_8</resptr>
         </resptr-prop>
         <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="xml">
-                Description of the New Year's procession in the Temple of Hathor in Dendara.
-            </text>
+            <text permissions="prop-default" encoding="utf8">Description of the New Year's procession in the Temple of Hathor in Dendara.</text>
         </text-prop>
         <text-prop name=":hasTransliteration">
             <text permissions="prop-default" encoding="utf8">
