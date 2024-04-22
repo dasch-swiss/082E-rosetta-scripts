@@ -304,9 +304,7 @@
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="xml">
-                The Deluge, Francis Danby, 1877-1879, Photo: © Tate, London [2020]
-            </text>
+            <text permissions="prop-default" encoding="utf8">The Deluge, Francis Danby, 1877-1879, Photo: © Tate, London [2020]</text>
         </text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_1</resptr>
@@ -426,9 +424,7 @@
             </text>
         </text-prop>
         <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="xml">
-                © Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai.
-            </text>
+            <text permissions="prop-default" encoding="utf8">© Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai.</text>
         </text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_3</resptr>
@@ -597,10 +593,7 @@
             <geoname permissions="prop-default">92878</geoname>
         </geoname-prop>
         <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="xml">
-                Bezold, C., Catalogue of the cuneiform tablets in the Kouyunjik Collection of the British Museum,
-                London 1891.
-            </text>
+            <text permissions="prop-default" encoding="utf8">Bezold, C., Catalogue of the cuneiform tablets in the Kouyunjik Collection of the British Museum, London 1891.</text>
         </text-prop>
         <geoname-prop name=":hasLocation">
             <geoname permissions="prop-default">2643743</geoname>
@@ -652,14 +645,8 @@
             <geoname permissions="prop-default">8375748</geoname>
         </geoname-prop>
         <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="xml">
-                Levine, L. I., The Inscription in the ‘En-Gedi Synagogue, in: L. I. Levine (Hrsg.), Ancient Synagogues
-                Revealed, Jerusalem 1981, 140–145.
-            </text>
-            <text permissions="prop-default" encoding="xml">
-                Magness, J., The En-Gedi Synagogue Inscription Reconsidered, in: Z. Weiss (Hrsg.), Ehud Netzer Volume,
-                Eretz-Israel 31, Jerusalem 2015, 123–131.
-            </text>
+            <text permissions="prop-default" encoding="utf8">Levine, L. I., The Inscription in the ‘En-Gedi Synagogue, in: L. I. Levine (Hrsg.), Ancient Synagogues Revealed, Jerusalem 1981, 140–145.</text>
+            <text permissions="prop-default" encoding="utf8">Magness, J., The En-Gedi Synagogue Inscription Reconsidered, in: Z. Weiss (Hrsg.), Ehud Netzer Volume, Eretz-Israel 31, Jerusalem 2015, 123–131.</text>
         </text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_4</resptr>
@@ -681,9 +668,7 @@
             <resptr permissions="prop-default">img_obj_8</resptr>
         </resptr-prop>
         <text-prop name=":hasTitle">
-            <text permissions="prop-default" encoding="xml">
-                Description of the New Year's procession in the Temple of Hathor in Dendara.
-            </text>
+            <text permissions="prop-default" encoding="utf8">Description of the New Year's procession in the Temple of Hathor in Dendara.</text>
         </text-prop>
         <text-prop name=":hasTransliteration">
             <text permissions="prop-default" encoding="utf8">
@@ -706,11 +691,7 @@
             <geoname permissions="prop-default">358422</geoname>
         </geoname-prop>
         <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="xml">
-                Rickert, A., Eine Beschreibung der Neujahrsprozession im Hathortempel von Dendera, in: R. Färber und R.
-                Gautschy (Hrsg.), Zeit in den Kulturen des Altertums. Antike Chronologie im Spiegel der Quellen,
-                Köln 2020, 127–136.
-            </text>
+            <text permissions="prop-default" encoding="utf8">Rickert, A., Eine Beschreibung der Neujahrsprozession im Hathortempel von Dendera, in: R. Färber und R. Gautschy (Hrsg.), Zeit in den Kulturen des Altertums. Antike Chronologie im Spiegel der Quellen, Köln 2020, 127–136.</text>
         </text-prop>
         <resptr-prop name=":inInstitution">
             <resptr permissions="prop-default">inst_6</resptr>
@@ -1465,9 +1446,7 @@
             <geoname permissions="prop-default">350564</geoname>
         </geoname-prop>
         <text-prop name=":hasCopyright">
-            <text permissions="prop-default" encoding="xml">
-                Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai.
-            </text>
+            <text permissions="prop-default" encoding="utf8">Library of Congress Collection of Manuscripts in St. Catherine's Monastery, Mt. Sinai.</text>
         </text-prop>
         <uri-prop name=":hasExternalLink">
             <uri permissions="prop-default">https://www.loc.gov/item/00279382687-ms</uri>
@@ -1541,10 +1520,7 @@
             </text>
         </text-prop>
         <text-prop name=":hasBibliographicReference">
-            <text permissions="prop-default" encoding="xml">
-                Homer, Greek Manuscripts, Iliad I-V, 1700. Manuscript/Mixed Material. Retrieved from the Library of
-                Congress (www.loc.gov/item/00279382687-ms/).
-            </text>
+            <text permissions="prop-default" encoding="utf8">Homer, Greek Manuscripts, Iliad I-V, 1700. Manuscript/Mixed Material. Retrieved from the Library of Congress (www.loc.gov/item/00279382687-ms/).</text>
         </text-prop>
     </resource>
 
