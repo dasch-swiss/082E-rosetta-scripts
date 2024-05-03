@@ -22,7 +22,7 @@ jobs:
           - name: Install DSP-TOOLS
             run: pip3 install dsp-tools
           - name: start stack
-            run: dsp-tools start-stack --no-prune
+            run: dsp-tools start-stack --no-prune --with-test-data
           - name: create data model
             run: dsp-tools create rosetta.json
           - name: upload data
