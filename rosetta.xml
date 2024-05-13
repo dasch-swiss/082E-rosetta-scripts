@@ -1941,7 +1941,7 @@
     </video-segment>
 
     <!-- :AudioSegment -->
-    <audio-segment label="Section of a Video" id="audio_segment_0" permissions="res-default">
+    <audio-segment label="Section of an Audio" id="audio_segment_0" permissions="res-default">
         <resptr-prop name="isSegmentOf">
             <resptr permissions="prop-default">audio_obj_0</resptr>
         </resptr-prop>
