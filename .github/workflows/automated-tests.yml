@@ -20,7 +20,7 @@ jobs:
             with:
                 python-version: 3.12
           - name: Install DSP-TOOLS
-            run: pip3 install dsp-tools
+            run: pip3 install git+https://github.com/dasch-swiss/dsp-tools.git@wip/video-segment-audio-segment
           - name: start stack
             run: dsp-tools start-stack --no-prune
           - name: create data model
