@@ -3,7 +3,7 @@
 <knora
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xmlns="https://dasch.swiss/schema"
-    xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/wip/video-segment-audio-segment/src/dsp_tools/resources/schema/data.xsd"
+    xsi:schemaLocation="https://dasch.swiss/schema https://raw.githubusercontent.com/dasch-swiss/dsp-tools/main/src/dsp_tools/resources/schema/data.xsd"
     shortcode="082E"
     default-ontology="rosetta">
 
