@@ -1917,7 +1917,7 @@
     <!-- :VideoSegment -->
     <video-segment label="Section of a Video" id="video_segment_0" permissions="res-default">
         <isSegmentOf permissions="prop-default">video_0</isSegmentOf>
-        <hasSegmentBounds permissions="prop-default" start="0" end="5"/>
+        <hasSegmentBounds permissions="prop-default" segment_start="0" segment_end="5"/>
         <hasTitle permissions="prop-default">The first 5 seconds of my video</hasTitle>
         <hasComment permissions="prop-default">Video segments can also have comments</hasComment>
         <hasDescription permissions="prop-default">This segments spans the first 5 seconds of my video</hasDescription>
@@ -1928,7 +1928,7 @@
     <!-- :AudioSegment -->
     <audio-segment label="Section of an Audio" id="audio_segment_0" permissions="res-default">
         <isSegmentOf permissions="prop-default">audio_obj_0</isSegmentOf>
-        <hasSegmentBounds permissions="prop-default" start="0" end="5"/>
+        <hasSegmentBounds permissions="prop-default" segment_start="0" segment_end="5"/>
         <hasTitle permissions="prop-default">The first 5 seconds of my audio</hasTitle>
         <hasComment permissions="prop-default">Audio segments can also have comments</hasComment>
         <hasDescription permissions="prop-default">This segments spans the first 5 seconds of my audio</hasDescription>
