@@ -1916,38 +1916,24 @@
 
     <!-- :VideoSegment -->
     <video-segment label="Section of a Video" id="video_segment_0" permissions="res-default">
-        <resptr-prop name="isSegmentOf">
-            <resptr permissions="prop-default">video_0</resptr>
-        </resptr-prop>
-        <interval-prop name="hasSegmentBounds">
-            <interval permissions="prop-default">0:10</interval>
-        </interval-prop>
-        <text-prop name="hasComment">
-            <text encoding="xml" permissions="prop-default">Comment of video segment</text>
-        </text-prop>
-        <text-prop name="hasTitle">
-            <text encoding="utf8" permissions="prop-default">Title of video segment</text>
-        </text-prop>
-        <text-prop name="hasDescription">
-            <text encoding="xml" permissions="prop-default">Description of video segment</text>
-        </text-prop>
-        <text-prop name="hasKeyword">
-            <text encoding="utf8" permissions="prop-default">keyword1</text>
-            <text encoding="utf8" permissions="prop-default">keyword2</text>
-        </text-prop>
-        <resptr-prop name="relatesTo">
-            <resptr permissions="prop-default">audio_segment_0</resptr>
-        </resptr-prop>
+        <isSegmentOf permissions="prop-default">video_0</isSegmentOf>
+        <hasSegmentBounds permissions="prop-default" segment_start="0" segment_end="5"/>
+        <hasTitle permissions="prop-default">The first 5 seconds of my video</hasTitle>
+        <hasComment permissions="prop-default">Video segments can also have comments</hasComment>
+        <hasDescription permissions="prop-default">This segments spans the first 5 seconds of my video</hasDescription>
+        <hasKeyword permissions="prop-default">Keyword</hasKeyword>
+        <relatesTo permissions="prop-default">audio_segment_0</relatesTo>
     </video-segment>
 
     <!-- :AudioSegment -->
     <audio-segment label="Section of an Audio" id="audio_segment_0" permissions="res-default">
-        <resptr-prop name="isSegmentOf">
-            <resptr permissions="prop-default">audio_obj_0</resptr>
-        </resptr-prop>
-        <interval-prop name="hasSegmentBounds">
-            <interval permissions="prop-default">60:120</interval>
-        </interval-prop>
+        <isSegmentOf permissions="prop-default">audio_obj_0</isSegmentOf>
+        <hasSegmentBounds permissions="prop-default" segment_start="0" segment_end="5"/>
+        <hasTitle permissions="prop-default">The first 5 seconds of my audio</hasTitle>
+        <hasComment permissions="prop-default">Audio segments can also have comments</hasComment>
+        <hasDescription permissions="prop-default">This segments spans the first 5 seconds of my audio</hasDescription>
+        <hasKeyword permissions="prop-default">Keyword</hasKeyword>
+        <relatesTo permissions="prop-default">video_segment_0</relatesTo>
     </audio-segment>
 
 </knora>

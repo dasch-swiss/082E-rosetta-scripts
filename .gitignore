@@ -5,3 +5,4 @@ lists-only.json
 env/
 id2iri_*.json
 stashed_*.txt
+.venv
